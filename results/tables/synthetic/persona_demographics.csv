@@ -1,0 +1,7 @@
+Persona Archetype,Empirical Count,Target Count,Target Share (%),Empirical Share (%),Absolute Error,Status
+Cost-Sensitive Commuter,1250,1250,25.0%,25.00%,0,EXACT MATCH (0.0% Error)
+Time-Sensitive Professional,1000,1000,20.0%,20.00%,0,EXACT MATCH (0.0% Error)
+Car-Dependent Suburban,900,900,18.0%,18.00%,0,EXACT MATCH (0.0% Error)
+Occasional Leisure Traveler,750,750,15.0%,15.00%,0,EXACT MATCH (0.0% Error)
+Eco-Conscious Urbanite,600,600,12.0%,12.00%,0,EXACT MATCH (0.0% Error)
+Mobility-Constrained Traveler,500,500,10.0%,10.00%,0,EXACT MATCH (0.0% Error)

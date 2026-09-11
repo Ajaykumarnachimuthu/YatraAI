@@ -1,0 +1,11 @@
+Verification Dimension,Target / Attribute,Expected Specification,Observed Specification,Verification Status
+Champion Model Serialization,results/models/champion_gb_core.joblib,HistGradientBoostingClassifier pipeline,Loaded pipeline family: HistGradientBoostingClassifier,PASSED
+Feature Configuration,Feature Set,Core (Model A - 28 features),Core,PASSED
+Operating Decision Threshold,tau*,0.30 (constrained optimization on validation),0.30,PASSED
+Test Accuracy,Accuracy,0.6537,0.6537,PASSED
+Test Precision,Precision,0.4323,0.4323,PASSED
+Test Recall,Recall,0.6265,0.6265,PASSED
+Test F1-Score,F1-Score,0.5116,0.5116,PASSED
+Test ROC-AUC,ROC-AUC,0.6976,0.6976,PASSED
+Champion Inference Engine,predict() & predict_proba(),End-to-end binary predictions with calibrated threshold,"Inference verified: Preds=[1, 0, 1, 0, 0], Probs=[0.4837, 0.1825, 0.6271, 0.0752, 0.1024]",PASSED
+Final PowerPoint Presentation,Slide Count & Topics,10-12 formatted slides covering complete project scope,12 slides verified: Slide 1: YĀTRĀ AI (यात्रा AI); Slide 2: YĀTRĀ AI — ACADEMIC RESEARCH TRACK; Slide 3: YĀTRĀ AI — ACADEMIC RESEARCH TRACK; Slide 4: YĀTRĀ AI — ACADEMIC RESEARCH TRACK ...,PASSED

@@ -1,0 +1,6 @@
+Phase,Requirement Scope,Authoritative Module,Key Function,Status
+Phase 1: Sourcing,"Real public transit, aviation, weather data",src.data_collection,verify_raw_sources(),100% VERIFIED
+Phase 2: Cleaning,"Coordinate audit, deduplication, Haversine routing",src.data_cleaning,clean_all(),100% VERIFIED
+Phase 3: Simulation,"7-D Travel DNA, RUM/MNL simulation, 5-tier audit",src.synthetic_generation,generate_all(),100% VERIFIED
+Phase 4: ML Modeling,"Leakage-free split, 4 model families, threshold opt",src.train_models / src.evaluation,train_all_models(),100% VERIFIED
+Phase 5: Integration,"Serialized champion pipeline, viva prep, PPTX",src.generate_presentation,build_presentation(),100% VERIFIED

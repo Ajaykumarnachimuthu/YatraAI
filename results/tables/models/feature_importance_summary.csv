@@ -1,0 +1,30 @@
+feature_name,feature_group,rf_importance,rf_importance_pct,lr_coef,lr_abs_coef,yatra_operational_interpretation
+cost_score,Candidate Quality Score,0.153717,15.37%,0.207765,0.207765,Relative fare affordability within session choice set (strongest single predictor)
+carbon_score,Candidate Quality Score,0.119541,11.95%,0.293212,0.293212,Relative environmental efficiency normalized against session alternatives
+time_score,Candidate Quality Score,0.112320,11.23%,0.289085,0.289085,Relative speed advantage over competing transit options in session
+raw_cost,Physical/Operational Attribute,0.078602,7.86%,-0.084120,0.084120,Absolute ticket price in INR (derived tariff or observed fare)
+carbon_estimate_kg,Physical/Operational Attribute,0.061880,6.19%,0.148335,0.148335,Estimated journey carbon footprint based on distance and mode
+raw_duration,Physical/Operational Attribute,0.043659,4.37%,-0.076210,0.076210,Total elapsed travel time in hours
+sustainability_preference,Travel DNA Psychometric,0.039096,3.91%,0.042150,0.042150,Traveller willingness to trade time or money for lower carbon emissions
+time_sensitivity,Travel DNA Psychometric,0.038724,3.87%,0.036980,0.036980,Traveller marginal disutility of travel time and schedule delay
+cost_sensitivity,Travel DNA Psychometric,0.038431,3.84%,0.035120,0.035120,Traveller price elasticity and budget prioritization weight
+transfer_tolerance,Travel DNA Psychometric,0.036593,3.66%,0.028450,0.028450,Traveller willingness to accept intermediate rail or air interchanges
+raw_distance,Physical/Operational Attribute,0.035838,3.58%,-0.217635,0.217635,Great-circle origin-to-destination route distance in kilometres
+departure_time_flexibility,Travel DNA Psychometric,0.035075,3.51%,0.024110,0.024110,Traveller tolerance for off-peak or early morning departure windows
+comfort_preference,Travel DNA Psychometric,0.033629,3.36%,0.021870,0.021870,Traveller preference for premium seating and dedicated sleeping berths
+reliability_sensitivity,Travel DNA Psychometric,0.032894,3.29%,0.019540,0.019540,Traveller aversion to historical delay risk and unpunctual transit
+lead_days,Session Context,0.024693,2.47%,-0.018230,0.018230,Advance booking horizon prior to scheduled journey departure
+departure_fit,Candidate Quality Score,0.022140,2.21%,0.137420,0.137420,Alignment score between scheduled departure and requested time window
+transfer_score,Candidate Quality Score,0.021050,2.11%,0.141542,0.141542,Normalized penalty score based on number of interchanges
+comfort_score,Candidate Quality Score,0.020120,2.01%,0.158210,0.158210,Normalized cabin comfort baseline rating based on service tier
+reliability_score,Candidate Quality Score,0.019480,1.95%,0.111450,0.111450,Historical operational punctuality score relative to session alternatives
+party_size,Session Context,0.018250,1.83%,0.012450,0.012450,Number of passengers traveling together in search query
+carrier,Transit Categorical,0.017890,1.79%,0.164874,0.164874,Operating rail class (Shatabdi/Rajdhani/Express) or airline brand
+destination_city,Session Context,0.017120,1.71%,-0.099117,0.099117,Metro arrival terminus corridor
+origin_city,Session Context,0.016340,1.63%,0.045120,0.045120,Metro departure terminus corridor
+service_tier,Transit Categorical,0.015420,1.54%,-0.195284,0.195284,"Class of accommodation (AC 1 Tier, 2 Tier, Economy, Business)"
+departure_window,Session Context,0.014210,1.42%,0.031200,0.031200,"Requested departure time period (Morning, Afternoon, Evening, Night)"
+trip_purpose,Session Context,0.013180,1.32%,0.028900,0.028900,"Contextual reason for trip (Business, Leisure, Commute, Family)"
+mode,Transit Categorical,0.012450,1.25%,0.065200,0.065200,Primary modal classification (Flight vs Rail)
+transfer_count,Physical/Operational Attribute,0.010120,1.01%,-0.045120,0.045120,"Raw number of intermediate interchanges required (0, 1, 2)"
+persona_type,Synthetic Persona Archetype,0.008093,0.81%,0.026469,0.026469,"Categorical persona archetype (evaluated in Extended Model B; redundant with DNA)"

@@ -1,0 +1,8 @@
+Entity,Raw Records,Clean Records,Anomalies Handled,Key Transformations
+Stations,8990,8990,"293 dummy coords flagged; 8,697 geocoded in India","WGS84 validation, Metro cluster tagging (6 Metros)"
+Train Services,5208,5208,Zero missing running days; deduplicated service numbers,"Schedule string decoding, running frequency derivation"
+Train Routes / Halts,416637,416637,Zero inter-station raw distance resolved,"Geodesic Haversine segment km, cumulative km, halt duration"
+Train Delays,1479,1479,"6 renamed NTES station codes reconciled (ALD->PRYJ, etc.)",Multi-class delay risk & binary transfer risk derivation
+Flight Itineraries,300261,300259,2 exact duplicate rows dropped,"Duration to decimal hours, price-per-hour, metro corridors"
+Monsoon Rainfall,4116,4116,Sparse monthly nulls (<0.3%) median imputed,"June-Sept monsoon ratio, 30-year climatological normals"
+Multimodal Corridors,N/A,30,Cross-modal aggregation across 30 metro city pairs,"Direct rail vs flight duration, price, and speed benchmark"

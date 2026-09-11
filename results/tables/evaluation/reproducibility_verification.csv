@@ -1,0 +1,6 @@
+Workflow Step,Execution Command,Deterministic Inputs,Determinism Seed,Reproducibility
+Data Provenance Verification,python -m src.data_collection,data/external/sources_metadata.json,N/A (Cryptographic),Bitwise Verified
+Baseline Model Training,python -m src.phase4_baseline,choice_dataset.parquet,seed = 42,Bitwise Verified
+Threshold Optimization,python -m src.phase4_step2,choice_dataset.parquet,seed = 42,Bitwise Verified
+Pipeline Serialization,src.train_models.save_champion_pipeline(),HistGradientBoostingClassifier,seed = 42,Bitwise Verified
+Presentation Deck Generation,python -m src.generate_presentation,results/figures/* & results/tables/*,N/A,Fully Verified

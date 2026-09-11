@@ -1,0 +1,6 @@
+Dataset Name,Relative Path,Raw Records,Attributes,Disk Size,Format,Source Entity
+Stations Master Directory,data/raw/railways/stations.json,8990,6,1.91 MB,JSON,CRIS / IRCTC Timetable
+Trains Master & Timetables,data/raw/railways/trains.json,5208,8,96.67 MB,JSON,Indian Railways Master
+Express Train Delays Manifest,data/raw/delays/Train_List.csv,42,5,1.82 KB,CSV,NTES Historical Logs
+Domestic Flights Pricing Corpus,data/raw/flights/Clean_flight_data_Vivek.csv,300261,11,22.21 MB,CSV,EaseMyTrip Aggregation
+IMD Subdivisional Monsoon,data/raw/environmental/rainfall_india_1901-2015.csv,4116,15,347.7 KB,CSV,India Meteorological Dept

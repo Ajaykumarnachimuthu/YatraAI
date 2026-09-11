@@ -1,0 +1,2401 @@
+session_id,traveller_id,origin_city,destination_city,search_date,travel_date,lead_days,departure_window,trip_purpose,party_size
+S0000001,T000001,Chennai,Bangalore,2024-03-11,2024-04-01,21,Night,Commute,1
+S0000002,T000001,Hyderabad,Chennai,2024-03-02,2024-04-06,35,Night,Commute,1
+S0000003,T000001,Delhi,Kolkata,2024-03-13,2024-04-05,23,Early Morning,Commute,1
+S0000004,T000001,Mumbai,Hyderabad,2024-03-05,2024-03-21,16,Evening,Business,3
+S0000005,T000002,Delhi,Mumbai,2024-03-15,2024-04-16,32,Afternoon,Commute,1
+S0000006,T000002,Kolkata,Hyderabad,2024-03-05,2024-04-03,29,Afternoon,Business,1
+S0000007,T000002,Kolkata,Bangalore,2024-03-13,2024-03-16,3,Afternoon,Family / Personal,1
+S0000008,T000002,Hyderabad,Bangalore,2024-03-04,2024-03-31,27,Night,Commute,1
+S0000009,T000003,Delhi,Kolkata,2024-03-11,2024-03-29,18,Afternoon,Leisure,1
+S0000010,T000003,Kolkata,Mumbai,2024-03-04,2024-04-02,29,Morning,Leisure,1
+S0000011,T000003,Bangalore,Chennai,2024-03-05,2024-04-15,41,Afternoon,Commute,1
+S0000012,T000003,Delhi,Kolkata,2024-03-04,2024-04-04,31,Evening,Business,1
+S0000013,T000004,Delhi,Hyderabad,2024-03-01,2024-04-09,39,Early Morning,Commute,1
+S0000014,T000004,Hyderabad,Bangalore,2024-03-05,2024-03-26,21,Morning,Commute,1
+S0000015,T000004,Kolkata,Chennai,2024-03-06,2024-04-20,45,Night,Family / Personal,1
+S0000016,T000004,Bangalore,Hyderabad,2024-03-14,2024-04-23,40,Night,Commute,2
+S0000017,T000005,Delhi,Hyderabad,2024-03-13,2024-04-04,22,Afternoon,Commute,1
+S0000018,T000005,Chennai,Delhi,2024-03-04,2024-04-21,48,Early Morning,Commute,1
+S0000019,T000005,Mumbai,Chennai,2024-03-06,2024-03-30,24,Afternoon,Commute,1
+S0000020,T000005,Bangalore,Delhi,2024-03-15,2024-04-07,23,Early Morning,Commute,1
+S0000021,T000006,Bangalore,Mumbai,2024-03-09,2024-04-16,38,Early Morning,Commute,1
+S0000022,T000006,Delhi,Chennai,2024-03-14,2024-03-19,5,Early Morning,Commute,2
+S0000023,T000006,Mumbai,Kolkata,2024-03-01,2024-03-24,23,Afternoon,Commute,1
+S0000024,T000006,Chennai,Bangalore,2024-03-07,2024-03-30,23,Afternoon,Commute,3
+S0000025,T000007,Delhi,Mumbai,2024-03-08,2024-04-21,44,Early Morning,Commute,1
+S0000026,T000007,Bangalore,Hyderabad,2024-03-06,2024-03-30,24,Morning,Commute,1
+S0000027,T000007,Delhi,Chennai,2024-03-06,2024-04-14,39,Afternoon,Commute,2
+S0000028,T000007,Mumbai,Delhi,2024-03-15,2024-03-27,12,Night,Commute,1
+S0000029,T000008,Delhi,Kolkata,2024-03-12,2024-03-25,13,Evening,Leisure,1
+S0000030,T000008,Delhi,Kolkata,2024-03-14,2024-03-20,6,Evening,Commute,1
+S0000031,T000008,Mumbai,Hyderabad,2024-03-04,2024-03-07,3,Morning,Business,1
+S0000032,T000008,Mumbai,Bangalore,2024-03-14,2024-04-15,32,Early Morning,Leisure,1
+S0000033,T000009,Delhi,Hyderabad,2024-03-06,2024-04-04,29,Afternoon,Commute,1
+S0000034,T000009,Delhi,Hyderabad,2024-03-06,2024-04-11,36,Early Morning,Business,1
+S0000035,T000009,Delhi,Chennai,2024-03-12,2024-03-18,6,Early Morning,Commute,1
+S0000036,T000009,Kolkata,Mumbai,2024-03-08,2024-04-13,36,Afternoon,Commute,1
+S0000037,T000010,Mumbai,Hyderabad,2024-03-03,2024-03-11,8,Early Morning,Commute,1
+S0000038,T000010,Chennai,Mumbai,2024-03-07,2024-03-08,1,Evening,Commute,1
+S0000039,T000010,Delhi,Kolkata,2024-03-01,2024-03-03,2,Morning,Business,1
+S0000040,T000010,Mumbai,Hyderabad,2024-03-08,2024-04-10,33,Night,Commute,3
+S0000041,T000011,Hyderabad,Mumbai,2024-03-04,2024-04-21,48,Early Morning,Family / Personal,1
+S0000042,T000011,Hyderabad,Kolkata,2024-03-14,2024-04-10,27,Morning,Commute,1
+S0000043,T000011,Bangalore,Delhi,2024-03-01,2024-03-16,15,Evening,Commute,1
+S0000044,T000011,Delhi,Mumbai,2024-03-13,2024-03-30,17,Evening,Commute,1
+S0000045,T000012,Mumbai,Chennai,2024-03-12,2024-04-13,32,Night,Leisure,1
+S0000046,T000012,Delhi,Bangalore,2024-03-03,2024-03-27,24,Afternoon,Commute,1
+S0000047,T000012,Hyderabad,Bangalore,2024-03-12,2024-03-21,9,Night,Commute,1
+S0000048,T000012,Chennai,Kolkata,2024-03-07,2024-04-10,34,Night,Commute,1
+S0000049,T000013,Hyderabad,Bangalore,2024-03-14,2024-04-14,31,Evening,Commute,2
+S0000050,T000013,Mumbai,Bangalore,2024-03-08,2024-04-07,30,Afternoon,Family / Personal,1
+S0000051,T000013,Kolkata,Delhi,2024-03-11,2024-04-16,36,Night,Commute,2
+S0000052,T000013,Bangalore,Hyderabad,2024-03-12,2024-04-14,33,Morning,Commute,1
+S0000053,T000014,Mumbai,Delhi,2024-03-04,2024-04-15,42,Early Morning,Commute,1
+S0000054,T000014,Kolkata,Bangalore,2024-03-04,2024-04-19,46,Night,Commute,1
+S0000055,T000014,Mumbai,Chennai,2024-03-03,2024-03-13,10,Afternoon,Family / Personal,2
+S0000056,T000014,Delhi,Kolkata,2024-03-12,2024-03-20,8,Morning,Commute,1
+S0000057,T000015,Hyderabad,Delhi,2024-03-15,2024-03-27,12,Afternoon,Commute,1
+S0000058,T000015,Hyderabad,Bangalore,2024-03-11,2024-04-21,41,Afternoon,Family / Personal,1
+S0000059,T000015,Kolkata,Chennai,2024-03-09,2024-03-11,2,Evening,Commute,1
+S0000060,T000015,Kolkata,Hyderabad,2024-03-14,2024-03-27,13,Night,Commute,1
+S0000061,T000016,Mumbai,Bangalore,2024-03-13,2024-04-09,27,Afternoon,Commute,1
+S0000062,T000016,Chennai,Kolkata,2024-03-15,2024-04-30,46,Early Morning,Commute,1
+S0000063,T000016,Kolkata,Bangalore,2024-03-05,2024-03-31,26,Evening,Leisure,2
+S0000064,T000016,Bangalore,Hyderabad,2024-03-11,2024-04-15,35,Afternoon,Commute,1
+S0000065,T000017,Bangalore,Kolkata,2024-03-02,2024-03-15,13,Early Morning,Family / Personal,1
+S0000066,T000017,Bangalore,Mumbai,2024-03-13,2024-04-29,47,Morning,Business,1
+S0000067,T000017,Hyderabad,Mumbai,2024-03-13,2024-03-18,5,Morning,Leisure,1
+S0000068,T000017,Kolkata,Mumbai,2024-03-04,2024-03-10,6,Morning,Commute,1
+S0000069,T000018,Mumbai,Hyderabad,2024-03-06,2024-04-13,38,Afternoon,Commute,1
+S0000070,T000018,Bangalore,Chennai,2024-03-10,2024-03-30,20,Evening,Commute,1
+S0000071,T000018,Chennai,Delhi,2024-03-07,2024-04-24,48,Afternoon,Commute,1
+S0000072,T000018,Hyderabad,Mumbai,2024-03-08,2024-04-18,41,Early Morning,Commute,1
+S0000073,T000019,Hyderabad,Kolkata,2024-03-13,2024-04-22,40,Early Morning,Commute,1
+S0000074,T000019,Kolkata,Mumbai,2024-03-11,2024-03-17,6,Evening,Commute,1
+S0000075,T000019,Bangalore,Delhi,2024-03-05,2024-04-07,33,Afternoon,Commute,1
+S0000076,T000019,Hyderabad,Bangalore,2024-03-11,2024-04-21,41,Early Morning,Commute,2
+S0000077,T000020,Delhi,Mumbai,2024-03-05,2024-03-20,15,Night,Commute,1
+S0000078,T000020,Mumbai,Bangalore,2024-03-11,2024-04-25,45,Early Morning,Family / Personal,1
+S0000079,T000020,Mumbai,Hyderabad,2024-03-09,2024-03-29,20,Evening,Commute,1
+S0000080,T000020,Kolkata,Delhi,2024-03-03,2024-03-15,12,Morning,Commute,1
+S0000081,T000021,Mumbai,Hyderabad,2024-03-15,2024-03-26,11,Evening,Commute,1
+S0000082,T000021,Mumbai,Bangalore,2024-03-09,2024-04-18,40,Afternoon,Commute,2
+S0000083,T000021,Bangalore,Delhi,2024-03-11,2024-04-11,31,Afternoon,Business,1
+S0000084,T000021,Delhi,Bangalore,2024-03-03,2024-03-23,20,Early Morning,Business,2
+S0000085,T000022,Delhi,Mumbai,2024-03-08,2024-03-11,3,Afternoon,Family / Personal,1
+S0000086,T000022,Bangalore,Kolkata,2024-03-15,2024-04-04,20,Early Morning,Commute,1
+S0000087,T000022,Chennai,Hyderabad,2024-03-08,2024-03-14,6,Early Morning,Commute,1
+S0000088,T000022,Mumbai,Delhi,2024-03-05,2024-04-22,48,Afternoon,Commute,3
+S0000089,T000023,Mumbai,Hyderabad,2024-03-02,2024-04-17,46,Morning,Leisure,1
+S0000090,T000023,Chennai,Bangalore,2024-03-08,2024-04-25,48,Afternoon,Leisure,1
+S0000091,T000023,Bangalore,Delhi,2024-03-12,2024-03-13,1,Morning,Family / Personal,1
+S0000092,T000023,Delhi,Hyderabad,2024-03-02,2024-04-03,32,Night,Commute,1
+S0000093,T000024,Chennai,Delhi,2024-03-01,2024-03-16,15,Morning,Commute,1
+S0000094,T000024,Mumbai,Delhi,2024-03-05,2024-03-29,24,Night,Family / Personal,2
+S0000095,T000024,Mumbai,Hyderabad,2024-03-07,2024-04-11,35,Night,Commute,1
+S0000096,T000024,Delhi,Hyderabad,2024-03-02,2024-03-14,12,Night,Commute,2
+S0000097,T000025,Bangalore,Mumbai,2024-03-15,2024-04-10,26,Evening,Commute,1
+S0000098,T000025,Delhi,Hyderabad,2024-03-06,2024-03-18,12,Night,Commute,1
+S0000099,T000025,Bangalore,Mumbai,2024-03-12,2024-03-24,12,Morning,Commute,1
+S0000100,T000025,Kolkata,Mumbai,2024-03-11,2024-03-19,8,Evening,Commute,1
+S0000101,T000026,Kolkata,Mumbai,2024-03-14,2024-03-23,9,Evening,Commute,1
+S0000102,T000026,Hyderabad,Mumbai,2024-03-04,2024-03-14,10,Afternoon,Commute,1
+S0000103,T000026,Delhi,Hyderabad,2024-03-14,2024-04-15,32,Early Morning,Leisure,1
+S0000104,T000026,Kolkata,Bangalore,2024-03-09,2024-03-22,13,Early Morning,Leisure,2
+S0000105,T000027,Kolkata,Bangalore,2024-03-11,2024-04-26,46,Early Morning,Business,3
+S0000106,T000027,Mumbai,Hyderabad,2024-03-07,2024-04-03,27,Early Morning,Commute,1
+S0000107,T000027,Chennai,Kolkata,2024-03-07,2024-03-18,11,Afternoon,Commute,1
+S0000108,T000027,Hyderabad,Chennai,2024-03-03,2024-04-10,38,Afternoon,Business,1
+S0000109,T000028,Chennai,Bangalore,2024-03-04,2024-03-22,18,Early Morning,Commute,1
+S0000110,T000028,Kolkata,Delhi,2024-03-09,2024-03-25,16,Night,Business,1
+S0000111,T000028,Mumbai,Delhi,2024-03-04,2024-04-14,41,Evening,Leisure,1
+S0000112,T000028,Mumbai,Hyderabad,2024-03-08,2024-04-06,29,Night,Leisure,1
+S0000113,T000029,Delhi,Chennai,2024-03-15,2024-04-21,37,Night,Leisure,1
+S0000114,T000029,Mumbai,Delhi,2024-03-09,2024-04-11,33,Morning,Commute,1
+S0000115,T000029,Bangalore,Delhi,2024-03-07,2024-03-31,24,Night,Commute,3
+S0000116,T000029,Hyderabad,Bangalore,2024-03-03,2024-03-24,21,Early Morning,Commute,1
+S0000117,T000030,Mumbai,Kolkata,2024-03-03,2024-04-06,34,Early Morning,Commute,1
+S0000118,T000030,Delhi,Mumbai,2024-03-09,2024-04-19,41,Early Morning,Commute,1
+S0000119,T000030,Hyderabad,Chennai,2024-03-06,2024-03-10,4,Evening,Commute,1
+S0000120,T000030,Kolkata,Mumbai,2024-03-05,2024-03-07,2,Evening,Commute,1
+S0000121,T000031,Bangalore,Chennai,2024-03-09,2024-04-22,44,Early Morning,Leisure,1
+S0000122,T000031,Kolkata,Bangalore,2024-03-14,2024-04-21,38,Afternoon,Commute,1
+S0000123,T000031,Kolkata,Chennai,2024-03-02,2024-03-28,26,Early Morning,Commute,1
+S0000124,T000031,Mumbai,Delhi,2024-03-01,2024-04-06,36,Night,Commute,1
+S0000125,T000032,Chennai,Mumbai,2024-03-04,2024-04-11,38,Night,Leisure,1
+S0000126,T000032,Bangalore,Kolkata,2024-03-10,2024-03-29,19,Afternoon,Commute,1
+S0000127,T000032,Kolkata,Bangalore,2024-03-11,2024-03-25,14,Evening,Business,2
+S0000128,T000032,Delhi,Bangalore,2024-03-02,2024-03-27,25,Morning,Commute,1
+S0000129,T000033,Delhi,Bangalore,2024-03-01,2024-04-15,45,Morning,Leisure,1
+S0000130,T000033,Bangalore,Kolkata,2024-03-10,2024-03-25,15,Early Morning,Commute,1
+S0000131,T000033,Delhi,Kolkata,2024-03-01,2024-03-18,17,Evening,Family / Personal,1
+S0000132,T000033,Mumbai,Delhi,2024-03-01,2024-04-07,37,Morning,Commute,1
+S0000133,T000034,Mumbai,Hyderabad,2024-03-06,2024-04-10,35,Early Morning,Family / Personal,1
+S0000134,T000034,Mumbai,Kolkata,2024-03-10,2024-03-17,7,Morning,Business,1
+S0000135,T000034,Hyderabad,Bangalore,2024-03-05,2024-04-07,33,Early Morning,Leisure,1
+S0000136,T000034,Kolkata,Delhi,2024-03-09,2024-03-15,6,Morning,Commute,3
+S0000137,T000035,Bangalore,Chennai,2024-03-14,2024-04-19,36,Evening,Business,1
+S0000138,T000035,Hyderabad,Kolkata,2024-03-09,2024-04-24,46,Night,Commute,1
+S0000139,T000035,Delhi,Bangalore,2024-03-08,2024-04-13,36,Evening,Family / Personal,1
+S0000140,T000035,Chennai,Kolkata,2024-03-10,2024-04-11,32,Evening,Commute,1
+S0000141,T000036,Delhi,Mumbai,2024-03-07,2024-03-11,4,Morning,Commute,1
+S0000142,T000036,Bangalore,Mumbai,2024-03-06,2024-03-11,5,Night,Commute,1
+S0000143,T000036,Delhi,Bangalore,2024-03-03,2024-03-27,24,Morning,Commute,1
+S0000144,T000036,Kolkata,Chennai,2024-03-02,2024-04-17,46,Early Morning,Commute,1
+S0000145,T000037,Delhi,Bangalore,2024-03-07,2024-04-04,28,Early Morning,Family / Personal,1
+S0000146,T000037,Chennai,Delhi,2024-03-01,2024-03-27,26,Afternoon,Leisure,1
+S0000147,T000037,Hyderabad,Bangalore,2024-03-05,2024-03-25,20,Evening,Commute,1
+S0000148,T000037,Mumbai,Chennai,2024-03-03,2024-04-05,33,Morning,Leisure,2
+S0000149,T000038,Mumbai,Bangalore,2024-03-14,2024-04-16,33,Night,Commute,1
+S0000150,T000038,Kolkata,Hyderabad,2024-03-01,2024-04-07,37,Evening,Family / Personal,1
+S0000151,T000038,Kolkata,Bangalore,2024-03-11,2024-04-25,45,Evening,Commute,1
+S0000152,T000038,Mumbai,Hyderabad,2024-03-01,2024-03-27,26,Night,Commute,1
+S0000153,T000039,Bangalore,Delhi,2024-03-08,2024-04-26,49,Night,Leisure,1
+S0000154,T000039,Hyderabad,Mumbai,2024-03-14,2024-04-27,44,Afternoon,Commute,2
+S0000155,T000039,Delhi,Kolkata,2024-03-09,2024-03-18,9,Afternoon,Leisure,2
+S0000156,T000039,Kolkata,Hyderabad,2024-03-13,2024-03-15,2,Night,Commute,2
+S0000157,T000040,Chennai,Mumbai,2024-03-10,2024-03-29,19,Morning,Commute,1
+S0000158,T000040,Chennai,Hyderabad,2024-03-05,2024-03-07,2,Afternoon,Leisure,1
+S0000159,T000040,Chennai,Mumbai,2024-03-01,2024-04-16,46,Morning,Commute,1
+S0000160,T000040,Hyderabad,Bangalore,2024-03-08,2024-04-17,40,Evening,Commute,1
+S0000161,T000041,Bangalore,Delhi,2024-03-03,2024-03-23,20,Early Morning,Commute,1
+S0000162,T000041,Mumbai,Bangalore,2024-03-03,2024-04-04,32,Night,Commute,1
+S0000163,T000041,Mumbai,Bangalore,2024-03-15,2024-04-09,25,Afternoon,Family / Personal,1
+S0000164,T000041,Chennai,Mumbai,2024-03-02,2024-04-08,37,Evening,Leisure,1
+S0000165,T000042,Bangalore,Mumbai,2024-03-09,2024-03-16,7,Evening,Commute,2
+S0000166,T000042,Delhi,Hyderabad,2024-03-10,2024-04-12,33,Night,Leisure,1
+S0000167,T000042,Bangalore,Hyderabad,2024-03-03,2024-03-13,10,Afternoon,Commute,2
+S0000168,T000042,Kolkata,Hyderabad,2024-03-03,2024-04-03,31,Early Morning,Business,1
+S0000169,T000043,Chennai,Bangalore,2024-03-09,2024-04-04,26,Night,Commute,1
+S0000170,T000043,Bangalore,Hyderabad,2024-03-05,2024-03-22,17,Night,Commute,1
+S0000171,T000043,Kolkata,Mumbai,2024-03-02,2024-04-17,46,Morning,Commute,1
+S0000172,T000043,Kolkata,Delhi,2024-03-02,2024-04-03,32,Afternoon,Commute,1
+S0000173,T000044,Bangalore,Hyderabad,2024-03-06,2024-04-10,35,Evening,Commute,1
+S0000174,T000044,Bangalore,Delhi,2024-03-11,2024-04-07,27,Evening,Commute,1
+S0000175,T000044,Kolkata,Mumbai,2024-03-06,2024-04-08,33,Night,Family / Personal,1
+S0000176,T000044,Kolkata,Hyderabad,2024-03-14,2024-03-19,5,Evening,Commute,1
+S0000177,T000045,Chennai,Hyderabad,2024-03-04,2024-03-28,24,Night,Commute,1
+S0000178,T000045,Bangalore,Hyderabad,2024-03-01,2024-03-21,20,Early Morning,Commute,1
+S0000179,T000045,Bangalore,Mumbai,2024-03-05,2024-04-01,27,Afternoon,Commute,1
+S0000180,T000045,Kolkata,Hyderabad,2024-03-03,2024-04-06,34,Early Morning,Family / Personal,1
+S0000181,T000046,Chennai,Delhi,2024-03-03,2024-03-07,4,Afternoon,Commute,1
+S0000182,T000046,Bangalore,Delhi,2024-03-05,2024-04-06,32,Afternoon,Commute,1
+S0000183,T000046,Kolkata,Hyderabad,2024-03-03,2024-04-07,35,Early Morning,Commute,1
+S0000184,T000046,Bangalore,Delhi,2024-03-04,2024-04-20,47,Night,Commute,1
+S0000185,T000047,Mumbai,Bangalore,2024-03-14,2024-04-27,44,Night,Commute,1
+S0000186,T000047,Delhi,Mumbai,2024-03-12,2024-04-21,40,Afternoon,Commute,1
+S0000187,T000047,Kolkata,Mumbai,2024-03-02,2024-03-19,17,Evening,Commute,1
+S0000188,T000047,Kolkata,Mumbai,2024-03-15,2024-04-03,19,Morning,Commute,1
+S0000189,T000048,Kolkata,Hyderabad,2024-03-06,2024-03-11,5,Night,Business,1
+S0000190,T000048,Kolkata,Chennai,2024-03-09,2024-04-19,41,Night,Commute,1
+S0000191,T000048,Bangalore,Chennai,2024-03-03,2024-04-07,35,Night,Family / Personal,2
+S0000192,T000048,Delhi,Bangalore,2024-03-05,2024-03-06,1,Evening,Business,1
+S0000193,T000049,Hyderabad,Delhi,2024-03-11,2024-03-15,4,Night,Commute,2
+S0000194,T000049,Bangalore,Hyderabad,2024-03-14,2024-03-16,2,Morning,Commute,1
+S0000195,T000049,Kolkata,Hyderabad,2024-03-03,2024-04-01,29,Early Morning,Leisure,1
+S0000196,T000049,Chennai,Bangalore,2024-03-11,2024-04-02,22,Night,Commute,1
+S0000197,T000050,Kolkata,Delhi,2024-03-12,2024-03-15,3,Morning,Commute,3
+S0000198,T000050,Bangalore,Kolkata,2024-03-10,2024-04-01,22,Morning,Commute,1
+S0000199,T000050,Mumbai,Kolkata,2024-03-14,2024-03-24,10,Early Morning,Family / Personal,1
+S0000200,T000050,Kolkata,Hyderabad,2024-03-08,2024-04-18,41,Afternoon,Commute,1
+S0000201,T000051,Mumbai,Chennai,2024-03-12,2024-04-29,48,Evening,Family / Personal,1
+S0000202,T000051,Delhi,Chennai,2024-03-01,2024-03-11,10,Evening,Commute,1
+S0000203,T000051,Bangalore,Mumbai,2024-03-11,2024-04-19,39,Early Morning,Leisure,1
+S0000204,T000051,Mumbai,Hyderabad,2024-03-11,2024-03-21,10,Evening,Business,1
+S0000205,T000052,Mumbai,Hyderabad,2024-03-02,2024-03-30,28,Early Morning,Family / Personal,3
+S0000206,T000052,Kolkata,Delhi,2024-03-01,2024-03-14,13,Night,Leisure,1
+S0000207,T000052,Mumbai,Hyderabad,2024-03-10,2024-04-25,46,Afternoon,Family / Personal,1
+S0000208,T000052,Kolkata,Hyderabad,2024-03-01,2024-04-18,48,Afternoon,Commute,1
+S0000209,T000053,Hyderabad,Delhi,2024-03-15,2024-03-28,13,Evening,Commute,1
+S0000210,T000053,Delhi,Mumbai,2024-03-12,2024-03-17,5,Early Morning,Commute,1
+S0000211,T000053,Chennai,Hyderabad,2024-03-06,2024-03-14,8,Evening,Commute,1
+S0000212,T000053,Bangalore,Kolkata,2024-03-02,2024-03-20,18,Early Morning,Family / Personal,1
+S0000213,T000054,Kolkata,Chennai,2024-03-05,2024-03-22,17,Night,Commute,2
+S0000214,T000054,Delhi,Hyderabad,2024-03-15,2024-04-02,18,Early Morning,Leisure,1
+S0000215,T000054,Chennai,Hyderabad,2024-03-01,2024-04-18,48,Early Morning,Commute,1
+S0000216,T000054,Delhi,Mumbai,2024-03-02,2024-03-14,12,Evening,Commute,1
+S0000217,T000055,Kolkata,Hyderabad,2024-03-10,2024-04-26,47,Early Morning,Commute,1
+S0000218,T000055,Delhi,Chennai,2024-03-05,2024-03-28,23,Morning,Commute,1
+S0000219,T000055,Chennai,Hyderabad,2024-03-04,2024-03-25,21,Evening,Commute,3
+S0000220,T000055,Delhi,Bangalore,2024-03-07,2024-03-29,22,Evening,Commute,1
+S0000221,T000056,Mumbai,Hyderabad,2024-03-15,2024-04-30,46,Morning,Commute,1
+S0000222,T000056,Mumbai,Bangalore,2024-03-03,2024-04-04,32,Evening,Leisure,2
+S0000223,T000056,Kolkata,Mumbai,2024-03-07,2024-03-09,2,Morning,Commute,3
+S0000224,T000056,Kolkata,Chennai,2024-03-04,2024-03-13,9,Early Morning,Commute,2
+S0000225,T000057,Chennai,Delhi,2024-03-04,2024-04-21,48,Afternoon,Leisure,1
+S0000226,T000057,Hyderabad,Delhi,2024-03-05,2024-04-11,37,Morning,Commute,1
+S0000227,T000057,Kolkata,Bangalore,2024-03-05,2024-03-26,21,Night,Commute,1
+S0000228,T000057,Hyderabad,Chennai,2024-03-03,2024-03-08,5,Afternoon,Family / Personal,1
+S0000229,T000058,Delhi,Kolkata,2024-03-08,2024-03-20,12,Evening,Business,1
+S0000230,T000058,Delhi,Kolkata,2024-03-10,2024-03-21,11,Early Morning,Commute,1
+S0000231,T000058,Kolkata,Bangalore,2024-03-05,2024-04-01,27,Morning,Commute,1
+S0000232,T000058,Delhi,Kolkata,2024-03-02,2024-03-09,7,Early Morning,Commute,1
+S0000233,T000059,Bangalore,Kolkata,2024-03-05,2024-04-13,39,Early Morning,Commute,1
+S0000234,T000059,Kolkata,Mumbai,2024-03-03,2024-03-07,4,Early Morning,Leisure,1
+S0000235,T000059,Delhi,Hyderabad,2024-03-02,2024-03-21,19,Afternoon,Commute,1
+S0000236,T000059,Kolkata,Bangalore,2024-03-08,2024-04-20,43,Evening,Commute,1
+S0000237,T000060,Chennai,Hyderabad,2024-03-09,2024-04-20,42,Early Morning,Commute,1
+S0000238,T000060,Kolkata,Mumbai,2024-03-12,2024-04-18,37,Evening,Leisure,1
+S0000239,T000060,Delhi,Hyderabad,2024-03-04,2024-04-17,44,Afternoon,Commute,1
+S0000240,T000060,Kolkata,Chennai,2024-03-07,2024-03-22,15,Morning,Commute,1
+S0000241,T000061,Hyderabad,Bangalore,2024-03-08,2024-03-15,7,Evening,Leisure,1
+S0000242,T000061,Bangalore,Chennai,2024-03-03,2024-03-17,14,Evening,Leisure,1
+S0000243,T000061,Bangalore,Kolkata,2024-03-04,2024-03-08,4,Early Morning,Commute,1
+S0000244,T000061,Chennai,Delhi,2024-03-06,2024-04-24,49,Evening,Family / Personal,1
+S0000245,T000062,Kolkata,Chennai,2024-03-07,2024-04-06,30,Evening,Commute,2
+S0000246,T000062,Bangalore,Delhi,2024-03-15,2024-03-28,13,Afternoon,Commute,1
+S0000247,T000062,Bangalore,Delhi,2024-03-04,2024-04-19,46,Night,Commute,1
+S0000248,T000062,Hyderabad,Kolkata,2024-03-02,2024-04-09,38,Morning,Leisure,1
+S0000249,T000063,Chennai,Hyderabad,2024-03-07,2024-04-08,32,Afternoon,Business,1
+S0000250,T000063,Hyderabad,Chennai,2024-03-02,2024-04-05,34,Evening,Commute,1
+S0000251,T000063,Delhi,Kolkata,2024-03-11,2024-03-19,8,Early Morning,Commute,1
+S0000252,T000063,Hyderabad,Chennai,2024-03-02,2024-03-18,16,Early Morning,Commute,1
+S0000253,T000064,Kolkata,Hyderabad,2024-03-11,2024-03-22,11,Early Morning,Commute,1
+S0000254,T000064,Chennai,Delhi,2024-03-11,2024-04-22,42,Afternoon,Family / Personal,1
+S0000255,T000064,Chennai,Hyderabad,2024-03-12,2024-03-27,15,Early Morning,Commute,1
+S0000256,T000064,Bangalore,Hyderabad,2024-03-10,2024-03-16,6,Early Morning,Leisure,1
+S0000257,T000065,Kolkata,Delhi,2024-03-13,2024-04-28,46,Evening,Family / Personal,1
+S0000258,T000065,Chennai,Bangalore,2024-03-05,2024-04-22,48,Afternoon,Family / Personal,1
+S0000259,T000065,Bangalore,Mumbai,2024-03-11,2024-03-27,16,Evening,Leisure,1
+S0000260,T000065,Chennai,Bangalore,2024-03-11,2024-03-25,14,Night,Leisure,1
+S0000261,T000066,Delhi,Bangalore,2024-03-02,2024-04-13,42,Evening,Commute,1
+S0000262,T000066,Mumbai,Hyderabad,2024-03-06,2024-03-24,18,Morning,Business,2
+S0000263,T000066,Delhi,Bangalore,2024-03-05,2024-03-19,14,Early Morning,Commute,1
+S0000264,T000066,Mumbai,Chennai,2024-03-15,2024-04-02,18,Early Morning,Leisure,1
+S0000265,T000067,Hyderabad,Bangalore,2024-03-02,2024-03-26,24,Morning,Leisure,1
+S0000266,T000067,Delhi,Bangalore,2024-03-02,2024-04-14,43,Early Morning,Business,1
+S0000267,T000067,Chennai,Kolkata,2024-03-07,2024-04-23,47,Morning,Commute,1
+S0000268,T000067,Hyderabad,Kolkata,2024-03-14,2024-04-18,35,Morning,Commute,1
+S0000269,T000068,Kolkata,Delhi,2024-03-11,2024-04-09,29,Morning,Leisure,1
+S0000270,T000068,Kolkata,Delhi,2024-03-14,2024-03-30,16,Night,Commute,1
+S0000271,T000068,Delhi,Mumbai,2024-03-12,2024-03-31,19,Morning,Family / Personal,1
+S0000272,T000068,Bangalore,Hyderabad,2024-03-15,2024-03-29,14,Afternoon,Leisure,1
+S0000273,T000069,Delhi,Bangalore,2024-03-03,2024-03-20,17,Morning,Family / Personal,1
+S0000274,T000069,Delhi,Bangalore,2024-03-11,2024-04-06,26,Evening,Commute,2
+S0000275,T000069,Hyderabad,Bangalore,2024-03-03,2024-03-28,25,Early Morning,Business,1
+S0000276,T000069,Mumbai,Chennai,2024-03-01,2024-03-02,1,Afternoon,Commute,1
+S0000277,T000070,Chennai,Bangalore,2024-03-03,2024-04-15,43,Afternoon,Commute,1
+S0000278,T000070,Bangalore,Mumbai,2024-03-10,2024-03-14,4,Morning,Leisure,1
+S0000279,T000070,Mumbai,Kolkata,2024-03-06,2024-03-14,8,Afternoon,Family / Personal,2
+S0000280,T000070,Kolkata,Bangalore,2024-03-13,2024-04-01,19,Evening,Commute,1
+S0000281,T000071,Delhi,Mumbai,2024-03-03,2024-03-08,5,Morning,Business,1
+S0000282,T000071,Delhi,Bangalore,2024-03-07,2024-04-07,31,Evening,Business,1
+S0000283,T000071,Chennai,Mumbai,2024-03-08,2024-03-30,22,Afternoon,Commute,1
+S0000284,T000071,Bangalore,Mumbai,2024-03-14,2024-04-19,36,Early Morning,Commute,1
+S0000285,T000072,Kolkata,Delhi,2024-03-13,2024-04-29,47,Night,Leisure,1
+S0000286,T000072,Hyderabad,Mumbai,2024-03-15,2024-03-16,1,Evening,Commute,1
+S0000287,T000072,Chennai,Delhi,2024-03-15,2024-05-03,49,Night,Commute,1
+S0000288,T000072,Bangalore,Mumbai,2024-03-03,2024-03-26,23,Afternoon,Leisure,1
+S0000289,T000073,Kolkata,Chennai,2024-03-10,2024-03-13,3,Afternoon,Commute,1
+S0000290,T000073,Chennai,Mumbai,2024-03-10,2024-04-23,44,Early Morning,Commute,1
+S0000291,T000073,Kolkata,Mumbai,2024-03-04,2024-04-18,45,Night,Business,1
+S0000292,T000073,Mumbai,Kolkata,2024-03-01,2024-03-02,1,Early Morning,Commute,1
+S0000293,T000074,Chennai,Delhi,2024-03-15,2024-03-22,7,Morning,Commute,1
+S0000294,T000074,Delhi,Chennai,2024-03-01,2024-04-04,34,Evening,Family / Personal,1
+S0000295,T000074,Delhi,Mumbai,2024-03-01,2024-03-14,13,Morning,Family / Personal,1
+S0000296,T000074,Delhi,Hyderabad,2024-03-05,2024-03-28,23,Evening,Commute,1
+S0000297,T000075,Bangalore,Delhi,2024-03-03,2024-03-29,26,Morning,Commute,1
+S0000298,T000075,Bangalore,Kolkata,2024-03-05,2024-03-29,24,Night,Business,1
+S0000299,T000075,Mumbai,Delhi,2024-03-08,2024-04-24,47,Afternoon,Business,1
+S0000300,T000075,Kolkata,Chennai,2024-03-09,2024-04-23,45,Night,Commute,1
+S0000301,T000076,Mumbai,Delhi,2024-03-14,2024-04-01,18,Early Morning,Business,3
+S0000302,T000076,Mumbai,Kolkata,2024-03-11,2024-04-27,47,Afternoon,Commute,1
+S0000303,T000076,Kolkata,Bangalore,2024-03-14,2024-04-10,27,Morning,Commute,1
+S0000304,T000076,Delhi,Hyderabad,2024-03-06,2024-04-18,43,Evening,Commute,1
+S0000305,T000077,Chennai,Bangalore,2024-03-14,2024-04-03,20,Afternoon,Leisure,1
+S0000306,T000077,Hyderabad,Chennai,2024-03-03,2024-03-26,23,Afternoon,Business,1
+S0000307,T000077,Chennai,Bangalore,2024-03-03,2024-04-08,36,Early Morning,Commute,1
+S0000308,T000077,Kolkata,Hyderabad,2024-03-09,2024-04-08,30,Early Morning,Commute,1
+S0000309,T000078,Chennai,Bangalore,2024-03-05,2024-03-15,10,Evening,Commute,1
+S0000310,T000078,Mumbai,Delhi,2024-03-01,2024-03-22,21,Evening,Commute,1
+S0000311,T000078,Bangalore,Delhi,2024-03-14,2024-03-15,1,Early Morning,Commute,2
+S0000312,T000078,Bangalore,Delhi,2024-03-13,2024-03-17,4,Night,Commute,1
+S0000313,T000079,Hyderabad,Bangalore,2024-03-03,2024-03-18,15,Morning,Commute,1
+S0000314,T000079,Chennai,Kolkata,2024-03-01,2024-03-23,22,Night,Commute,1
+S0000315,T000079,Kolkata,Delhi,2024-03-09,2024-04-16,38,Evening,Commute,3
+S0000316,T000079,Mumbai,Hyderabad,2024-03-07,2024-04-05,29,Morning,Commute,1
+S0000317,T000080,Hyderabad,Bangalore,2024-03-12,2024-03-15,3,Night,Commute,2
+S0000318,T000080,Mumbai,Bangalore,2024-03-01,2024-03-05,4,Morning,Leisure,1
+S0000319,T000080,Kolkata,Mumbai,2024-03-13,2024-04-17,35,Early Morning,Commute,1
+S0000320,T000080,Mumbai,Hyderabad,2024-03-07,2024-04-12,36,Early Morning,Commute,1
+S0000321,T000081,Kolkata,Mumbai,2024-03-09,2024-03-24,15,Afternoon,Commute,1
+S0000322,T000081,Bangalore,Hyderabad,2024-03-09,2024-04-11,33,Evening,Commute,2
+S0000323,T000081,Bangalore,Mumbai,2024-03-06,2024-04-08,33,Night,Family / Personal,1
+S0000324,T000081,Mumbai,Kolkata,2024-03-14,2024-04-23,40,Afternoon,Commute,1
+S0000325,T000082,Chennai,Mumbai,2024-03-03,2024-03-14,11,Afternoon,Commute,2
+S0000326,T000082,Mumbai,Kolkata,2024-03-03,2024-03-15,12,Early Morning,Commute,1
+S0000327,T000082,Chennai,Delhi,2024-03-07,2024-03-28,21,Early Morning,Commute,1
+S0000328,T000082,Mumbai,Hyderabad,2024-03-03,2024-03-15,12,Night,Commute,3
+S0000329,T000083,Delhi,Kolkata,2024-03-11,2024-04-28,48,Afternoon,Commute,1
+S0000330,T000083,Delhi,Bangalore,2024-03-01,2024-03-21,20,Evening,Commute,2
+S0000331,T000083,Bangalore,Hyderabad,2024-03-15,2024-03-18,3,Afternoon,Commute,1
+S0000332,T000083,Delhi,Bangalore,2024-03-07,2024-03-26,19,Night,Commute,1
+S0000333,T000084,Bangalore,Kolkata,2024-03-09,2024-03-15,6,Early Morning,Commute,1
+S0000334,T000084,Hyderabad,Bangalore,2024-03-11,2024-03-27,16,Afternoon,Commute,1
+S0000335,T000084,Delhi,Chennai,2024-03-11,2024-04-12,32,Morning,Commute,1
+S0000336,T000084,Hyderabad,Kolkata,2024-03-12,2024-04-19,38,Early Morning,Commute,1
+S0000337,T000085,Mumbai,Chennai,2024-03-08,2024-03-22,14,Night,Commute,1
+S0000338,T000085,Kolkata,Chennai,2024-03-08,2024-04-15,38,Night,Commute,1
+S0000339,T000085,Chennai,Delhi,2024-03-01,2024-04-11,41,Evening,Commute,1
+S0000340,T000085,Hyderabad,Bangalore,2024-03-15,2024-04-23,39,Early Morning,Commute,1
+S0000341,T000086,Kolkata,Mumbai,2024-03-07,2024-03-18,11,Evening,Commute,1
+S0000342,T000086,Delhi,Kolkata,2024-03-09,2024-03-27,18,Evening,Leisure,1
+S0000343,T000086,Hyderabad,Chennai,2024-03-07,2024-03-15,8,Night,Commute,1
+S0000344,T000086,Bangalore,Hyderabad,2024-03-06,2024-03-18,12,Evening,Family / Personal,1
+S0000345,T000087,Bangalore,Mumbai,2024-03-01,2024-04-15,45,Night,Commute,1
+S0000346,T000087,Bangalore,Hyderabad,2024-03-02,2024-03-30,28,Afternoon,Commute,1
+S0000347,T000087,Hyderabad,Mumbai,2024-03-05,2024-03-06,1,Night,Commute,1
+S0000348,T000087,Bangalore,Kolkata,2024-03-15,2024-03-25,10,Night,Commute,1
+S0000349,T000088,Mumbai,Bangalore,2024-03-13,2024-04-28,46,Evening,Commute,3
+S0000350,T000088,Kolkata,Hyderabad,2024-03-11,2024-03-12,1,Early Morning,Commute,1
+S0000351,T000088,Chennai,Bangalore,2024-03-10,2024-04-23,44,Night,Leisure,1
+S0000352,T000088,Kolkata,Chennai,2024-03-12,2024-04-29,48,Early Morning,Commute,1
+S0000353,T000089,Kolkata,Mumbai,2024-03-10,2024-04-11,32,Night,Commute,1
+S0000354,T000089,Mumbai,Delhi,2024-03-10,2024-03-19,9,Afternoon,Commute,1
+S0000355,T000089,Hyderabad,Mumbai,2024-03-01,2024-03-10,9,Early Morning,Commute,1
+S0000356,T000089,Mumbai,Bangalore,2024-03-01,2024-04-10,40,Evening,Family / Personal,1
+S0000357,T000090,Mumbai,Kolkata,2024-03-06,2024-03-25,19,Evening,Commute,1
+S0000358,T000090,Bangalore,Kolkata,2024-03-11,2024-03-29,18,Afternoon,Commute,1
+S0000359,T000090,Bangalore,Kolkata,2024-03-14,2024-04-24,41,Evening,Leisure,1
+S0000360,T000090,Chennai,Delhi,2024-03-13,2024-04-03,21,Afternoon,Leisure,1
+S0000361,T000091,Bangalore,Delhi,2024-03-05,2024-03-16,11,Afternoon,Commute,1
+S0000362,T000091,Delhi,Mumbai,2024-03-02,2024-03-08,6,Afternoon,Family / Personal,1
+S0000363,T000091,Bangalore,Delhi,2024-03-14,2024-04-09,26,Morning,Commute,3
+S0000364,T000091,Chennai,Bangalore,2024-03-11,2024-04-27,47,Early Morning,Commute,1
+S0000365,T000092,Chennai,Kolkata,2024-03-12,2024-04-18,37,Morning,Commute,1
+S0000366,T000092,Mumbai,Chennai,2024-03-03,2024-03-06,3,Early Morning,Business,1
+S0000367,T000092,Delhi,Hyderabad,2024-03-10,2024-04-18,39,Early Morning,Commute,1
+S0000368,T000092,Delhi,Kolkata,2024-03-01,2024-04-13,43,Night,Commute,3
+S0000369,T000093,Chennai,Delhi,2024-03-07,2024-04-22,46,Night,Family / Personal,1
+S0000370,T000093,Mumbai,Hyderabad,2024-03-08,2024-04-15,38,Evening,Commute,1
+S0000371,T000093,Delhi,Hyderabad,2024-03-14,2024-05-01,48,Night,Commute,1
+S0000372,T000093,Kolkata,Delhi,2024-03-01,2024-03-31,30,Morning,Family / Personal,1
+S0000373,T000094,Bangalore,Hyderabad,2024-03-10,2024-04-16,37,Night,Leisure,1
+S0000374,T000094,Mumbai,Hyderabad,2024-03-13,2024-03-14,1,Evening,Business,1
+S0000375,T000094,Bangalore,Delhi,2024-03-10,2024-04-02,23,Morning,Leisure,1
+S0000376,T000094,Chennai,Mumbai,2024-03-14,2024-04-27,44,Night,Business,1
+S0000377,T000095,Mumbai,Kolkata,2024-03-11,2024-03-21,10,Night,Commute,1
+S0000378,T000095,Delhi,Hyderabad,2024-03-04,2024-03-24,20,Early Morning,Commute,1
+S0000379,T000095,Mumbai,Bangalore,2024-03-01,2024-03-03,2,Early Morning,Commute,2
+S0000380,T000095,Hyderabad,Kolkata,2024-03-07,2024-04-18,42,Early Morning,Commute,1
+S0000381,T000096,Bangalore,Chennai,2024-03-15,2024-04-10,26,Evening,Leisure,1
+S0000382,T000096,Bangalore,Chennai,2024-03-04,2024-03-16,12,Afternoon,Commute,1
+S0000383,T000096,Mumbai,Hyderabad,2024-03-01,2024-03-14,13,Evening,Commute,2
+S0000384,T000096,Mumbai,Chennai,2024-03-12,2024-04-09,28,Evening,Commute,1
+S0000385,T000097,Delhi,Chennai,2024-03-05,2024-03-06,1,Night,Family / Personal,1
+S0000386,T000097,Bangalore,Mumbai,2024-03-09,2024-03-31,22,Night,Commute,1
+S0000387,T000097,Chennai,Bangalore,2024-03-13,2024-04-23,41,Afternoon,Commute,1
+S0000388,T000097,Hyderabad,Kolkata,2024-03-15,2024-04-16,32,Morning,Family / Personal,1
+S0000389,T000098,Mumbai,Hyderabad,2024-03-11,2024-03-30,19,Afternoon,Commute,1
+S0000390,T000098,Delhi,Kolkata,2024-03-07,2024-03-09,2,Night,Commute,1
+S0000391,T000098,Chennai,Bangalore,2024-03-14,2024-04-02,19,Early Morning,Leisure,1
+S0000392,T000098,Mumbai,Bangalore,2024-03-09,2024-04-17,39,Afternoon,Commute,1
+S0000393,T000099,Bangalore,Delhi,2024-03-15,2024-04-02,18,Morning,Commute,2
+S0000394,T000099,Chennai,Kolkata,2024-03-03,2024-03-21,18,Morning,Commute,2
+S0000395,T000099,Hyderabad,Chennai,2024-03-06,2024-04-10,35,Early Morning,Commute,1
+S0000396,T000099,Bangalore,Chennai,2024-03-01,2024-04-05,35,Afternoon,Leisure,1
+S0000397,T000100,Mumbai,Chennai,2024-03-02,2024-03-30,28,Evening,Commute,1
+S0000398,T000100,Bangalore,Kolkata,2024-03-10,2024-03-20,10,Afternoon,Commute,1
+S0000399,T000100,Chennai,Mumbai,2024-03-06,2024-03-26,20,Evening,Commute,1
+S0000400,T000100,Kolkata,Delhi,2024-03-15,2024-04-02,18,Early Morning,Commute,1
+S0000401,T000101,Mumbai,Delhi,2024-03-01,2024-04-13,43,Morning,Commute,2
+S0000402,T000101,Hyderabad,Delhi,2024-03-05,2024-03-08,3,Evening,Business,1
+S0000403,T000101,Bangalore,Chennai,2024-03-06,2024-04-14,39,Evening,Business,1
+S0000404,T000101,Kolkata,Chennai,2024-03-06,2024-03-14,8,Early Morning,Business,1
+S0000405,T000102,Mumbai,Chennai,2024-03-07,2024-03-30,23,Early Morning,Business,1
+S0000406,T000102,Hyderabad,Bangalore,2024-03-09,2024-03-25,16,Early Morning,Business,1
+S0000407,T000102,Delhi,Mumbai,2024-03-06,2024-03-19,13,Night,Commute,1
+S0000408,T000102,Kolkata,Bangalore,2024-03-06,2024-03-13,7,Afternoon,Family / Personal,1
+S0000409,T000103,Kolkata,Hyderabad,2024-03-13,2024-03-19,6,Afternoon,Business,1
+S0000410,T000103,Hyderabad,Kolkata,2024-03-02,2024-04-20,49,Night,Leisure,2
+S0000411,T000103,Hyderabad,Delhi,2024-03-07,2024-04-14,38,Early Morning,Business,1
+S0000412,T000103,Kolkata,Bangalore,2024-03-11,2024-03-12,1,Morning,Business,2
+S0000413,T000104,Hyderabad,Delhi,2024-03-02,2024-03-25,23,Evening,Commute,3
+S0000414,T000104,Chennai,Mumbai,2024-03-06,2024-03-15,9,Evening,Business,1
+S0000415,T000104,Delhi,Kolkata,2024-03-05,2024-03-13,8,Afternoon,Business,1
+S0000416,T000104,Bangalore,Mumbai,2024-03-12,2024-04-10,29,Evening,Business,3
+S0000417,T000105,Bangalore,Hyderabad,2024-03-15,2024-04-14,30,Early Morning,Business,1
+S0000418,T000105,Hyderabad,Mumbai,2024-03-15,2024-04-12,28,Evening,Business,1
+S0000419,T000105,Kolkata,Bangalore,2024-03-14,2024-04-30,47,Early Morning,Business,1
+S0000420,T000105,Bangalore,Mumbai,2024-03-10,2024-04-03,24,Early Morning,Family / Personal,1
+S0000421,T000106,Chennai,Kolkata,2024-03-12,2024-03-16,4,Afternoon,Business,1
+S0000422,T000106,Bangalore,Hyderabad,2024-03-08,2024-04-01,24,Morning,Business,1
+S0000423,T000106,Delhi,Mumbai,2024-03-10,2024-04-07,28,Afternoon,Business,1
+S0000424,T000106,Bangalore,Delhi,2024-03-05,2024-04-16,42,Night,Business,1
+S0000425,T000107,Bangalore,Hyderabad,2024-03-07,2024-03-24,17,Evening,Leisure,1
+S0000426,T000107,Kolkata,Mumbai,2024-03-12,2024-03-22,10,Night,Business,2
+S0000427,T000107,Kolkata,Chennai,2024-03-11,2024-03-13,2,Night,Business,1
+S0000428,T000107,Kolkata,Chennai,2024-03-11,2024-04-26,46,Evening,Leisure,1
+S0000429,T000108,Chennai,Hyderabad,2024-03-11,2024-04-16,36,Night,Family / Personal,1
+S0000430,T000108,Bangalore,Kolkata,2024-03-11,2024-04-06,26,Afternoon,Business,1
+S0000431,T000108,Hyderabad,Kolkata,2024-03-08,2024-04-02,25,Evening,Commute,1
+S0000432,T000108,Chennai,Mumbai,2024-03-07,2024-04-14,38,Afternoon,Leisure,2
+S0000433,T000109,Mumbai,Delhi,2024-03-15,2024-04-25,41,Early Morning,Family / Personal,1
+S0000434,T000109,Chennai,Hyderabad,2024-03-06,2024-03-27,21,Evening,Business,1
+S0000435,T000109,Bangalore,Delhi,2024-03-02,2024-03-30,28,Night,Commute,1
+S0000436,T000109,Hyderabad,Mumbai,2024-03-11,2024-04-26,46,Morning,Business,1
+S0000437,T000110,Bangalore,Mumbai,2024-03-01,2024-03-21,20,Early Morning,Business,1
+S0000438,T000110,Mumbai,Bangalore,2024-03-07,2024-04-10,34,Night,Leisure,1
+S0000439,T000110,Kolkata,Bangalore,2024-03-01,2024-03-08,7,Early Morning,Business,1
+S0000440,T000110,Mumbai,Kolkata,2024-03-13,2024-03-20,7,Early Morning,Business,1
+S0000441,T000111,Mumbai,Kolkata,2024-03-04,2024-04-08,35,Evening,Business,1
+S0000442,T000111,Bangalore,Delhi,2024-03-14,2024-04-03,20,Early Morning,Business,1
+S0000443,T000111,Mumbai,Bangalore,2024-03-15,2024-04-10,26,Early Morning,Business,3
+S0000444,T000111,Chennai,Kolkata,2024-03-15,2024-04-18,34,Morning,Business,1
+S0000445,T000112,Hyderabad,Chennai,2024-03-08,2024-03-10,2,Early Morning,Business,1
+S0000446,T000112,Hyderabad,Kolkata,2024-03-14,2024-03-24,10,Night,Business,1
+S0000447,T000112,Delhi,Mumbai,2024-03-10,2024-04-20,41,Evening,Business,1
+S0000448,T000112,Bangalore,Delhi,2024-03-14,2024-04-30,47,Night,Business,1
+S0000449,T000113,Delhi,Bangalore,2024-03-08,2024-04-19,42,Morning,Leisure,1
+S0000450,T000113,Chennai,Bangalore,2024-03-08,2024-04-06,29,Morning,Business,1
+S0000451,T000113,Bangalore,Chennai,2024-03-10,2024-04-07,28,Early Morning,Leisure,1
+S0000452,T000113,Chennai,Bangalore,2024-03-14,2024-03-21,7,Morning,Business,1
+S0000453,T000114,Delhi,Kolkata,2024-03-02,2024-03-15,13,Evening,Commute,1
+S0000454,T000114,Mumbai,Bangalore,2024-03-07,2024-03-17,10,Evening,Business,1
+S0000455,T000114,Hyderabad,Kolkata,2024-03-05,2024-03-20,15,Evening,Business,1
+S0000456,T000114,Kolkata,Chennai,2024-03-05,2024-03-29,24,Night,Business,1
+S0000457,T000115,Kolkata,Hyderabad,2024-03-08,2024-03-24,16,Night,Business,1
+S0000458,T000115,Mumbai,Delhi,2024-03-14,2024-04-24,41,Evening,Commute,1
+S0000459,T000115,Bangalore,Hyderabad,2024-03-08,2024-03-31,23,Night,Business,2
+S0000460,T000115,Bangalore,Kolkata,2024-03-07,2024-03-11,4,Early Morning,Commute,1
+S0000461,T000116,Hyderabad,Delhi,2024-03-13,2024-03-20,7,Night,Business,1
+S0000462,T000116,Kolkata,Bangalore,2024-03-07,2024-04-03,27,Night,Business,1
+S0000463,T000116,Chennai,Mumbai,2024-03-06,2024-04-09,34,Evening,Business,2
+S0000464,T000116,Chennai,Hyderabad,2024-03-04,2024-03-20,16,Afternoon,Business,1
+S0000465,T000117,Bangalore,Kolkata,2024-03-08,2024-04-04,27,Night,Business,1
+S0000466,T000117,Kolkata,Chennai,2024-03-15,2024-04-20,36,Afternoon,Family / Personal,1
+S0000467,T000117,Chennai,Bangalore,2024-03-02,2024-04-14,43,Early Morning,Business,1
+S0000468,T000117,Bangalore,Hyderabad,2024-03-01,2024-03-07,6,Morning,Leisure,1
+S0000469,T000118,Hyderabad,Chennai,2024-03-07,2024-04-22,46,Evening,Leisure,1
+S0000470,T000118,Delhi,Hyderabad,2024-03-01,2024-03-21,20,Evening,Business,1
+S0000471,T000118,Mumbai,Kolkata,2024-03-08,2024-03-13,5,Morning,Business,1
+S0000472,T000118,Bangalore,Kolkata,2024-03-15,2024-03-27,12,Night,Business,1
+S0000473,T000119,Hyderabad,Bangalore,2024-03-03,2024-03-10,7,Early Morning,Family / Personal,1
+S0000474,T000119,Kolkata,Delhi,2024-03-03,2024-04-10,38,Night,Business,2
+S0000475,T000119,Hyderabad,Bangalore,2024-03-08,2024-03-14,6,Afternoon,Business,1
+S0000476,T000119,Kolkata,Delhi,2024-03-03,2024-04-14,42,Evening,Business,1
+S0000477,T000120,Hyderabad,Chennai,2024-03-15,2024-03-30,15,Evening,Business,1
+S0000478,T000120,Bangalore,Chennai,2024-03-09,2024-04-20,42,Evening,Business,2
+S0000479,T000120,Kolkata,Mumbai,2024-03-08,2024-03-25,17,Afternoon,Business,1
+S0000480,T000120,Chennai,Kolkata,2024-03-03,2024-03-20,17,Night,Business,1
+S0000481,T000121,Delhi,Hyderabad,2024-03-06,2024-03-21,15,Evening,Business,1
+S0000482,T000121,Chennai,Bangalore,2024-03-14,2024-04-03,20,Night,Business,1
+S0000483,T000121,Chennai,Delhi,2024-03-14,2024-04-20,37,Afternoon,Business,1
+S0000484,T000121,Delhi,Kolkata,2024-03-08,2024-03-26,18,Morning,Business,1
+S0000485,T000122,Bangalore,Chennai,2024-03-01,2024-03-28,27,Early Morning,Business,1
+S0000486,T000122,Delhi,Kolkata,2024-03-01,2024-03-13,12,Night,Business,1
+S0000487,T000122,Kolkata,Bangalore,2024-03-04,2024-03-16,12,Night,Leisure,1
+S0000488,T000122,Chennai,Hyderabad,2024-03-03,2024-03-15,12,Night,Leisure,1
+S0000489,T000123,Hyderabad,Chennai,2024-03-08,2024-04-09,32,Early Morning,Business,1
+S0000490,T000123,Delhi,Kolkata,2024-03-09,2024-03-24,15,Morning,Commute,1
+S0000491,T000123,Bangalore,Mumbai,2024-03-13,2024-04-04,22,Afternoon,Leisure,1
+S0000492,T000123,Kolkata,Hyderabad,2024-03-01,2024-04-15,45,Evening,Commute,1
+S0000493,T000124,Hyderabad,Delhi,2024-03-11,2024-03-15,4,Afternoon,Business,1
+S0000494,T000124,Mumbai,Kolkata,2024-03-01,2024-03-07,6,Early Morning,Business,1
+S0000495,T000124,Bangalore,Kolkata,2024-03-07,2024-03-29,22,Night,Business,2
+S0000496,T000124,Hyderabad,Kolkata,2024-03-04,2024-04-09,36,Afternoon,Business,1
+S0000497,T000125,Hyderabad,Delhi,2024-03-05,2024-04-22,48,Afternoon,Business,1
+S0000498,T000125,Hyderabad,Mumbai,2024-03-05,2024-03-22,17,Early Morning,Leisure,1
+S0000499,T000125,Chennai,Bangalore,2024-03-09,2024-03-24,15,Afternoon,Business,1
+S0000500,T000125,Bangalore,Chennai,2024-03-09,2024-04-13,35,Morning,Business,1
+S0000501,T000126,Delhi,Kolkata,2024-03-03,2024-04-14,42,Night,Business,1
+S0000502,T000126,Hyderabad,Chennai,2024-03-04,2024-03-27,23,Night,Business,1
+S0000503,T000126,Kolkata,Delhi,2024-03-03,2024-04-06,34,Afternoon,Business,2
+S0000504,T000126,Hyderabad,Bangalore,2024-03-02,2024-03-14,12,Early Morning,Business,1
+S0000505,T000127,Kolkata,Mumbai,2024-03-01,2024-04-10,40,Afternoon,Commute,1
+S0000506,T000127,Mumbai,Hyderabad,2024-03-02,2024-04-03,32,Morning,Business,3
+S0000507,T000127,Mumbai,Delhi,2024-03-15,2024-04-12,28,Afternoon,Business,3
+S0000508,T000127,Delhi,Hyderabad,2024-03-09,2024-03-21,12,Night,Business,1
+S0000509,T000128,Bangalore,Mumbai,2024-03-02,2024-03-13,11,Early Morning,Leisure,1
+S0000510,T000128,Hyderabad,Bangalore,2024-03-05,2024-03-22,17,Night,Business,1
+S0000511,T000128,Mumbai,Hyderabad,2024-03-04,2024-03-30,26,Morning,Leisure,1
+S0000512,T000128,Delhi,Mumbai,2024-03-06,2024-03-26,20,Night,Business,1
+S0000513,T000129,Kolkata,Delhi,2024-03-02,2024-04-07,36,Afternoon,Family / Personal,1
+S0000514,T000129,Bangalore,Hyderabad,2024-03-13,2024-04-07,25,Evening,Commute,1
+S0000515,T000129,Kolkata,Mumbai,2024-03-01,2024-04-18,48,Night,Business,1
+S0000516,T000129,Chennai,Delhi,2024-03-01,2024-04-17,47,Afternoon,Commute,3
+S0000517,T000130,Chennai,Mumbai,2024-03-11,2024-04-24,44,Evening,Business,1
+S0000518,T000130,Delhi,Chennai,2024-03-09,2024-03-31,22,Morning,Business,1
+S0000519,T000130,Kolkata,Bangalore,2024-03-06,2024-03-13,7,Early Morning,Business,1
+S0000520,T000130,Bangalore,Mumbai,2024-03-02,2024-03-09,7,Morning,Business,1
+S0000521,T000131,Kolkata,Chennai,2024-03-11,2024-03-27,16,Early Morning,Commute,1
+S0000522,T000131,Delhi,Bangalore,2024-03-06,2024-03-22,16,Afternoon,Business,1
+S0000523,T000131,Hyderabad,Chennai,2024-03-01,2024-04-14,44,Evening,Commute,1
+S0000524,T000131,Bangalore,Kolkata,2024-03-11,2024-04-06,26,Evening,Business,1
+S0000525,T000132,Delhi,Chennai,2024-03-10,2024-04-23,44,Morning,Leisure,1
+S0000526,T000132,Delhi,Mumbai,2024-03-03,2024-04-10,38,Night,Family / Personal,1
+S0000527,T000132,Mumbai,Chennai,2024-03-04,2024-04-09,36,Afternoon,Business,1
+S0000528,T000132,Chennai,Kolkata,2024-03-02,2024-03-05,3,Evening,Family / Personal,1
+S0000529,T000133,Bangalore,Kolkata,2024-03-03,2024-04-05,33,Evening,Business,1
+S0000530,T000133,Kolkata,Bangalore,2024-03-15,2024-04-23,39,Morning,Business,1
+S0000531,T000133,Mumbai,Delhi,2024-03-06,2024-03-18,12,Night,Business,1
+S0000532,T000133,Mumbai,Hyderabad,2024-03-15,2024-03-23,8,Night,Business,2
+S0000533,T000134,Chennai,Hyderabad,2024-03-02,2024-03-20,18,Morning,Family / Personal,1
+S0000534,T000134,Delhi,Hyderabad,2024-03-02,2024-04-03,32,Morning,Business,1
+S0000535,T000134,Hyderabad,Delhi,2024-03-08,2024-04-01,24,Night,Business,1
+S0000536,T000134,Mumbai,Kolkata,2024-03-04,2024-03-13,9,Morning,Business,1
+S0000537,T000135,Delhi,Hyderabad,2024-03-12,2024-03-20,8,Morning,Business,1
+S0000538,T000135,Mumbai,Bangalore,2024-03-08,2024-03-17,9,Night,Leisure,1
+S0000539,T000135,Hyderabad,Mumbai,2024-03-07,2024-04-19,43,Morning,Commute,1
+S0000540,T000135,Delhi,Kolkata,2024-03-10,2024-04-16,37,Early Morning,Business,2
+S0000541,T000136,Chennai,Delhi,2024-03-06,2024-03-18,12,Night,Business,1
+S0000542,T000136,Bangalore,Mumbai,2024-03-15,2024-04-14,30,Night,Business,1
+S0000543,T000136,Delhi,Kolkata,2024-03-10,2024-04-25,46,Morning,Family / Personal,1
+S0000544,T000136,Bangalore,Hyderabad,2024-03-07,2024-03-16,9,Early Morning,Business,1
+S0000545,T000137,Bangalore,Hyderabad,2024-03-05,2024-03-15,10,Afternoon,Business,1
+S0000546,T000137,Kolkata,Delhi,2024-03-04,2024-03-27,23,Night,Business,1
+S0000547,T000137,Bangalore,Chennai,2024-03-02,2024-04-13,42,Early Morning,Family / Personal,1
+S0000548,T000137,Bangalore,Kolkata,2024-03-13,2024-04-28,46,Evening,Commute,1
+S0000549,T000138,Chennai,Kolkata,2024-03-05,2024-03-24,19,Night,Business,1
+S0000550,T000138,Delhi,Mumbai,2024-03-12,2024-03-22,10,Afternoon,Business,1
+S0000551,T000138,Mumbai,Kolkata,2024-03-13,2024-03-15,2,Afternoon,Commute,1
+S0000552,T000138,Hyderabad,Bangalore,2024-03-06,2024-04-20,45,Night,Commute,2
+S0000553,T000139,Delhi,Hyderabad,2024-03-05,2024-04-12,38,Night,Business,1
+S0000554,T000139,Kolkata,Hyderabad,2024-03-11,2024-04-13,33,Evening,Leisure,1
+S0000555,T000139,Bangalore,Hyderabad,2024-03-15,2024-03-26,11,Early Morning,Business,3
+S0000556,T000139,Bangalore,Delhi,2024-03-10,2024-04-14,35,Evening,Commute,1
+S0000557,T000140,Hyderabad,Chennai,2024-03-14,2024-03-22,8,Afternoon,Commute,1
+S0000558,T000140,Kolkata,Hyderabad,2024-03-04,2024-04-03,30,Afternoon,Business,1
+S0000559,T000140,Bangalore,Mumbai,2024-03-02,2024-03-07,5,Early Morning,Business,1
+S0000560,T000140,Hyderabad,Kolkata,2024-03-13,2024-04-30,48,Afternoon,Commute,1
+S0000561,T000141,Hyderabad,Chennai,2024-03-15,2024-04-27,43,Early Morning,Business,1
+S0000562,T000141,Mumbai,Chennai,2024-03-15,2024-04-13,29,Evening,Family / Personal,1
+S0000563,T000141,Hyderabad,Bangalore,2024-03-01,2024-03-30,29,Morning,Business,1
+S0000564,T000141,Delhi,Bangalore,2024-03-06,2024-03-27,21,Evening,Commute,1
+S0000565,T000142,Kolkata,Delhi,2024-03-14,2024-04-02,19,Early Morning,Business,1
+S0000566,T000142,Bangalore,Hyderabad,2024-03-11,2024-04-13,33,Afternoon,Business,2
+S0000567,T000142,Chennai,Mumbai,2024-03-11,2024-03-26,15,Evening,Business,1
+S0000568,T000142,Chennai,Bangalore,2024-03-11,2024-03-19,8,Early Morning,Family / Personal,1
+S0000569,T000143,Delhi,Bangalore,2024-03-01,2024-04-14,44,Morning,Business,1
+S0000570,T000143,Hyderabad,Chennai,2024-03-05,2024-03-06,1,Afternoon,Business,1
+S0000571,T000143,Delhi,Hyderabad,2024-03-04,2024-04-06,33,Evening,Business,1
+S0000572,T000143,Mumbai,Bangalore,2024-03-15,2024-04-26,42,Evening,Business,1
+S0000573,T000144,Delhi,Mumbai,2024-03-04,2024-04-12,39,Evening,Business,1
+S0000574,T000144,Delhi,Mumbai,2024-03-15,2024-04-06,22,Morning,Business,1
+S0000575,T000144,Delhi,Bangalore,2024-03-02,2024-03-29,27,Night,Commute,1
+S0000576,T000144,Hyderabad,Mumbai,2024-03-04,2024-03-25,21,Afternoon,Business,1
+S0000577,T000145,Delhi,Mumbai,2024-03-12,2024-04-17,36,Morning,Business,1
+S0000578,T000145,Hyderabad,Kolkata,2024-03-15,2024-03-26,11,Afternoon,Business,1
+S0000579,T000145,Hyderabad,Delhi,2024-03-04,2024-03-07,3,Early Morning,Business,1
+S0000580,T000145,Kolkata,Chennai,2024-03-07,2024-03-11,4,Evening,Business,1
+S0000581,T000146,Hyderabad,Bangalore,2024-03-05,2024-04-21,47,Night,Commute,1
+S0000582,T000146,Chennai,Delhi,2024-03-05,2024-04-09,35,Night,Business,1
+S0000583,T000146,Bangalore,Hyderabad,2024-03-04,2024-04-18,45,Early Morning,Business,1
+S0000584,T000146,Kolkata,Hyderabad,2024-03-08,2024-04-19,42,Evening,Leisure,1
+S0000585,T000147,Mumbai,Delhi,2024-03-10,2024-04-24,45,Evening,Business,1
+S0000586,T000147,Kolkata,Chennai,2024-03-13,2024-03-31,18,Night,Business,1
+S0000587,T000147,Bangalore,Kolkata,2024-03-02,2024-04-10,39,Night,Business,1
+S0000588,T000147,Delhi,Mumbai,2024-03-08,2024-03-31,23,Afternoon,Business,1
+S0000589,T000148,Mumbai,Delhi,2024-03-03,2024-04-12,40,Morning,Business,1
+S0000590,T000148,Kolkata,Delhi,2024-03-07,2024-03-22,15,Early Morning,Business,1
+S0000591,T000148,Bangalore,Chennai,2024-03-09,2024-04-19,41,Morning,Business,1
+S0000592,T000148,Kolkata,Chennai,2024-03-15,2024-04-20,36,Evening,Commute,1
+S0000593,T000149,Kolkata,Chennai,2024-03-11,2024-03-30,19,Morning,Commute,1
+S0000594,T000149,Bangalore,Mumbai,2024-03-11,2024-03-19,8,Afternoon,Leisure,1
+S0000595,T000149,Mumbai,Bangalore,2024-03-10,2024-04-21,42,Evening,Business,1
+S0000596,T000149,Bangalore,Kolkata,2024-03-10,2024-03-17,7,Early Morning,Business,1
+S0000597,T000150,Chennai,Hyderabad,2024-03-15,2024-03-31,16,Night,Business,1
+S0000598,T000150,Mumbai,Chennai,2024-03-09,2024-04-09,31,Night,Leisure,1
+S0000599,T000150,Bangalore,Delhi,2024-03-10,2024-04-15,36,Afternoon,Business,1
+S0000600,T000150,Hyderabad,Kolkata,2024-03-13,2024-04-14,32,Morning,Family / Personal,1
+S0000601,T000151,Mumbai,Hyderabad,2024-03-04,2024-04-03,30,Morning,Business,1
+S0000602,T000151,Mumbai,Delhi,2024-03-07,2024-03-31,24,Night,Commute,1
+S0000603,T000151,Hyderabad,Chennai,2024-03-15,2024-03-26,11,Night,Leisure,1
+S0000604,T000151,Mumbai,Bangalore,2024-03-09,2024-04-19,41,Night,Family / Personal,1
+S0000605,T000152,Bangalore,Hyderabad,2024-03-06,2024-03-15,9,Night,Business,1
+S0000606,T000152,Hyderabad,Mumbai,2024-03-01,2024-03-05,4,Afternoon,Business,1
+S0000607,T000152,Chennai,Mumbai,2024-03-08,2024-03-23,15,Evening,Business,1
+S0000608,T000152,Mumbai,Hyderabad,2024-03-06,2024-03-22,16,Early Morning,Business,1
+S0000609,T000153,Bangalore,Mumbai,2024-03-03,2024-03-06,3,Morning,Business,2
+S0000610,T000153,Kolkata,Delhi,2024-03-04,2024-04-20,47,Night,Commute,1
+S0000611,T000153,Kolkata,Delhi,2024-03-07,2024-03-14,7,Evening,Commute,1
+S0000612,T000153,Delhi,Bangalore,2024-03-07,2024-03-17,10,Evening,Business,1
+S0000613,T000154,Bangalore,Hyderabad,2024-03-02,2024-04-03,32,Afternoon,Business,1
+S0000614,T000154,Kolkata,Delhi,2024-03-01,2024-04-03,33,Early Morning,Leisure,2
+S0000615,T000154,Delhi,Kolkata,2024-03-02,2024-04-16,45,Morning,Business,1
+S0000616,T000154,Kolkata,Hyderabad,2024-03-14,2024-03-22,8,Evening,Business,1
+S0000617,T000155,Hyderabad,Mumbai,2024-03-10,2024-04-11,32,Evening,Business,1
+S0000618,T000155,Hyderabad,Chennai,2024-03-06,2024-03-09,3,Morning,Business,1
+S0000619,T000155,Hyderabad,Kolkata,2024-03-06,2024-04-05,30,Evening,Business,1
+S0000620,T000155,Kolkata,Bangalore,2024-03-09,2024-03-13,4,Morning,Business,1
+S0000621,T000156,Bangalore,Chennai,2024-03-14,2024-03-28,14,Afternoon,Leisure,1
+S0000622,T000156,Hyderabad,Delhi,2024-03-11,2024-04-16,36,Evening,Business,1
+S0000623,T000156,Mumbai,Delhi,2024-03-03,2024-03-14,11,Evening,Business,1
+S0000624,T000156,Bangalore,Mumbai,2024-03-09,2024-03-19,10,Evening,Business,1
+S0000625,T000157,Hyderabad,Delhi,2024-03-11,2024-03-13,2,Afternoon,Business,1
+S0000626,T000157,Delhi,Chennai,2024-03-01,2024-03-15,14,Evening,Business,3
+S0000627,T000157,Hyderabad,Chennai,2024-03-09,2024-03-13,4,Night,Business,1
+S0000628,T000157,Hyderabad,Mumbai,2024-03-12,2024-04-22,41,Early Morning,Business,1
+S0000629,T000158,Kolkata,Bangalore,2024-03-05,2024-03-22,17,Morning,Business,1
+S0000630,T000158,Delhi,Mumbai,2024-03-02,2024-03-08,6,Morning,Business,1
+S0000631,T000158,Hyderabad,Delhi,2024-03-11,2024-03-12,1,Evening,Business,1
+S0000632,T000158,Chennai,Delhi,2024-03-04,2024-04-10,37,Morning,Business,1
+S0000633,T000159,Mumbai,Chennai,2024-03-07,2024-03-28,21,Afternoon,Business,1
+S0000634,T000159,Bangalore,Hyderabad,2024-03-13,2024-03-23,10,Afternoon,Business,1
+S0000635,T000159,Kolkata,Hyderabad,2024-03-12,2024-04-20,39,Morning,Business,1
+S0000636,T000159,Kolkata,Bangalore,2024-03-05,2024-03-19,14,Afternoon,Commute,1
+S0000637,T000160,Hyderabad,Delhi,2024-03-09,2024-04-14,36,Night,Business,1
+S0000638,T000160,Hyderabad,Mumbai,2024-03-08,2024-03-30,22,Evening,Business,1
+S0000639,T000160,Chennai,Bangalore,2024-03-09,2024-03-31,22,Morning,Business,1
+S0000640,T000160,Delhi,Bangalore,2024-03-09,2024-04-05,27,Night,Leisure,2
+S0000641,T000161,Kolkata,Delhi,2024-03-02,2024-03-24,22,Early Morning,Commute,1
+S0000642,T000161,Hyderabad,Chennai,2024-03-11,2024-03-16,5,Afternoon,Business,1
+S0000643,T000161,Chennai,Mumbai,2024-03-08,2024-04-06,29,Evening,Leisure,1
+S0000644,T000161,Bangalore,Chennai,2024-03-07,2024-03-16,9,Night,Business,1
+S0000645,T000162,Delhi,Chennai,2024-03-15,2024-04-30,46,Evening,Business,1
+S0000646,T000162,Delhi,Kolkata,2024-03-02,2024-03-18,16,Afternoon,Business,1
+S0000647,T000162,Mumbai,Chennai,2024-03-12,2024-04-28,47,Morning,Commute,1
+S0000648,T000162,Kolkata,Chennai,2024-03-04,2024-04-21,48,Morning,Business,1
+S0000649,T000163,Kolkata,Delhi,2024-03-02,2024-04-02,31,Afternoon,Business,1
+S0000650,T000163,Kolkata,Delhi,2024-03-12,2024-04-23,42,Morning,Business,1
+S0000651,T000163,Kolkata,Mumbai,2024-03-05,2024-04-03,29,Early Morning,Business,1
+S0000652,T000163,Kolkata,Bangalore,2024-03-01,2024-03-02,1,Evening,Commute,1
+S0000653,T000164,Hyderabad,Bangalore,2024-03-11,2024-03-25,14,Evening,Business,1
+S0000654,T000164,Chennai,Delhi,2024-03-03,2024-04-19,47,Early Morning,Business,1
+S0000655,T000164,Mumbai,Hyderabad,2024-03-11,2024-04-14,34,Morning,Business,1
+S0000656,T000164,Kolkata,Mumbai,2024-03-02,2024-04-07,36,Afternoon,Business,3
+S0000657,T000165,Delhi,Bangalore,2024-03-14,2024-04-26,43,Evening,Business,1
+S0000658,T000165,Bangalore,Mumbai,2024-03-15,2024-04-25,41,Early Morning,Business,1
+S0000659,T000165,Mumbai,Delhi,2024-03-03,2024-03-09,6,Morning,Leisure,1
+S0000660,T000165,Kolkata,Chennai,2024-03-04,2024-04-16,43,Night,Business,1
+S0000661,T000166,Chennai,Delhi,2024-03-14,2024-04-27,44,Early Morning,Business,1
+S0000662,T000166,Delhi,Kolkata,2024-03-06,2024-03-27,21,Afternoon,Business,1
+S0000663,T000166,Kolkata,Hyderabad,2024-03-07,2024-04-05,29,Early Morning,Business,1
+S0000664,T000166,Kolkata,Bangalore,2024-03-08,2024-03-30,22,Night,Leisure,1
+S0000665,T000167,Hyderabad,Mumbai,2024-03-10,2024-04-05,26,Early Morning,Leisure,1
+S0000666,T000167,Mumbai,Kolkata,2024-03-12,2024-03-29,17,Afternoon,Commute,1
+S0000667,T000167,Bangalore,Chennai,2024-03-01,2024-04-05,35,Morning,Leisure,1
+S0000668,T000167,Kolkata,Hyderabad,2024-03-13,2024-04-23,41,Morning,Business,1
+S0000669,T000168,Mumbai,Kolkata,2024-03-10,2024-03-13,3,Afternoon,Business,1
+S0000670,T000168,Delhi,Chennai,2024-03-15,2024-03-25,10,Early Morning,Business,2
+S0000671,T000168,Bangalore,Kolkata,2024-03-01,2024-03-25,24,Morning,Commute,1
+S0000672,T000168,Kolkata,Delhi,2024-03-03,2024-03-07,4,Evening,Business,1
+S0000673,T000169,Chennai,Kolkata,2024-03-07,2024-04-11,35,Evening,Business,1
+S0000674,T000169,Hyderabad,Delhi,2024-03-09,2024-04-15,37,Night,Business,1
+S0000675,T000169,Delhi,Kolkata,2024-03-11,2024-04-17,37,Night,Business,1
+S0000676,T000169,Kolkata,Chennai,2024-03-02,2024-03-28,26,Early Morning,Business,1
+S0000677,T000170,Chennai,Mumbai,2024-03-08,2024-04-11,34,Night,Business,1
+S0000678,T000170,Delhi,Hyderabad,2024-03-07,2024-04-01,25,Morning,Leisure,1
+S0000679,T000170,Bangalore,Delhi,2024-03-09,2024-04-02,24,Afternoon,Commute,1
+S0000680,T000170,Hyderabad,Kolkata,2024-03-02,2024-03-16,14,Afternoon,Business,1
+S0000681,T000171,Delhi,Hyderabad,2024-03-13,2024-04-27,45,Afternoon,Business,1
+S0000682,T000171,Kolkata,Mumbai,2024-03-13,2024-03-31,18,Night,Family / Personal,1
+S0000683,T000171,Mumbai,Kolkata,2024-03-14,2024-04-30,47,Early Morning,Business,1
+S0000684,T000171,Hyderabad,Chennai,2024-03-09,2024-04-06,28,Afternoon,Business,1
+S0000685,T000172,Bangalore,Chennai,2024-03-01,2024-04-19,49,Morning,Business,1
+S0000686,T000172,Delhi,Chennai,2024-03-03,2024-04-09,37,Afternoon,Family / Personal,1
+S0000687,T000172,Kolkata,Bangalore,2024-03-03,2024-04-16,44,Night,Family / Personal,1
+S0000688,T000172,Bangalore,Hyderabad,2024-03-01,2024-03-15,14,Early Morning,Business,1
+S0000689,T000173,Mumbai,Hyderabad,2024-03-11,2024-04-05,25,Morning,Business,1
+S0000690,T000173,Kolkata,Hyderabad,2024-03-13,2024-04-23,41,Morning,Commute,1
+S0000691,T000173,Mumbai,Bangalore,2024-03-15,2024-04-25,41,Morning,Leisure,2
+S0000692,T000173,Mumbai,Chennai,2024-03-08,2024-04-13,36,Night,Business,1
+S0000693,T000174,Bangalore,Chennai,2024-03-10,2024-03-24,14,Afternoon,Business,1
+S0000694,T000174,Hyderabad,Mumbai,2024-03-07,2024-04-03,27,Afternoon,Business,1
+S0000695,T000174,Kolkata,Chennai,2024-03-02,2024-03-29,27,Night,Business,1
+S0000696,T000174,Mumbai,Chennai,2024-03-12,2024-04-02,21,Evening,Commute,1
+S0000697,T000175,Delhi,Kolkata,2024-03-09,2024-03-25,16,Afternoon,Business,3
+S0000698,T000175,Bangalore,Delhi,2024-03-05,2024-03-22,17,Night,Business,1
+S0000699,T000175,Delhi,Mumbai,2024-03-04,2024-04-17,44,Evening,Business,1
+S0000700,T000175,Mumbai,Chennai,2024-03-05,2024-03-14,9,Morning,Business,1
+S0000701,T000176,Delhi,Hyderabad,2024-03-15,2024-04-06,22,Night,Commute,1
+S0000702,T000176,Hyderabad,Mumbai,2024-03-15,2024-04-13,29,Early Morning,Commute,1
+S0000703,T000176,Kolkata,Bangalore,2024-03-12,2024-03-23,11,Evening,Commute,1
+S0000704,T000176,Mumbai,Chennai,2024-03-15,2024-04-28,44,Morning,Commute,1
+S0000705,T000177,Chennai,Mumbai,2024-03-11,2024-04-13,33,Night,Business,1
+S0000706,T000177,Kolkata,Mumbai,2024-03-06,2024-03-14,8,Afternoon,Leisure,1
+S0000707,T000177,Chennai,Hyderabad,2024-03-08,2024-03-29,21,Night,Business,1
+S0000708,T000177,Hyderabad,Chennai,2024-03-05,2024-04-12,38,Morning,Commute,1
+S0000709,T000178,Hyderabad,Kolkata,2024-03-11,2024-03-16,5,Morning,Business,1
+S0000710,T000178,Mumbai,Bangalore,2024-03-15,2024-04-27,43,Afternoon,Family / Personal,1
+S0000711,T000178,Bangalore,Delhi,2024-03-03,2024-03-26,23,Evening,Business,1
+S0000712,T000178,Mumbai,Delhi,2024-03-14,2024-04-17,34,Morning,Business,1
+S0000713,T000179,Bangalore,Chennai,2024-03-08,2024-04-25,48,Morning,Business,1
+S0000714,T000179,Delhi,Kolkata,2024-03-04,2024-04-09,36,Evening,Business,1
+S0000715,T000179,Hyderabad,Kolkata,2024-03-08,2024-04-12,35,Afternoon,Commute,1
+S0000716,T000179,Chennai,Kolkata,2024-03-02,2024-04-14,43,Early Morning,Business,1
+S0000717,T000180,Mumbai,Bangalore,2024-03-15,2024-03-19,4,Evening,Commute,1
+S0000718,T000180,Mumbai,Kolkata,2024-03-08,2024-03-10,2,Early Morning,Business,1
+S0000719,T000180,Chennai,Hyderabad,2024-03-12,2024-04-05,24,Afternoon,Business,1
+S0000720,T000180,Mumbai,Bangalore,2024-03-04,2024-04-19,46,Afternoon,Business,1
+S0000721,T000181,Kolkata,Hyderabad,2024-03-08,2024-04-21,44,Evening,Family / Personal,1
+S0000722,T000181,Kolkata,Mumbai,2024-03-06,2024-03-16,10,Afternoon,Business,1
+S0000723,T000181,Hyderabad,Chennai,2024-03-06,2024-03-09,3,Night,Business,1
+S0000724,T000181,Chennai,Kolkata,2024-03-15,2024-03-18,3,Night,Business,1
+S0000725,T000182,Hyderabad,Mumbai,2024-03-07,2024-03-27,20,Evening,Business,1
+S0000726,T000182,Mumbai,Bangalore,2024-03-14,2024-03-24,10,Evening,Business,1
+S0000727,T000182,Hyderabad,Delhi,2024-03-06,2024-03-22,16,Early Morning,Business,1
+S0000728,T000182,Hyderabad,Kolkata,2024-03-09,2024-04-17,39,Early Morning,Commute,1
+S0000729,T000183,Bangalore,Mumbai,2024-03-11,2024-03-23,12,Afternoon,Business,1
+S0000730,T000183,Delhi,Kolkata,2024-03-06,2024-04-01,26,Morning,Business,1
+S0000731,T000183,Delhi,Bangalore,2024-03-08,2024-03-17,9,Night,Business,1
+S0000732,T000183,Kolkata,Mumbai,2024-03-02,2024-04-07,36,Evening,Business,1
+S0000733,T000184,Chennai,Mumbai,2024-03-14,2024-03-23,9,Morning,Business,1
+S0000734,T000184,Delhi,Chennai,2024-03-11,2024-04-07,27,Afternoon,Business,1
+S0000735,T000184,Bangalore,Mumbai,2024-03-10,2024-03-25,15,Early Morning,Business,1
+S0000736,T000184,Hyderabad,Chennai,2024-03-13,2024-03-17,4,Evening,Commute,1
+S0000737,T000185,Hyderabad,Mumbai,2024-03-01,2024-03-09,8,Morning,Business,1
+S0000738,T000185,Kolkata,Bangalore,2024-03-02,2024-04-20,49,Night,Business,1
+S0000739,T000185,Hyderabad,Bangalore,2024-03-11,2024-04-07,27,Evening,Business,1
+S0000740,T000185,Bangalore,Hyderabad,2024-03-06,2024-04-17,42,Morning,Commute,1
+S0000741,T000186,Hyderabad,Kolkata,2024-03-05,2024-04-20,46,Morning,Business,1
+S0000742,T000186,Mumbai,Delhi,2024-03-05,2024-03-24,19,Afternoon,Family / Personal,2
+S0000743,T000186,Chennai,Kolkata,2024-03-05,2024-03-14,9,Afternoon,Business,1
+S0000744,T000186,Chennai,Mumbai,2024-03-15,2024-04-22,38,Afternoon,Business,1
+S0000745,T000187,Chennai,Kolkata,2024-03-02,2024-04-10,39,Night,Leisure,1
+S0000746,T000187,Hyderabad,Delhi,2024-03-15,2024-04-28,44,Evening,Business,1
+S0000747,T000187,Mumbai,Bangalore,2024-03-09,2024-03-25,16,Evening,Business,1
+S0000748,T000187,Chennai,Hyderabad,2024-03-12,2024-04-27,46,Morning,Business,1
+S0000749,T000188,Hyderabad,Bangalore,2024-03-11,2024-04-07,27,Afternoon,Business,1
+S0000750,T000188,Delhi,Hyderabad,2024-03-06,2024-03-07,1,Night,Business,1
+S0000751,T000188,Chennai,Delhi,2024-03-11,2024-03-17,6,Afternoon,Commute,1
+S0000752,T000188,Chennai,Kolkata,2024-03-14,2024-05-01,48,Early Morning,Business,1
+S0000753,T000189,Bangalore,Hyderabad,2024-03-11,2024-03-28,17,Afternoon,Business,1
+S0000754,T000189,Kolkata,Chennai,2024-03-05,2024-04-20,46,Early Morning,Business,1
+S0000755,T000189,Mumbai,Bangalore,2024-03-13,2024-04-03,21,Evening,Commute,1
+S0000756,T000189,Kolkata,Chennai,2024-03-01,2024-03-29,28,Night,Commute,1
+S0000757,T000190,Chennai,Bangalore,2024-03-15,2024-04-10,26,Afternoon,Commute,1
+S0000758,T000190,Mumbai,Kolkata,2024-03-08,2024-03-30,22,Early Morning,Commute,1
+S0000759,T000190,Delhi,Hyderabad,2024-03-01,2024-03-31,30,Night,Commute,1
+S0000760,T000190,Delhi,Chennai,2024-03-13,2024-04-09,27,Evening,Business,1
+S0000761,T000191,Hyderabad,Kolkata,2024-03-14,2024-03-27,13,Morning,Leisure,1
+S0000762,T000191,Delhi,Chennai,2024-03-14,2024-04-26,43,Early Morning,Business,1
+S0000763,T000191,Delhi,Mumbai,2024-03-09,2024-03-28,19,Night,Leisure,1
+S0000764,T000191,Mumbai,Hyderabad,2024-03-06,2024-03-27,21,Night,Business,1
+S0000765,T000192,Bangalore,Hyderabad,2024-03-04,2024-03-30,26,Morning,Commute,1
+S0000766,T000192,Delhi,Kolkata,2024-03-01,2024-04-15,45,Night,Business,1
+S0000767,T000192,Delhi,Chennai,2024-03-03,2024-04-06,34,Evening,Business,1
+S0000768,T000192,Kolkata,Hyderabad,2024-03-03,2024-03-08,5,Early Morning,Commute,2
+S0000769,T000193,Kolkata,Chennai,2024-03-09,2024-04-16,38,Evening,Business,1
+S0000770,T000193,Delhi,Mumbai,2024-03-11,2024-03-15,4,Afternoon,Business,1
+S0000771,T000193,Delhi,Bangalore,2024-03-11,2024-04-19,39,Afternoon,Business,1
+S0000772,T000193,Mumbai,Hyderabad,2024-03-15,2024-04-18,34,Morning,Commute,1
+S0000773,T000194,Bangalore,Delhi,2024-03-09,2024-04-21,43,Early Morning,Business,1
+S0000774,T000194,Hyderabad,Mumbai,2024-03-12,2024-03-28,16,Early Morning,Leisure,1
+S0000775,T000194,Chennai,Delhi,2024-03-12,2024-03-22,10,Evening,Business,3
+S0000776,T000194,Bangalore,Chennai,2024-03-02,2024-03-05,3,Morning,Family / Personal,1
+S0000777,T000195,Bangalore,Chennai,2024-03-05,2024-03-18,13,Afternoon,Business,1
+S0000778,T000195,Bangalore,Chennai,2024-03-10,2024-04-10,31,Afternoon,Business,1
+S0000779,T000195,Hyderabad,Delhi,2024-03-11,2024-04-27,47,Afternoon,Business,1
+S0000780,T000195,Bangalore,Mumbai,2024-03-03,2024-04-20,48,Early Morning,Business,1
+S0000781,T000196,Hyderabad,Bangalore,2024-03-07,2024-04-10,34,Early Morning,Business,2
+S0000782,T000196,Delhi,Hyderabad,2024-03-10,2024-04-18,39,Afternoon,Business,1
+S0000783,T000196,Mumbai,Bangalore,2024-03-08,2024-03-26,18,Evening,Business,1
+S0000784,T000196,Bangalore,Chennai,2024-03-14,2024-03-28,14,Evening,Business,1
+S0000785,T000197,Bangalore,Mumbai,2024-03-14,2024-03-20,6,Morning,Business,1
+S0000786,T000197,Kolkata,Bangalore,2024-03-10,2024-03-20,10,Afternoon,Business,1
+S0000787,T000197,Chennai,Mumbai,2024-03-02,2024-03-21,19,Early Morning,Business,1
+S0000788,T000197,Bangalore,Hyderabad,2024-03-05,2024-03-15,10,Evening,Business,1
+S0000789,T000198,Mumbai,Chennai,2024-03-03,2024-03-27,24,Morning,Commute,1
+S0000790,T000198,Hyderabad,Bangalore,2024-03-01,2024-03-06,5,Early Morning,Business,1
+S0000791,T000198,Delhi,Hyderabad,2024-03-15,2024-03-18,3,Afternoon,Business,1
+S0000792,T000198,Chennai,Mumbai,2024-03-14,2024-04-11,28,Night,Leisure,1
+S0000793,T000199,Mumbai,Chennai,2024-03-13,2024-04-19,37,Early Morning,Commute,1
+S0000794,T000199,Delhi,Kolkata,2024-03-15,2024-04-13,29,Afternoon,Business,1
+S0000795,T000199,Chennai,Kolkata,2024-03-13,2024-05-01,49,Night,Business,1
+S0000796,T000199,Delhi,Mumbai,2024-03-10,2024-04-16,37,Early Morning,Business,1
+S0000797,T000200,Bangalore,Hyderabad,2024-03-05,2024-03-14,9,Afternoon,Commute,1
+S0000798,T000200,Kolkata,Chennai,2024-03-12,2024-03-18,6,Evening,Commute,1
+S0000799,T000200,Mumbai,Kolkata,2024-03-14,2024-04-26,43,Evening,Commute,2
+S0000800,T000200,Chennai,Bangalore,2024-03-06,2024-04-04,29,Evening,Business,1
+S0000801,T000201,Chennai,Delhi,2024-03-08,2024-04-10,33,Morning,Leisure,2
+S0000802,T000201,Kolkata,Delhi,2024-03-14,2024-04-20,37,Evening,Leisure,3
+S0000803,T000201,Kolkata,Delhi,2024-03-06,2024-03-12,6,Evening,Commute,2
+S0000804,T000201,Chennai,Bangalore,2024-03-15,2024-04-05,21,Afternoon,Leisure,2
+S0000805,T000202,Mumbai,Kolkata,2024-03-05,2024-03-13,8,Night,Leisure,3
+S0000806,T000202,Delhi,Bangalore,2024-03-07,2024-04-23,47,Night,Leisure,1
+S0000807,T000202,Chennai,Kolkata,2024-03-01,2024-03-28,27,Morning,Family / Personal,2
+S0000808,T000202,Kolkata,Chennai,2024-03-08,2024-04-10,33,Night,Leisure,3
+S0000809,T000203,Hyderabad,Mumbai,2024-03-11,2024-04-20,40,Early Morning,Leisure,1
+S0000810,T000203,Chennai,Hyderabad,2024-03-13,2024-03-18,5,Afternoon,Leisure,1
+S0000811,T000203,Mumbai,Delhi,2024-03-03,2024-03-18,15,Afternoon,Family / Personal,2
+S0000812,T000203,Chennai,Kolkata,2024-03-13,2024-04-12,30,Night,Leisure,2
+S0000813,T000204,Kolkata,Chennai,2024-03-07,2024-04-12,36,Night,Leisure,2
+S0000814,T000204,Hyderabad,Bangalore,2024-03-15,2024-03-25,10,Night,Leisure,1
+S0000815,T000204,Mumbai,Hyderabad,2024-03-11,2024-03-26,15,Afternoon,Leisure,2
+S0000816,T000204,Delhi,Chennai,2024-03-02,2024-04-08,37,Night,Leisure,1
+S0000817,T000205,Mumbai,Chennai,2024-03-06,2024-04-14,39,Night,Family / Personal,4
+S0000818,T000205,Chennai,Kolkata,2024-03-08,2024-04-10,33,Afternoon,Leisure,2
+S0000819,T000205,Chennai,Delhi,2024-03-09,2024-03-16,7,Morning,Commute,4
+S0000820,T000205,Delhi,Mumbai,2024-03-01,2024-04-12,42,Morning,Leisure,2
+S0000821,T000206,Bangalore,Mumbai,2024-03-06,2024-03-26,20,Morning,Leisure,1
+S0000822,T000206,Mumbai,Bangalore,2024-03-08,2024-04-06,29,Morning,Leisure,1
+S0000823,T000206,Bangalore,Kolkata,2024-03-12,2024-03-20,8,Morning,Leisure,1
+S0000824,T000206,Hyderabad,Bangalore,2024-03-14,2024-03-30,16,Evening,Leisure,2
+S0000825,T000207,Delhi,Mumbai,2024-03-08,2024-04-20,43,Evening,Family / Personal,3
+S0000826,T000207,Chennai,Kolkata,2024-03-04,2024-04-15,42,Afternoon,Leisure,2
+S0000827,T000207,Chennai,Mumbai,2024-03-03,2024-03-18,15,Night,Leisure,2
+S0000828,T000207,Kolkata,Chennai,2024-03-05,2024-04-20,46,Afternoon,Leisure,2
+S0000829,T000208,Chennai,Mumbai,2024-03-14,2024-03-18,4,Evening,Leisure,1
+S0000830,T000208,Delhi,Mumbai,2024-03-05,2024-04-07,33,Night,Leisure,1
+S0000831,T000208,Hyderabad,Chennai,2024-03-01,2024-03-18,17,Morning,Leisure,2
+S0000832,T000208,Mumbai,Bangalore,2024-03-13,2024-04-11,29,Morning,Leisure,2
+S0000833,T000209,Chennai,Mumbai,2024-03-12,2024-04-06,25,Evening,Leisure,4
+S0000834,T000209,Hyderabad,Chennai,2024-03-05,2024-03-25,20,Night,Family / Personal,3
+S0000835,T000209,Mumbai,Delhi,2024-03-01,2024-04-19,49,Night,Leisure,2
+S0000836,T000209,Hyderabad,Kolkata,2024-03-13,2024-03-31,18,Night,Leisure,4
+S0000837,T000210,Bangalore,Hyderabad,2024-03-05,2024-03-11,6,Night,Family / Personal,2
+S0000838,T000210,Delhi,Mumbai,2024-03-14,2024-04-24,41,Evening,Leisure,1
+S0000839,T000210,Hyderabad,Kolkata,2024-03-06,2024-03-26,20,Evening,Business,1
+S0000840,T000210,Mumbai,Kolkata,2024-03-15,2024-04-13,29,Evening,Family / Personal,1
+S0000841,T000211,Mumbai,Chennai,2024-03-04,2024-03-24,20,Night,Leisure,2
+S0000842,T000211,Bangalore,Delhi,2024-03-03,2024-04-14,42,Morning,Leisure,1
+S0000843,T000211,Chennai,Mumbai,2024-03-01,2024-03-29,28,Afternoon,Leisure,3
+S0000844,T000211,Bangalore,Mumbai,2024-03-02,2024-04-10,39,Night,Leisure,1
+S0000845,T000212,Kolkata,Hyderabad,2024-03-13,2024-04-13,31,Early Morning,Leisure,1
+S0000846,T000212,Delhi,Kolkata,2024-03-03,2024-03-16,13,Afternoon,Family / Personal,1
+S0000847,T000212,Chennai,Mumbai,2024-03-15,2024-04-16,32,Evening,Commute,1
+S0000848,T000212,Chennai,Hyderabad,2024-03-10,2024-04-05,26,Early Morning,Leisure,2
+S0000849,T000213,Hyderabad,Chennai,2024-03-05,2024-03-08,3,Evening,Commute,3
+S0000850,T000213,Delhi,Chennai,2024-03-06,2024-04-01,26,Evening,Leisure,4
+S0000851,T000213,Hyderabad,Chennai,2024-03-06,2024-03-31,25,Afternoon,Leisure,2
+S0000852,T000213,Kolkata,Mumbai,2024-03-11,2024-04-03,23,Morning,Leisure,2
+S0000853,T000214,Mumbai,Kolkata,2024-03-14,2024-04-25,42,Early Morning,Leisure,1
+S0000854,T000214,Chennai,Delhi,2024-03-05,2024-03-16,11,Afternoon,Leisure,1
+S0000855,T000214,Mumbai,Delhi,2024-03-08,2024-03-21,13,Evening,Leisure,4
+S0000856,T000214,Delhi,Kolkata,2024-03-07,2024-04-21,45,Afternoon,Business,2
+S0000857,T000215,Kolkata,Delhi,2024-03-08,2024-04-25,48,Night,Leisure,1
+S0000858,T000215,Kolkata,Chennai,2024-03-01,2024-04-17,47,Night,Leisure,1
+S0000859,T000215,Kolkata,Delhi,2024-03-02,2024-03-16,14,Evening,Leisure,4
+S0000860,T000215,Kolkata,Bangalore,2024-03-05,2024-03-15,10,Night,Family / Personal,1
+S0000861,T000216,Mumbai,Chennai,2024-03-05,2024-04-16,42,Evening,Leisure,2
+S0000862,T000216,Bangalore,Mumbai,2024-03-13,2024-03-15,2,Afternoon,Leisure,2
+S0000863,T000216,Bangalore,Mumbai,2024-03-03,2024-03-04,1,Afternoon,Family / Personal,2
+S0000864,T000216,Chennai,Bangalore,2024-03-03,2024-04-06,34,Afternoon,Family / Personal,3
+S0000865,T000217,Bangalore,Hyderabad,2024-03-14,2024-04-03,20,Early Morning,Leisure,3
+S0000866,T000217,Delhi,Hyderabad,2024-03-11,2024-03-13,2,Early Morning,Leisure,3
+S0000867,T000217,Kolkata,Hyderabad,2024-03-04,2024-03-31,27,Morning,Leisure,3
+S0000868,T000217,Mumbai,Chennai,2024-03-01,2024-03-23,22,Afternoon,Leisure,1
+S0000869,T000218,Mumbai,Chennai,2024-03-08,2024-03-11,3,Early Morning,Leisure,2
+S0000870,T000218,Bangalore,Chennai,2024-03-10,2024-04-17,38,Evening,Leisure,3
+S0000871,T000218,Mumbai,Bangalore,2024-03-15,2024-04-05,21,Evening,Leisure,1
+S0000872,T000218,Kolkata,Hyderabad,2024-03-10,2024-03-21,11,Afternoon,Leisure,2
+S0000873,T000219,Kolkata,Mumbai,2024-03-08,2024-03-14,6,Night,Leisure,2
+S0000874,T000219,Kolkata,Bangalore,2024-03-08,2024-04-26,49,Early Morning,Leisure,2
+S0000875,T000219,Kolkata,Bangalore,2024-03-15,2024-04-21,37,Early Morning,Leisure,1
+S0000876,T000219,Mumbai,Chennai,2024-03-11,2024-04-19,39,Afternoon,Family / Personal,1
+S0000877,T000220,Chennai,Bangalore,2024-03-14,2024-03-30,16,Morning,Leisure,3
+S0000878,T000220,Mumbai,Delhi,2024-03-11,2024-03-14,3,Night,Leisure,2
+S0000879,T000220,Bangalore,Chennai,2024-03-10,2024-04-21,42,Morning,Family / Personal,2
+S0000880,T000220,Hyderabad,Delhi,2024-03-15,2024-04-05,21,Morning,Family / Personal,2
+S0000881,T000221,Delhi,Mumbai,2024-03-03,2024-03-28,25,Evening,Leisure,2
+S0000882,T000221,Hyderabad,Chennai,2024-03-05,2024-03-17,12,Early Morning,Leisure,2
+S0000883,T000221,Mumbai,Chennai,2024-03-02,2024-03-24,22,Early Morning,Leisure,4
+S0000884,T000221,Delhi,Kolkata,2024-03-06,2024-03-23,17,Evening,Business,2
+S0000885,T000222,Chennai,Hyderabad,2024-03-05,2024-03-31,26,Evening,Leisure,2
+S0000886,T000222,Kolkata,Bangalore,2024-03-02,2024-03-04,2,Afternoon,Family / Personal,1
+S0000887,T000222,Bangalore,Mumbai,2024-03-01,2024-03-23,22,Early Morning,Family / Personal,2
+S0000888,T000222,Delhi,Hyderabad,2024-03-03,2024-03-30,27,Afternoon,Leisure,2
+S0000889,T000223,Chennai,Kolkata,2024-03-08,2024-03-12,4,Early Morning,Leisure,2
+S0000890,T000223,Hyderabad,Bangalore,2024-03-06,2024-04-22,47,Early Morning,Leisure,2
+S0000891,T000223,Chennai,Hyderabad,2024-03-05,2024-04-08,34,Night,Business,2
+S0000892,T000223,Bangalore,Kolkata,2024-03-06,2024-04-15,40,Evening,Leisure,2
+S0000893,T000224,Kolkata,Bangalore,2024-03-14,2024-04-04,21,Evening,Leisure,3
+S0000894,T000224,Hyderabad,Mumbai,2024-03-14,2024-04-19,36,Morning,Leisure,2
+S0000895,T000224,Chennai,Delhi,2024-03-14,2024-04-14,31,Afternoon,Leisure,2
+S0000896,T000224,Delhi,Bangalore,2024-03-02,2024-03-25,23,Evening,Leisure,1
+S0000897,T000225,Delhi,Bangalore,2024-03-04,2024-03-17,13,Afternoon,Leisure,1
+S0000898,T000225,Hyderabad,Delhi,2024-03-15,2024-03-20,5,Morning,Leisure,1
+S0000899,T000225,Kolkata,Mumbai,2024-03-03,2024-04-02,30,Morning,Leisure,2
+S0000900,T000225,Mumbai,Delhi,2024-03-09,2024-04-21,43,Morning,Leisure,3
+S0000901,T000226,Mumbai,Hyderabad,2024-03-02,2024-03-03,1,Night,Family / Personal,1
+S0000902,T000226,Bangalore,Kolkata,2024-03-05,2024-03-26,21,Evening,Leisure,2
+S0000903,T000226,Delhi,Mumbai,2024-03-07,2024-04-05,29,Afternoon,Family / Personal,1
+S0000904,T000226,Kolkata,Delhi,2024-03-09,2024-03-11,2,Night,Leisure,2
+S0000905,T000227,Bangalore,Hyderabad,2024-03-14,2024-03-25,11,Night,Leisure,2
+S0000906,T000227,Chennai,Bangalore,2024-03-07,2024-04-16,40,Afternoon,Family / Personal,4
+S0000907,T000227,Hyderabad,Chennai,2024-03-01,2024-03-21,20,Morning,Leisure,2
+S0000908,T000227,Bangalore,Chennai,2024-03-02,2024-03-20,18,Afternoon,Family / Personal,4
+S0000909,T000228,Bangalore,Hyderabad,2024-03-08,2024-03-23,15,Evening,Family / Personal,1
+S0000910,T000228,Delhi,Kolkata,2024-03-01,2024-03-22,21,Early Morning,Leisure,3
+S0000911,T000228,Hyderabad,Bangalore,2024-03-13,2024-04-27,45,Afternoon,Leisure,2
+S0000912,T000228,Kolkata,Hyderabad,2024-03-10,2024-04-18,39,Evening,Leisure,1
+S0000913,T000229,Bangalore,Chennai,2024-03-13,2024-03-29,16,Night,Leisure,4
+S0000914,T000229,Mumbai,Delhi,2024-03-11,2024-03-30,19,Afternoon,Leisure,1
+S0000915,T000229,Delhi,Hyderabad,2024-03-06,2024-04-08,33,Morning,Leisure,2
+S0000916,T000229,Chennai,Delhi,2024-03-03,2024-03-25,22,Early Morning,Family / Personal,1
+S0000917,T000230,Delhi,Hyderabad,2024-03-09,2024-03-28,19,Morning,Family / Personal,3
+S0000918,T000230,Mumbai,Hyderabad,2024-03-02,2024-04-07,36,Evening,Business,2
+S0000919,T000230,Mumbai,Delhi,2024-03-09,2024-04-10,32,Early Morning,Leisure,1
+S0000920,T000230,Hyderabad,Delhi,2024-03-04,2024-03-17,13,Afternoon,Leisure,2
+S0000921,T000231,Chennai,Bangalore,2024-03-06,2024-03-24,18,Night,Leisure,1
+S0000922,T000231,Mumbai,Bangalore,2024-03-04,2024-03-12,8,Afternoon,Leisure,3
+S0000923,T000231,Kolkata,Chennai,2024-03-06,2024-03-10,4,Morning,Leisure,3
+S0000924,T000231,Mumbai,Hyderabad,2024-03-02,2024-03-09,7,Morning,Leisure,2
+S0000925,T000232,Bangalore,Hyderabad,2024-03-03,2024-04-02,30,Night,Leisure,3
+S0000926,T000232,Delhi,Chennai,2024-03-12,2024-03-18,6,Night,Leisure,2
+S0000927,T000232,Delhi,Kolkata,2024-03-02,2024-03-15,13,Evening,Leisure,3
+S0000928,T000232,Bangalore,Delhi,2024-03-09,2024-03-19,10,Night,Family / Personal,2
+S0000929,T000233,Delhi,Mumbai,2024-03-09,2024-04-22,44,Evening,Leisure,1
+S0000930,T000233,Bangalore,Delhi,2024-03-13,2024-04-19,37,Afternoon,Business,2
+S0000931,T000233,Kolkata,Delhi,2024-03-09,2024-04-08,30,Early Morning,Leisure,2
+S0000932,T000233,Chennai,Hyderabad,2024-03-10,2024-04-11,32,Night,Leisure,3
+S0000933,T000234,Chennai,Mumbai,2024-03-04,2024-03-21,17,Evening,Leisure,2
+S0000934,T000234,Delhi,Mumbai,2024-03-08,2024-03-12,4,Afternoon,Leisure,2
+S0000935,T000234,Mumbai,Hyderabad,2024-03-06,2024-04-19,44,Night,Leisure,1
+S0000936,T000234,Chennai,Hyderabad,2024-03-10,2024-03-16,6,Early Morning,Family / Personal,2
+S0000937,T000235,Bangalore,Chennai,2024-03-04,2024-03-18,14,Night,Leisure,3
+S0000938,T000235,Hyderabad,Mumbai,2024-03-04,2024-04-05,32,Afternoon,Leisure,3
+S0000939,T000235,Bangalore,Hyderabad,2024-03-06,2024-03-13,7,Afternoon,Leisure,1
+S0000940,T000235,Bangalore,Hyderabad,2024-03-12,2024-04-11,30,Night,Family / Personal,3
+S0000941,T000236,Mumbai,Bangalore,2024-03-14,2024-03-21,7,Evening,Leisure,2
+S0000942,T000236,Bangalore,Kolkata,2024-03-10,2024-03-13,3,Evening,Leisure,1
+S0000943,T000236,Kolkata,Hyderabad,2024-03-05,2024-04-13,39,Early Morning,Leisure,1
+S0000944,T000236,Mumbai,Delhi,2024-03-09,2024-04-20,42,Night,Leisure,2
+S0000945,T000237,Mumbai,Bangalore,2024-03-08,2024-04-02,25,Night,Business,3
+S0000946,T000237,Mumbai,Kolkata,2024-03-09,2024-04-16,38,Morning,Leisure,1
+S0000947,T000237,Kolkata,Mumbai,2024-03-15,2024-04-10,26,Morning,Family / Personal,4
+S0000948,T000237,Delhi,Mumbai,2024-03-11,2024-04-28,48,Afternoon,Leisure,2
+S0000949,T000238,Chennai,Delhi,2024-03-05,2024-04-19,45,Morning,Leisure,3
+S0000950,T000238,Kolkata,Delhi,2024-03-09,2024-04-15,37,Night,Leisure,1
+S0000951,T000238,Delhi,Chennai,2024-03-04,2024-03-25,21,Early Morning,Leisure,3
+S0000952,T000238,Delhi,Chennai,2024-03-14,2024-04-26,43,Early Morning,Leisure,1
+S0000953,T000239,Bangalore,Chennai,2024-03-03,2024-03-12,9,Afternoon,Leisure,3
+S0000954,T000239,Bangalore,Kolkata,2024-03-06,2024-04-08,33,Evening,Commute,2
+S0000955,T000239,Bangalore,Delhi,2024-03-06,2024-04-13,38,Night,Leisure,4
+S0000956,T000239,Kolkata,Bangalore,2024-03-13,2024-03-27,14,Night,Leisure,3
+S0000957,T000240,Delhi,Kolkata,2024-03-04,2024-03-17,13,Afternoon,Family / Personal,1
+S0000958,T000240,Mumbai,Bangalore,2024-03-15,2024-03-30,15,Evening,Family / Personal,2
+S0000959,T000240,Mumbai,Delhi,2024-03-12,2024-04-06,25,Night,Commute,1
+S0000960,T000240,Kolkata,Delhi,2024-03-14,2024-03-25,11,Afternoon,Leisure,2
+S0000961,T000241,Mumbai,Chennai,2024-03-13,2024-03-24,11,Night,Leisure,2
+S0000962,T000241,Hyderabad,Chennai,2024-03-06,2024-04-19,44,Afternoon,Business,2
+S0000963,T000241,Delhi,Hyderabad,2024-03-03,2024-03-06,3,Morning,Leisure,1
+S0000964,T000241,Hyderabad,Bangalore,2024-03-10,2024-04-12,33,Night,Leisure,1
+S0000965,T000242,Delhi,Bangalore,2024-03-09,2024-04-23,45,Early Morning,Leisure,3
+S0000966,T000242,Bangalore,Kolkata,2024-03-03,2024-04-20,48,Morning,Leisure,2
+S0000967,T000242,Chennai,Kolkata,2024-03-15,2024-04-20,36,Early Morning,Family / Personal,2
+S0000968,T000242,Chennai,Hyderabad,2024-03-05,2024-03-27,22,Night,Leisure,1
+S0000969,T000243,Hyderabad,Bangalore,2024-03-13,2024-04-28,46,Night,Leisure,1
+S0000970,T000243,Bangalore,Kolkata,2024-03-08,2024-04-10,33,Evening,Leisure,1
+S0000971,T000243,Chennai,Kolkata,2024-03-01,2024-04-13,43,Early Morning,Leisure,2
+S0000972,T000243,Delhi,Mumbai,2024-03-06,2024-04-09,34,Evening,Leisure,2
+S0000973,T000244,Hyderabad,Delhi,2024-03-14,2024-05-02,49,Night,Leisure,2
+S0000974,T000244,Mumbai,Delhi,2024-03-14,2024-03-20,6,Morning,Leisure,4
+S0000975,T000244,Mumbai,Bangalore,2024-03-08,2024-03-11,3,Evening,Leisure,2
+S0000976,T000244,Mumbai,Delhi,2024-03-05,2024-04-12,38,Evening,Commute,2
+S0000977,T000245,Chennai,Kolkata,2024-03-10,2024-04-19,40,Night,Leisure,2
+S0000978,T000245,Hyderabad,Kolkata,2024-03-10,2024-03-23,13,Afternoon,Leisure,3
+S0000979,T000245,Mumbai,Bangalore,2024-03-08,2024-04-08,31,Afternoon,Business,1
+S0000980,T000245,Chennai,Delhi,2024-03-03,2024-04-13,41,Evening,Leisure,2
+S0000981,T000246,Hyderabad,Delhi,2024-03-03,2024-03-21,18,Afternoon,Family / Personal,2
+S0000982,T000246,Bangalore,Mumbai,2024-03-01,2024-03-18,17,Afternoon,Leisure,3
+S0000983,T000246,Bangalore,Kolkata,2024-03-10,2024-03-19,9,Early Morning,Leisure,1
+S0000984,T000246,Kolkata,Delhi,2024-03-01,2024-03-10,9,Early Morning,Family / Personal,2
+S0000985,T000247,Bangalore,Mumbai,2024-03-09,2024-03-29,20,Morning,Leisure,2
+S0000986,T000247,Delhi,Hyderabad,2024-03-11,2024-04-26,46,Evening,Leisure,2
+S0000987,T000247,Chennai,Kolkata,2024-03-14,2024-04-26,43,Morning,Family / Personal,4
+S0000988,T000247,Chennai,Kolkata,2024-03-13,2024-04-12,30,Evening,Business,1
+S0000989,T000248,Hyderabad,Delhi,2024-03-06,2024-04-23,48,Night,Family / Personal,1
+S0000990,T000248,Chennai,Mumbai,2024-03-15,2024-04-05,21,Morning,Leisure,2
+S0000991,T000248,Mumbai,Delhi,2024-03-14,2024-03-25,11,Morning,Leisure,4
+S0000992,T000248,Delhi,Mumbai,2024-03-14,2024-04-03,20,Morning,Leisure,1
+S0000993,T000249,Delhi,Kolkata,2024-03-04,2024-03-07,3,Morning,Leisure,2
+S0000994,T000249,Bangalore,Kolkata,2024-03-15,2024-04-08,24,Early Morning,Leisure,1
+S0000995,T000249,Kolkata,Delhi,2024-03-11,2024-04-10,30,Evening,Leisure,2
+S0000996,T000249,Chennai,Mumbai,2024-03-06,2024-04-23,48,Morning,Family / Personal,2
+S0000997,T000250,Bangalore,Mumbai,2024-03-14,2024-03-29,15,Evening,Leisure,2
+S0000998,T000250,Bangalore,Kolkata,2024-03-06,2024-03-14,8,Early Morning,Leisure,2
+S0000999,T000250,Chennai,Kolkata,2024-03-07,2024-04-04,28,Evening,Family / Personal,2
+S0001000,T000250,Mumbai,Chennai,2024-03-11,2024-03-18,7,Early Morning,Leisure,1
+S0001001,T000251,Bangalore,Chennai,2024-03-01,2024-04-04,34,Early Morning,Family / Personal,1
+S0001002,T000251,Mumbai,Chennai,2024-03-14,2024-04-05,22,Evening,Leisure,3
+S0001003,T000251,Mumbai,Delhi,2024-03-08,2024-03-24,16,Night,Business,3
+S0001004,T000251,Bangalore,Kolkata,2024-03-04,2024-03-15,11,Morning,Leisure,2
+S0001005,T000252,Delhi,Bangalore,2024-03-09,2024-04-20,42,Afternoon,Family / Personal,2
+S0001006,T000252,Chennai,Bangalore,2024-03-07,2024-04-06,30,Early Morning,Leisure,1
+S0001007,T000252,Chennai,Delhi,2024-03-11,2024-04-11,31,Evening,Leisure,2
+S0001008,T000252,Bangalore,Hyderabad,2024-03-01,2024-03-19,18,Evening,Family / Personal,1
+S0001009,T000253,Mumbai,Kolkata,2024-03-06,2024-03-20,14,Early Morning,Leisure,1
+S0001010,T000253,Bangalore,Kolkata,2024-03-09,2024-04-09,31,Night,Commute,1
+S0001011,T000253,Kolkata,Delhi,2024-03-03,2024-03-28,25,Morning,Leisure,2
+S0001012,T000253,Bangalore,Delhi,2024-03-08,2024-04-25,48,Early Morning,Leisure,1
+S0001013,T000254,Mumbai,Kolkata,2024-03-15,2024-04-03,19,Night,Leisure,2
+S0001014,T000254,Chennai,Delhi,2024-03-08,2024-04-21,44,Evening,Leisure,3
+S0001015,T000254,Kolkata,Chennai,2024-03-14,2024-04-05,22,Evening,Commute,2
+S0001016,T000254,Chennai,Bangalore,2024-03-04,2024-03-24,20,Morning,Leisure,4
+S0001017,T000255,Hyderabad,Mumbai,2024-03-09,2024-03-19,10,Afternoon,Leisure,1
+S0001018,T000255,Bangalore,Kolkata,2024-03-12,2024-04-01,20,Night,Leisure,2
+S0001019,T000255,Chennai,Kolkata,2024-03-10,2024-04-02,23,Early Morning,Family / Personal,2
+S0001020,T000255,Delhi,Kolkata,2024-03-07,2024-03-25,18,Night,Leisure,1
+S0001021,T000256,Mumbai,Delhi,2024-03-08,2024-03-21,13,Evening,Leisure,3
+S0001022,T000256,Delhi,Kolkata,2024-03-01,2024-03-15,14,Night,Leisure,2
+S0001023,T000256,Delhi,Hyderabad,2024-03-08,2024-03-26,18,Morning,Family / Personal,2
+S0001024,T000256,Bangalore,Kolkata,2024-03-15,2024-04-29,45,Morning,Leisure,3
+S0001025,T000257,Delhi,Kolkata,2024-03-05,2024-04-04,30,Night,Leisure,1
+S0001026,T000257,Bangalore,Delhi,2024-03-04,2024-03-31,27,Early Morning,Family / Personal,2
+S0001027,T000257,Mumbai,Kolkata,2024-03-13,2024-03-26,13,Evening,Leisure,1
+S0001028,T000257,Mumbai,Hyderabad,2024-03-01,2024-04-09,39,Early Morning,Leisure,2
+S0001029,T000258,Chennai,Delhi,2024-03-12,2024-04-09,28,Night,Leisure,4
+S0001030,T000258,Delhi,Chennai,2024-03-02,2024-04-09,38,Morning,Commute,2
+S0001031,T000258,Delhi,Mumbai,2024-03-05,2024-04-06,32,Morning,Leisure,1
+S0001032,T000258,Chennai,Bangalore,2024-03-06,2024-04-13,38,Morning,Commute,1
+S0001033,T000259,Hyderabad,Mumbai,2024-03-04,2024-03-18,14,Night,Family / Personal,2
+S0001034,T000259,Hyderabad,Delhi,2024-03-09,2024-04-02,24,Early Morning,Family / Personal,4
+S0001035,T000259,Mumbai,Bangalore,2024-03-10,2024-04-06,27,Morning,Leisure,4
+S0001036,T000259,Chennai,Hyderabad,2024-03-09,2024-04-01,23,Afternoon,Family / Personal,1
+S0001037,T000260,Kolkata,Chennai,2024-03-05,2024-03-17,12,Night,Leisure,1
+S0001038,T000260,Bangalore,Chennai,2024-03-14,2024-03-24,10,Evening,Leisure,3
+S0001039,T000260,Delhi,Kolkata,2024-03-02,2024-03-20,18,Early Morning,Family / Personal,2
+S0001040,T000260,Kolkata,Hyderabad,2024-03-09,2024-03-23,14,Afternoon,Leisure,4
+S0001041,T000261,Bangalore,Kolkata,2024-03-03,2024-04-15,43,Evening,Leisure,2
+S0001042,T000261,Chennai,Kolkata,2024-03-12,2024-04-20,39,Night,Leisure,2
+S0001043,T000261,Kolkata,Hyderabad,2024-03-02,2024-04-10,39,Afternoon,Leisure,2
+S0001044,T000261,Kolkata,Chennai,2024-03-13,2024-03-24,11,Evening,Leisure,1
+S0001045,T000262,Kolkata,Chennai,2024-03-13,2024-03-18,5,Morning,Family / Personal,3
+S0001046,T000262,Mumbai,Chennai,2024-03-06,2024-04-15,40,Afternoon,Leisure,1
+S0001047,T000262,Mumbai,Hyderabad,2024-03-12,2024-04-14,33,Morning,Leisure,1
+S0001048,T000262,Delhi,Bangalore,2024-03-01,2024-03-10,9,Afternoon,Family / Personal,2
+S0001049,T000263,Mumbai,Hyderabad,2024-03-07,2024-04-02,26,Morning,Family / Personal,2
+S0001050,T000263,Bangalore,Chennai,2024-03-03,2024-04-19,47,Morning,Family / Personal,2
+S0001051,T000263,Chennai,Mumbai,2024-03-03,2024-03-26,23,Afternoon,Leisure,1
+S0001052,T000263,Chennai,Hyderabad,2024-03-14,2024-03-29,15,Morning,Family / Personal,4
+S0001053,T000264,Bangalore,Delhi,2024-03-01,2024-03-06,5,Afternoon,Leisure,3
+S0001054,T000264,Chennai,Kolkata,2024-03-07,2024-04-21,45,Morning,Family / Personal,2
+S0001055,T000264,Kolkata,Bangalore,2024-03-06,2024-03-26,20,Morning,Family / Personal,2
+S0001056,T000264,Bangalore,Mumbai,2024-03-06,2024-04-20,45,Night,Leisure,2
+S0001057,T000265,Chennai,Bangalore,2024-03-01,2024-03-06,5,Evening,Leisure,2
+S0001058,T000265,Bangalore,Mumbai,2024-03-15,2024-04-06,22,Afternoon,Family / Personal,3
+S0001059,T000265,Hyderabad,Chennai,2024-03-09,2024-04-26,48,Afternoon,Family / Personal,2
+S0001060,T000265,Delhi,Hyderabad,2024-03-15,2024-04-07,23,Evening,Leisure,3
+S0001061,T000266,Mumbai,Chennai,2024-03-03,2024-04-05,33,Early Morning,Leisure,2
+S0001062,T000266,Delhi,Bangalore,2024-03-14,2024-03-19,5,Evening,Leisure,3
+S0001063,T000266,Delhi,Kolkata,2024-03-03,2024-03-24,21,Morning,Leisure,2
+S0001064,T000266,Delhi,Chennai,2024-03-09,2024-03-20,11,Morning,Leisure,1
+S0001065,T000267,Chennai,Hyderabad,2024-03-15,2024-04-10,26,Night,Leisure,2
+S0001066,T000267,Kolkata,Delhi,2024-03-07,2024-04-24,48,Morning,Leisure,2
+S0001067,T000267,Kolkata,Chennai,2024-03-02,2024-04-18,47,Night,Family / Personal,1
+S0001068,T000267,Kolkata,Chennai,2024-03-09,2024-04-24,46,Afternoon,Leisure,1
+S0001069,T000268,Chennai,Hyderabad,2024-03-13,2024-03-22,9,Afternoon,Leisure,2
+S0001070,T000268,Mumbai,Delhi,2024-03-15,2024-03-23,8,Night,Family / Personal,1
+S0001071,T000268,Mumbai,Chennai,2024-03-09,2024-03-24,15,Evening,Family / Personal,2
+S0001072,T000268,Chennai,Mumbai,2024-03-08,2024-04-03,26,Early Morning,Family / Personal,2
+S0001073,T000269,Bangalore,Delhi,2024-03-06,2024-04-08,33,Morning,Leisure,2
+S0001074,T000269,Hyderabad,Kolkata,2024-03-15,2024-03-23,8,Night,Family / Personal,1
+S0001075,T000269,Delhi,Bangalore,2024-03-08,2024-03-17,9,Morning,Leisure,4
+S0001076,T000269,Bangalore,Chennai,2024-03-10,2024-04-06,27,Afternoon,Leisure,2
+S0001077,T000270,Bangalore,Hyderabad,2024-03-03,2024-03-13,10,Morning,Leisure,2
+S0001078,T000270,Hyderabad,Mumbai,2024-03-15,2024-03-17,2,Morning,Leisure,1
+S0001079,T000270,Chennai,Hyderabad,2024-03-09,2024-03-25,16,Afternoon,Leisure,1
+S0001080,T000270,Delhi,Chennai,2024-03-01,2024-03-27,26,Evening,Leisure,2
+S0001081,T000271,Delhi,Hyderabad,2024-03-10,2024-04-15,36,Morning,Leisure,3
+S0001082,T000271,Mumbai,Delhi,2024-03-11,2024-03-23,12,Morning,Leisure,1
+S0001083,T000271,Delhi,Mumbai,2024-03-10,2024-03-14,4,Afternoon,Commute,2
+S0001084,T000271,Delhi,Mumbai,2024-03-11,2024-04-24,44,Evening,Leisure,2
+S0001085,T000272,Hyderabad,Mumbai,2024-03-05,2024-04-06,32,Morning,Family / Personal,3
+S0001086,T000272,Bangalore,Chennai,2024-03-08,2024-04-19,42,Early Morning,Leisure,2
+S0001087,T000272,Mumbai,Chennai,2024-03-15,2024-04-22,38,Morning,Leisure,3
+S0001088,T000272,Hyderabad,Mumbai,2024-03-02,2024-03-08,6,Night,Leisure,2
+S0001089,T000273,Bangalore,Hyderabad,2024-03-04,2024-03-21,17,Afternoon,Leisure,3
+S0001090,T000273,Chennai,Bangalore,2024-03-15,2024-03-24,9,Early Morning,Family / Personal,1
+S0001091,T000273,Kolkata,Hyderabad,2024-03-13,2024-04-12,30,Afternoon,Leisure,2
+S0001092,T000273,Chennai,Mumbai,2024-03-12,2024-04-01,20,Early Morning,Leisure,4
+S0001093,T000274,Bangalore,Kolkata,2024-03-08,2024-03-28,20,Afternoon,Leisure,2
+S0001094,T000274,Chennai,Bangalore,2024-03-09,2024-03-12,3,Night,Business,1
+S0001095,T000274,Hyderabad,Chennai,2024-03-04,2024-04-10,37,Night,Leisure,3
+S0001096,T000274,Hyderabad,Delhi,2024-03-07,2024-04-12,36,Afternoon,Family / Personal,2
+S0001097,T000275,Kolkata,Delhi,2024-03-08,2024-03-12,4,Evening,Leisure,1
+S0001098,T000275,Bangalore,Mumbai,2024-03-11,2024-04-29,49,Morning,Leisure,2
+S0001099,T000275,Hyderabad,Delhi,2024-03-02,2024-03-19,17,Afternoon,Leisure,2
+S0001100,T000275,Delhi,Bangalore,2024-03-04,2024-04-19,46,Evening,Leisure,3
+S0001101,T000276,Mumbai,Chennai,2024-03-09,2024-04-12,34,Early Morning,Family / Personal,1
+S0001102,T000276,Chennai,Bangalore,2024-03-14,2024-03-23,9,Early Morning,Leisure,2
+S0001103,T000276,Hyderabad,Delhi,2024-03-14,2024-04-20,37,Afternoon,Leisure,2
+S0001104,T000276,Bangalore,Delhi,2024-03-05,2024-04-01,27,Morning,Leisure,2
+S0001105,T000277,Kolkata,Chennai,2024-03-13,2024-04-22,40,Night,Leisure,1
+S0001106,T000277,Kolkata,Delhi,2024-03-15,2024-04-17,33,Morning,Business,1
+S0001107,T000277,Chennai,Mumbai,2024-03-05,2024-03-27,22,Evening,Leisure,2
+S0001108,T000277,Kolkata,Delhi,2024-03-11,2024-04-11,31,Night,Family / Personal,2
+S0001109,T000278,Kolkata,Delhi,2024-03-12,2024-04-07,26,Morning,Leisure,2
+S0001110,T000278,Chennai,Hyderabad,2024-03-09,2024-04-16,38,Night,Leisure,3
+S0001111,T000278,Chennai,Hyderabad,2024-03-08,2024-04-17,40,Night,Leisure,2
+S0001112,T000278,Mumbai,Kolkata,2024-03-07,2024-03-15,8,Night,Leisure,2
+S0001113,T000279,Kolkata,Bangalore,2024-03-15,2024-03-19,4,Night,Commute,3
+S0001114,T000279,Hyderabad,Bangalore,2024-03-14,2024-04-10,27,Early Morning,Leisure,3
+S0001115,T000279,Chennai,Hyderabad,2024-03-13,2024-04-24,42,Evening,Leisure,1
+S0001116,T000279,Kolkata,Chennai,2024-03-02,2024-03-08,6,Morning,Family / Personal,1
+S0001117,T000280,Mumbai,Chennai,2024-03-10,2024-03-19,9,Afternoon,Leisure,2
+S0001118,T000280,Chennai,Bangalore,2024-03-04,2024-04-08,35,Evening,Leisure,2
+S0001119,T000280,Bangalore,Chennai,2024-03-01,2024-03-03,2,Evening,Family / Personal,2
+S0001120,T000280,Kolkata,Delhi,2024-03-10,2024-04-03,24,Morning,Family / Personal,2
+S0001121,T000281,Bangalore,Mumbai,2024-03-14,2024-04-15,32,Early Morning,Family / Personal,1
+S0001122,T000281,Hyderabad,Delhi,2024-03-08,2024-03-25,17,Morning,Family / Personal,1
+S0001123,T000281,Kolkata,Mumbai,2024-03-04,2024-04-04,31,Night,Family / Personal,2
+S0001124,T000281,Chennai,Mumbai,2024-03-04,2024-03-26,22,Night,Family / Personal,2
+S0001125,T000282,Chennai,Mumbai,2024-03-04,2024-03-22,18,Early Morning,Leisure,2
+S0001126,T000282,Bangalore,Mumbai,2024-03-04,2024-04-04,31,Early Morning,Leisure,2
+S0001127,T000282,Chennai,Kolkata,2024-03-06,2024-04-05,30,Afternoon,Leisure,2
+S0001128,T000282,Chennai,Mumbai,2024-03-02,2024-03-11,9,Early Morning,Leisure,2
+S0001129,T000283,Hyderabad,Kolkata,2024-03-01,2024-03-08,7,Early Morning,Family / Personal,2
+S0001130,T000283,Chennai,Delhi,2024-03-08,2024-03-17,9,Afternoon,Leisure,2
+S0001131,T000283,Mumbai,Hyderabad,2024-03-14,2024-04-02,19,Morning,Business,2
+S0001132,T000283,Mumbai,Kolkata,2024-03-13,2024-04-07,25,Afternoon,Leisure,2
+S0001133,T000284,Bangalore,Mumbai,2024-03-14,2024-04-19,36,Afternoon,Commute,3
+S0001134,T000284,Bangalore,Hyderabad,2024-03-13,2024-04-03,21,Morning,Leisure,4
+S0001135,T000284,Kolkata,Bangalore,2024-03-13,2024-04-12,30,Evening,Commute,2
+S0001136,T000284,Chennai,Hyderabad,2024-03-11,2024-03-15,4,Morning,Leisure,2
+S0001137,T000285,Hyderabad,Delhi,2024-03-05,2024-03-29,24,Evening,Leisure,4
+S0001138,T000285,Bangalore,Mumbai,2024-03-08,2024-04-11,34,Early Morning,Leisure,4
+S0001139,T000285,Hyderabad,Mumbai,2024-03-12,2024-04-30,49,Afternoon,Family / Personal,2
+S0001140,T000285,Delhi,Chennai,2024-03-15,2024-03-18,3,Afternoon,Leisure,1
+S0001141,T000286,Delhi,Kolkata,2024-03-08,2024-04-12,35,Early Morning,Leisure,3
+S0001142,T000286,Bangalore,Chennai,2024-03-01,2024-03-08,7,Morning,Leisure,2
+S0001143,T000286,Delhi,Chennai,2024-03-02,2024-03-22,20,Afternoon,Leisure,1
+S0001144,T000286,Delhi,Chennai,2024-03-04,2024-03-24,20,Night,Leisure,2
+S0001145,T000287,Hyderabad,Kolkata,2024-03-01,2024-04-05,35,Early Morning,Family / Personal,2
+S0001146,T000287,Mumbai,Kolkata,2024-03-04,2024-04-04,31,Evening,Leisure,3
+S0001147,T000287,Delhi,Mumbai,2024-03-08,2024-03-16,8,Afternoon,Family / Personal,4
+S0001148,T000287,Hyderabad,Mumbai,2024-03-14,2024-04-22,39,Night,Business,3
+S0001149,T000288,Mumbai,Chennai,2024-03-10,2024-03-15,5,Evening,Leisure,2
+S0001150,T000288,Bangalore,Kolkata,2024-03-01,2024-04-15,45,Early Morning,Leisure,4
+S0001151,T000288,Bangalore,Kolkata,2024-03-04,2024-04-12,39,Night,Leisure,1
+S0001152,T000288,Chennai,Kolkata,2024-03-05,2024-03-31,26,Night,Leisure,3
+S0001153,T000289,Kolkata,Hyderabad,2024-03-15,2024-04-04,20,Morning,Leisure,2
+S0001154,T000289,Bangalore,Delhi,2024-03-06,2024-03-17,11,Night,Family / Personal,2
+S0001155,T000289,Kolkata,Hyderabad,2024-03-10,2024-03-28,18,Evening,Family / Personal,4
+S0001156,T000289,Bangalore,Chennai,2024-03-02,2024-03-25,23,Afternoon,Leisure,3
+S0001157,T000290,Mumbai,Hyderabad,2024-03-12,2024-04-19,38,Evening,Leisure,2
+S0001158,T000290,Kolkata,Delhi,2024-03-01,2024-04-06,36,Evening,Family / Personal,2
+S0001159,T000290,Chennai,Hyderabad,2024-03-08,2024-04-08,31,Afternoon,Leisure,2
+S0001160,T000290,Hyderabad,Delhi,2024-03-03,2024-03-04,1,Early Morning,Leisure,3
+S0001161,T000291,Hyderabad,Bangalore,2024-03-04,2024-03-16,12,Early Morning,Leisure,2
+S0001162,T000291,Kolkata,Mumbai,2024-03-03,2024-04-13,41,Evening,Family / Personal,4
+S0001163,T000291,Mumbai,Delhi,2024-03-02,2024-03-09,7,Morning,Family / Personal,4
+S0001164,T000291,Delhi,Hyderabad,2024-03-11,2024-04-08,28,Night,Leisure,2
+S0001165,T000292,Hyderabad,Delhi,2024-03-09,2024-03-24,15,Morning,Family / Personal,2
+S0001166,T000292,Bangalore,Delhi,2024-03-10,2024-04-27,48,Morning,Family / Personal,1
+S0001167,T000292,Bangalore,Delhi,2024-03-13,2024-04-12,30,Early Morning,Leisure,2
+S0001168,T000292,Kolkata,Chennai,2024-03-12,2024-03-18,6,Evening,Leisure,1
+S0001169,T000293,Hyderabad,Kolkata,2024-03-02,2024-03-12,10,Evening,Leisure,3
+S0001170,T000293,Bangalore,Chennai,2024-03-15,2024-04-05,21,Early Morning,Leisure,3
+S0001171,T000293,Delhi,Bangalore,2024-03-09,2024-04-26,48,Night,Leisure,2
+S0001172,T000293,Hyderabad,Chennai,2024-03-02,2024-03-13,11,Morning,Leisure,2
+S0001173,T000294,Delhi,Mumbai,2024-03-13,2024-04-17,35,Night,Family / Personal,1
+S0001174,T000294,Mumbai,Bangalore,2024-03-11,2024-04-15,35,Evening,Leisure,4
+S0001175,T000294,Mumbai,Bangalore,2024-03-14,2024-03-21,7,Night,Family / Personal,1
+S0001176,T000294,Hyderabad,Chennai,2024-03-06,2024-03-19,13,Evening,Business,2
+S0001177,T000295,Hyderabad,Delhi,2024-03-02,2024-04-07,36,Early Morning,Family / Personal,1
+S0001178,T000295,Delhi,Bangalore,2024-03-04,2024-04-20,47,Evening,Leisure,4
+S0001179,T000295,Mumbai,Chennai,2024-03-08,2024-04-23,46,Early Morning,Family / Personal,2
+S0001180,T000295,Kolkata,Hyderabad,2024-03-05,2024-04-02,28,Night,Leisure,3
+S0001181,T000296,Bangalore,Chennai,2024-03-13,2024-03-30,17,Evening,Leisure,1
+S0001182,T000296,Bangalore,Delhi,2024-03-11,2024-04-21,41,Evening,Commute,3
+S0001183,T000296,Delhi,Hyderabad,2024-03-07,2024-04-15,39,Night,Leisure,2
+S0001184,T000296,Bangalore,Mumbai,2024-03-13,2024-03-16,3,Morning,Leisure,1
+S0001185,T000297,Chennai,Delhi,2024-03-03,2024-03-19,16,Evening,Leisure,2
+S0001186,T000297,Kolkata,Hyderabad,2024-03-04,2024-04-09,36,Night,Business,1
+S0001187,T000297,Kolkata,Bangalore,2024-03-02,2024-03-12,10,Early Morning,Leisure,1
+S0001188,T000297,Kolkata,Bangalore,2024-03-09,2024-03-11,2,Night,Leisure,3
+S0001189,T000298,Hyderabad,Kolkata,2024-03-09,2024-03-19,10,Evening,Leisure,2
+S0001190,T000298,Delhi,Bangalore,2024-03-06,2024-03-14,8,Night,Leisure,2
+S0001191,T000298,Mumbai,Kolkata,2024-03-11,2024-03-16,5,Early Morning,Leisure,1
+S0001192,T000298,Chennai,Delhi,2024-03-13,2024-04-23,41,Evening,Leisure,3
+S0001193,T000299,Kolkata,Hyderabad,2024-03-06,2024-04-13,38,Early Morning,Leisure,2
+S0001194,T000299,Kolkata,Chennai,2024-03-01,2024-03-18,17,Early Morning,Family / Personal,1
+S0001195,T000299,Delhi,Hyderabad,2024-03-08,2024-03-28,20,Morning,Leisure,2
+S0001196,T000299,Kolkata,Bangalore,2024-03-13,2024-04-01,19,Morning,Leisure,3
+S0001197,T000300,Kolkata,Bangalore,2024-03-02,2024-03-03,1,Afternoon,Family / Personal,3
+S0001198,T000300,Delhi,Hyderabad,2024-03-05,2024-03-30,25,Night,Leisure,4
+S0001199,T000300,Delhi,Kolkata,2024-03-05,2024-03-28,23,Early Morning,Family / Personal,2
+S0001200,T000300,Mumbai,Chennai,2024-03-09,2024-04-09,31,Early Morning,Leisure,4
+S0001201,T000301,Mumbai,Bangalore,2024-03-14,2024-04-02,19,Early Morning,Family / Personal,3
+S0001202,T000301,Hyderabad,Kolkata,2024-03-07,2024-03-26,19,Morning,Business,1
+S0001203,T000301,Mumbai,Bangalore,2024-03-10,2024-04-01,22,Morning,Commute,1
+S0001204,T000301,Bangalore,Chennai,2024-03-09,2024-04-19,41,Morning,Leisure,2
+S0001205,T000302,Kolkata,Chennai,2024-03-08,2024-03-23,15,Early Morning,Commute,3
+S0001206,T000302,Delhi,Bangalore,2024-03-03,2024-03-24,21,Evening,Leisure,1
+S0001207,T000302,Delhi,Kolkata,2024-03-07,2024-03-15,8,Afternoon,Commute,3
+S0001208,T000302,Bangalore,Chennai,2024-03-14,2024-03-20,6,Evening,Family / Personal,1
+S0001209,T000303,Bangalore,Mumbai,2024-03-09,2024-04-24,46,Early Morning,Commute,1
+S0001210,T000303,Chennai,Mumbai,2024-03-15,2024-03-25,10,Evening,Family / Personal,2
+S0001211,T000303,Bangalore,Chennai,2024-03-15,2024-03-27,12,Night,Leisure,1
+S0001212,T000303,Chennai,Hyderabad,2024-03-01,2024-03-22,21,Evening,Business,2
+S0001213,T000304,Bangalore,Kolkata,2024-03-08,2024-04-08,31,Early Morning,Business,2
+S0001214,T000304,Bangalore,Mumbai,2024-03-07,2024-04-19,43,Evening,Leisure,4
+S0001215,T000304,Bangalore,Hyderabad,2024-03-03,2024-04-02,30,Evening,Commute,1
+S0001216,T000304,Kolkata,Bangalore,2024-03-05,2024-04-20,46,Early Morning,Family / Personal,3
+S0001217,T000305,Chennai,Bangalore,2024-03-04,2024-04-07,34,Night,Business,1
+S0001218,T000305,Bangalore,Kolkata,2024-03-11,2024-04-18,38,Early Morning,Leisure,1
+S0001219,T000305,Delhi,Mumbai,2024-03-15,2024-03-21,6,Morning,Commute,3
+S0001220,T000305,Chennai,Delhi,2024-03-10,2024-04-05,26,Night,Business,1
+S0001221,T000306,Bangalore,Delhi,2024-03-14,2024-04-30,47,Afternoon,Commute,2
+S0001222,T000306,Kolkata,Bangalore,2024-03-14,2024-04-06,23,Afternoon,Business,2
+S0001223,T000306,Bangalore,Mumbai,2024-03-10,2024-04-18,39,Early Morning,Leisure,2
+S0001224,T000306,Kolkata,Bangalore,2024-03-03,2024-03-12,9,Early Morning,Commute,1
+S0001225,T000307,Hyderabad,Bangalore,2024-03-01,2024-04-18,48,Afternoon,Leisure,4
+S0001226,T000307,Delhi,Bangalore,2024-03-14,2024-04-05,22,Night,Business,1
+S0001227,T000307,Hyderabad,Kolkata,2024-03-03,2024-03-24,21,Afternoon,Commute,2
+S0001228,T000307,Delhi,Bangalore,2024-03-13,2024-04-12,30,Early Morning,Family / Personal,2
+S0001229,T000308,Hyderabad,Chennai,2024-03-07,2024-03-12,5,Morning,Leisure,3
+S0001230,T000308,Chennai,Mumbai,2024-03-06,2024-03-15,9,Night,Commute,2
+S0001231,T000308,Bangalore,Delhi,2024-03-08,2024-04-23,46,Evening,Commute,1
+S0001232,T000308,Bangalore,Mumbai,2024-03-01,2024-03-11,10,Early Morning,Family / Personal,3
+S0001233,T000309,Delhi,Bangalore,2024-03-13,2024-04-21,39,Night,Commute,1
+S0001234,T000309,Hyderabad,Chennai,2024-03-02,2024-03-15,13,Night,Leisure,2
+S0001235,T000309,Bangalore,Hyderabad,2024-03-14,2024-04-28,45,Morning,Commute,1
+S0001236,T000309,Hyderabad,Mumbai,2024-03-06,2024-04-12,37,Morning,Commute,1
+S0001237,T000310,Delhi,Kolkata,2024-03-12,2024-04-06,25,Night,Leisure,1
+S0001238,T000310,Delhi,Bangalore,2024-03-07,2024-03-16,9,Night,Leisure,2
+S0001239,T000310,Mumbai,Kolkata,2024-03-15,2024-04-15,31,Morning,Family / Personal,3
+S0001240,T000310,Mumbai,Hyderabad,2024-03-03,2024-04-06,34,Early Morning,Business,2
+S0001241,T000311,Delhi,Hyderabad,2024-03-01,2024-04-06,36,Evening,Business,2
+S0001242,T000311,Mumbai,Kolkata,2024-03-07,2024-03-14,7,Morning,Business,2
+S0001243,T000311,Chennai,Bangalore,2024-03-06,2024-03-25,19,Afternoon,Family / Personal,3
+S0001244,T000311,Bangalore,Hyderabad,2024-03-03,2024-03-31,28,Morning,Business,3
+S0001245,T000312,Delhi,Mumbai,2024-03-10,2024-03-22,12,Afternoon,Business,1
+S0001246,T000312,Mumbai,Hyderabad,2024-03-07,2024-04-19,43,Early Morning,Business,1
+S0001247,T000312,Hyderabad,Mumbai,2024-03-12,2024-04-01,20,Night,Commute,1
+S0001248,T000312,Chennai,Bangalore,2024-03-12,2024-03-25,13,Evening,Leisure,1
+S0001249,T000313,Chennai,Kolkata,2024-03-13,2024-04-24,42,Night,Leisure,2
+S0001250,T000313,Kolkata,Hyderabad,2024-03-11,2024-04-11,31,Early Morning,Leisure,3
+S0001251,T000313,Kolkata,Hyderabad,2024-03-15,2024-04-18,34,Evening,Commute,1
+S0001252,T000313,Bangalore,Hyderabad,2024-03-02,2024-04-04,33,Afternoon,Business,1
+S0001253,T000314,Delhi,Kolkata,2024-03-14,2024-04-16,33,Afternoon,Commute,1
+S0001254,T000314,Kolkata,Delhi,2024-03-02,2024-03-08,6,Night,Business,1
+S0001255,T000314,Chennai,Delhi,2024-03-14,2024-04-24,41,Early Morning,Business,2
+S0001256,T000314,Bangalore,Kolkata,2024-03-13,2024-04-17,35,Afternoon,Business,1
+S0001257,T000315,Delhi,Mumbai,2024-03-12,2024-04-08,27,Afternoon,Leisure,3
+S0001258,T000315,Kolkata,Delhi,2024-03-08,2024-03-28,20,Night,Commute,3
+S0001259,T000315,Hyderabad,Chennai,2024-03-13,2024-04-11,29,Early Morning,Commute,1
+S0001260,T000315,Mumbai,Chennai,2024-03-01,2024-04-11,41,Morning,Leisure,2
+S0001261,T000316,Delhi,Mumbai,2024-03-11,2024-04-11,31,Afternoon,Business,1
+S0001262,T000316,Mumbai,Chennai,2024-03-15,2024-04-19,35,Early Morning,Business,1
+S0001263,T000316,Kolkata,Hyderabad,2024-03-15,2024-03-24,9,Evening,Family / Personal,1
+S0001264,T000316,Bangalore,Mumbai,2024-03-09,2024-03-23,14,Evening,Leisure,1
+S0001265,T000317,Delhi,Bangalore,2024-03-09,2024-04-18,40,Morning,Family / Personal,2
+S0001266,T000317,Mumbai,Kolkata,2024-03-12,2024-04-23,42,Morning,Business,1
+S0001267,T000317,Kolkata,Mumbai,2024-03-15,2024-04-25,41,Early Morning,Business,2
+S0001268,T000317,Kolkata,Mumbai,2024-03-04,2024-04-16,43,Afternoon,Leisure,2
+S0001269,T000318,Chennai,Bangalore,2024-03-06,2024-03-21,15,Early Morning,Family / Personal,1
+S0001270,T000318,Mumbai,Kolkata,2024-03-04,2024-04-03,30,Morning,Commute,1
+S0001271,T000318,Bangalore,Kolkata,2024-03-09,2024-03-14,5,Morning,Commute,1
+S0001272,T000318,Kolkata,Delhi,2024-03-08,2024-04-22,45,Evening,Commute,1
+S0001273,T000319,Kolkata,Delhi,2024-03-03,2024-04-10,38,Morning,Commute,1
+S0001274,T000319,Kolkata,Mumbai,2024-03-02,2024-04-03,32,Morning,Family / Personal,2
+S0001275,T000319,Delhi,Kolkata,2024-03-04,2024-04-16,43,Afternoon,Business,1
+S0001276,T000319,Bangalore,Mumbai,2024-03-14,2024-03-28,14,Afternoon,Business,1
+S0001277,T000320,Mumbai,Kolkata,2024-03-15,2024-03-23,8,Afternoon,Business,1
+S0001278,T000320,Delhi,Mumbai,2024-03-07,2024-04-11,35,Early Morning,Business,2
+S0001279,T000320,Delhi,Kolkata,2024-03-08,2024-03-10,2,Early Morning,Business,1
+S0001280,T000320,Hyderabad,Bangalore,2024-03-01,2024-03-09,8,Night,Leisure,3
+S0001281,T000321,Chennai,Delhi,2024-03-12,2024-04-23,42,Morning,Family / Personal,1
+S0001282,T000321,Hyderabad,Kolkata,2024-03-10,2024-04-28,49,Afternoon,Commute,1
+S0001283,T000321,Hyderabad,Bangalore,2024-03-08,2024-04-25,48,Early Morning,Leisure,2
+S0001284,T000321,Chennai,Mumbai,2024-03-05,2024-04-12,38,Afternoon,Leisure,2
+S0001285,T000322,Chennai,Mumbai,2024-03-08,2024-03-19,11,Early Morning,Commute,1
+S0001286,T000322,Delhi,Kolkata,2024-03-03,2024-04-10,38,Night,Family / Personal,1
+S0001287,T000322,Kolkata,Delhi,2024-03-11,2024-03-21,10,Night,Commute,2
+S0001288,T000322,Kolkata,Mumbai,2024-03-13,2024-03-21,8,Early Morning,Commute,1
+S0001289,T000323,Bangalore,Kolkata,2024-03-03,2024-03-28,25,Evening,Leisure,3
+S0001290,T000323,Hyderabad,Delhi,2024-03-02,2024-03-25,23,Evening,Family / Personal,3
+S0001291,T000323,Bangalore,Chennai,2024-03-13,2024-04-14,32,Early Morning,Commute,1
+S0001292,T000323,Delhi,Mumbai,2024-03-13,2024-05-01,49,Afternoon,Business,1
+S0001293,T000324,Bangalore,Kolkata,2024-03-14,2024-04-03,20,Evening,Family / Personal,1
+S0001294,T000324,Delhi,Mumbai,2024-03-15,2024-04-04,20,Night,Leisure,1
+S0001295,T000324,Bangalore,Mumbai,2024-03-09,2024-03-26,17,Afternoon,Business,2
+S0001296,T000324,Bangalore,Delhi,2024-03-10,2024-04-24,45,Early Morning,Business,4
+S0001297,T000325,Chennai,Mumbai,2024-03-03,2024-04-01,29,Night,Family / Personal,1
+S0001298,T000325,Mumbai,Chennai,2024-03-11,2024-04-27,47,Early Morning,Commute,1
+S0001299,T000325,Kolkata,Delhi,2024-03-01,2024-03-07,6,Morning,Business,2
+S0001300,T000325,Mumbai,Chennai,2024-03-07,2024-04-23,47,Evening,Commute,1
+S0001301,T000326,Mumbai,Chennai,2024-03-10,2024-04-23,44,Morning,Commute,2
+S0001302,T000326,Kolkata,Mumbai,2024-03-09,2024-03-11,2,Early Morning,Family / Personal,1
+S0001303,T000326,Chennai,Bangalore,2024-03-11,2024-03-26,15,Night,Family / Personal,1
+S0001304,T000326,Kolkata,Hyderabad,2024-03-01,2024-03-27,26,Afternoon,Family / Personal,1
+S0001305,T000327,Delhi,Kolkata,2024-03-01,2024-03-02,1,Afternoon,Leisure,1
+S0001306,T000327,Kolkata,Bangalore,2024-03-08,2024-04-16,39,Night,Family / Personal,2
+S0001307,T000327,Hyderabad,Mumbai,2024-03-06,2024-04-14,39,Evening,Commute,4
+S0001308,T000327,Kolkata,Chennai,2024-03-08,2024-04-06,29,Morning,Leisure,1
+S0001309,T000328,Chennai,Mumbai,2024-03-02,2024-03-20,18,Evening,Leisure,1
+S0001310,T000328,Chennai,Hyderabad,2024-03-04,2024-04-21,48,Morning,Business,2
+S0001311,T000328,Mumbai,Kolkata,2024-03-10,2024-04-05,26,Early Morning,Family / Personal,3
+S0001312,T000328,Mumbai,Bangalore,2024-03-03,2024-03-28,25,Evening,Leisure,1
+S0001313,T000329,Hyderabad,Bangalore,2024-03-04,2024-03-22,18,Afternoon,Commute,1
+S0001314,T000329,Bangalore,Hyderabad,2024-03-11,2024-03-18,7,Morning,Commute,1
+S0001315,T000329,Delhi,Bangalore,2024-03-05,2024-03-16,11,Morning,Business,2
+S0001316,T000329,Mumbai,Hyderabad,2024-03-11,2024-04-08,28,Early Morning,Business,1
+S0001317,T000330,Delhi,Hyderabad,2024-03-04,2024-04-06,33,Morning,Commute,1
+S0001318,T000330,Bangalore,Delhi,2024-03-06,2024-04-03,28,Night,Business,2
+S0001319,T000330,Hyderabad,Kolkata,2024-03-09,2024-04-05,27,Morning,Commute,1
+S0001320,T000330,Kolkata,Chennai,2024-03-07,2024-03-21,14,Morning,Commute,2
+S0001321,T000331,Mumbai,Bangalore,2024-03-09,2024-03-23,14,Night,Family / Personal,1
+S0001322,T000331,Mumbai,Hyderabad,2024-03-04,2024-03-20,16,Afternoon,Commute,2
+S0001323,T000331,Bangalore,Kolkata,2024-03-01,2024-03-31,30,Morning,Commute,1
+S0001324,T000331,Chennai,Delhi,2024-03-12,2024-04-12,31,Early Morning,Family / Personal,1
+S0001325,T000332,Bangalore,Mumbai,2024-03-08,2024-04-08,31,Morning,Family / Personal,1
+S0001326,T000332,Mumbai,Bangalore,2024-03-05,2024-03-06,1,Afternoon,Commute,2
+S0001327,T000332,Kolkata,Chennai,2024-03-08,2024-03-23,15,Early Morning,Family / Personal,1
+S0001328,T000332,Bangalore,Kolkata,2024-03-07,2024-03-11,4,Night,Commute,3
+S0001329,T000333,Mumbai,Delhi,2024-03-03,2024-03-29,26,Early Morning,Leisure,1
+S0001330,T000333,Bangalore,Delhi,2024-03-08,2024-03-24,16,Afternoon,Leisure,1
+S0001331,T000333,Chennai,Kolkata,2024-03-06,2024-04-23,48,Evening,Family / Personal,1
+S0001332,T000333,Kolkata,Chennai,2024-03-09,2024-04-20,42,Afternoon,Commute,2
+S0001333,T000334,Delhi,Chennai,2024-03-13,2024-04-04,22,Night,Family / Personal,1
+S0001334,T000334,Delhi,Chennai,2024-03-12,2024-03-21,9,Early Morning,Commute,1
+S0001335,T000334,Hyderabad,Bangalore,2024-03-14,2024-04-23,40,Early Morning,Commute,2
+S0001336,T000334,Mumbai,Kolkata,2024-03-11,2024-03-31,20,Afternoon,Leisure,1
+S0001337,T000335,Chennai,Hyderabad,2024-03-10,2024-04-12,33,Morning,Business,1
+S0001338,T000335,Delhi,Bangalore,2024-03-03,2024-03-20,17,Early Morning,Commute,2
+S0001339,T000335,Chennai,Mumbai,2024-03-03,2024-03-18,15,Early Morning,Leisure,2
+S0001340,T000335,Kolkata,Chennai,2024-03-05,2024-04-06,32,Evening,Business,1
+S0001341,T000336,Kolkata,Bangalore,2024-03-12,2024-03-27,15,Afternoon,Business,2
+S0001342,T000336,Kolkata,Bangalore,2024-03-08,2024-04-13,36,Early Morning,Business,4
+S0001343,T000336,Mumbai,Bangalore,2024-03-14,2024-04-25,42,Morning,Commute,1
+S0001344,T000336,Hyderabad,Delhi,2024-03-15,2024-04-12,28,Afternoon,Leisure,3
+S0001345,T000337,Bangalore,Chennai,2024-03-01,2024-03-26,25,Morning,Business,2
+S0001346,T000337,Mumbai,Chennai,2024-03-15,2024-04-20,36,Early Morning,Family / Personal,1
+S0001347,T000337,Mumbai,Bangalore,2024-03-11,2024-04-24,44,Morning,Commute,4
+S0001348,T000337,Bangalore,Delhi,2024-03-11,2024-03-21,10,Early Morning,Business,1
+S0001349,T000338,Bangalore,Kolkata,2024-03-05,2024-03-08,3,Early Morning,Commute,1
+S0001350,T000338,Hyderabad,Kolkata,2024-03-04,2024-04-06,33,Night,Business,1
+S0001351,T000338,Chennai,Kolkata,2024-03-06,2024-03-24,18,Evening,Leisure,1
+S0001352,T000338,Mumbai,Kolkata,2024-03-13,2024-04-25,43,Night,Commute,1
+S0001353,T000339,Bangalore,Chennai,2024-03-09,2024-03-13,4,Morning,Business,1
+S0001354,T000339,Kolkata,Delhi,2024-03-01,2024-03-28,27,Night,Commute,1
+S0001355,T000339,Hyderabad,Mumbai,2024-03-06,2024-04-21,46,Night,Commute,1
+S0001356,T000339,Bangalore,Delhi,2024-03-06,2024-03-12,6,Early Morning,Family / Personal,1
+S0001357,T000340,Mumbai,Hyderabad,2024-03-10,2024-03-24,14,Morning,Business,1
+S0001358,T000340,Mumbai,Delhi,2024-03-09,2024-03-19,10,Afternoon,Family / Personal,2
+S0001359,T000340,Delhi,Bangalore,2024-03-14,2024-04-09,26,Night,Business,1
+S0001360,T000340,Chennai,Kolkata,2024-03-07,2024-04-09,33,Early Morning,Commute,2
+S0001361,T000341,Chennai,Hyderabad,2024-03-06,2024-03-27,21,Early Morning,Business,1
+S0001362,T000341,Hyderabad,Kolkata,2024-03-14,2024-04-21,38,Morning,Family / Personal,2
+S0001363,T000341,Hyderabad,Mumbai,2024-03-06,2024-03-19,13,Morning,Commute,1
+S0001364,T000341,Bangalore,Chennai,2024-03-06,2024-04-08,33,Night,Family / Personal,2
+S0001365,T000342,Chennai,Hyderabad,2024-03-10,2024-03-19,9,Afternoon,Commute,1
+S0001366,T000342,Hyderabad,Kolkata,2024-03-10,2024-04-01,22,Early Morning,Commute,1
+S0001367,T000342,Hyderabad,Kolkata,2024-03-06,2024-03-11,5,Early Morning,Leisure,1
+S0001368,T000342,Kolkata,Hyderabad,2024-03-06,2024-03-27,21,Night,Family / Personal,2
+S0001369,T000343,Bangalore,Kolkata,2024-03-14,2024-03-31,17,Morning,Family / Personal,1
+S0001370,T000343,Bangalore,Mumbai,2024-03-11,2024-03-25,14,Evening,Leisure,2
+S0001371,T000343,Hyderabad,Bangalore,2024-03-10,2024-04-25,46,Night,Commute,1
+S0001372,T000343,Chennai,Kolkata,2024-03-11,2024-03-27,16,Afternoon,Commute,1
+S0001373,T000344,Delhi,Bangalore,2024-03-04,2024-03-24,20,Morning,Commute,3
+S0001374,T000344,Bangalore,Hyderabad,2024-03-10,2024-04-21,42,Afternoon,Commute,2
+S0001375,T000344,Kolkata,Mumbai,2024-03-01,2024-04-18,48,Night,Family / Personal,1
+S0001376,T000344,Delhi,Bangalore,2024-03-11,2024-03-17,6,Morning,Family / Personal,2
+S0001377,T000345,Kolkata,Delhi,2024-03-08,2024-03-13,5,Afternoon,Family / Personal,2
+S0001378,T000345,Delhi,Bangalore,2024-03-13,2024-03-31,18,Afternoon,Commute,1
+S0001379,T000345,Bangalore,Delhi,2024-03-13,2024-03-23,10,Evening,Commute,1
+S0001380,T000345,Hyderabad,Kolkata,2024-03-04,2024-04-15,42,Night,Business,1
+S0001381,T000346,Hyderabad,Mumbai,2024-03-06,2024-03-28,22,Morning,Commute,1
+S0001382,T000346,Hyderabad,Bangalore,2024-03-12,2024-03-13,1,Afternoon,Commute,1
+S0001383,T000346,Hyderabad,Chennai,2024-03-02,2024-03-07,5,Morning,Family / Personal,1
+S0001384,T000346,Bangalore,Kolkata,2024-03-15,2024-03-26,11,Afternoon,Family / Personal,1
+S0001385,T000347,Kolkata,Chennai,2024-03-06,2024-04-01,26,Afternoon,Leisure,1
+S0001386,T000347,Kolkata,Hyderabad,2024-03-12,2024-04-19,38,Early Morning,Commute,2
+S0001387,T000347,Kolkata,Hyderabad,2024-03-10,2024-04-17,38,Morning,Business,2
+S0001388,T000347,Mumbai,Chennai,2024-03-08,2024-04-24,47,Night,Family / Personal,1
+S0001389,T000348,Hyderabad,Delhi,2024-03-02,2024-03-13,11,Early Morning,Commute,1
+S0001390,T000348,Delhi,Hyderabad,2024-03-11,2024-03-20,9,Night,Business,1
+S0001391,T000348,Bangalore,Kolkata,2024-03-05,2024-03-06,1,Evening,Leisure,1
+S0001392,T000348,Mumbai,Delhi,2024-03-01,2024-03-28,27,Night,Commute,1
+S0001393,T000349,Chennai,Hyderabad,2024-03-11,2024-03-30,19,Afternoon,Commute,1
+S0001394,T000349,Chennai,Kolkata,2024-03-08,2024-03-16,8,Evening,Leisure,2
+S0001395,T000349,Chennai,Kolkata,2024-03-05,2024-04-11,37,Early Morning,Family / Personal,2
+S0001396,T000349,Chennai,Delhi,2024-03-12,2024-03-17,5,Early Morning,Leisure,2
+S0001397,T000350,Delhi,Mumbai,2024-03-04,2024-04-18,45,Morning,Commute,2
+S0001398,T000350,Chennai,Hyderabad,2024-03-04,2024-03-11,7,Morning,Leisure,1
+S0001399,T000350,Bangalore,Chennai,2024-03-02,2024-03-18,16,Night,Leisure,1
+S0001400,T000350,Chennai,Bangalore,2024-03-10,2024-04-16,37,Evening,Leisure,1
+S0001401,T000351,Kolkata,Chennai,2024-03-14,2024-03-28,14,Afternoon,Commute,1
+S0001402,T000351,Bangalore,Mumbai,2024-03-06,2024-04-22,47,Early Morning,Business,1
+S0001403,T000351,Mumbai,Delhi,2024-03-13,2024-04-24,42,Morning,Commute,1
+S0001404,T000351,Mumbai,Kolkata,2024-03-02,2024-03-06,4,Afternoon,Business,3
+S0001405,T000352,Mumbai,Delhi,2024-03-06,2024-04-12,37,Evening,Leisure,2
+S0001406,T000352,Delhi,Kolkata,2024-03-03,2024-04-18,46,Afternoon,Commute,2
+S0001407,T000352,Chennai,Hyderabad,2024-03-14,2024-04-13,30,Morning,Business,1
+S0001408,T000352,Bangalore,Mumbai,2024-03-03,2024-03-17,14,Early Morning,Family / Personal,1
+S0001409,T000353,Delhi,Hyderabad,2024-03-08,2024-03-25,17,Afternoon,Family / Personal,3
+S0001410,T000353,Delhi,Kolkata,2024-03-14,2024-03-31,17,Early Morning,Commute,1
+S0001411,T000353,Mumbai,Kolkata,2024-03-14,2024-04-15,32,Evening,Business,2
+S0001412,T000353,Delhi,Chennai,2024-03-02,2024-03-08,6,Morning,Leisure,1
+S0001413,T000354,Kolkata,Chennai,2024-03-01,2024-03-04,3,Early Morning,Leisure,1
+S0001414,T000354,Delhi,Kolkata,2024-03-12,2024-04-07,26,Evening,Family / Personal,1
+S0001415,T000354,Bangalore,Hyderabad,2024-03-13,2024-05-01,49,Morning,Leisure,2
+S0001416,T000354,Kolkata,Mumbai,2024-03-15,2024-04-26,42,Afternoon,Commute,2
+S0001417,T000355,Bangalore,Chennai,2024-03-01,2024-03-05,4,Early Morning,Leisure,4
+S0001418,T000355,Kolkata,Bangalore,2024-03-10,2024-04-16,37,Afternoon,Commute,2
+S0001419,T000355,Mumbai,Bangalore,2024-03-02,2024-04-20,49,Early Morning,Leisure,2
+S0001420,T000355,Hyderabad,Bangalore,2024-03-04,2024-04-09,36,Morning,Business,1
+S0001421,T000356,Mumbai,Chennai,2024-03-14,2024-03-17,3,Night,Commute,1
+S0001422,T000356,Hyderabad,Chennai,2024-03-14,2024-04-09,26,Afternoon,Commute,1
+S0001423,T000356,Chennai,Kolkata,2024-03-01,2024-04-19,49,Afternoon,Commute,3
+S0001424,T000356,Delhi,Hyderabad,2024-03-06,2024-04-10,35,Afternoon,Commute,1
+S0001425,T000357,Mumbai,Chennai,2024-03-06,2024-03-17,11,Morning,Commute,1
+S0001426,T000357,Mumbai,Kolkata,2024-03-02,2024-03-24,22,Morning,Business,2
+S0001427,T000357,Kolkata,Hyderabad,2024-03-05,2024-04-23,49,Morning,Business,2
+S0001428,T000357,Chennai,Mumbai,2024-03-03,2024-03-13,10,Early Morning,Leisure,2
+S0001429,T000358,Kolkata,Chennai,2024-03-10,2024-03-26,16,Morning,Family / Personal,2
+S0001430,T000358,Kolkata,Mumbai,2024-03-05,2024-03-27,22,Early Morning,Commute,2
+S0001431,T000358,Bangalore,Delhi,2024-03-13,2024-03-15,2,Early Morning,Family / Personal,1
+S0001432,T000358,Bangalore,Hyderabad,2024-03-15,2024-03-17,2,Evening,Business,1
+S0001433,T000359,Hyderabad,Kolkata,2024-03-15,2024-04-28,44,Night,Business,2
+S0001434,T000359,Hyderabad,Kolkata,2024-03-01,2024-04-18,48,Evening,Family / Personal,1
+S0001435,T000359,Hyderabad,Chennai,2024-03-08,2024-03-20,12,Early Morning,Leisure,1
+S0001436,T000359,Delhi,Hyderabad,2024-03-09,2024-04-06,28,Evening,Leisure,1
+S0001437,T000360,Chennai,Delhi,2024-03-08,2024-04-08,31,Night,Business,1
+S0001438,T000360,Kolkata,Chennai,2024-03-07,2024-03-21,14,Early Morning,Family / Personal,3
+S0001439,T000360,Kolkata,Chennai,2024-03-13,2024-04-12,30,Evening,Business,1
+S0001440,T000360,Chennai,Bangalore,2024-03-09,2024-04-06,28,Evening,Family / Personal,2
+S0001441,T000361,Kolkata,Delhi,2024-03-02,2024-04-05,34,Evening,Leisure,1
+S0001442,T000361,Kolkata,Mumbai,2024-03-10,2024-03-17,7,Morning,Leisure,1
+S0001443,T000361,Bangalore,Mumbai,2024-03-14,2024-04-26,43,Afternoon,Commute,4
+S0001444,T000361,Chennai,Delhi,2024-03-13,2024-04-24,42,Evening,Leisure,1
+S0001445,T000362,Delhi,Mumbai,2024-03-11,2024-03-31,20,Evening,Leisure,1
+S0001446,T000362,Kolkata,Bangalore,2024-03-04,2024-03-21,17,Evening,Leisure,3
+S0001447,T000362,Mumbai,Chennai,2024-03-03,2024-03-20,17,Evening,Business,2
+S0001448,T000362,Kolkata,Delhi,2024-03-04,2024-04-17,44,Morning,Commute,1
+S0001449,T000363,Bangalore,Delhi,2024-03-12,2024-03-31,19,Morning,Commute,1
+S0001450,T000363,Hyderabad,Chennai,2024-03-03,2024-03-13,10,Morning,Leisure,1
+S0001451,T000363,Kolkata,Mumbai,2024-03-06,2024-03-29,23,Evening,Commute,1
+S0001452,T000363,Chennai,Delhi,2024-03-01,2024-04-05,35,Night,Business,1
+S0001453,T000364,Delhi,Kolkata,2024-03-02,2024-03-04,2,Early Morning,Leisure,3
+S0001454,T000364,Kolkata,Delhi,2024-03-01,2024-04-07,37,Morning,Leisure,3
+S0001455,T000364,Delhi,Mumbai,2024-03-13,2024-03-18,5,Afternoon,Leisure,1
+S0001456,T000364,Kolkata,Bangalore,2024-03-06,2024-03-29,23,Evening,Leisure,1
+S0001457,T000365,Bangalore,Mumbai,2024-03-09,2024-04-20,42,Afternoon,Leisure,1
+S0001458,T000365,Hyderabad,Delhi,2024-03-12,2024-04-26,45,Night,Leisure,1
+S0001459,T000365,Chennai,Bangalore,2024-03-05,2024-04-02,28,Early Morning,Business,1
+S0001460,T000365,Bangalore,Hyderabad,2024-03-01,2024-04-02,32,Afternoon,Business,2
+S0001461,T000366,Kolkata,Delhi,2024-03-05,2024-03-21,16,Morning,Commute,1
+S0001462,T000366,Bangalore,Mumbai,2024-03-11,2024-04-15,35,Early Morning,Business,1
+S0001463,T000366,Delhi,Chennai,2024-03-01,2024-03-03,2,Night,Commute,2
+S0001464,T000366,Delhi,Mumbai,2024-03-09,2024-04-03,25,Night,Commute,1
+S0001465,T000367,Kolkata,Chennai,2024-03-02,2024-03-10,8,Night,Business,4
+S0001466,T000367,Mumbai,Hyderabad,2024-03-11,2024-03-31,20,Evening,Leisure,2
+S0001467,T000367,Mumbai,Delhi,2024-03-06,2024-04-14,39,Morning,Commute,1
+S0001468,T000367,Kolkata,Delhi,2024-03-09,2024-04-22,44,Evening,Business,1
+S0001469,T000368,Hyderabad,Chennai,2024-03-05,2024-03-07,2,Evening,Leisure,1
+S0001470,T000368,Bangalore,Mumbai,2024-03-12,2024-04-27,46,Evening,Family / Personal,1
+S0001471,T000368,Bangalore,Mumbai,2024-03-13,2024-03-30,17,Early Morning,Business,1
+S0001472,T000368,Delhi,Chennai,2024-03-07,2024-03-27,20,Night,Family / Personal,1
+S0001473,T000369,Kolkata,Delhi,2024-03-06,2024-03-26,20,Evening,Business,3
+S0001474,T000369,Chennai,Hyderabad,2024-03-02,2024-03-24,22,Night,Family / Personal,2
+S0001475,T000369,Delhi,Hyderabad,2024-03-08,2024-03-21,13,Night,Business,1
+S0001476,T000369,Chennai,Bangalore,2024-03-07,2024-04-18,42,Evening,Commute,3
+S0001477,T000370,Delhi,Hyderabad,2024-03-10,2024-03-26,16,Evening,Commute,1
+S0001478,T000370,Hyderabad,Mumbai,2024-03-15,2024-03-23,8,Morning,Commute,1
+S0001479,T000370,Bangalore,Delhi,2024-03-03,2024-03-23,20,Evening,Commute,3
+S0001480,T000370,Mumbai,Kolkata,2024-03-07,2024-03-28,21,Evening,Leisure,1
+S0001481,T000371,Kolkata,Mumbai,2024-03-10,2024-04-05,26,Evening,Leisure,3
+S0001482,T000371,Chennai,Delhi,2024-03-07,2024-03-17,10,Evening,Commute,2
+S0001483,T000371,Hyderabad,Mumbai,2024-03-12,2024-03-30,18,Afternoon,Leisure,1
+S0001484,T000371,Hyderabad,Bangalore,2024-03-08,2024-03-23,15,Afternoon,Commute,3
+S0001485,T000372,Hyderabad,Bangalore,2024-03-05,2024-03-27,22,Morning,Commute,1
+S0001486,T000372,Delhi,Hyderabad,2024-03-02,2024-04-13,42,Early Morning,Family / Personal,1
+S0001487,T000372,Mumbai,Hyderabad,2024-03-09,2024-04-26,48,Afternoon,Leisure,1
+S0001488,T000372,Bangalore,Hyderabad,2024-03-03,2024-03-06,3,Early Morning,Commute,1
+S0001489,T000373,Delhi,Mumbai,2024-03-11,2024-04-11,31,Evening,Leisure,1
+S0001490,T000373,Mumbai,Kolkata,2024-03-07,2024-03-18,11,Morning,Business,4
+S0001491,T000373,Delhi,Mumbai,2024-03-08,2024-03-13,5,Morning,Commute,1
+S0001492,T000373,Kolkata,Bangalore,2024-03-11,2024-04-11,31,Afternoon,Leisure,1
+S0001493,T000374,Mumbai,Hyderabad,2024-03-11,2024-03-15,4,Night,Family / Personal,1
+S0001494,T000374,Bangalore,Chennai,2024-03-12,2024-04-28,47,Evening,Leisure,4
+S0001495,T000374,Chennai,Kolkata,2024-03-11,2024-03-13,2,Afternoon,Family / Personal,1
+S0001496,T000374,Chennai,Mumbai,2024-03-08,2024-04-17,40,Night,Family / Personal,1
+S0001497,T000375,Delhi,Mumbai,2024-03-06,2024-03-21,15,Early Morning,Leisure,2
+S0001498,T000375,Delhi,Mumbai,2024-03-08,2024-04-23,46,Early Morning,Leisure,1
+S0001499,T000375,Hyderabad,Delhi,2024-03-15,2024-03-16,1,Evening,Business,1
+S0001500,T000375,Delhi,Bangalore,2024-03-02,2024-03-15,13,Evening,Business,1
+S0001501,T000376,Mumbai,Bangalore,2024-03-08,2024-04-02,25,Evening,Leisure,2
+S0001502,T000376,Hyderabad,Bangalore,2024-03-09,2024-03-24,15,Early Morning,Leisure,1
+S0001503,T000376,Chennai,Hyderabad,2024-03-10,2024-04-23,44,Afternoon,Leisure,1
+S0001504,T000376,Delhi,Chennai,2024-03-10,2024-04-03,24,Evening,Commute,3
+S0001505,T000377,Hyderabad,Delhi,2024-03-05,2024-03-12,7,Evening,Business,2
+S0001506,T000377,Mumbai,Delhi,2024-03-10,2024-03-20,10,Evening,Business,1
+S0001507,T000377,Hyderabad,Mumbai,2024-03-04,2024-03-07,3,Morning,Family / Personal,1
+S0001508,T000377,Chennai,Kolkata,2024-03-02,2024-03-04,2,Early Morning,Family / Personal,1
+S0001509,T000378,Kolkata,Chennai,2024-03-07,2024-03-09,2,Night,Business,3
+S0001510,T000378,Chennai,Kolkata,2024-03-06,2024-03-13,7,Early Morning,Business,1
+S0001511,T000378,Mumbai,Chennai,2024-03-05,2024-03-28,23,Early Morning,Family / Personal,1
+S0001512,T000378,Bangalore,Delhi,2024-03-13,2024-04-13,31,Evening,Commute,1
+S0001513,T000379,Kolkata,Delhi,2024-03-15,2024-04-04,20,Early Morning,Leisure,2
+S0001514,T000379,Delhi,Chennai,2024-03-13,2024-04-30,48,Night,Leisure,1
+S0001515,T000379,Chennai,Hyderabad,2024-03-07,2024-03-19,12,Evening,Business,2
+S0001516,T000379,Kolkata,Mumbai,2024-03-13,2024-04-15,33,Evening,Leisure,2
+S0001517,T000380,Chennai,Kolkata,2024-03-02,2024-03-18,16,Early Morning,Family / Personal,1
+S0001518,T000380,Chennai,Hyderabad,2024-03-15,2024-04-16,32,Afternoon,Commute,1
+S0001519,T000380,Bangalore,Delhi,2024-03-03,2024-04-08,36,Afternoon,Leisure,1
+S0001520,T000380,Hyderabad,Bangalore,2024-03-14,2024-04-10,27,Afternoon,Business,2
+S0001521,T000381,Mumbai,Hyderabad,2024-03-05,2024-03-13,8,Early Morning,Leisure,1
+S0001522,T000381,Mumbai,Bangalore,2024-03-13,2024-04-10,28,Night,Leisure,1
+S0001523,T000381,Mumbai,Delhi,2024-03-09,2024-03-27,18,Night,Leisure,3
+S0001524,T000381,Delhi,Bangalore,2024-03-06,2024-04-02,27,Morning,Business,3
+S0001525,T000382,Bangalore,Kolkata,2024-03-10,2024-04-09,30,Evening,Leisure,1
+S0001526,T000382,Delhi,Chennai,2024-03-01,2024-03-06,5,Night,Family / Personal,2
+S0001527,T000382,Bangalore,Chennai,2024-03-05,2024-04-08,34,Morning,Commute,2
+S0001528,T000382,Chennai,Kolkata,2024-03-14,2024-03-27,13,Early Morning,Business,2
+S0001529,T000383,Kolkata,Chennai,2024-03-08,2024-03-11,3,Night,Family / Personal,3
+S0001530,T000383,Kolkata,Hyderabad,2024-03-12,2024-04-18,37,Afternoon,Leisure,1
+S0001531,T000383,Kolkata,Chennai,2024-03-01,2024-04-13,43,Afternoon,Family / Personal,4
+S0001532,T000383,Bangalore,Kolkata,2024-03-05,2024-04-19,45,Morning,Commute,4
+S0001533,T000384,Kolkata,Hyderabad,2024-03-06,2024-04-21,46,Early Morning,Leisure,2
+S0001534,T000384,Hyderabad,Bangalore,2024-03-14,2024-04-06,23,Morning,Business,1
+S0001535,T000384,Mumbai,Chennai,2024-03-01,2024-03-27,26,Early Morning,Business,1
+S0001536,T000384,Bangalore,Delhi,2024-03-07,2024-03-09,2,Early Morning,Business,2
+S0001537,T000385,Delhi,Chennai,2024-03-06,2024-03-31,25,Morning,Leisure,1
+S0001538,T000385,Bangalore,Hyderabad,2024-03-05,2024-03-12,7,Night,Business,1
+S0001539,T000385,Mumbai,Delhi,2024-03-04,2024-04-17,44,Evening,Commute,1
+S0001540,T000385,Kolkata,Delhi,2024-03-15,2024-03-24,9,Early Morning,Commute,1
+S0001541,T000386,Chennai,Bangalore,2024-03-13,2024-05-01,49,Early Morning,Business,1
+S0001542,T000386,Chennai,Delhi,2024-03-10,2024-03-12,2,Evening,Family / Personal,2
+S0001543,T000386,Bangalore,Mumbai,2024-03-02,2024-03-30,28,Afternoon,Commute,1
+S0001544,T000386,Bangalore,Hyderabad,2024-03-06,2024-03-23,17,Afternoon,Family / Personal,1
+S0001545,T000387,Hyderabad,Delhi,2024-03-06,2024-04-19,44,Evening,Family / Personal,1
+S0001546,T000387,Chennai,Bangalore,2024-03-15,2024-03-21,6,Morning,Commute,1
+S0001547,T000387,Hyderabad,Delhi,2024-03-04,2024-04-18,45,Early Morning,Leisure,1
+S0001548,T000387,Chennai,Kolkata,2024-03-10,2024-04-25,46,Night,Business,1
+S0001549,T000388,Kolkata,Hyderabad,2024-03-02,2024-03-26,24,Evening,Commute,1
+S0001550,T000388,Mumbai,Chennai,2024-03-05,2024-03-31,26,Evening,Commute,1
+S0001551,T000388,Mumbai,Chennai,2024-03-12,2024-04-16,35,Evening,Business,2
+S0001552,T000388,Mumbai,Hyderabad,2024-03-10,2024-04-02,23,Morning,Commute,4
+S0001553,T000389,Hyderabad,Delhi,2024-03-06,2024-04-12,37,Early Morning,Business,1
+S0001554,T000389,Delhi,Chennai,2024-03-04,2024-03-14,10,Early Morning,Commute,1
+S0001555,T000389,Chennai,Mumbai,2024-03-01,2024-03-29,28,Afternoon,Family / Personal,1
+S0001556,T000389,Chennai,Mumbai,2024-03-04,2024-04-08,35,Evening,Leisure,1
+S0001557,T000390,Mumbai,Kolkata,2024-03-05,2024-03-24,19,Early Morning,Family / Personal,1
+S0001558,T000390,Delhi,Bangalore,2024-03-14,2024-04-30,47,Early Morning,Family / Personal,1
+S0001559,T000390,Kolkata,Delhi,2024-03-10,2024-04-11,32,Night,Business,1
+S0001560,T000390,Mumbai,Delhi,2024-03-08,2024-03-24,16,Afternoon,Commute,2
+S0001561,T000391,Mumbai,Bangalore,2024-03-15,2024-03-28,13,Evening,Commute,2
+S0001562,T000391,Delhi,Chennai,2024-03-09,2024-04-02,24,Afternoon,Leisure,1
+S0001563,T000391,Chennai,Delhi,2024-03-01,2024-03-19,18,Morning,Leisure,1
+S0001564,T000391,Delhi,Kolkata,2024-03-07,2024-03-16,9,Night,Leisure,1
+S0001565,T000392,Mumbai,Chennai,2024-03-04,2024-03-11,7,Evening,Leisure,2
+S0001566,T000392,Bangalore,Chennai,2024-03-06,2024-03-08,2,Evening,Family / Personal,3
+S0001567,T000392,Mumbai,Kolkata,2024-03-13,2024-03-20,7,Night,Leisure,3
+S0001568,T000392,Chennai,Hyderabad,2024-03-08,2024-04-04,27,Evening,Commute,3
+S0001569,T000393,Mumbai,Delhi,2024-03-04,2024-03-31,27,Morning,Leisure,1
+S0001570,T000393,Bangalore,Hyderabad,2024-03-02,2024-03-23,21,Afternoon,Commute,4
+S0001571,T000393,Bangalore,Hyderabad,2024-03-15,2024-03-30,15,Early Morning,Leisure,2
+S0001572,T000393,Delhi,Hyderabad,2024-03-06,2024-03-23,17,Early Morning,Business,2
+S0001573,T000394,Mumbai,Bangalore,2024-03-03,2024-03-16,13,Afternoon,Commute,1
+S0001574,T000394,Mumbai,Bangalore,2024-03-04,2024-04-22,49,Morning,Leisure,3
+S0001575,T000394,Kolkata,Hyderabad,2024-03-13,2024-03-19,6,Evening,Commute,1
+S0001576,T000394,Kolkata,Bangalore,2024-03-07,2024-03-10,3,Evening,Family / Personal,1
+S0001577,T000395,Hyderabad,Kolkata,2024-03-15,2024-03-20,5,Evening,Family / Personal,1
+S0001578,T000395,Delhi,Chennai,2024-03-03,2024-04-12,40,Afternoon,Leisure,2
+S0001579,T000395,Mumbai,Bangalore,2024-03-04,2024-04-10,37,Early Morning,Commute,1
+S0001580,T000395,Delhi,Hyderabad,2024-03-09,2024-03-24,15,Evening,Leisure,2
+S0001581,T000396,Hyderabad,Kolkata,2024-03-01,2024-04-13,43,Night,Business,1
+S0001582,T000396,Delhi,Kolkata,2024-03-02,2024-04-13,42,Evening,Family / Personal,1
+S0001583,T000396,Delhi,Chennai,2024-03-12,2024-04-01,20,Early Morning,Business,1
+S0001584,T000396,Delhi,Kolkata,2024-03-08,2024-04-10,33,Afternoon,Commute,2
+S0001585,T000397,Bangalore,Chennai,2024-03-04,2024-03-24,20,Early Morning,Leisure,2
+S0001586,T000397,Chennai,Delhi,2024-03-14,2024-03-29,15,Afternoon,Leisure,1
+S0001587,T000397,Chennai,Hyderabad,2024-03-04,2024-04-10,37,Night,Commute,2
+S0001588,T000397,Hyderabad,Kolkata,2024-03-08,2024-03-21,13,Afternoon,Business,1
+S0001589,T000398,Delhi,Mumbai,2024-03-15,2024-04-22,38,Afternoon,Commute,3
+S0001590,T000398,Delhi,Mumbai,2024-03-06,2024-03-20,14,Evening,Leisure,1
+S0001591,T000398,Mumbai,Bangalore,2024-03-01,2024-04-07,37,Afternoon,Leisure,1
+S0001592,T000398,Hyderabad,Chennai,2024-03-04,2024-03-16,12,Evening,Commute,1
+S0001593,T000399,Mumbai,Hyderabad,2024-03-01,2024-03-25,24,Night,Commute,2
+S0001594,T000399,Delhi,Hyderabad,2024-03-10,2024-03-30,20,Evening,Leisure,1
+S0001595,T000399,Delhi,Mumbai,2024-03-10,2024-04-15,36,Morning,Commute,2
+S0001596,T000399,Delhi,Mumbai,2024-03-09,2024-03-15,6,Afternoon,Commute,3
+S0001597,T000400,Chennai,Delhi,2024-03-10,2024-04-23,44,Morning,Business,1
+S0001598,T000400,Delhi,Kolkata,2024-03-09,2024-03-22,13,Morning,Leisure,1
+S0001599,T000400,Hyderabad,Chennai,2024-03-11,2024-04-07,27,Afternoon,Commute,4
+S0001600,T000400,Delhi,Kolkata,2024-03-06,2024-04-02,27,Evening,Business,2
+S0001601,T000401,Bangalore,Kolkata,2024-03-03,2024-04-19,47,Evening,Business,2
+S0001602,T000401,Kolkata,Hyderabad,2024-03-05,2024-03-08,3,Early Morning,Commute,2
+S0001603,T000401,Kolkata,Mumbai,2024-03-08,2024-04-22,45,Evening,Business,2
+S0001604,T000401,Delhi,Mumbai,2024-03-05,2024-04-11,37,Night,Family / Personal,1
+S0001605,T000402,Hyderabad,Delhi,2024-03-12,2024-04-20,39,Afternoon,Commute,1
+S0001606,T000402,Bangalore,Hyderabad,2024-03-01,2024-04-06,36,Night,Commute,1
+S0001607,T000402,Chennai,Hyderabad,2024-03-07,2024-04-01,25,Night,Commute,1
+S0001608,T000402,Bangalore,Hyderabad,2024-03-07,2024-03-10,3,Early Morning,Leisure,2
+S0001609,T000403,Bangalore,Chennai,2024-03-04,2024-04-11,38,Afternoon,Commute,1
+S0001610,T000403,Bangalore,Hyderabad,2024-03-01,2024-03-13,12,Early Morning,Commute,1
+S0001611,T000403,Mumbai,Delhi,2024-03-13,2024-04-09,27,Early Morning,Commute,1
+S0001612,T000403,Bangalore,Kolkata,2024-03-11,2024-03-22,11,Evening,Leisure,1
+S0001613,T000404,Kolkata,Delhi,2024-03-02,2024-04-09,38,Morning,Leisure,1
+S0001614,T000404,Delhi,Mumbai,2024-03-12,2024-04-27,46,Early Morning,Leisure,2
+S0001615,T000404,Delhi,Mumbai,2024-03-04,2024-03-06,2,Afternoon,Leisure,1
+S0001616,T000404,Bangalore,Delhi,2024-03-01,2024-04-13,43,Morning,Business,1
+S0001617,T000405,Chennai,Mumbai,2024-03-12,2024-04-27,46,Morning,Business,1
+S0001618,T000405,Hyderabad,Bangalore,2024-03-11,2024-03-19,8,Afternoon,Business,3
+S0001619,T000405,Kolkata,Chennai,2024-03-02,2024-04-08,37,Afternoon,Family / Personal,1
+S0001620,T000405,Hyderabad,Delhi,2024-03-04,2024-04-13,40,Night,Leisure,1
+S0001621,T000406,Delhi,Chennai,2024-03-01,2024-04-05,35,Morning,Leisure,1
+S0001622,T000406,Bangalore,Mumbai,2024-03-04,2024-03-16,12,Evening,Leisure,2
+S0001623,T000406,Hyderabad,Mumbai,2024-03-04,2024-03-08,4,Early Morning,Commute,1
+S0001624,T000406,Kolkata,Chennai,2024-03-04,2024-03-29,25,Morning,Leisure,1
+S0001625,T000407,Chennai,Delhi,2024-03-09,2024-04-14,36,Early Morning,Commute,2
+S0001626,T000407,Kolkata,Delhi,2024-03-12,2024-03-17,5,Early Morning,Family / Personal,1
+S0001627,T000407,Mumbai,Chennai,2024-03-06,2024-03-28,22,Morning,Commute,2
+S0001628,T000407,Mumbai,Hyderabad,2024-03-07,2024-03-14,7,Evening,Leisure,2
+S0001629,T000408,Delhi,Bangalore,2024-03-04,2024-03-25,21,Afternoon,Business,1
+S0001630,T000408,Chennai,Mumbai,2024-03-04,2024-04-04,31,Evening,Commute,1
+S0001631,T000408,Mumbai,Hyderabad,2024-03-10,2024-03-14,4,Early Morning,Family / Personal,1
+S0001632,T000408,Hyderabad,Delhi,2024-03-15,2024-04-19,35,Early Morning,Business,1
+S0001633,T000409,Bangalore,Kolkata,2024-03-02,2024-03-27,25,Morning,Family / Personal,2
+S0001634,T000409,Bangalore,Hyderabad,2024-03-06,2024-03-13,7,Evening,Commute,2
+S0001635,T000409,Delhi,Hyderabad,2024-03-04,2024-04-12,39,Early Morning,Commute,1
+S0001636,T000409,Hyderabad,Delhi,2024-03-14,2024-04-05,22,Morning,Leisure,1
+S0001637,T000410,Chennai,Delhi,2024-03-11,2024-03-27,16,Early Morning,Leisure,2
+S0001638,T000410,Kolkata,Delhi,2024-03-04,2024-04-06,33,Evening,Leisure,1
+S0001639,T000410,Kolkata,Hyderabad,2024-03-05,2024-04-06,32,Early Morning,Family / Personal,1
+S0001640,T000410,Mumbai,Hyderabad,2024-03-03,2024-03-22,19,Morning,Business,1
+S0001641,T000411,Kolkata,Chennai,2024-03-14,2024-04-06,23,Evening,Family / Personal,2
+S0001642,T000411,Hyderabad,Mumbai,2024-03-11,2024-03-17,6,Afternoon,Business,1
+S0001643,T000411,Hyderabad,Delhi,2024-03-12,2024-03-26,14,Afternoon,Commute,1
+S0001644,T000411,Delhi,Kolkata,2024-03-01,2024-03-04,3,Early Morning,Commute,1
+S0001645,T000412,Hyderabad,Kolkata,2024-03-09,2024-03-23,14,Afternoon,Commute,3
+S0001646,T000412,Hyderabad,Bangalore,2024-03-12,2024-04-14,33,Afternoon,Business,1
+S0001647,T000412,Chennai,Kolkata,2024-03-02,2024-04-16,45,Evening,Commute,2
+S0001648,T000412,Hyderabad,Mumbai,2024-03-08,2024-04-14,37,Afternoon,Commute,1
+S0001649,T000413,Mumbai,Hyderabad,2024-03-13,2024-04-30,48,Afternoon,Commute,2
+S0001650,T000413,Kolkata,Delhi,2024-03-01,2024-03-18,17,Early Morning,Business,1
+S0001651,T000413,Mumbai,Hyderabad,2024-03-03,2024-03-06,3,Afternoon,Leisure,2
+S0001652,T000413,Chennai,Mumbai,2024-03-13,2024-03-25,12,Afternoon,Business,1
+S0001653,T000414,Delhi,Mumbai,2024-03-07,2024-03-21,14,Early Morning,Family / Personal,1
+S0001654,T000414,Hyderabad,Bangalore,2024-03-06,2024-03-14,8,Morning,Business,1
+S0001655,T000414,Delhi,Hyderabad,2024-03-08,2024-04-08,31,Afternoon,Business,1
+S0001656,T000414,Hyderabad,Kolkata,2024-03-02,2024-04-20,49,Morning,Commute,1
+S0001657,T000415,Delhi,Hyderabad,2024-03-05,2024-03-28,23,Early Morning,Commute,2
+S0001658,T000415,Kolkata,Bangalore,2024-03-01,2024-04-11,41,Morning,Leisure,3
+S0001659,T000415,Bangalore,Kolkata,2024-03-05,2024-03-18,13,Morning,Commute,1
+S0001660,T000415,Mumbai,Kolkata,2024-03-13,2024-04-27,45,Evening,Business,1
+S0001661,T000416,Kolkata,Mumbai,2024-03-11,2024-04-29,49,Early Morning,Leisure,1
+S0001662,T000416,Bangalore,Mumbai,2024-03-08,2024-04-02,25,Evening,Business,2
+S0001663,T000416,Kolkata,Mumbai,2024-03-08,2024-03-18,10,Afternoon,Business,1
+S0001664,T000416,Mumbai,Hyderabad,2024-03-04,2024-03-14,10,Night,Leisure,1
+S0001665,T000417,Kolkata,Mumbai,2024-03-08,2024-03-21,13,Early Morning,Business,1
+S0001666,T000417,Bangalore,Mumbai,2024-03-15,2024-03-16,1,Evening,Commute,1
+S0001667,T000417,Mumbai,Kolkata,2024-03-04,2024-04-06,33,Night,Leisure,1
+S0001668,T000417,Mumbai,Bangalore,2024-03-01,2024-03-31,30,Morning,Family / Personal,1
+S0001669,T000418,Chennai,Delhi,2024-03-10,2024-03-11,1,Morning,Family / Personal,1
+S0001670,T000418,Chennai,Delhi,2024-03-13,2024-04-02,20,Evening,Leisure,3
+S0001671,T000418,Hyderabad,Mumbai,2024-03-05,2024-04-02,28,Night,Commute,1
+S0001672,T000418,Kolkata,Delhi,2024-03-07,2024-04-06,30,Night,Commute,1
+S0001673,T000419,Kolkata,Mumbai,2024-03-11,2024-04-11,31,Afternoon,Leisure,1
+S0001674,T000419,Hyderabad,Chennai,2024-03-05,2024-04-17,43,Evening,Leisure,2
+S0001675,T000419,Delhi,Chennai,2024-03-04,2024-04-02,29,Night,Business,2
+S0001676,T000419,Hyderabad,Chennai,2024-03-09,2024-03-15,6,Night,Commute,1
+S0001677,T000420,Mumbai,Delhi,2024-03-14,2024-04-10,27,Evening,Business,4
+S0001678,T000420,Mumbai,Bangalore,2024-03-04,2024-04-01,28,Early Morning,Leisure,2
+S0001679,T000420,Bangalore,Hyderabad,2024-03-02,2024-03-31,29,Morning,Leisure,1
+S0001680,T000420,Delhi,Kolkata,2024-03-15,2024-04-30,46,Afternoon,Commute,2
+S0001681,T000421,Hyderabad,Delhi,2024-03-02,2024-03-18,16,Night,Leisure,1
+S0001682,T000421,Kolkata,Delhi,2024-03-04,2024-03-06,2,Afternoon,Leisure,2
+S0001683,T000421,Bangalore,Mumbai,2024-03-01,2024-03-30,29,Early Morning,Commute,1
+S0001684,T000421,Kolkata,Delhi,2024-03-11,2024-04-17,37,Evening,Leisure,2
+S0001685,T000422,Mumbai,Kolkata,2024-03-15,2024-04-05,21,Morning,Commute,1
+S0001686,T000422,Bangalore,Hyderabad,2024-03-08,2024-04-05,28,Morning,Commute,1
+S0001687,T000422,Delhi,Mumbai,2024-03-14,2024-03-25,11,Afternoon,Leisure,1
+S0001688,T000422,Mumbai,Bangalore,2024-03-05,2024-03-31,26,Afternoon,Commute,2
+S0001689,T000423,Kolkata,Hyderabad,2024-03-11,2024-04-22,42,Night,Leisure,2
+S0001690,T000423,Kolkata,Mumbai,2024-03-03,2024-03-09,6,Evening,Business,1
+S0001691,T000423,Mumbai,Bangalore,2024-03-15,2024-04-09,25,Afternoon,Commute,1
+S0001692,T000423,Chennai,Bangalore,2024-03-11,2024-03-30,19,Night,Family / Personal,1
+S0001693,T000424,Kolkata,Hyderabad,2024-03-08,2024-03-10,2,Afternoon,Business,1
+S0001694,T000424,Chennai,Kolkata,2024-03-02,2024-04-17,46,Evening,Leisure,1
+S0001695,T000424,Mumbai,Delhi,2024-03-13,2024-04-28,46,Morning,Business,1
+S0001696,T000424,Bangalore,Hyderabad,2024-03-09,2024-04-06,28,Morning,Commute,1
+S0001697,T000425,Chennai,Bangalore,2024-03-12,2024-04-06,25,Early Morning,Commute,2
+S0001698,T000425,Hyderabad,Delhi,2024-03-13,2024-04-13,31,Evening,Commute,3
+S0001699,T000425,Chennai,Delhi,2024-03-13,2024-04-29,47,Night,Commute,1
+S0001700,T000425,Chennai,Kolkata,2024-03-11,2024-03-18,7,Morning,Leisure,1
+S0001701,T000426,Mumbai,Bangalore,2024-03-03,2024-03-07,4,Afternoon,Commute,3
+S0001702,T000426,Mumbai,Hyderabad,2024-03-03,2024-03-28,25,Morning,Commute,3
+S0001703,T000426,Kolkata,Bangalore,2024-03-09,2024-04-01,23,Night,Commute,1
+S0001704,T000426,Hyderabad,Bangalore,2024-03-12,2024-03-20,8,Morning,Family / Personal,2
+S0001705,T000427,Mumbai,Chennai,2024-03-15,2024-04-17,33,Night,Business,1
+S0001706,T000427,Delhi,Bangalore,2024-03-07,2024-03-20,13,Night,Family / Personal,2
+S0001707,T000427,Chennai,Hyderabad,2024-03-11,2024-04-22,42,Evening,Leisure,1
+S0001708,T000427,Kolkata,Bangalore,2024-03-11,2024-03-27,16,Night,Leisure,1
+S0001709,T000428,Bangalore,Mumbai,2024-03-09,2024-04-15,37,Night,Family / Personal,3
+S0001710,T000428,Delhi,Chennai,2024-03-11,2024-04-09,29,Night,Business,1
+S0001711,T000428,Mumbai,Delhi,2024-03-08,2024-03-21,13,Night,Leisure,2
+S0001712,T000428,Chennai,Hyderabad,2024-03-08,2024-04-25,48,Afternoon,Leisure,1
+S0001713,T000429,Bangalore,Hyderabad,2024-03-05,2024-04-02,28,Early Morning,Leisure,2
+S0001714,T000429,Bangalore,Delhi,2024-03-03,2024-04-18,46,Early Morning,Business,1
+S0001715,T000429,Hyderabad,Bangalore,2024-03-04,2024-03-30,26,Afternoon,Leisure,2
+S0001716,T000429,Hyderabad,Mumbai,2024-03-08,2024-03-20,12,Night,Leisure,3
+S0001717,T000430,Delhi,Chennai,2024-03-02,2024-03-09,7,Early Morning,Family / Personal,3
+S0001718,T000430,Delhi,Hyderabad,2024-03-12,2024-04-03,22,Evening,Business,1
+S0001719,T000430,Kolkata,Mumbai,2024-03-14,2024-04-16,33,Night,Leisure,1
+S0001720,T000430,Delhi,Chennai,2024-03-05,2024-03-22,17,Morning,Business,1
+S0001721,T000431,Delhi,Kolkata,2024-03-06,2024-03-09,3,Morning,Business,2
+S0001722,T000431,Kolkata,Hyderabad,2024-03-07,2024-04-06,30,Night,Business,2
+S0001723,T000431,Kolkata,Chennai,2024-03-11,2024-03-19,8,Evening,Commute,1
+S0001724,T000431,Bangalore,Hyderabad,2024-03-02,2024-04-13,42,Night,Leisure,1
+S0001725,T000432,Hyderabad,Delhi,2024-03-06,2024-03-28,22,Afternoon,Commute,1
+S0001726,T000432,Kolkata,Hyderabad,2024-03-05,2024-04-19,45,Early Morning,Commute,1
+S0001727,T000432,Mumbai,Delhi,2024-03-01,2024-03-31,30,Early Morning,Leisure,1
+S0001728,T000432,Hyderabad,Bangalore,2024-03-02,2024-03-26,24,Morning,Business,2
+S0001729,T000433,Chennai,Delhi,2024-03-08,2024-04-15,38,Night,Leisure,1
+S0001730,T000433,Delhi,Chennai,2024-03-14,2024-04-27,44,Morning,Business,1
+S0001731,T000433,Kolkata,Chennai,2024-03-01,2024-03-14,13,Evening,Business,2
+S0001732,T000433,Kolkata,Delhi,2024-03-09,2024-03-16,7,Afternoon,Business,1
+S0001733,T000434,Mumbai,Chennai,2024-03-11,2024-04-04,24,Evening,Leisure,1
+S0001734,T000434,Bangalore,Kolkata,2024-03-08,2024-03-18,10,Night,Business,1
+S0001735,T000434,Mumbai,Chennai,2024-03-03,2024-03-26,23,Afternoon,Commute,1
+S0001736,T000434,Delhi,Chennai,2024-03-07,2024-04-18,42,Early Morning,Commute,1
+S0001737,T000435,Bangalore,Hyderabad,2024-03-05,2024-04-06,32,Early Morning,Commute,1
+S0001738,T000435,Kolkata,Delhi,2024-03-14,2024-04-18,35,Afternoon,Leisure,3
+S0001739,T000435,Delhi,Hyderabad,2024-03-13,2024-03-18,5,Night,Leisure,1
+S0001740,T000435,Hyderabad,Bangalore,2024-03-12,2024-04-06,25,Morning,Leisure,1
+S0001741,T000436,Mumbai,Kolkata,2024-03-15,2024-03-20,5,Afternoon,Commute,1
+S0001742,T000436,Chennai,Hyderabad,2024-03-09,2024-04-22,44,Night,Leisure,1
+S0001743,T000436,Bangalore,Chennai,2024-03-10,2024-04-26,47,Early Morning,Leisure,1
+S0001744,T000436,Hyderabad,Mumbai,2024-03-09,2024-03-23,14,Early Morning,Leisure,2
+S0001745,T000437,Hyderabad,Delhi,2024-03-13,2024-03-21,8,Evening,Business,2
+S0001746,T000437,Hyderabad,Kolkata,2024-03-02,2024-03-10,8,Afternoon,Business,3
+S0001747,T000437,Bangalore,Mumbai,2024-03-12,2024-03-20,8,Early Morning,Family / Personal,1
+S0001748,T000437,Chennai,Hyderabad,2024-03-15,2024-04-19,35,Night,Commute,1
+S0001749,T000438,Delhi,Kolkata,2024-03-03,2024-03-09,6,Evening,Family / Personal,2
+S0001750,T000438,Bangalore,Kolkata,2024-03-09,2024-03-30,21,Morning,Business,1
+S0001751,T000438,Delhi,Chennai,2024-03-10,2024-03-25,15,Afternoon,Family / Personal,1
+S0001752,T000438,Delhi,Mumbai,2024-03-06,2024-03-16,10,Morning,Leisure,1
+S0001753,T000439,Mumbai,Delhi,2024-03-08,2024-03-24,16,Morning,Leisure,1
+S0001754,T000439,Chennai,Delhi,2024-03-07,2024-03-11,4,Night,Business,1
+S0001755,T000439,Kolkata,Bangalore,2024-03-03,2024-03-25,22,Morning,Commute,2
+S0001756,T000439,Chennai,Hyderabad,2024-03-11,2024-04-02,22,Afternoon,Leisure,1
+S0001757,T000440,Chennai,Kolkata,2024-03-08,2024-03-24,16,Morning,Commute,2
+S0001758,T000440,Delhi,Hyderabad,2024-03-09,2024-03-21,12,Evening,Family / Personal,1
+S0001759,T000440,Bangalore,Kolkata,2024-03-10,2024-04-08,29,Evening,Business,2
+S0001760,T000440,Delhi,Kolkata,2024-03-01,2024-04-08,38,Early Morning,Commute,4
+S0001761,T000441,Hyderabad,Chennai,2024-03-02,2024-03-14,12,Afternoon,Leisure,1
+S0001762,T000441,Mumbai,Bangalore,2024-03-11,2024-04-02,22,Morning,Leisure,2
+S0001763,T000441,Delhi,Chennai,2024-03-01,2024-03-16,15,Night,Business,1
+S0001764,T000441,Kolkata,Chennai,2024-03-06,2024-03-28,22,Morning,Family / Personal,3
+S0001765,T000442,Bangalore,Chennai,2024-03-08,2024-03-22,14,Early Morning,Leisure,1
+S0001766,T000442,Kolkata,Delhi,2024-03-02,2024-03-08,6,Night,Business,1
+S0001767,T000442,Kolkata,Mumbai,2024-03-04,2024-04-02,29,Early Morning,Commute,1
+S0001768,T000442,Hyderabad,Kolkata,2024-03-12,2024-03-25,13,Night,Commute,1
+S0001769,T000443,Delhi,Bangalore,2024-03-04,2024-03-18,14,Afternoon,Business,1
+S0001770,T000443,Kolkata,Hyderabad,2024-03-09,2024-04-18,40,Evening,Leisure,1
+S0001771,T000443,Delhi,Hyderabad,2024-03-12,2024-04-09,28,Morning,Leisure,1
+S0001772,T000443,Kolkata,Bangalore,2024-03-08,2024-03-23,15,Night,Leisure,1
+S0001773,T000444,Chennai,Hyderabad,2024-03-10,2024-03-11,1,Evening,Leisure,3
+S0001774,T000444,Bangalore,Delhi,2024-03-09,2024-04-09,31,Early Morning,Commute,1
+S0001775,T000444,Kolkata,Delhi,2024-03-09,2024-04-24,46,Morning,Leisure,1
+S0001776,T000444,Chennai,Delhi,2024-03-15,2024-03-25,10,Morning,Leisure,1
+S0001777,T000445,Delhi,Kolkata,2024-03-04,2024-03-15,11,Night,Leisure,1
+S0001778,T000445,Mumbai,Chennai,2024-03-14,2024-04-09,26,Early Morning,Leisure,3
+S0001779,T000445,Hyderabad,Mumbai,2024-03-14,2024-04-20,37,Night,Leisure,2
+S0001780,T000445,Kolkata,Chennai,2024-03-06,2024-04-01,26,Afternoon,Commute,1
+S0001781,T000446,Bangalore,Chennai,2024-03-14,2024-04-22,39,Early Morning,Commute,1
+S0001782,T000446,Hyderabad,Mumbai,2024-03-06,2024-03-17,11,Afternoon,Leisure,1
+S0001783,T000446,Hyderabad,Delhi,2024-03-13,2024-04-08,26,Evening,Commute,3
+S0001784,T000446,Bangalore,Mumbai,2024-03-07,2024-03-31,24,Evening,Leisure,1
+S0001785,T000447,Hyderabad,Bangalore,2024-03-03,2024-04-07,35,Evening,Leisure,2
+S0001786,T000447,Chennai,Mumbai,2024-03-05,2024-03-29,24,Evening,Leisure,1
+S0001787,T000447,Delhi,Mumbai,2024-03-09,2024-04-17,39,Morning,Leisure,1
+S0001788,T000447,Kolkata,Bangalore,2024-03-07,2024-03-14,7,Morning,Business,2
+S0001789,T000448,Delhi,Hyderabad,2024-03-12,2024-03-20,8,Night,Family / Personal,1
+S0001790,T000448,Chennai,Delhi,2024-03-02,2024-04-04,33,Afternoon,Commute,1
+S0001791,T000448,Bangalore,Kolkata,2024-03-02,2024-04-07,36,Morning,Commute,1
+S0001792,T000448,Bangalore,Kolkata,2024-03-15,2024-04-07,23,Morning,Leisure,1
+S0001793,T000449,Hyderabad,Kolkata,2024-03-07,2024-03-20,13,Evening,Leisure,3
+S0001794,T000449,Bangalore,Delhi,2024-03-08,2024-03-21,13,Morning,Commute,1
+S0001795,T000449,Kolkata,Mumbai,2024-03-05,2024-03-19,14,Afternoon,Commute,1
+S0001796,T000449,Bangalore,Mumbai,2024-03-11,2024-03-29,18,Early Morning,Commute,3
+S0001797,T000450,Kolkata,Hyderabad,2024-03-06,2024-03-11,5,Night,Family / Personal,1
+S0001798,T000450,Kolkata,Delhi,2024-03-01,2024-03-27,26,Night,Commute,1
+S0001799,T000450,Delhi,Kolkata,2024-03-15,2024-04-02,18,Early Morning,Leisure,1
+S0001800,T000450,Hyderabad,Chennai,2024-03-03,2024-03-10,7,Early Morning,Commute,1
+S0001801,T000451,Kolkata,Mumbai,2024-03-11,2024-03-27,16,Morning,Leisure,1
+S0001802,T000451,Hyderabad,Chennai,2024-03-15,2024-04-20,36,Morning,Business,2
+S0001803,T000451,Chennai,Kolkata,2024-03-05,2024-04-01,27,Night,Family / Personal,1
+S0001804,T000451,Bangalore,Chennai,2024-03-10,2024-04-17,38,Morning,Business,2
+S0001805,T000452,Mumbai,Delhi,2024-03-07,2024-03-23,16,Morning,Family / Personal,1
+S0001806,T000452,Kolkata,Bangalore,2024-03-01,2024-04-08,38,Evening,Leisure,1
+S0001807,T000452,Kolkata,Hyderabad,2024-03-01,2024-03-09,8,Evening,Commute,1
+S0001808,T000452,Delhi,Bangalore,2024-03-03,2024-03-29,26,Afternoon,Commute,3
+S0001809,T000453,Delhi,Bangalore,2024-03-06,2024-04-15,40,Evening,Leisure,1
+S0001810,T000453,Bangalore,Mumbai,2024-03-06,2024-03-20,14,Evening,Family / Personal,1
+S0001811,T000453,Mumbai,Chennai,2024-03-04,2024-04-17,44,Night,Family / Personal,3
+S0001812,T000453,Hyderabad,Chennai,2024-03-03,2024-04-18,46,Evening,Leisure,1
+S0001813,T000454,Bangalore,Mumbai,2024-03-02,2024-03-29,27,Early Morning,Leisure,1
+S0001814,T000454,Mumbai,Kolkata,2024-03-01,2024-04-03,33,Night,Business,1
+S0001815,T000454,Chennai,Kolkata,2024-03-13,2024-04-30,48,Afternoon,Family / Personal,1
+S0001816,T000454,Kolkata,Hyderabad,2024-03-11,2024-03-15,4,Morning,Leisure,3
+S0001817,T000455,Mumbai,Kolkata,2024-03-10,2024-04-20,41,Evening,Business,1
+S0001818,T000455,Hyderabad,Mumbai,2024-03-04,2024-03-24,20,Early Morning,Commute,3
+S0001819,T000455,Delhi,Mumbai,2024-03-01,2024-03-25,24,Night,Family / Personal,1
+S0001820,T000455,Kolkata,Chennai,2024-03-10,2024-04-06,27,Early Morning,Family / Personal,1
+S0001821,T000456,Delhi,Kolkata,2024-03-14,2024-03-29,15,Morning,Business,1
+S0001822,T000456,Mumbai,Bangalore,2024-03-14,2024-04-18,35,Morning,Business,1
+S0001823,T000456,Hyderabad,Delhi,2024-03-12,2024-04-27,46,Morning,Leisure,2
+S0001824,T000456,Delhi,Kolkata,2024-03-14,2024-04-10,27,Night,Commute,1
+S0001825,T000457,Bangalore,Hyderabad,2024-03-05,2024-03-30,25,Evening,Leisure,1
+S0001826,T000457,Bangalore,Mumbai,2024-03-07,2024-04-18,42,Morning,Commute,1
+S0001827,T000457,Delhi,Hyderabad,2024-03-09,2024-04-13,35,Morning,Commute,1
+S0001828,T000457,Hyderabad,Delhi,2024-03-11,2024-04-20,40,Evening,Leisure,2
+S0001829,T000458,Delhi,Hyderabad,2024-03-08,2024-04-25,48,Early Morning,Business,1
+S0001830,T000458,Chennai,Delhi,2024-03-13,2024-04-29,47,Afternoon,Business,1
+S0001831,T000458,Bangalore,Mumbai,2024-03-07,2024-03-13,6,Evening,Leisure,2
+S0001832,T000458,Hyderabad,Mumbai,2024-03-04,2024-04-10,37,Evening,Leisure,1
+S0001833,T000459,Delhi,Kolkata,2024-03-07,2024-04-06,30,Evening,Commute,1
+S0001834,T000459,Chennai,Mumbai,2024-03-01,2024-04-18,48,Evening,Commute,1
+S0001835,T000459,Chennai,Bangalore,2024-03-13,2024-04-21,39,Evening,Commute,1
+S0001836,T000459,Hyderabad,Kolkata,2024-03-06,2024-04-15,40,Night,Leisure,2
+S0001837,T000460,Chennai,Hyderabad,2024-03-11,2024-03-21,10,Morning,Leisure,1
+S0001838,T000460,Bangalore,Kolkata,2024-03-06,2024-04-08,33,Night,Leisure,1
+S0001839,T000460,Mumbai,Bangalore,2024-03-05,2024-03-24,19,Afternoon,Leisure,1
+S0001840,T000460,Hyderabad,Mumbai,2024-03-09,2024-03-10,1,Night,Leisure,1
+S0001841,T000461,Mumbai,Delhi,2024-03-15,2024-03-19,4,Afternoon,Leisure,2
+S0001842,T000461,Mumbai,Chennai,2024-03-06,2024-04-23,48,Night,Leisure,1
+S0001843,T000461,Chennai,Kolkata,2024-03-13,2024-05-01,49,Early Morning,Leisure,1
+S0001844,T000461,Bangalore,Hyderabad,2024-03-10,2024-04-01,22,Afternoon,Leisure,1
+S0001845,T000462,Kolkata,Delhi,2024-03-04,2024-03-10,6,Evening,Commute,1
+S0001846,T000462,Bangalore,Hyderabad,2024-03-09,2024-03-30,21,Afternoon,Commute,2
+S0001847,T000462,Delhi,Mumbai,2024-03-04,2024-04-15,42,Night,Family / Personal,3
+S0001848,T000462,Kolkata,Chennai,2024-03-07,2024-03-16,9,Morning,Leisure,1
+S0001849,T000463,Delhi,Kolkata,2024-03-10,2024-03-16,6,Early Morning,Leisure,1
+S0001850,T000463,Mumbai,Kolkata,2024-03-15,2024-03-26,11,Night,Business,1
+S0001851,T000463,Mumbai,Kolkata,2024-03-08,2024-04-01,24,Early Morning,Leisure,1
+S0001852,T000463,Chennai,Delhi,2024-03-08,2024-03-14,6,Evening,Family / Personal,3
+S0001853,T000464,Delhi,Mumbai,2024-03-10,2024-04-16,37,Evening,Commute,3
+S0001854,T000464,Bangalore,Mumbai,2024-03-07,2024-04-22,46,Evening,Leisure,1
+S0001855,T000464,Bangalore,Hyderabad,2024-03-12,2024-04-25,44,Night,Business,3
+S0001856,T000464,Bangalore,Kolkata,2024-03-11,2024-03-27,16,Morning,Business,1
+S0001857,T000465,Kolkata,Chennai,2024-03-15,2024-03-20,5,Afternoon,Family / Personal,1
+S0001858,T000465,Chennai,Kolkata,2024-03-06,2024-04-18,43,Evening,Commute,1
+S0001859,T000465,Hyderabad,Mumbai,2024-03-09,2024-03-20,11,Early Morning,Commute,1
+S0001860,T000465,Hyderabad,Chennai,2024-03-07,2024-03-24,17,Morning,Commute,1
+S0001861,T000466,Mumbai,Chennai,2024-03-10,2024-03-19,9,Afternoon,Business,1
+S0001862,T000466,Kolkata,Bangalore,2024-03-04,2024-03-26,22,Evening,Leisure,1
+S0001863,T000466,Kolkata,Mumbai,2024-03-10,2024-03-12,2,Morning,Family / Personal,1
+S0001864,T000466,Bangalore,Hyderabad,2024-03-12,2024-04-19,38,Night,Commute,3
+S0001865,T000467,Mumbai,Kolkata,2024-03-14,2024-04-20,37,Early Morning,Leisure,2
+S0001866,T000467,Bangalore,Mumbai,2024-03-10,2024-04-14,35,Early Morning,Leisure,3
+S0001867,T000467,Bangalore,Chennai,2024-03-13,2024-03-17,4,Early Morning,Commute,1
+S0001868,T000467,Chennai,Kolkata,2024-03-05,2024-03-19,14,Early Morning,Business,1
+S0001869,T000468,Bangalore,Kolkata,2024-03-12,2024-03-18,6,Early Morning,Leisure,1
+S0001870,T000468,Bangalore,Hyderabad,2024-03-11,2024-04-06,26,Morning,Family / Personal,2
+S0001871,T000468,Hyderabad,Chennai,2024-03-12,2024-04-03,22,Night,Business,1
+S0001872,T000468,Delhi,Mumbai,2024-03-11,2024-04-15,35,Evening,Leisure,2
+S0001873,T000469,Bangalore,Mumbai,2024-03-11,2024-04-01,21,Afternoon,Family / Personal,1
+S0001874,T000469,Bangalore,Kolkata,2024-03-08,2024-04-25,48,Early Morning,Commute,1
+S0001875,T000469,Chennai,Hyderabad,2024-03-10,2024-04-16,37,Afternoon,Leisure,1
+S0001876,T000469,Chennai,Bangalore,2024-03-02,2024-03-17,15,Night,Leisure,3
+S0001877,T000470,Chennai,Kolkata,2024-03-05,2024-04-21,47,Early Morning,Family / Personal,1
+S0001878,T000470,Bangalore,Delhi,2024-03-05,2024-03-12,7,Night,Business,2
+S0001879,T000470,Chennai,Hyderabad,2024-03-06,2024-03-21,15,Night,Leisure,1
+S0001880,T000470,Mumbai,Kolkata,2024-03-12,2024-03-31,19,Morning,Commute,1
+S0001881,T000471,Bangalore,Kolkata,2024-03-02,2024-03-27,25,Evening,Leisure,3
+S0001882,T000471,Mumbai,Kolkata,2024-03-04,2024-03-25,21,Early Morning,Leisure,3
+S0001883,T000471,Mumbai,Chennai,2024-03-13,2024-04-24,42,Evening,Leisure,1
+S0001884,T000471,Chennai,Bangalore,2024-03-15,2024-03-19,4,Night,Business,1
+S0001885,T000472,Bangalore,Mumbai,2024-03-10,2024-03-27,17,Evening,Commute,2
+S0001886,T000472,Kolkata,Hyderabad,2024-03-02,2024-04-14,43,Night,Leisure,3
+S0001887,T000472,Delhi,Mumbai,2024-03-11,2024-03-18,7,Morning,Family / Personal,1
+S0001888,T000472,Hyderabad,Mumbai,2024-03-09,2024-04-01,23,Night,Business,2
+S0001889,T000473,Hyderabad,Chennai,2024-03-03,2024-03-20,17,Morning,Leisure,1
+S0001890,T000473,Kolkata,Bangalore,2024-03-05,2024-04-23,49,Night,Business,3
+S0001891,T000473,Mumbai,Bangalore,2024-03-14,2024-04-02,19,Evening,Leisure,1
+S0001892,T000473,Mumbai,Kolkata,2024-03-11,2024-04-20,40,Morning,Family / Personal,1
+S0001893,T000474,Mumbai,Delhi,2024-03-14,2024-04-26,43,Night,Family / Personal,1
+S0001894,T000474,Bangalore,Hyderabad,2024-03-08,2024-04-13,36,Morning,Commute,1
+S0001895,T000474,Chennai,Delhi,2024-03-03,2024-03-21,18,Afternoon,Commute,1
+S0001896,T000474,Kolkata,Delhi,2024-03-08,2024-04-24,47,Evening,Family / Personal,3
+S0001897,T000475,Delhi,Bangalore,2024-03-03,2024-04-13,41,Night,Commute,1
+S0001898,T000475,Mumbai,Bangalore,2024-03-07,2024-03-25,18,Evening,Business,1
+S0001899,T000475,Mumbai,Kolkata,2024-03-14,2024-04-11,28,Afternoon,Business,1
+S0001900,T000475,Kolkata,Chennai,2024-03-11,2024-04-15,35,Early Morning,Commute,1
+S0001901,T000476,Chennai,Bangalore,2024-03-01,2024-03-09,8,Early Morning,Business,1
+S0001902,T000476,Bangalore,Hyderabad,2024-03-07,2024-03-10,3,Night,Family / Personal,1
+S0001903,T000476,Hyderabad,Kolkata,2024-03-04,2024-03-18,14,Night,Business,1
+S0001904,T000476,Delhi,Bangalore,2024-03-10,2024-03-17,7,Night,Commute,1
+S0001905,T000477,Hyderabad,Mumbai,2024-03-04,2024-04-02,29,Morning,Leisure,1
+S0001906,T000477,Hyderabad,Mumbai,2024-03-01,2024-03-22,21,Early Morning,Business,4
+S0001907,T000477,Chennai,Hyderabad,2024-03-14,2024-03-20,6,Morning,Family / Personal,1
+S0001908,T000477,Hyderabad,Mumbai,2024-03-13,2024-03-18,5,Early Morning,Leisure,1
+S0001909,T000478,Mumbai,Kolkata,2024-03-03,2024-04-16,44,Early Morning,Family / Personal,2
+S0001910,T000478,Kolkata,Chennai,2024-03-14,2024-04-22,39,Night,Leisure,1
+S0001911,T000478,Hyderabad,Kolkata,2024-03-11,2024-04-07,27,Early Morning,Commute,1
+S0001912,T000478,Chennai,Mumbai,2024-03-08,2024-04-18,41,Night,Leisure,2
+S0001913,T000479,Delhi,Chennai,2024-03-08,2024-04-19,42,Afternoon,Leisure,1
+S0001914,T000479,Bangalore,Mumbai,2024-03-15,2024-05-03,49,Evening,Commute,1
+S0001915,T000479,Bangalore,Chennai,2024-03-07,2024-04-17,41,Early Morning,Business,3
+S0001916,T000479,Hyderabad,Chennai,2024-03-03,2024-03-27,24,Morning,Leisure,2
+S0001917,T000480,Hyderabad,Chennai,2024-03-06,2024-04-16,41,Afternoon,Family / Personal,1
+S0001918,T000480,Kolkata,Bangalore,2024-03-02,2024-03-21,19,Night,Commute,1
+S0001919,T000480,Hyderabad,Delhi,2024-03-05,2024-04-14,40,Early Morning,Family / Personal,1
+S0001920,T000480,Delhi,Mumbai,2024-03-08,2024-03-30,22,Afternoon,Leisure,1
+S0001921,T000481,Delhi,Chennai,2024-03-02,2024-03-10,8,Night,Family / Personal,3
+S0001922,T000481,Hyderabad,Bangalore,2024-03-08,2024-04-23,46,Afternoon,Leisure,1
+S0001923,T000481,Kolkata,Mumbai,2024-03-15,2024-04-14,30,Early Morning,Leisure,1
+S0001924,T000481,Kolkata,Bangalore,2024-03-02,2024-03-28,26,Evening,Business,1
+S0001925,T000482,Hyderabad,Kolkata,2024-03-01,2024-03-05,4,Night,Leisure,1
+S0001926,T000482,Hyderabad,Mumbai,2024-03-09,2024-04-13,35,Night,Leisure,1
+S0001927,T000482,Kolkata,Mumbai,2024-03-08,2024-03-17,9,Morning,Business,2
+S0001928,T000482,Mumbai,Chennai,2024-03-11,2024-04-29,49,Night,Business,3
+S0001929,T000483,Hyderabad,Mumbai,2024-03-08,2024-03-10,2,Morning,Commute,2
+S0001930,T000483,Hyderabad,Delhi,2024-03-04,2024-04-19,46,Night,Leisure,2
+S0001931,T000483,Bangalore,Chennai,2024-03-13,2024-03-14,1,Early Morning,Leisure,1
+S0001932,T000483,Kolkata,Delhi,2024-03-04,2024-04-11,38,Early Morning,Business,2
+S0001933,T000484,Hyderabad,Chennai,2024-03-14,2024-04-12,29,Afternoon,Family / Personal,2
+S0001934,T000484,Kolkata,Delhi,2024-03-14,2024-03-30,16,Morning,Family / Personal,2
+S0001935,T000484,Bangalore,Chennai,2024-03-15,2024-04-04,20,Morning,Family / Personal,1
+S0001936,T000484,Hyderabad,Chennai,2024-03-12,2024-04-13,32,Night,Leisure,1
+S0001937,T000485,Bangalore,Hyderabad,2024-03-12,2024-03-27,15,Evening,Commute,2
+S0001938,T000485,Bangalore,Chennai,2024-03-12,2024-04-07,26,Morning,Business,1
+S0001939,T000485,Delhi,Bangalore,2024-03-12,2024-03-24,12,Afternoon,Commute,3
+S0001940,T000485,Chennai,Kolkata,2024-03-05,2024-04-15,41,Afternoon,Leisure,1
+S0001941,T000486,Bangalore,Mumbai,2024-03-08,2024-03-16,8,Morning,Business,2
+S0001942,T000486,Delhi,Hyderabad,2024-03-11,2024-03-21,10,Afternoon,Business,1
+S0001943,T000486,Bangalore,Mumbai,2024-03-03,2024-04-02,30,Night,Family / Personal,1
+S0001944,T000486,Mumbai,Kolkata,2024-03-08,2024-04-11,34,Afternoon,Commute,4
+S0001945,T000487,Kolkata,Bangalore,2024-03-03,2024-03-25,22,Early Morning,Leisure,1
+S0001946,T000487,Bangalore,Hyderabad,2024-03-01,2024-03-30,29,Evening,Leisure,3
+S0001947,T000487,Kolkata,Delhi,2024-03-10,2024-04-11,32,Morning,Commute,2
+S0001948,T000487,Bangalore,Kolkata,2024-03-10,2024-03-28,18,Night,Leisure,1
+S0001949,T000488,Mumbai,Delhi,2024-03-11,2024-03-27,16,Morning,Family / Personal,2
+S0001950,T000488,Bangalore,Mumbai,2024-03-07,2024-03-17,10,Evening,Leisure,1
+S0001951,T000488,Bangalore,Hyderabad,2024-03-02,2024-04-10,39,Morning,Commute,1
+S0001952,T000488,Hyderabad,Kolkata,2024-03-13,2024-03-31,18,Morning,Commute,1
+S0001953,T000489,Kolkata,Hyderabad,2024-03-12,2024-04-19,38,Evening,Commute,2
+S0001954,T000489,Chennai,Delhi,2024-03-15,2024-04-29,45,Morning,Leisure,1
+S0001955,T000489,Mumbai,Kolkata,2024-03-09,2024-04-23,45,Night,Commute,1
+S0001956,T000489,Hyderabad,Kolkata,2024-03-09,2024-04-19,41,Night,Leisure,1
+S0001957,T000490,Chennai,Delhi,2024-03-09,2024-03-19,10,Morning,Commute,2
+S0001958,T000490,Chennai,Mumbai,2024-03-13,2024-04-18,36,Morning,Leisure,1
+S0001959,T000490,Hyderabad,Bangalore,2024-03-06,2024-03-21,15,Evening,Commute,2
+S0001960,T000490,Hyderabad,Bangalore,2024-03-03,2024-04-14,42,Afternoon,Leisure,1
+S0001961,T000491,Chennai,Mumbai,2024-03-05,2024-04-13,39,Morning,Commute,1
+S0001962,T000491,Hyderabad,Bangalore,2024-03-07,2024-04-14,38,Early Morning,Business,1
+S0001963,T000491,Chennai,Hyderabad,2024-03-12,2024-04-21,40,Evening,Leisure,1
+S0001964,T000491,Chennai,Bangalore,2024-03-11,2024-04-25,45,Morning,Commute,2
+S0001965,T000492,Hyderabad,Kolkata,2024-03-15,2024-03-17,2,Evening,Business,1
+S0001966,T000492,Mumbai,Chennai,2024-03-06,2024-04-02,27,Evening,Business,1
+S0001967,T000492,Bangalore,Delhi,2024-03-13,2024-03-16,3,Morning,Leisure,1
+S0001968,T000492,Bangalore,Mumbai,2024-03-01,2024-03-28,27,Early Morning,Leisure,1
+S0001969,T000493,Chennai,Hyderabad,2024-03-14,2024-03-22,8,Morning,Family / Personal,1
+S0001970,T000493,Hyderabad,Delhi,2024-03-09,2024-04-15,37,Early Morning,Commute,1
+S0001971,T000493,Chennai,Mumbai,2024-03-15,2024-04-14,30,Afternoon,Leisure,1
+S0001972,T000493,Mumbai,Bangalore,2024-03-13,2024-04-25,43,Night,Family / Personal,1
+S0001973,T000494,Bangalore,Kolkata,2024-03-11,2024-03-31,20,Evening,Leisure,3
+S0001974,T000494,Bangalore,Hyderabad,2024-03-12,2024-03-15,3,Early Morning,Leisure,1
+S0001975,T000494,Chennai,Hyderabad,2024-03-09,2024-04-16,38,Early Morning,Commute,4
+S0001976,T000494,Bangalore,Kolkata,2024-03-05,2024-04-05,31,Morning,Leisure,1
+S0001977,T000495,Kolkata,Mumbai,2024-03-13,2024-03-20,7,Evening,Family / Personal,1
+S0001978,T000495,Hyderabad,Mumbai,2024-03-01,2024-03-09,8,Evening,Leisure,1
+S0001979,T000495,Mumbai,Chennai,2024-03-10,2024-03-31,21,Morning,Commute,1
+S0001980,T000495,Chennai,Bangalore,2024-03-04,2024-03-07,3,Night,Commute,1
+S0001981,T000496,Kolkata,Chennai,2024-03-06,2024-03-10,4,Morning,Commute,1
+S0001982,T000496,Hyderabad,Bangalore,2024-03-08,2024-04-02,25,Afternoon,Leisure,1
+S0001983,T000496,Delhi,Kolkata,2024-03-06,2024-03-25,19,Afternoon,Family / Personal,1
+S0001984,T000496,Bangalore,Hyderabad,2024-03-05,2024-03-08,3,Night,Family / Personal,1
+S0001985,T000497,Hyderabad,Bangalore,2024-03-14,2024-04-02,19,Morning,Leisure,1
+S0001986,T000497,Bangalore,Chennai,2024-03-04,2024-03-07,3,Night,Leisure,1
+S0001987,T000497,Mumbai,Kolkata,2024-03-02,2024-03-25,23,Early Morning,Leisure,1
+S0001988,T000497,Mumbai,Delhi,2024-03-05,2024-03-30,25,Afternoon,Leisure,1
+S0001989,T000498,Delhi,Hyderabad,2024-03-05,2024-03-07,2,Afternoon,Family / Personal,1
+S0001990,T000498,Chennai,Kolkata,2024-03-03,2024-03-28,25,Evening,Commute,1
+S0001991,T000498,Bangalore,Delhi,2024-03-14,2024-03-16,2,Night,Commute,2
+S0001992,T000498,Bangalore,Mumbai,2024-03-13,2024-03-19,6,Morning,Business,1
+S0001993,T000499,Delhi,Mumbai,2024-03-10,2024-03-22,12,Night,Leisure,1
+S0001994,T000499,Chennai,Delhi,2024-03-12,2024-03-15,3,Evening,Commute,1
+S0001995,T000499,Delhi,Hyderabad,2024-03-12,2024-04-22,41,Morning,Business,1
+S0001996,T000499,Bangalore,Chennai,2024-03-10,2024-03-24,14,Evening,Business,1
+S0001997,T000500,Kolkata,Hyderabad,2024-03-15,2024-04-09,25,Night,Business,1
+S0001998,T000500,Chennai,Hyderabad,2024-03-10,2024-04-22,43,Early Morning,Business,1
+S0001999,T000500,Kolkata,Mumbai,2024-03-05,2024-04-01,27,Night,Commute,2
+S0002000,T000500,Bangalore,Delhi,2024-03-12,2024-04-21,40,Afternoon,Business,1
+S0002001,T000501,Mumbai,Chennai,2024-03-12,2024-03-26,14,Morning,Family / Personal,1
+S0002002,T000501,Kolkata,Chennai,2024-03-11,2024-03-21,10,Afternoon,Family / Personal,1
+S0002003,T000501,Bangalore,Delhi,2024-03-13,2024-04-15,33,Morning,Family / Personal,1
+S0002004,T000501,Kolkata,Chennai,2024-03-15,2024-03-21,6,Evening,Family / Personal,2
+S0002005,T000502,Chennai,Delhi,2024-03-09,2024-04-10,32,Night,Family / Personal,1
+S0002006,T000502,Hyderabad,Delhi,2024-03-04,2024-04-18,45,Morning,Commute,1
+S0002007,T000502,Bangalore,Mumbai,2024-03-15,2024-03-21,6,Evening,Family / Personal,1
+S0002008,T000502,Mumbai,Hyderabad,2024-03-07,2024-03-25,18,Early Morning,Commute,1
+S0002009,T000503,Delhi,Chennai,2024-03-07,2024-04-05,29,Evening,Family / Personal,2
+S0002010,T000503,Mumbai,Delhi,2024-03-10,2024-03-31,21,Early Morning,Family / Personal,1
+S0002011,T000503,Bangalore,Delhi,2024-03-04,2024-04-17,44,Early Morning,Family / Personal,2
+S0002012,T000503,Delhi,Chennai,2024-03-01,2024-04-11,41,Afternoon,Family / Personal,1
+S0002013,T000504,Delhi,Bangalore,2024-03-13,2024-03-19,6,Morning,Family / Personal,1
+S0002014,T000504,Bangalore,Chennai,2024-03-10,2024-04-09,30,Afternoon,Business,1
+S0002015,T000504,Kolkata,Bangalore,2024-03-04,2024-04-16,43,Night,Commute,2
+S0002016,T000504,Mumbai,Delhi,2024-03-02,2024-03-28,26,Afternoon,Family / Personal,3
+S0002017,T000505,Chennai,Bangalore,2024-03-05,2024-04-04,30,Evening,Family / Personal,2
+S0002018,T000505,Delhi,Bangalore,2024-03-03,2024-03-21,18,Night,Family / Personal,2
+S0002019,T000505,Delhi,Hyderabad,2024-03-13,2024-04-12,30,Night,Family / Personal,2
+S0002020,T000505,Mumbai,Kolkata,2024-03-13,2024-03-16,3,Evening,Commute,2
+S0002021,T000506,Bangalore,Chennai,2024-03-02,2024-04-17,46,Afternoon,Family / Personal,1
+S0002022,T000506,Delhi,Mumbai,2024-03-07,2024-03-30,23,Evening,Family / Personal,2
+S0002023,T000506,Hyderabad,Delhi,2024-03-05,2024-04-03,29,Afternoon,Family / Personal,2
+S0002024,T000506,Kolkata,Bangalore,2024-03-11,2024-04-26,46,Afternoon,Family / Personal,2
+S0002025,T000507,Hyderabad,Mumbai,2024-03-01,2024-04-18,48,Early Morning,Family / Personal,2
+S0002026,T000507,Hyderabad,Mumbai,2024-03-08,2024-03-10,2,Night,Commute,2
+S0002027,T000507,Bangalore,Hyderabad,2024-03-08,2024-04-06,29,Morning,Leisure,2
+S0002028,T000507,Bangalore,Kolkata,2024-03-15,2024-04-03,19,Evening,Leisure,2
+S0002029,T000508,Chennai,Hyderabad,2024-03-08,2024-04-25,48,Evening,Family / Personal,2
+S0002030,T000508,Mumbai,Bangalore,2024-03-11,2024-04-19,39,Afternoon,Leisure,2
+S0002031,T000508,Bangalore,Chennai,2024-03-01,2024-03-08,7,Evening,Family / Personal,2
+S0002032,T000508,Mumbai,Delhi,2024-03-13,2024-04-03,21,Morning,Family / Personal,1
+S0002033,T000509,Kolkata,Chennai,2024-03-12,2024-03-22,10,Early Morning,Family / Personal,2
+S0002034,T000509,Kolkata,Chennai,2024-03-01,2024-03-12,11,Afternoon,Family / Personal,1
+S0002035,T000509,Mumbai,Bangalore,2024-03-10,2024-03-14,4,Morning,Family / Personal,4
+S0002036,T000509,Kolkata,Bangalore,2024-03-04,2024-04-06,33,Early Morning,Leisure,1
+S0002037,T000510,Kolkata,Mumbai,2024-03-10,2024-04-08,29,Afternoon,Family / Personal,1
+S0002038,T000510,Chennai,Mumbai,2024-03-09,2024-04-15,37,Early Morning,Family / Personal,4
+S0002039,T000510,Bangalore,Delhi,2024-03-05,2024-04-11,37,Afternoon,Leisure,2
+S0002040,T000510,Chennai,Hyderabad,2024-03-08,2024-04-15,38,Afternoon,Family / Personal,2
+S0002041,T000511,Delhi,Chennai,2024-03-12,2024-03-23,11,Morning,Family / Personal,2
+S0002042,T000511,Chennai,Bangalore,2024-03-03,2024-04-16,44,Early Morning,Leisure,3
+S0002043,T000511,Bangalore,Kolkata,2024-03-03,2024-03-12,9,Morning,Family / Personal,3
+S0002044,T000511,Mumbai,Kolkata,2024-03-13,2024-04-23,41,Early Morning,Leisure,2
+S0002045,T000512,Hyderabad,Chennai,2024-03-06,2024-03-13,7,Morning,Family / Personal,1
+S0002046,T000512,Delhi,Hyderabad,2024-03-10,2024-03-27,17,Night,Leisure,3
+S0002047,T000512,Chennai,Delhi,2024-03-03,2024-03-04,1,Morning,Family / Personal,1
+S0002048,T000512,Kolkata,Bangalore,2024-03-08,2024-04-21,44,Afternoon,Family / Personal,1
+S0002049,T000513,Mumbai,Delhi,2024-03-11,2024-04-21,41,Evening,Leisure,1
+S0002050,T000513,Mumbai,Kolkata,2024-03-02,2024-04-04,33,Early Morning,Family / Personal,2
+S0002051,T000513,Chennai,Mumbai,2024-03-04,2024-03-27,23,Early Morning,Commute,1
+S0002052,T000513,Kolkata,Hyderabad,2024-03-11,2024-04-18,38,Afternoon,Family / Personal,3
+S0002053,T000514,Hyderabad,Bangalore,2024-03-06,2024-04-01,26,Evening,Family / Personal,3
+S0002054,T000514,Hyderabad,Mumbai,2024-03-06,2024-04-20,45,Night,Family / Personal,1
+S0002055,T000514,Bangalore,Mumbai,2024-03-10,2024-03-31,21,Morning,Commute,4
+S0002056,T000514,Delhi,Bangalore,2024-03-08,2024-03-15,7,Afternoon,Family / Personal,1
+S0002057,T000515,Chennai,Kolkata,2024-03-08,2024-03-18,10,Night,Family / Personal,1
+S0002058,T000515,Delhi,Hyderabad,2024-03-08,2024-04-03,26,Evening,Family / Personal,3
+S0002059,T000515,Delhi,Bangalore,2024-03-05,2024-03-19,14,Afternoon,Family / Personal,1
+S0002060,T000515,Hyderabad,Bangalore,2024-03-04,2024-03-24,20,Afternoon,Leisure,1
+S0002061,T000516,Chennai,Hyderabad,2024-03-10,2024-03-29,19,Early Morning,Family / Personal,2
+S0002062,T000516,Delhi,Chennai,2024-03-06,2024-03-14,8,Afternoon,Family / Personal,1
+S0002063,T000516,Chennai,Delhi,2024-03-07,2024-03-22,15,Evening,Family / Personal,2
+S0002064,T000516,Chennai,Hyderabad,2024-03-04,2024-04-10,37,Early Morning,Leisure,1
+S0002065,T000517,Kolkata,Bangalore,2024-03-07,2024-03-13,6,Evening,Family / Personal,2
+S0002066,T000517,Hyderabad,Bangalore,2024-03-10,2024-03-23,13,Morning,Commute,2
+S0002067,T000517,Mumbai,Bangalore,2024-03-12,2024-04-23,42,Evening,Family / Personal,2
+S0002068,T000517,Kolkata,Hyderabad,2024-03-06,2024-03-07,1,Evening,Commute,1
+S0002069,T000518,Hyderabad,Delhi,2024-03-10,2024-04-20,41,Afternoon,Business,2
+S0002070,T000518,Kolkata,Hyderabad,2024-03-04,2024-03-15,11,Afternoon,Family / Personal,1
+S0002071,T000518,Hyderabad,Kolkata,2024-03-03,2024-03-26,23,Afternoon,Family / Personal,3
+S0002072,T000518,Delhi,Hyderabad,2024-03-11,2024-03-12,1,Afternoon,Family / Personal,1
+S0002073,T000519,Kolkata,Mumbai,2024-03-02,2024-03-05,3,Night,Family / Personal,2
+S0002074,T000519,Delhi,Kolkata,2024-03-13,2024-05-01,49,Early Morning,Leisure,1
+S0002075,T000519,Hyderabad,Kolkata,2024-03-09,2024-04-11,33,Evening,Family / Personal,1
+S0002076,T000519,Kolkata,Hyderabad,2024-03-03,2024-04-11,39,Early Morning,Family / Personal,1
+S0002077,T000520,Bangalore,Chennai,2024-03-09,2024-03-12,3,Morning,Leisure,1
+S0002078,T000520,Delhi,Mumbai,2024-03-03,2024-04-08,36,Early Morning,Family / Personal,2
+S0002079,T000520,Delhi,Hyderabad,2024-03-03,2024-04-21,49,Early Morning,Family / Personal,2
+S0002080,T000520,Bangalore,Chennai,2024-03-03,2024-04-11,39,Night,Business,2
+S0002081,T000521,Hyderabad,Bangalore,2024-03-08,2024-03-12,4,Afternoon,Family / Personal,3
+S0002082,T000521,Hyderabad,Bangalore,2024-03-04,2024-04-11,38,Afternoon,Family / Personal,2
+S0002083,T000521,Kolkata,Bangalore,2024-03-05,2024-04-14,40,Morning,Commute,2
+S0002084,T000521,Chennai,Bangalore,2024-03-12,2024-04-14,33,Evening,Leisure,2
+S0002085,T000522,Delhi,Hyderabad,2024-03-04,2024-04-02,29,Afternoon,Family / Personal,1
+S0002086,T000522,Kolkata,Hyderabad,2024-03-08,2024-04-01,24,Evening,Family / Personal,2
+S0002087,T000522,Kolkata,Hyderabad,2024-03-12,2024-04-26,45,Early Morning,Family / Personal,3
+S0002088,T000522,Kolkata,Bangalore,2024-03-13,2024-04-19,37,Evening,Family / Personal,3
+S0002089,T000523,Hyderabad,Kolkata,2024-03-06,2024-04-15,40,Early Morning,Commute,1
+S0002090,T000523,Hyderabad,Kolkata,2024-03-12,2024-04-02,21,Night,Commute,1
+S0002091,T000523,Kolkata,Bangalore,2024-03-11,2024-03-20,9,Afternoon,Family / Personal,1
+S0002092,T000523,Mumbai,Kolkata,2024-03-09,2024-03-12,3,Early Morning,Family / Personal,3
+S0002093,T000524,Delhi,Mumbai,2024-03-11,2024-03-14,3,Morning,Family / Personal,2
+S0002094,T000524,Hyderabad,Delhi,2024-03-03,2024-04-15,43,Evening,Family / Personal,4
+S0002095,T000524,Mumbai,Delhi,2024-03-03,2024-03-21,18,Night,Family / Personal,2
+S0002096,T000524,Bangalore,Mumbai,2024-03-11,2024-03-19,8,Morning,Family / Personal,1
+S0002097,T000525,Delhi,Chennai,2024-03-14,2024-04-02,19,Night,Family / Personal,2
+S0002098,T000525,Delhi,Kolkata,2024-03-03,2024-04-06,34,Morning,Family / Personal,3
+S0002099,T000525,Kolkata,Bangalore,2024-03-03,2024-04-18,46,Afternoon,Family / Personal,2
+S0002100,T000525,Kolkata,Hyderabad,2024-03-01,2024-04-16,46,Morning,Family / Personal,2
+S0002101,T000526,Hyderabad,Delhi,2024-03-06,2024-03-11,5,Early Morning,Family / Personal,1
+S0002102,T000526,Chennai,Mumbai,2024-03-06,2024-03-13,7,Early Morning,Business,2
+S0002103,T000526,Delhi,Mumbai,2024-03-01,2024-03-15,14,Early Morning,Family / Personal,1
+S0002104,T000526,Mumbai,Chennai,2024-03-07,2024-03-22,15,Evening,Commute,3
+S0002105,T000527,Mumbai,Hyderabad,2024-03-14,2024-03-29,15,Night,Leisure,4
+S0002106,T000527,Delhi,Bangalore,2024-03-13,2024-03-20,7,Evening,Family / Personal,1
+S0002107,T000527,Hyderabad,Chennai,2024-03-03,2024-03-18,15,Early Morning,Family / Personal,2
+S0002108,T000527,Hyderabad,Kolkata,2024-03-09,2024-04-21,43,Afternoon,Business,2
+S0002109,T000528,Delhi,Mumbai,2024-03-11,2024-04-14,34,Evening,Leisure,2
+S0002110,T000528,Delhi,Chennai,2024-03-12,2024-04-27,46,Night,Family / Personal,2
+S0002111,T000528,Kolkata,Bangalore,2024-03-12,2024-04-01,20,Evening,Family / Personal,1
+S0002112,T000528,Hyderabad,Chennai,2024-03-09,2024-03-14,5,Night,Leisure,3
+S0002113,T000529,Mumbai,Chennai,2024-03-12,2024-04-20,39,Evening,Family / Personal,2
+S0002114,T000529,Delhi,Kolkata,2024-03-02,2024-03-08,6,Afternoon,Family / Personal,2
+S0002115,T000529,Delhi,Mumbai,2024-03-06,2024-03-20,14,Early Morning,Family / Personal,2
+S0002116,T000529,Delhi,Hyderabad,2024-03-03,2024-03-31,28,Evening,Family / Personal,2
+S0002117,T000530,Delhi,Hyderabad,2024-03-09,2024-04-11,33,Early Morning,Family / Personal,3
+S0002118,T000530,Bangalore,Hyderabad,2024-03-12,2024-04-16,35,Evening,Family / Personal,2
+S0002119,T000530,Delhi,Chennai,2024-03-11,2024-04-05,25,Night,Family / Personal,3
+S0002120,T000530,Hyderabad,Chennai,2024-03-05,2024-04-22,48,Morning,Family / Personal,2
+S0002121,T000531,Hyderabad,Delhi,2024-03-03,2024-03-09,6,Night,Commute,2
+S0002122,T000531,Bangalore,Hyderabad,2024-03-04,2024-03-09,5,Evening,Business,2
+S0002123,T000531,Delhi,Bangalore,2024-03-03,2024-04-07,35,Early Morning,Business,1
+S0002124,T000531,Delhi,Mumbai,2024-03-09,2024-04-19,41,Night,Family / Personal,2
+S0002125,T000532,Mumbai,Bangalore,2024-03-05,2024-04-12,38,Evening,Leisure,2
+S0002126,T000532,Bangalore,Chennai,2024-03-10,2024-03-17,7,Afternoon,Commute,1
+S0002127,T000532,Kolkata,Delhi,2024-03-14,2024-04-03,20,Afternoon,Family / Personal,2
+S0002128,T000532,Bangalore,Chennai,2024-03-13,2024-04-03,21,Early Morning,Family / Personal,2
+S0002129,T000533,Kolkata,Bangalore,2024-03-07,2024-04-04,28,Afternoon,Family / Personal,2
+S0002130,T000533,Mumbai,Delhi,2024-03-05,2024-04-14,40,Early Morning,Family / Personal,1
+S0002131,T000533,Hyderabad,Kolkata,2024-03-12,2024-04-16,35,Morning,Leisure,3
+S0002132,T000533,Hyderabad,Bangalore,2024-03-02,2024-03-11,9,Morning,Family / Personal,3
+S0002133,T000534,Kolkata,Hyderabad,2024-03-09,2024-04-14,36,Evening,Family / Personal,2
+S0002134,T000534,Bangalore,Mumbai,2024-03-10,2024-04-26,47,Afternoon,Family / Personal,2
+S0002135,T000534,Bangalore,Mumbai,2024-03-04,2024-04-22,49,Evening,Leisure,2
+S0002136,T000534,Kolkata,Chennai,2024-03-10,2024-03-20,10,Afternoon,Family / Personal,2
+S0002137,T000535,Hyderabad,Mumbai,2024-03-15,2024-04-09,25,Night,Family / Personal,3
+S0002138,T000535,Kolkata,Delhi,2024-03-14,2024-03-16,2,Early Morning,Family / Personal,1
+S0002139,T000535,Delhi,Kolkata,2024-03-13,2024-04-10,28,Evening,Commute,3
+S0002140,T000535,Mumbai,Bangalore,2024-03-13,2024-04-08,26,Afternoon,Leisure,3
+S0002141,T000536,Mumbai,Chennai,2024-03-08,2024-04-18,41,Afternoon,Leisure,2
+S0002142,T000536,Kolkata,Mumbai,2024-03-06,2024-04-11,36,Evening,Leisure,1
+S0002143,T000536,Chennai,Mumbai,2024-03-03,2024-04-11,39,Early Morning,Leisure,2
+S0002144,T000536,Kolkata,Hyderabad,2024-03-09,2024-04-05,27,Afternoon,Family / Personal,3
+S0002145,T000537,Bangalore,Chennai,2024-03-08,2024-04-11,34,Early Morning,Family / Personal,3
+S0002146,T000537,Hyderabad,Kolkata,2024-03-10,2024-04-26,47,Early Morning,Family / Personal,3
+S0002147,T000537,Mumbai,Delhi,2024-03-10,2024-04-23,44,Morning,Leisure,2
+S0002148,T000537,Mumbai,Kolkata,2024-03-03,2024-03-12,9,Early Morning,Family / Personal,2
+S0002149,T000538,Hyderabad,Kolkata,2024-03-10,2024-04-12,33,Evening,Family / Personal,3
+S0002150,T000538,Bangalore,Kolkata,2024-03-10,2024-04-23,44,Evening,Leisure,2
+S0002151,T000538,Mumbai,Bangalore,2024-03-01,2024-03-05,4,Night,Family / Personal,1
+S0002152,T000538,Hyderabad,Chennai,2024-03-02,2024-03-29,27,Evening,Family / Personal,2
+S0002153,T000539,Bangalore,Hyderabad,2024-03-09,2024-04-02,24,Night,Family / Personal,3
+S0002154,T000539,Delhi,Bangalore,2024-03-03,2024-04-21,49,Early Morning,Leisure,3
+S0002155,T000539,Chennai,Mumbai,2024-03-05,2024-04-01,27,Afternoon,Leisure,2
+S0002156,T000539,Kolkata,Hyderabad,2024-03-01,2024-04-08,38,Morning,Family / Personal,2
+S0002157,T000540,Chennai,Kolkata,2024-03-08,2024-03-21,13,Evening,Family / Personal,1
+S0002158,T000540,Chennai,Hyderabad,2024-03-13,2024-03-16,3,Morning,Family / Personal,2
+S0002159,T000540,Chennai,Delhi,2024-03-09,2024-03-26,17,Evening,Family / Personal,3
+S0002160,T000540,Kolkata,Chennai,2024-03-12,2024-04-11,30,Afternoon,Family / Personal,4
+S0002161,T000541,Mumbai,Delhi,2024-03-04,2024-03-21,17,Afternoon,Family / Personal,3
+S0002162,T000541,Bangalore,Mumbai,2024-03-12,2024-04-15,34,Afternoon,Leisure,2
+S0002163,T000541,Kolkata,Chennai,2024-03-13,2024-04-04,22,Afternoon,Leisure,2
+S0002164,T000541,Delhi,Chennai,2024-03-09,2024-04-05,27,Early Morning,Family / Personal,2
+S0002165,T000542,Mumbai,Bangalore,2024-03-09,2024-04-18,40,Night,Commute,1
+S0002166,T000542,Mumbai,Chennai,2024-03-02,2024-03-26,24,Evening,Commute,2
+S0002167,T000542,Hyderabad,Delhi,2024-03-04,2024-03-30,26,Early Morning,Family / Personal,2
+S0002168,T000542,Delhi,Mumbai,2024-03-15,2024-03-20,5,Afternoon,Commute,3
+S0002169,T000543,Kolkata,Chennai,2024-03-03,2024-04-15,43,Morning,Family / Personal,2
+S0002170,T000543,Bangalore,Hyderabad,2024-03-13,2024-04-17,35,Night,Family / Personal,2
+S0002171,T000543,Mumbai,Chennai,2024-03-05,2024-03-27,22,Morning,Family / Personal,2
+S0002172,T000543,Bangalore,Hyderabad,2024-03-10,2024-04-22,43,Night,Family / Personal,1
+S0002173,T000544,Bangalore,Hyderabad,2024-03-02,2024-03-29,27,Night,Leisure,2
+S0002174,T000544,Bangalore,Delhi,2024-03-11,2024-04-22,42,Night,Leisure,2
+S0002175,T000544,Delhi,Chennai,2024-03-14,2024-04-12,29,Afternoon,Family / Personal,2
+S0002176,T000544,Bangalore,Kolkata,2024-03-02,2024-03-23,21,Morning,Leisure,3
+S0002177,T000545,Mumbai,Hyderabad,2024-03-04,2024-03-08,4,Morning,Family / Personal,1
+S0002178,T000545,Chennai,Delhi,2024-03-05,2024-04-15,41,Morning,Family / Personal,2
+S0002179,T000545,Hyderabad,Mumbai,2024-03-06,2024-03-07,1,Evening,Family / Personal,1
+S0002180,T000545,Mumbai,Delhi,2024-03-04,2024-04-04,31,Morning,Business,1
+S0002181,T000546,Kolkata,Bangalore,2024-03-03,2024-03-20,17,Night,Commute,1
+S0002182,T000546,Mumbai,Delhi,2024-03-09,2024-03-22,13,Afternoon,Business,3
+S0002183,T000546,Bangalore,Hyderabad,2024-03-13,2024-04-17,35,Afternoon,Family / Personal,2
+S0002184,T000546,Bangalore,Kolkata,2024-03-04,2024-04-11,38,Evening,Family / Personal,2
+S0002185,T000547,Chennai,Mumbai,2024-03-12,2024-04-08,27,Morning,Commute,1
+S0002186,T000547,Mumbai,Kolkata,2024-03-01,2024-03-19,18,Evening,Family / Personal,1
+S0002187,T000547,Chennai,Delhi,2024-03-06,2024-03-12,6,Morning,Family / Personal,2
+S0002188,T000547,Mumbai,Delhi,2024-03-12,2024-04-16,35,Afternoon,Family / Personal,1
+S0002189,T000548,Hyderabad,Chennai,2024-03-08,2024-04-03,26,Afternoon,Commute,1
+S0002190,T000548,Hyderabad,Delhi,2024-03-03,2024-04-03,31,Early Morning,Leisure,3
+S0002191,T000548,Kolkata,Hyderabad,2024-03-14,2024-03-16,2,Night,Family / Personal,2
+S0002192,T000548,Mumbai,Chennai,2024-03-06,2024-03-10,4,Early Morning,Leisure,1
+S0002193,T000549,Bangalore,Mumbai,2024-03-02,2024-03-06,4,Night,Commute,3
+S0002194,T000549,Kolkata,Bangalore,2024-03-10,2024-04-08,29,Night,Family / Personal,3
+S0002195,T000549,Delhi,Chennai,2024-03-12,2024-04-20,39,Evening,Family / Personal,3
+S0002196,T000549,Mumbai,Delhi,2024-03-09,2024-04-12,34,Evening,Leisure,2
+S0002197,T000550,Hyderabad,Delhi,2024-03-15,2024-04-02,18,Afternoon,Leisure,2
+S0002198,T000550,Hyderabad,Kolkata,2024-03-08,2024-04-01,24,Evening,Family / Personal,3
+S0002199,T000550,Delhi,Mumbai,2024-03-06,2024-04-01,26,Evening,Family / Personal,2
+S0002200,T000550,Kolkata,Delhi,2024-03-02,2024-03-04,2,Early Morning,Family / Personal,4
+S0002201,T000551,Hyderabad,Bangalore,2024-03-06,2024-03-20,14,Morning,Family / Personal,2
+S0002202,T000551,Hyderabad,Mumbai,2024-03-07,2024-03-23,16,Morning,Family / Personal,3
+S0002203,T000551,Kolkata,Bangalore,2024-03-02,2024-03-14,12,Morning,Family / Personal,2
+S0002204,T000551,Chennai,Hyderabad,2024-03-03,2024-03-26,23,Early Morning,Family / Personal,2
+S0002205,T000552,Delhi,Hyderabad,2024-03-01,2024-03-13,12,Early Morning,Leisure,2
+S0002206,T000552,Delhi,Chennai,2024-03-01,2024-04-09,39,Night,Commute,2
+S0002207,T000552,Kolkata,Chennai,2024-03-12,2024-04-06,25,Night,Family / Personal,1
+S0002208,T000552,Delhi,Chennai,2024-03-13,2024-03-14,1,Afternoon,Leisure,1
+S0002209,T000553,Delhi,Bangalore,2024-03-01,2024-03-04,3,Evening,Family / Personal,3
+S0002210,T000553,Chennai,Delhi,2024-03-09,2024-03-10,1,Morning,Family / Personal,2
+S0002211,T000553,Mumbai,Chennai,2024-03-01,2024-03-14,13,Afternoon,Family / Personal,3
+S0002212,T000553,Kolkata,Delhi,2024-03-07,2024-04-25,49,Afternoon,Family / Personal,1
+S0002213,T000554,Kolkata,Bangalore,2024-03-04,2024-04-09,36,Early Morning,Leisure,2
+S0002214,T000554,Bangalore,Delhi,2024-03-03,2024-04-16,44,Evening,Family / Personal,2
+S0002215,T000554,Hyderabad,Kolkata,2024-03-01,2024-03-05,4,Morning,Family / Personal,1
+S0002216,T000554,Chennai,Kolkata,2024-03-06,2024-04-15,40,Night,Family / Personal,3
+S0002217,T000555,Chennai,Kolkata,2024-03-13,2024-04-08,26,Morning,Leisure,1
+S0002218,T000555,Delhi,Kolkata,2024-03-14,2024-05-02,49,Early Morning,Family / Personal,4
+S0002219,T000555,Bangalore,Mumbai,2024-03-07,2024-04-09,33,Evening,Leisure,3
+S0002220,T000555,Chennai,Mumbai,2024-03-02,2024-03-12,10,Afternoon,Family / Personal,3
+S0002221,T000556,Mumbai,Delhi,2024-03-12,2024-04-24,43,Afternoon,Family / Personal,1
+S0002222,T000556,Delhi,Kolkata,2024-03-15,2024-04-26,42,Early Morning,Leisure,2
+S0002223,T000556,Kolkata,Mumbai,2024-03-07,2024-04-24,48,Afternoon,Family / Personal,3
+S0002224,T000556,Hyderabad,Chennai,2024-03-09,2024-03-29,20,Afternoon,Leisure,2
+S0002225,T000557,Kolkata,Hyderabad,2024-03-13,2024-03-14,1,Afternoon,Family / Personal,2
+S0002226,T000557,Delhi,Kolkata,2024-03-09,2024-03-26,17,Afternoon,Family / Personal,1
+S0002227,T000557,Hyderabad,Kolkata,2024-03-13,2024-04-16,34,Night,Leisure,2
+S0002228,T000557,Bangalore,Delhi,2024-03-08,2024-04-02,25,Early Morning,Family / Personal,4
+S0002229,T000558,Hyderabad,Delhi,2024-03-14,2024-04-16,33,Early Morning,Leisure,2
+S0002230,T000558,Delhi,Chennai,2024-03-05,2024-03-19,14,Morning,Family / Personal,2
+S0002231,T000558,Delhi,Kolkata,2024-03-13,2024-04-20,38,Night,Commute,1
+S0002232,T000558,Hyderabad,Delhi,2024-03-08,2024-04-10,33,Evening,Family / Personal,3
+S0002233,T000559,Mumbai,Bangalore,2024-03-15,2024-03-30,15,Morning,Commute,4
+S0002234,T000559,Chennai,Kolkata,2024-03-12,2024-03-22,10,Morning,Family / Personal,2
+S0002235,T000559,Chennai,Bangalore,2024-03-05,2024-03-14,9,Morning,Family / Personal,1
+S0002236,T000559,Mumbai,Delhi,2024-03-11,2024-04-28,48,Afternoon,Family / Personal,2
+S0002237,T000560,Bangalore,Delhi,2024-03-12,2024-04-03,22,Morning,Family / Personal,1
+S0002238,T000560,Delhi,Chennai,2024-03-01,2024-04-15,45,Early Morning,Commute,2
+S0002239,T000560,Kolkata,Delhi,2024-03-02,2024-04-04,33,Night,Family / Personal,3
+S0002240,T000560,Chennai,Bangalore,2024-03-02,2024-03-11,9,Evening,Family / Personal,1
+S0002241,T000561,Hyderabad,Bangalore,2024-03-13,2024-04-15,33,Night,Family / Personal,2
+S0002242,T000561,Bangalore,Kolkata,2024-03-07,2024-03-26,19,Evening,Leisure,3
+S0002243,T000561,Kolkata,Hyderabad,2024-03-13,2024-03-14,1,Morning,Leisure,2
+S0002244,T000561,Bangalore,Kolkata,2024-03-03,2024-03-14,11,Night,Leisure,2
+S0002245,T000562,Mumbai,Chennai,2024-03-10,2024-04-02,23,Night,Family / Personal,2
+S0002246,T000562,Bangalore,Mumbai,2024-03-08,2024-03-09,1,Early Morning,Leisure,2
+S0002247,T000562,Chennai,Bangalore,2024-03-08,2024-03-18,10,Early Morning,Family / Personal,3
+S0002248,T000562,Bangalore,Delhi,2024-03-04,2024-03-12,8,Evening,Family / Personal,2
+S0002249,T000563,Delhi,Chennai,2024-03-01,2024-03-27,26,Night,Leisure,1
+S0002250,T000563,Mumbai,Bangalore,2024-03-15,2024-04-24,40,Early Morning,Leisure,2
+S0002251,T000563,Bangalore,Delhi,2024-03-12,2024-04-14,33,Night,Leisure,2
+S0002252,T000563,Bangalore,Delhi,2024-03-01,2024-04-02,32,Night,Family / Personal,1
+S0002253,T000564,Kolkata,Mumbai,2024-03-01,2024-03-21,20,Evening,Family / Personal,3
+S0002254,T000564,Hyderabad,Kolkata,2024-03-08,2024-03-15,7,Evening,Family / Personal,2
+S0002255,T000564,Kolkata,Mumbai,2024-03-11,2024-03-24,13,Afternoon,Leisure,1
+S0002256,T000564,Chennai,Delhi,2024-03-12,2024-04-09,28,Evening,Family / Personal,2
+S0002257,T000565,Delhi,Hyderabad,2024-03-06,2024-04-18,43,Evening,Family / Personal,2
+S0002258,T000565,Chennai,Kolkata,2024-03-08,2024-03-10,2,Night,Family / Personal,2
+S0002259,T000565,Delhi,Mumbai,2024-03-07,2024-04-20,44,Early Morning,Leisure,3
+S0002260,T000565,Hyderabad,Kolkata,2024-03-12,2024-03-17,5,Evening,Family / Personal,1
+S0002261,T000566,Hyderabad,Chennai,2024-03-15,2024-04-13,29,Early Morning,Business,2
+S0002262,T000566,Delhi,Chennai,2024-03-14,2024-04-26,43,Evening,Family / Personal,1
+S0002263,T000566,Bangalore,Delhi,2024-03-02,2024-04-18,47,Morning,Family / Personal,1
+S0002264,T000566,Chennai,Kolkata,2024-03-02,2024-04-02,31,Evening,Family / Personal,4
+S0002265,T000567,Bangalore,Chennai,2024-03-05,2024-03-21,16,Afternoon,Leisure,2
+S0002266,T000567,Delhi,Kolkata,2024-03-11,2024-04-10,30,Early Morning,Business,2
+S0002267,T000567,Bangalore,Delhi,2024-03-11,2024-03-23,12,Morning,Family / Personal,2
+S0002268,T000567,Hyderabad,Chennai,2024-03-09,2024-04-11,33,Night,Family / Personal,2
+S0002269,T000568,Bangalore,Chennai,2024-03-14,2024-04-21,38,Night,Commute,1
+S0002270,T000568,Bangalore,Mumbai,2024-03-02,2024-03-04,2,Morning,Leisure,2
+S0002271,T000568,Delhi,Kolkata,2024-03-05,2024-04-23,49,Evening,Family / Personal,2
+S0002272,T000568,Chennai,Kolkata,2024-03-06,2024-03-23,17,Early Morning,Family / Personal,2
+S0002273,T000569,Bangalore,Mumbai,2024-03-01,2024-04-09,39,Evening,Family / Personal,2
+S0002274,T000569,Delhi,Mumbai,2024-03-02,2024-04-12,41,Afternoon,Family / Personal,1
+S0002275,T000569,Bangalore,Chennai,2024-03-06,2024-03-13,7,Evening,Commute,1
+S0002276,T000569,Mumbai,Kolkata,2024-03-09,2024-03-25,16,Morning,Commute,4
+S0002277,T000570,Mumbai,Hyderabad,2024-03-07,2024-04-24,48,Afternoon,Family / Personal,2
+S0002278,T000570,Hyderabad,Delhi,2024-03-15,2024-04-11,27,Night,Family / Personal,2
+S0002279,T000570,Hyderabad,Chennai,2024-03-07,2024-03-11,4,Evening,Family / Personal,1
+S0002280,T000570,Hyderabad,Bangalore,2024-03-11,2024-04-22,42,Evening,Family / Personal,2
+S0002281,T000571,Chennai,Hyderabad,2024-03-07,2024-03-28,21,Night,Family / Personal,2
+S0002282,T000571,Mumbai,Chennai,2024-03-14,2024-05-02,49,Night,Leisure,2
+S0002283,T000571,Hyderabad,Kolkata,2024-03-12,2024-04-03,22,Night,Leisure,1
+S0002284,T000571,Bangalore,Kolkata,2024-03-13,2024-03-31,18,Afternoon,Business,1
+S0002285,T000572,Bangalore,Delhi,2024-03-13,2024-03-30,17,Early Morning,Leisure,1
+S0002286,T000572,Mumbai,Bangalore,2024-03-11,2024-03-25,14,Night,Family / Personal,1
+S0002287,T000572,Hyderabad,Delhi,2024-03-11,2024-04-28,48,Early Morning,Leisure,2
+S0002288,T000572,Mumbai,Bangalore,2024-03-05,2024-04-12,38,Afternoon,Family / Personal,1
+S0002289,T000573,Kolkata,Hyderabad,2024-03-09,2024-03-23,14,Evening,Commute,2
+S0002290,T000573,Kolkata,Bangalore,2024-03-03,2024-03-09,6,Night,Business,2
+S0002291,T000573,Mumbai,Chennai,2024-03-10,2024-03-17,7,Afternoon,Business,2
+S0002292,T000573,Kolkata,Delhi,2024-03-03,2024-03-25,22,Afternoon,Leisure,2
+S0002293,T000574,Bangalore,Chennai,2024-03-09,2024-04-13,35,Early Morning,Family / Personal,1
+S0002294,T000574,Kolkata,Bangalore,2024-03-06,2024-03-24,18,Early Morning,Family / Personal,2
+S0002295,T000574,Hyderabad,Bangalore,2024-03-07,2024-03-30,23,Night,Leisure,1
+S0002296,T000574,Delhi,Bangalore,2024-03-14,2024-04-19,36,Afternoon,Family / Personal,3
+S0002297,T000575,Mumbai,Chennai,2024-03-14,2024-04-21,38,Morning,Family / Personal,1
+S0002298,T000575,Delhi,Chennai,2024-03-07,2024-04-25,49,Early Morning,Leisure,2
+S0002299,T000575,Chennai,Mumbai,2024-03-02,2024-03-26,24,Afternoon,Leisure,1
+S0002300,T000575,Delhi,Kolkata,2024-03-04,2024-03-27,23,Afternoon,Family / Personal,3
+S0002301,T000576,Delhi,Chennai,2024-03-15,2024-03-28,13,Afternoon,Family / Personal,1
+S0002302,T000576,Delhi,Hyderabad,2024-03-12,2024-04-11,30,Afternoon,Leisure,2
+S0002303,T000576,Hyderabad,Chennai,2024-03-13,2024-03-27,14,Morning,Family / Personal,2
+S0002304,T000576,Delhi,Hyderabad,2024-03-03,2024-03-29,26,Morning,Family / Personal,3
+S0002305,T000577,Chennai,Bangalore,2024-03-15,2024-03-18,3,Afternoon,Leisure,2
+S0002306,T000577,Hyderabad,Delhi,2024-03-15,2024-03-26,11,Morning,Leisure,1
+S0002307,T000577,Kolkata,Delhi,2024-03-01,2024-04-07,37,Night,Commute,2
+S0002308,T000577,Hyderabad,Mumbai,2024-03-11,2024-03-18,7,Early Morning,Leisure,1
+S0002309,T000578,Mumbai,Kolkata,2024-03-06,2024-04-08,33,Night,Family / Personal,1
+S0002310,T000578,Chennai,Bangalore,2024-03-01,2024-03-14,13,Evening,Leisure,3
+S0002311,T000578,Mumbai,Hyderabad,2024-03-07,2024-04-22,46,Morning,Family / Personal,2
+S0002312,T000578,Delhi,Hyderabad,2024-03-03,2024-04-11,39,Night,Business,1
+S0002313,T000579,Bangalore,Kolkata,2024-03-07,2024-04-25,49,Morning,Family / Personal,2
+S0002314,T000579,Chennai,Delhi,2024-03-09,2024-03-21,12,Early Morning,Family / Personal,1
+S0002315,T000579,Hyderabad,Bangalore,2024-03-06,2024-03-28,22,Night,Business,2
+S0002316,T000579,Hyderabad,Delhi,2024-03-15,2024-04-06,22,Morning,Family / Personal,1
+S0002317,T000580,Chennai,Mumbai,2024-03-13,2024-05-01,49,Afternoon,Commute,2
+S0002318,T000580,Hyderabad,Delhi,2024-03-10,2024-03-31,21,Early Morning,Commute,2
+S0002319,T000580,Mumbai,Delhi,2024-03-08,2024-03-30,22,Night,Family / Personal,4
+S0002320,T000580,Kolkata,Bangalore,2024-03-07,2024-04-14,38,Morning,Business,2
+S0002321,T000581,Kolkata,Hyderabad,2024-03-12,2024-04-01,20,Early Morning,Family / Personal,2
+S0002322,T000581,Delhi,Kolkata,2024-03-11,2024-03-25,14,Morning,Family / Personal,1
+S0002323,T000581,Hyderabad,Kolkata,2024-03-15,2024-04-13,29,Night,Leisure,1
+S0002324,T000581,Hyderabad,Mumbai,2024-03-01,2024-04-09,39,Morning,Family / Personal,2
+S0002325,T000582,Delhi,Mumbai,2024-03-04,2024-04-10,37,Morning,Leisure,2
+S0002326,T000582,Kolkata,Delhi,2024-03-15,2024-03-26,11,Night,Leisure,2
+S0002327,T000582,Hyderabad,Kolkata,2024-03-04,2024-03-17,13,Afternoon,Family / Personal,1
+S0002328,T000582,Delhi,Bangalore,2024-03-02,2024-03-07,5,Evening,Family / Personal,2
+S0002329,T000583,Chennai,Mumbai,2024-03-09,2024-04-16,38,Morning,Family / Personal,2
+S0002330,T000583,Hyderabad,Bangalore,2024-03-08,2024-03-29,21,Evening,Commute,2
+S0002331,T000583,Kolkata,Delhi,2024-03-14,2024-03-25,11,Evening,Commute,2
+S0002332,T000583,Chennai,Hyderabad,2024-03-15,2024-04-10,26,Afternoon,Family / Personal,2
+S0002333,T000584,Mumbai,Kolkata,2024-03-14,2024-04-19,36,Early Morning,Family / Personal,2
+S0002334,T000584,Kolkata,Bangalore,2024-03-07,2024-04-10,34,Afternoon,Business,1
+S0002335,T000584,Mumbai,Hyderabad,2024-03-12,2024-03-22,10,Early Morning,Leisure,2
+S0002336,T000584,Kolkata,Bangalore,2024-03-06,2024-03-07,1,Early Morning,Family / Personal,2
+S0002337,T000585,Kolkata,Mumbai,2024-03-14,2024-04-07,24,Morning,Family / Personal,2
+S0002338,T000585,Mumbai,Kolkata,2024-03-07,2024-03-27,20,Afternoon,Family / Personal,3
+S0002339,T000585,Delhi,Kolkata,2024-03-05,2024-04-20,46,Early Morning,Commute,1
+S0002340,T000585,Bangalore,Chennai,2024-03-14,2024-04-09,26,Early Morning,Family / Personal,1
+S0002341,T000586,Chennai,Delhi,2024-03-09,2024-04-01,23,Afternoon,Leisure,3
+S0002342,T000586,Delhi,Hyderabad,2024-03-08,2024-03-19,11,Morning,Family / Personal,2
+S0002343,T000586,Mumbai,Kolkata,2024-03-12,2024-04-17,36,Night,Family / Personal,1
+S0002344,T000586,Hyderabad,Bangalore,2024-03-14,2024-04-16,33,Night,Family / Personal,3
+S0002345,T000587,Bangalore,Kolkata,2024-03-12,2024-03-16,4,Evening,Family / Personal,2
+S0002346,T000587,Bangalore,Delhi,2024-03-10,2024-03-26,16,Early Morning,Family / Personal,1
+S0002347,T000587,Bangalore,Mumbai,2024-03-05,2024-03-20,15,Morning,Family / Personal,2
+S0002348,T000587,Hyderabad,Bangalore,2024-03-11,2024-03-16,5,Afternoon,Family / Personal,2
+S0002349,T000588,Hyderabad,Bangalore,2024-03-13,2024-04-16,34,Morning,Leisure,2
+S0002350,T000588,Mumbai,Kolkata,2024-03-02,2024-04-09,38,Night,Family / Personal,2
+S0002351,T000588,Hyderabad,Bangalore,2024-03-04,2024-03-13,9,Night,Leisure,3
+S0002352,T000588,Kolkata,Mumbai,2024-03-03,2024-03-07,4,Early Morning,Family / Personal,1
+S0002353,T000589,Mumbai,Bangalore,2024-03-03,2024-03-26,23,Afternoon,Family / Personal,1
+S0002354,T000589,Hyderabad,Kolkata,2024-03-01,2024-03-31,30,Afternoon,Business,1
+S0002355,T000589,Mumbai,Kolkata,2024-03-15,2024-05-03,49,Night,Family / Personal,1
+S0002356,T000589,Mumbai,Bangalore,2024-03-12,2024-03-26,14,Early Morning,Family / Personal,1
+S0002357,T000590,Chennai,Mumbai,2024-03-05,2024-03-28,23,Morning,Commute,1
+S0002358,T000590,Bangalore,Mumbai,2024-03-15,2024-05-01,47,Afternoon,Leisure,3
+S0002359,T000590,Kolkata,Hyderabad,2024-03-10,2024-04-24,45,Early Morning,Family / Personal,1
+S0002360,T000590,Bangalore,Delhi,2024-03-01,2024-03-21,20,Afternoon,Leisure,2
+S0002361,T000591,Mumbai,Delhi,2024-03-02,2024-04-15,44,Night,Family / Personal,2
+S0002362,T000591,Hyderabad,Chennai,2024-03-02,2024-03-22,20,Night,Leisure,4
+S0002363,T000591,Bangalore,Hyderabad,2024-03-05,2024-03-09,4,Early Morning,Commute,1
+S0002364,T000591,Delhi,Hyderabad,2024-03-01,2024-03-20,19,Early Morning,Business,2
+S0002365,T000592,Delhi,Chennai,2024-03-13,2024-04-09,27,Night,Commute,2
+S0002366,T000592,Hyderabad,Delhi,2024-03-03,2024-03-26,23,Early Morning,Family / Personal,1
+S0002367,T000592,Hyderabad,Delhi,2024-03-02,2024-03-15,13,Morning,Commute,2
+S0002368,T000592,Bangalore,Mumbai,2024-03-11,2024-03-21,10,Early Morning,Leisure,2
+S0002369,T000593,Chennai,Kolkata,2024-03-14,2024-04-07,24,Early Morning,Leisure,2
+S0002370,T000593,Kolkata,Hyderabad,2024-03-15,2024-03-18,3,Night,Business,3
+S0002371,T000593,Bangalore,Chennai,2024-03-01,2024-04-06,36,Night,Leisure,3
+S0002372,T000593,Kolkata,Chennai,2024-03-01,2024-04-17,47,Early Morning,Family / Personal,3
+S0002373,T000594,Bangalore,Hyderabad,2024-03-13,2024-04-22,40,Morning,Leisure,3
+S0002374,T000594,Kolkata,Mumbai,2024-03-04,2024-04-06,33,Early Morning,Family / Personal,1
+S0002375,T000594,Chennai,Kolkata,2024-03-10,2024-03-16,6,Night,Family / Personal,1
+S0002376,T000594,Mumbai,Bangalore,2024-03-07,2024-04-23,47,Early Morning,Family / Personal,3
+S0002377,T000595,Hyderabad,Chennai,2024-03-11,2024-04-16,36,Night,Family / Personal,2
+S0002378,T000595,Mumbai,Chennai,2024-03-06,2024-03-14,8,Night,Family / Personal,1
+S0002379,T000595,Mumbai,Kolkata,2024-03-10,2024-04-12,33,Afternoon,Leisure,2
+S0002380,T000595,Kolkata,Bangalore,2024-03-15,2024-04-05,21,Early Morning,Family / Personal,3
+S0002381,T000596,Kolkata,Mumbai,2024-03-02,2024-03-17,15,Evening,Leisure,1
+S0002382,T000596,Chennai,Hyderabad,2024-03-15,2024-04-01,17,Morning,Family / Personal,2
+S0002383,T000596,Kolkata,Bangalore,2024-03-06,2024-04-22,47,Afternoon,Family / Personal,2
+S0002384,T000596,Delhi,Bangalore,2024-03-10,2024-03-31,21,Night,Family / Personal,1
+S0002385,T000597,Hyderabad,Mumbai,2024-03-09,2024-03-30,21,Night,Commute,2
+S0002386,T000597,Chennai,Mumbai,2024-03-05,2024-04-11,37,Evening,Leisure,1
+S0002387,T000597,Delhi,Chennai,2024-03-07,2024-03-19,12,Morning,Family / Personal,2
+S0002388,T000597,Delhi,Kolkata,2024-03-13,2024-04-17,35,Morning,Family / Personal,1
+S0002389,T000598,Mumbai,Hyderabad,2024-03-04,2024-03-05,1,Afternoon,Leisure,2
+S0002390,T000598,Mumbai,Kolkata,2024-03-06,2024-04-04,29,Morning,Family / Personal,2
+S0002391,T000598,Bangalore,Kolkata,2024-03-08,2024-03-22,14,Afternoon,Family / Personal,2
+S0002392,T000598,Chennai,Mumbai,2024-03-15,2024-03-21,6,Morning,Leisure,2
+S0002393,T000599,Bangalore,Kolkata,2024-03-10,2024-03-23,13,Night,Leisure,1
+S0002394,T000599,Delhi,Chennai,2024-03-15,2024-04-02,18,Morning,Family / Personal,2
+S0002395,T000599,Kolkata,Mumbai,2024-03-01,2024-04-05,35,Early Morning,Family / Personal,2
+S0002396,T000599,Delhi,Chennai,2024-03-04,2024-03-21,17,Night,Family / Personal,1
+S0002397,T000600,Chennai,Delhi,2024-03-11,2024-03-14,3,Afternoon,Commute,3
+S0002398,T000600,Kolkata,Chennai,2024-03-08,2024-04-10,33,Afternoon,Family / Personal,2
+S0002399,T000600,Delhi,Kolkata,2024-03-03,2024-04-19,47,Early Morning,Leisure,1
+S0002400,T000600,Delhi,Hyderabad,2024-03-02,2024-03-20,18,Afternoon,Family / Personal,3

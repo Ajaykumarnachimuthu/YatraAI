@@ -1,0 +1,5 @@
+Behavioral Shock,Theoretical Expectation,Empirical Shift,Directional Validation
++50% Fare Surge (High Cost Sensitivity),Rail/Economy choice probability increases; Air decreases,Train choice share increased by +18.4%,PASSED
++120m Delay Injected on Rail Route,Reliability-sensitive travellers reject delayed train,Delayed service choice probability dropped by -62.8%,PASSED
+Green Preference (Eco-Conscious Urbanite),High carbon penalty shifts choice to Electric Train,Train mode share reached 72.3% for Eco-Conscious archetype,PASSED
+Time-Sensitive Professional Persona,Willingness to pay high fare for minimal duration,Air mode share reached 76.8% for Professional archetype,PASSED

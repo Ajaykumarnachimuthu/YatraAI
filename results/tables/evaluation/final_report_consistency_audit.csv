@@ -1,0 +1,10 @@
+Report Name,File Path,Integrity Check,Observed State,Consistency Status
+Phase 1 Evidence Report,reports/phase1/phase1_evidence_report.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (0 found), Champion aligned: False",WARNING
+Phase 2 Evidence Report,reports/phase2/phase2_evidence_report.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (0 found), Champion aligned: False",WARNING
+Phase 3 Evidence Report,reports/phase3/phase3_evidence_report.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (2 found), Champion aligned: False",WARNING
+Phase 4 Evidence Report,reports/phase4/phase4_evidence_report.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (0 found), Champion aligned: True",PASSED
+Phase 5 Evidence Report,reports/final/phase5_evidence_report.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (2 found), Champion aligned: True",WARNING
+Final Comprehensive Report,reports/final/final_comprehensive_report.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (2 found), Champion aligned: True",WARNING
+Executive Summary,reports/final/executive_summary.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (0 found), Champion aligned: True",PASSED
+Viva Preparation Q&A,reports/final/viva_questions_and_answers.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (0 found), Champion aligned: True",PASSED
+Limitations & Future Work,reports/final/limitations_and_future_work.md,Terminology & Model Consistency,"Zero forbidden 8-D terms (0 found), Champion aligned: False",WARNING

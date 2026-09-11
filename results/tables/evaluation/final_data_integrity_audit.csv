@@ -1,0 +1,19 @@
+Data Tier,Dataset Identifier,File Path,Expected Size (bytes),Observed Size (bytes),Expected SHA-256,Observed SHA-256,Expected Records,Observed Records,Integrity Status
+Raw External Data,Stations Master,data/raw/railways/stations.json,1910928,1910928,885247a7bb3c3f7c...,885247a7bb3c3f7c...,8990,8990,BITWISE MATCH
+Raw External Data,Trains Master,data/raw/railways/trains.json,96667263,96667263,0b68c11a490f31f4...,0b68c11a490f31f4...,5208,5208,BITWISE MATCH
+Raw External Data,Delays Manifest,data/raw/delays/Train_List.csv,1819,1819,1186745f901a9502...,1186745f901a9502...,42,42,BITWISE MATCH
+Raw External Data,Flights Corpus,data/raw/flights/Clean_flight_data_Vivek.csv,22211377,22211377,8752438485eb2752...,8752438485eb2752...,300261,300261,BITWISE MATCH
+Raw External Data,Monsoon Rainfall,data/raw/environmental/rainfall_india_1901-2015.csv,347705,347705,14ebe75d1cdc2aed...,14ebe75d1cdc2aed...,4116,4116,BITWISE MATCH
+Processed Canonical Data,Canonical Stations,data/processed/canonical_stations.parquet,392590,392590,1be5fec2492cc566...,1be5fec2492cc566...,8990,8990,VERIFIED EXACT
+Processed Canonical Data,Canonical Train Services,data/processed/canonical_train_services.parquet,136955,136955,c4e494f969553469...,c4e494f969553469...,5208,5208,VERIFIED EXACT
+Processed Canonical Data,Canonical Train Routes,data/processed/canonical_train_routes.parquet,6607903,6607903,7cd92edf265c8476...,7cd92edf265c8476...,416637,416637,VERIFIED EXACT
+Processed Canonical Data,Canonical Train Delays,data/processed/canonical_train_delays.parquet,49816,49816,f0ead8680f8db65a...,f0ead8680f8db65a...,1479,1479,VERIFIED EXACT
+Processed Canonical Data,Canonical Flights,data/processed/canonical_flights.parquet,1990289,1990289,ac7ee4dccada7e56...,ac7ee4dccada7e56...,300259,300259,VERIFIED EXACT
+Processed Canonical Data,Canonical Rainfall,data/processed/canonical_subdivision_rainfall.parquet,274162,274162,03ae2eb22e42952b...,03ae2eb22e42952b...,4116,4116,VERIFIED EXACT
+Processed Canonical Data,Canonical Corridor,data/processed/canonical_corridor_multimodal.parquet,11929,11929,b304111a53fcbf39...,b304111a53fcbf39...,30,30,VERIFIED EXACT
+Synthetic Simulation Data,Traveller Population (Parquet),data/synthetic/traveller_population.parquet,224701,224701,7db83b4efed53714...,7db83b4efed53714...,5000,5000,FROZEN BITWISE MATCH
+Synthetic Simulation Data,Search Sessions (Parquet),data/synthetic/search_sessions.parquet,465925,465925,9852016e19d15df5...,9852016e19d15df5...,40000,40000,FROZEN BITWISE MATCH
+Synthetic Simulation Data,Itinerary Candidates (Parquet),data/synthetic/itinerary_candidates.parquet,4011185,4011185,f163377fd61b7abd...,f163377fd61b7abd...,138603,138603,FROZEN BITWISE MATCH
+Synthetic Simulation Data,Choice Dataset (Parquet),data/synthetic/choice_dataset.parquet,7284648,7284648,43a49778bc01703f...,43a49778bc01703f...,138603,138603,FROZEN BITWISE MATCH
+Synthetic Simulation Data,Choice Dataset (CSV),data/synthetic/choice_dataset.csv,43703085,43703085,878b2b65cc96d3ef...,878b2b65cc96d3ef...,138603,138603,FROZEN BITWISE MATCH
+Behavioral Specification,Authoritative 7-D Travel DNA,data/synthetic/traveller_population.parquet,7,7,Strict 7-D,Strict 7-D,5000,5000,VERIFIED 7-D (Zero 8-D Dependence)

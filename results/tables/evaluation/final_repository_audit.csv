@@ -1,0 +1,28 @@
+Component Category,Target Item,Audit Check,Observed State,Audit Status
+Directory Structure,config/,Directory Exists and Populated,Exists: True (1 total items),PASSED
+Directory Structure,data/,Directory Exists and Populated,Exists: True (89 total items),PASSED
+Directory Structure,src/,Directory Exists and Populated,Exists: True (25 total items),PASSED
+Directory Structure,notebooks/,Directory Exists and Populated,Exists: True (6 total items),PASSED
+Directory Structure,results/,Directory Exists and Populated,Exists: True (71 total items),PASSED
+Directory Structure,docs/,Directory Exists and Populated,Exists: True (21 total items),PASSED
+Directory Structure,reports/,Directory Exists and Populated,Exists: True (39 total items),PASSED
+Source Code Module,src/data_collection.py,Module Exists and Non-Empty,"4,211 bytes",PASSED
+Source Code Module,src/data_cleaning.py,Module Exists and Non-Empty,"20,732 bytes",PASSED
+Source Code Module,src/synthetic_generation.py,Module Exists and Non-Empty,"34,419 bytes",PASSED
+Source Code Module,src/validation.py,Module Exists and Non-Empty,"18,334 bytes",PASSED
+Source Code Module,src/feature_engineering.py,Module Exists and Non-Empty,"19,308 bytes",PASSED
+Source Code Module,src/train_models.py,Module Exists and Non-Empty,"6,101 bytes",PASSED
+Source Code Module,src/evaluation.py,Module Exists and Non-Empty,"15,237 bytes",PASSED
+Source Code Module,src/phase4_baseline.py,Module Exists and Non-Empty,"7,877 bytes",PASSED
+Source Code Module,src/phase4_step2.py,Module Exists and Non-Empty,"15,094 bytes",PASSED
+Source Code Module,src/generate_evidence_assets.py,Module Exists and Non-Empty,"62,655 bytes",PASSED
+Source Code Module,src/generate_presentation.py,Module Exists and Non-Empty,"40,746 bytes",PASSED
+Path Safety & Portability,src/*.py,Relative / Project-Root-Safe Paths Used,0 non-portable path literals found,PASSED
+Execution Command Verification,python -m src.data_collection,Clean Execution & Output Verification,PASSED in 1.2s (All 5 raw sources verified with exact checksums),PASSED
+Execution Command Verification,python -m src.data_cleaning,Clean Execution & Output Verification,PASSED in 24.5s (Standardized multimodal transit graph and 7 canonical tables),PASSED
+Execution Command Verification,python -m src.validation,Clean Execution & Output Verification,"PASSED in 8.9s (Structural, statistical Beta, MNL axioms, 6 sensitivity tests passed)",PASSED
+Execution Command Verification,python -m src.phase4_baseline,Clean Execution & Output Verification,"PASSED in 36.8s (Leakage-safe split (70/15/15), 4 model families on Core & Extended)",PASSED
+Execution Command Verification,python -m src.phase4_step2,Clean Execution & Output Verification,"PASSED in 18.4s (Operating threshold sweep, tau*=0.30 selected, champion serialized)",PASSED
+Execution Command Verification,python -m src.generate_evidence_assets,Clean Execution & Output Verification,PASSED in 4.2s (10 formula panels & 16 publication table cards rendered at 300 DPI),PASSED
+Execution Command Verification,python -m src.generate_presentation,Clean Execution & Output Verification,PASSED in 2.1s (12-slide executive presentation generated),PASSED
+Execution Command Verification,Inference Engine Verification,Clean Execution & Output Verification,PASSED in 3.2s (load_champion_pipeline() produces predictions and probabilities successfully),PASSED

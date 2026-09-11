@@ -1,0 +1,8 @@
+Canonical Table,Records,Columns,Format,File Size,Primary Key
+canonical_stations,8990,10,Parquet + CSV,392.6 KB,station_code
+canonical_train_services,5208,8,Parquet + CSV,137.0 KB,train_number
+canonical_train_routes,416637,14,Parquet + CSV,6.61 MB,"(train_number, station_code)"
+canonical_train_delays,1479,15,Parquet + CSV,49.8 KB,"(train_number, station_code)"
+canonical_flights,300259,14,Parquet + CSV,1.99 MB,flight_itinerary_id
+canonical_subdivision_rainfall,4116,20,Parquet + CSV,274.2 KB,"(subdivision, year)"
+canonical_corridor_multimodal,30,15,Parquet + CSV,11.9 KB,"(origin_city, dest_city)"

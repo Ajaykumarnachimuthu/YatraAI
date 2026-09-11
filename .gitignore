@@ -1,0 +1,105 @@
+# ==============================================================================
+# YĀTRĀ AI — .gitignore for GitHub Academic Submission & Public Repository
+# ==============================================================================
+# Note: All academic datasets (data/raw/, data/processed/, data/synthetic/),
+# source code (src/), notebooks (notebooks/), experimental results (results/),
+# models (results/models/champion_gb_core.joblib), figures (results/figures/),
+# tables (results/tables/), reports (reports/), documentation (docs/), and
+# configuration (config/) are EXPLICITLY TRACKED and NOT IGNORED.
+# ==============================================================================
+
+# Python Bytecode & Optimization Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution & Build Caches
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Sensitive Credentials
+.env
+.env.*
+!.env.example
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook Checkpoints & Profiling
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing & Coverage Outputs
+.cache
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and Local Databases
+*.log
+*.sqlite3
+
+# OS Generated & System Metadata Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Office Lock Files
+~$*
+*.tmp
+
+# ==============================================================================
+# EXPLICIT INCLUSIONS: Ensure all required submission assets are retained
+# ==============================================================================
+!config/
+!data/
+!data/raw/
+!data/processed/
+!data/synthetic/
+!data/external/
+!src/
+!notebooks/
+!results/
+!results/models/
+!results/models/champion_gb_core.joblib
+!results/figures/
+!results/tables/
+!reports/
+!docs/

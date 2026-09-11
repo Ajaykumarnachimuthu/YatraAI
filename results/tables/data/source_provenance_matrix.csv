@@ -1,0 +1,6 @@
+Dataset Domain,Local Path,Records,Disk Size,License,Integrity Verified
+Indian Railways Stations Master Directory,data/raw/railways/stations.json,8990,1.82 MB,MIT License,PASSED
+Indian Railways Trains Master Directory & Multi-Stop Timetable,data/raw/railways/trains.json,5208,92.19 MB,MIT License,PASSED
+Indian Railway Express Trains Delay & Reliability Datasets,data/raw/delays/Train_List.csv,42,1.8 KB,Open Academic & Research Public Dataset (NTES Public Running Status),PASSED
+Indian Domestic Flights Pricing & Itinerary Dataset,data/raw/flights/Clean_flight_data_Vivek.csv,300261,21.18 MB,Open Data / Public Domain CC0 / Academic Research,PASSED
+IMD Historical Subdivisional Monthly & Annual Rainfall,data/raw/environmental/rainfall_india_1901-2015.csv,4116,339.6 KB,Government Open Data License - India (GODL),PASSED

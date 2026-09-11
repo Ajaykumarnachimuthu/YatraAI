@@ -1,0 +1,8 @@
+Travel DNA Dimension,Empirical Mean,Empirical Std,Min Value,Max Value,Support Check,Moments Audit
+cost_sensitivity,0.5555,0.2165,0.0508,0.9925,"Strictly in (0, 1)",CONVERGED
+time_sensitivity,0.5205,0.2163,0.038,0.994,"Strictly in (0, 1)",CONVERGED
+reliability_sensitivity,0.6928,0.1786,0.1642,0.999,"Strictly in (0, 1)",CONVERGED
+comfort_preference,0.6432,0.1655,0.1018,0.9859,"Strictly in (0, 1)",CONVERGED
+transfer_tolerance,0.4715,0.2772,0.0104,0.982,"Strictly in (0, 1)",CONVERGED
+departure_time_flexibility,0.6202,0.2025,0.0478,0.9875,"Strictly in (0, 1)",CONVERGED
+sustainability_preference,0.4495,0.2099,0.0357,0.994,"Strictly in (0, 1)",CONVERGED

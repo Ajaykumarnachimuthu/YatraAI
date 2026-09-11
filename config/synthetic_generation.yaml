@@ -1,0 +1,213 @@
+# ==============================================================================
+# YĀTRĀ AI — Synthetic Generation & Simulation Configuration
+# Phase 3: Synthetic Traveller Behaviour & Travel DNA
+# ==============================================================================
+
+reproducibility:
+  seed: 42
+  generation_timestamp: "2026-09-11T00:00:00Z"
+  generator_version: "YatraAI-SyntheticEngine-v1.0-Final"
+  python_runtime: "3.11.9"
+
+population:
+  pilot:
+    travellers_per_persona: 100
+    total_travellers: 600
+    sessions_per_traveller: 4
+    total_sessions: 2400
+  final_target:
+    total_travellers: 5000
+    sessions_per_traveller: 8
+    total_sessions: 40000
+    persona_shares:
+      "Cost-Sensitive Commuter": 0.25
+      "Time-Sensitive Professional": 0.20
+      "Occasional Leisure Traveler": 0.15
+      "Car-Dependent Suburban": 0.18
+      "Eco-Conscious Urbanite": 0.12
+      "Mobility-Constrained Traveler": 0.10
+
+personas:
+  - name: "Cost-Sensitive Commuter"
+    beta_params:
+      cost_sensitivity: [13.1, 2.9]
+      time_sensitivity: [4.9, 9.1]
+      reliability_sensitivity: [10.4, 5.6]
+      comfort_preference: [6.0, 6.0]
+      transfer_tolerance: [11.2, 2.8]
+      departure_time_flexibility: [10.5, 3.5]
+      sustainability_preference: [5.5, 7.5]
+    purpose_distribution:
+      Commute: 0.65
+      Business: 0.10
+      Leisure: 0.15
+      Family / Personal: 0.10
+    party_size_distribution:
+      1: 0.85
+      2: 0.10
+      3: 0.05
+
+  - name: "Time-Sensitive Professional"
+    beta_params:
+      cost_sensitivity: [4.2, 9.8]
+      time_sensitivity: [13.6, 2.4]
+      reliability_sensitivity: [14.4, 1.6]
+      comfort_preference: [9.75, 3.25]
+      transfer_tolerance: [3.5, 10.5]
+      departure_time_flexibility: [5.0, 9.0]
+      sustainability_preference: [5.25, 9.75]
+    purpose_distribution:
+      Commute: 0.15
+      Business: 0.70
+      Leisure: 0.10
+      Family / Personal: 0.05
+    party_size_distribution:
+      1: 0.90
+      2: 0.08
+      3: 0.02
+
+  - name: "Occasional Leisure Traveler"
+    beta_params:
+      cost_sensitivity: [7.7, 6.3]
+      time_sensitivity: [6.3, 7.7]
+      reliability_sensitivity: [8.25, 6.75]
+      comfort_preference: [9.8, 4.2]
+      transfer_tolerance: [7.7, 6.3]
+      departure_time_flexibility: [11.2, 2.8]
+      sustainability_preference: [7.5, 7.5]
+    purpose_distribution:
+      Commute: 0.05
+      Business: 0.05
+      Leisure: 0.70
+      Family / Personal: 0.20
+    party_size_distribution:
+      1: 0.25
+      2: 0.45
+      3: 0.20
+      4: 0.10
+
+  - name: "Car-Dependent Suburban"
+    beta_params:
+      cost_sensitivity: [6.3, 7.7]
+      time_sensitivity: [7.7, 6.3]
+      reliability_sensitivity: [7.7, 6.3]
+      comfort_preference: [9.75, 5.25]
+      transfer_tolerance: [3.2, 12.8]
+      departure_time_flexibility: [7.7, 6.3]
+      sustainability_preference: [4.5, 10.5]
+    purpose_distribution:
+      Commute: 0.35
+      Business: 0.25
+      Leisure: 0.25
+      Family / Personal: 0.15
+    party_size_distribution:
+      1: 0.60
+      2: 0.25
+      3: 0.10
+      4: 0.05
+
+  - name: "Eco-Conscious Urbanite"
+    beta_params:
+      cost_sensitivity: [7.7, 6.3]
+      time_sensitivity: [7.0, 7.0]
+      reliability_sensitivity: [10.4, 5.6]
+      comfort_preference: [7.7, 6.3]
+      transfer_tolerance: [10.5, 4.5]
+      departure_time_flexibility: [11.25, 3.75]
+      sustainability_preference: [15.0, 2.0]
+    purpose_distribution:
+      Commute: 0.30
+      Business: 0.20
+      Leisure: 0.35
+      Family / Personal: 0.15
+    party_size_distribution:
+      1: 0.70
+      2: 0.20
+      3: 0.08
+      4: 0.02
+
+  - name: "Mobility-Constrained Traveler"
+    beta_params:
+      cost_sensitivity: [8.4, 5.6]
+      time_sensitivity: [4.9, 9.1]
+      reliability_sensitivity: [13.5, 1.5]
+      comfort_preference: [12.0, 3.0]
+      transfer_tolerance: [2.8, 11.2]
+      departure_time_flexibility: [7.0, 7.0]
+      sustainability_preference: [6.0, 9.0]
+    purpose_distribution:
+      Commute: 0.10
+      Business: 0.05
+      Leisure: 0.25
+      Family / Personal: 0.60
+    party_size_distribution:
+      1: 0.30
+      2: 0.50
+      3: 0.15
+      4: 0.05
+
+session_space:
+  metro_cities:
+    - "Delhi"
+    - "Mumbai"
+    - "Bangalore"
+    - "Kolkata"
+    - "Hyderabad"
+    - "Chennai"
+  departure_windows:
+    - "Early Morning" # 04:00 - 08:00
+    - "Morning"       # 08:00 - 12:00
+    - "Afternoon"     # 12:00 - 16:00
+    - "Evening"       # 16:00 - 20:00
+    - "Night"         # 20:00 - 24:00 / 04:00
+  lead_days_min: 1
+  lead_days_max: 49
+  base_search_date: "2024-03-01"
+  candidates_per_session_min: 2
+  candidates_per_session_max: 5
+
+itinerary_attributes:
+  comfort_proxy_mapping:
+    flight_economy: 0.80
+    flight_business: 0.95
+    rail_premium: 0.85 # Rajdhani, Tejas, Duronto, Vande Bharat
+    rail_standard: 0.65 # Mail, Express, Superfast standard sleeper/AC
+
+  carbon_emission_factors:
+    flight:
+      factor_kg_per_pkm: 0.1540
+      source: "UK Department for Energy Security and Net Zero (DESNZ) / DEFRA Greenhouse Gas Reporting: Conversion Factors 2023"
+      publication_version: "2023 v1.0, Domestic Aviation Factor (without Radiative Forcing)"
+      unit: "kg CO2e per passenger-km"
+      date_accessed: "2026-09-10"
+    rail:
+      factor_kg_per_pkm: 0.0320
+      source: "Central Electricity Authority (CEA) / Bureau of Energy Efficiency (BEE) India & Indian Railways Environment Directorate Annual Report 2022-2023"
+      publication_version: "Baseline Carbon Emission Database for Indian Transport v18.0"
+      unit: "kg CO2e per passenger-km"
+      date_accessed: "2026-09-10"
+
+  rail_fares_irctc_telescopic:
+    base_sleeper_per_km: 0.52
+    base_3ac_per_km: 1.48
+    base_2ac_per_km: 2.18
+    base_1ac_per_km: 3.65
+    superfast_surcharge: 45.0
+    rajdhani_surcharge_multiplier: 1.25
+
+  delay_risk_weights:
+    w_severe: 0.60
+    w_cancelled: 0.30
+    w_slight: 0.10
+    flight_default_reliability: 0.88 # Transparent documented neutral baseline for domestic flights
+
+utility_model:
+  asc_mode:
+    flight: 0.0
+    rail: 0.0
+  probability_temperature: 1.0 # Standard MNL scaling
+
+validation_tolerances:
+  prob_sum_tolerance: 1.0e-6
+  prob_min_bound: 0.0
+  prob_max_bound: 1.0

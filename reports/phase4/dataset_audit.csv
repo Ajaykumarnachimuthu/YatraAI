@@ -1,0 +1,40 @@
+column_name,data_type,classification_tier,description,null_count,unique_values,in_core_model_a,in_extended_model_b
+traveller_id,object,IDENTIFIER,Unique traveller identifier used as partition key,0,5000,False,False
+session_id,object,IDENTIFIER,Search session choice occasion identifier,0,40000,False,False
+alternative_id,object,IDENTIFIER,Itinerary row primary key within session,0,138603,False,False
+persona_type,object,SYNTHETIC PERSONA,Simulation behavioral archetype (6 personas),0,6,False,True
+cost_sensitivity,float64,TRAVELLER PREFERENCE (DNA),"Persistent continuous cost sensitivity [0, 1]",0,3739,True,True
+time_sensitivity,float64,TRAVELLER PREFERENCE (DNA),"Persistent continuous time sensitivity [0, 1]",0,3671,True,True
+reliability_sensitivity,float64,TRAVELLER PREFERENCE (DNA),"Persistent continuous reliability sensitivity [0, 1]",0,3444,True,True
+comfort_preference,float64,TRAVELLER PREFERENCE (DNA),"Persistent continuous comfort preference [0, 1]",0,3454,True,True
+transfer_tolerance,float64,TRAVELLER PREFERENCE (DNA),"Persistent continuous transfer tolerance [0, 1]",0,3783,True,True
+departure_time_flexibility,float64,TRAVELLER PREFERENCE (DNA),"Persistent continuous departure flexibility [0, 1]",0,3597,True,True
+sustainability_preference,float64,TRAVELLER PREFERENCE (DNA),"Persistent continuous sustainability preference [0, 1]",0,3505,True,True
+mode,object,ITINERARY ATTRIBUTE,Transit mode (Flight or Rail),0,2,True,True
+carrier,object,ITINERARY ATTRIBUTE,Transit carrier brand / service tier,0,20,True,True
+service_identifier,object,IDENTIFIER,Flight/Train service number (high cardinality),0,3060,False,False
+service_tier,object,ITINERARY ATTRIBUTE,Cabin class / passenger accommodation tier,0,8,True,True
+origin_city,object,SESSION CONTEXT,Search query origin metro city,0,6,True,True
+destination_city,object,SESSION CONTEXT,Search query destination metro city,0,6,True,True
+departure_window,object,SESSION CONTEXT,Search query requested departure time window,0,5,True,True
+trip_purpose,object,SESSION CONTEXT,Search occasion trip purpose,0,4,True,True
+party_size,int64,SESSION CONTEXT,Number of passengers in travel party (1-4),0,4,True,True
+lead_days,int64,SESSION CONTEXT,Days between search date and travel date (1-49),0,49,True,True
+chosen,int64,TARGET,"Primary binary classification target (1 = chosen, 0 = not chosen)",0,2,False,False
+rank,int64,LEAKAGE / POST-CHOICE,Simulation utility rank ordering (1 to 5),0,5,False,False
+choice_probability,float64,LEAKAGE / POST-CHOICE,Simulation MNL probability output P_nj,0,136852,False,False
+utility,float64,LEAKAGE / POST-CHOICE,Simulation deterministic utility score V_nj,0,46530,False,False
+raw_cost,float64,OPERATIONAL / ITINERARY,Ticket fare in INR (observed flight price or derived rail tariff),0,12034,True,True
+raw_duration,float64,OPERATIONAL / ITINERARY,Journey duration in hours,0,1575,True,True
+raw_distance,float64,OPERATIONAL / ITINERARY,Geodesic route distance in km,0,1700,True,True
+cost_score,float64,DERIVED CANDIDATE SCORE,"Choice-set relative min-max normalized cost score [0, 1]",0,9462,True,True
+time_score,float64,DERIVED CANDIDATE SCORE,"Choice-set relative min-max normalized duration score [0, 1]",0,9871,True,True
+reliability_score,float64,DERIVED CANDIDATE SCORE,"Pre-choice risk-penalized operational reliability score [0, 1]",0,14,True,True
+comfort_score,float64,DERIVED CANDIDATE SCORE,"Pre-choice accommodation tier proxy comfort score [0, 1]",0,4,True,True
+transfer_count,int64,OPERATIONAL / ITINERARY,"Number of intermediate layovers / stops (0, 1, 2)",0,3,True,True
+transfer_score,float64,DERIVED CANDIDATE SCORE,Pre-choice non-linear transfer decay score 1/(1+transfers),0,3,True,True
+carbon_estimate_kg,float64,OPERATIONAL / ITINERARY,Derived carbon footprint estimate in kg CO2e,0,1560,True,True
+carbon_score,float64,DERIVED CANDIDATE SCORE,"Choice-set relative min-max normalized carbon savings score [0, 1]",0,3788,True,True
+departure_fit,float64,DERIVED CANDIDATE SCORE,"Pre-choice departure window alignment score [0, 1]",0,1539,True,True
+source_dataset,object,METADATA,Source canonical dataset name (redundant with mode),0,2,False,False
+source_record_id,object,IDENTIFIER,Source dataset provenance tracking ID,0,73963,False,False

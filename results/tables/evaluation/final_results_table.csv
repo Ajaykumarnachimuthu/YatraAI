@@ -1,0 +1,12 @@
+metric,baseline_default_0_50,champion_tuned_0_30,absolute_change,relative_change_pct,interpretation
+Test Accuracy,0.7282,0.6537,-0.0745,-10.23%,Lower overall accuracy due to higher acceptance of positive predictions
+Test Precision,0.5737,0.4323,-0.1414,-24.65%,Lower precision reflecting increased false positive tolerance
+Test Recall,0.2382,0.6265,+0.3883,+163.01%,Substantial boost in capturing true traveller choices (from 1429 to 3759 TP)
+Test F1 Score,0.3366,0.5116,+0.1750,+52.00%,Significant improvement in harmonic balance of precision and recall
+Test ROC-AUC,0.6976,0.6976,0.0000,0.00%,Ranking discriminability is invariant to decision threshold choice
+Test True Positives (TP),1429,3759,+2330,+163.05%,Engine captures 2330 additional preferred itineraries
+Test False Negatives (FN),4571,2241,-2330,-50.97%,Reduces missed preferred journeys by more than half
+Test False Positives (FP),1062,4936,+3874,+364.78%,More candidate alternatives surfaced in recommendation consideration set
+Test True Negatives (TN),13663,9789,-3874,-28.35%,Fewer non-chosen alternatives classified as negative
+Validation F1 Score,0.3437,0.5283,+0.1846,+53.71%,Validation metric used strictly for frozen threshold selection
+Selected Decision Threshold,0.50,0.30,-0.20,-40.00%,Optimized operating threshold determined strictly on validation partition
