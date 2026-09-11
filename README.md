@@ -1,4 +1,4 @@
-# Yātrā AI (यात्रा AI)
+# Yātrā AI
 ### Intelligent Travel Journey Orchestration with Machine Learning
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
