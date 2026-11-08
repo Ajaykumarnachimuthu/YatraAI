@@ -1,7 +1,7 @@
-# YĀTRĀ AI: Multi-Modal Intelligent Travel Recommendation System
+# YATRA AI: Multi-Modal Intelligent Travel Recommendation System
 ## Executive Summary & Project Synthesis
 
-**Project**: YĀTRĀ AI (यात्रा AI)  
+**Project**: YATRA AI (यात्रा AI)  
 **Academic Phase**: Phase 5 — Final Results, Discussion & Submission Package  
 **Date**: September 2026  
 **Status**: COMPLETE, FROZEN & REPRODUCIBLE (Seed: 42)  
@@ -11,16 +11,16 @@
 ### 1. Project Mission & Problem Statement
 Planning intercity travel across India is structurally fragmented. Travellers must navigate disparate reservation portals (IRCTC for railways, private and state airline platforms, regional road networks) without an integrated platform capable of evaluating multi-modal alternatives. Crucially, existing platforms fail to personalize recommendations based on individual preferences across competing journey dimensions: monetary cost, door-to-door transit time, operational delay risk, cabin comfort, schedule convenience, and environmental carbon footprint.
 
-**Yātrā AI** is designed as an intelligent travel orchestration and personalization engine that evaluates multi-modal travel itineraries across India and predicts whether an itinerary matches a traveller's unique behavioral profile.
+**Yatra AI** is designed as an intelligent travel orchestration and personalization engine that evaluates multi-modal travel itineraries across India and predicts whether an itinerary matches a traveller's unique behavioral profile.
 
 ---
 
 ### 2. The Hybrid Data Architecture
-To overcome the complete absence of publicly accessible, privacy-compliant Indian multi-modal booking transactions, Yātrā AI pioneered a **Hybrid Data Strategy**:
+To overcome the complete absence of publicly accessible, privacy-compliant Indian multi-modal booking transactions, Yatra AI pioneered a **Hybrid Data Strategy**:
 
 ```
 +-----------------------------------------------------------------------------+
-|                            YĀTRĀ AI HYBRID FOUNDATION                       |
+|                            YATRA AI HYBRID FOUNDATION                       |
 +------------------------------------+----------------------------------------+
 | REAL / CANONICAL OPERATIONAL DATA  | SYNTHETIC BEHAVIOURAL DATA             |
 | (100% Grounded in Public Sources)  | (Generated via Calibrated Simulation)  |
@@ -94,4 +94,4 @@ Selected based on the combined evaluation of validation performance, test genera
 
 ### 6. Architectural Limitations & Production Roadmap
 - **Pointwise Binary Independence**: The model evaluates each alternative independently, without enforcing the session-level constraint that exactly one alternative is selected from the candidate set ($\sum_{j \in C_n} Y_{nj} = 1$).
-- **Future Direction**: The natural next step for Yātrā AI is to evolve this binary recommendation filter into a **Session-Aware Learning-to-Rank framework (LightGBM Ranker / LambdaMART)** optimizing listwise metrics (NDCG@1, MRR) and integrating live transit APIs.
+- **Future Direction**: The natural next step for Yatra AI is to evolve this binary recommendation filter into a **Session-Aware Learning-to-Rank framework (LightGBM Ranker / LambdaMART)** optimizing listwise metrics (NDCG@1, MRR) and integrating live transit APIs.

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yātrā AI — Intelligent Multimodal Travel Journey Orchestration</title>
+  <meta name="description" content="Personalized multimodal transit recommendation across Indian rail and flight corridors powered by 7-D Travel DNA and machine learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">YĀTRĀ <span class="accent">AI</span></span>
+          <span class="brand-subtitle">Smart Multimodal Transit</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="status-badge" id="systemStatus">
+          <span class="pulse-dot"></span>
+          <span id="statusText">Connecting...</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Hero & Travel DNA Configuration -->
+  <main class="main-content">
+    <section class="planner-layout">
+      <!-- Left Column: Search & Travel DNA Controls -->
+      <aside class="planner-sidebar">
+        <!-- Persona Quick Selector -->
+        <div class="card glass-card persona-card">
+          <div class="card-header">
+            <h3>Traveler Archetype</h3>
+            <span class="info-pill">Presets</span>
+          </div>
+          <p class="section-desc">Select an archetype or customize your continuous 7-D Travel DNA coordinates.</p>
+          <div class="persona-chips" id="personaChips">
+            <!-- Dynamically populated from /api/personas -->
+            <button class="chip active" data-preset="custom">Custom DNA</button>
+          </div>
+        </div>
+
+        <!-- Travel DNA Sliders -->
+        <div class="card glass-card dna-card">
+          <div class="card-header">
+            <h3>7-D Travel DNA</h3>
+            <button class="btn-text" id="resetDnaBtn">Reset</button>
+          </div>
+          <div class="dna-sliders" id="dnaSlidersContainer">
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Cost Sensitivity</span>
+                <span class="slider-val" id="val_cost">0.50</span>
+              </div>
+              <input type="range" min="0" max="1" step="0.01" value="0.50" id="dna_cost" class="dna-range" />
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Time Sensitivity</span>
+                <span class="slider-val" id="val_time">0.50</span>
+              </div>
+              <input type="range" min="0" max="1" step="0.01" value="0.50" id="dna_time" class="dna-range" />
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Reliability Sensitivity</span>
+                <span class="slider-val" id="val_reliability">0.50</span>
+              </div>
+              <input type="range" min="0" max="1" step="0.01" value="0.50" id="dna_reliability" class="dna-range" />
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Comfort Preference</span>
+                <span class="slider-val" id="val_comfort">0.50</span>
+              </div>
+              <input type="range" min="0" max="1" step="0.01" value="0.50" id="dna_comfort" class="dna-range" />
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Transfer Tolerance</span>
+                <span class="slider-val" id="val_transfer">0.50</span>
+              </div>
+              <input type="range" min="0" max="1" step="0.01" value="0.50" id="dna_transfer" class="dna-range" />
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Departure Flexibility</span>
+                <span class="slider-val" id="val_flexibility">0.50</span>
+              </div>
+              <input type="range" min="0" max="1" step="0.01" value="0.50" id="dna_flexibility" class="dna-range" />
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Sustainability Preference</span>
+                <span class="slider-val" id="val_sustainability">0.50</span>
+              </div>
+              <input type="range" min="0" max="1" step="0.01" value="0.50" id="dna_sustainability" class="dna-range" />
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right Column: Search Form & Results -->
+      <section class="planner-main">
+        <!-- Search Query Card -->
+        <div class="card glass-card search-card">
+          <form id="searchForm" class="search-form">
+            <div class="form-grid">
+              <div class="input-field">
+                <label for="originCity">Origin Hub</label>
+                <div class="select-wrapper">
+                  <select id="originCity" required>
+                    <option value="Delhi">Delhi (DEL / NDLS)</option>
+                    <option value="Mumbai">Mumbai (BOM / MMCT)</option>
+                    <option value="Bangalore" selected>Bangalore (BLR / SBC)</option>
+                    <option value="Chennai">Chennai (MAA / MAS)</option>
+                    <option value="Hyderabad">Hyderabad (HYD / SC)</option>
+                    <option value="Kolkata">Kolkata (CCU / HWH)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="swap-btn-container">
+                <button type="button" class="btn-icon" id="swapCityBtn" title="Swap Origin and Destination">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 16V4M7 4L3 8M7 4L11 8M17 8V20M17 20L21 16M17 20L13 16" />
+                  </svg>
+                </button>
+              </div>
+
+              <div class="input-field">
+                <label for="destinationCity">Destination Hub</label>
+                <div class="select-wrapper">
+                  <select id="destinationCity" required>
+                    <option value="Delhi">Delhi (DEL / NDLS)</option>
+                    <option value="Mumbai">Mumbai (BOM / MMCT)</option>
+                    <option value="Bangalore">Bangalore (BLR / SBC)</option>
+                    <option value="Chennai" selected>Chennai (MAA / MAS)</option>
+                    <option value="Hyderabad">Hyderabad (HYD / SC)</option>
+                    <option value="Kolkata">Kolkata (CCU / HWH)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label for="departureWindow">Departure Window</label>
+                <div class="select-wrapper">
+                  <select id="departureWindow">
+                    <option value="Early Morning">Early Morning (04:00 - 08:00)</option>
+                    <option value="Morning" selected>Morning (08:00 - 12:00)</option>
+                    <option value="Afternoon">Afternoon (12:00 - 16:00)</option>
+                    <option value="Evening">Evening (16:00 - 20:00)</option>
+                    <option value="Night">Night (20:00 - 04:00)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label for="tripPurpose">Trip Purpose</label>
+                <div class="select-wrapper">
+                  <select id="tripPurpose">
+                    <option value="Business">Business / Executive</option>
+                    <option value="Leisure" selected>Leisure / Vacation</option>
+                    <option value="Commute">Intercity Commute</option>
+                    <option value="Family">Family Travel</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label for="leadDays">Booking Lead Time</label>
+                <div class="select-wrapper">
+                  <select id="leadDays">
+                    <option value="2">2 Days (Immediate)</option>
+                    <option value="7">7 Days (Next Week)</option>
+                    <option value="14" selected>14 Days (Standard)</option>
+                    <option value="30">30 Days (Advance)</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-footer">
+              <div class="validation-error" id="formError"></div>
+              <button type="submit" class="btn btn-primary" id="searchSubmitBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <span>Find & Rank Personalized Journeys</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-container" id="resultsContainer">
+          <!-- Initial Welcome State -->
+          <div class="empty-state" id="emptyState">
+            <div class="empty-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3>Discover Tailored Intercity Journeys</h3>
+            <p>Select your origin, destination, and personal Travel DNA above to compute personalized journey recommendations.</p>
+          </div>
+
+          <!-- Loading Skeleton -->
+          <div class="loading-state hidden" id="loadingState">
+            <div class="spinner"></div>
+            <p>Evaluating candidate consideration set & calculating personalized ML preference scores...</p>
+          </div>
+
+          <!-- Active Journey Recommendations -->
+          <div class="recommendations-view hidden" id="recommendationsView">
+            <div class="results-header">
+              <div class="results-title-group">
+                <h2 id="corridorHeader">Delhi → Mumbai</h2>
+                <span class="candidate-count-pill" id="candidateCountPill">3 Candidates</span>
+              </div>
+              <div class="meta-note" id="metaNote">Ranked via Pointwise HistGradientBoosting Personalization Model</div>
+            </div>
+
+            <!-- Top Recommended Hero Card -->
+            <div class="recommended-hero-card" id="recommendedHeroCard">
+              <!-- Dynamically populated -->
+            </div>
+
+            <!-- Alternative Journeys Grid -->
+            <div class="alternatives-section">
+              <h3 class="section-subtitle">Alternative Journey Options</h3>
+              <div class="alternatives-grid" id="alternativesGrid">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p>Yātrā AI — Grounded Multimodal Transportation Platform. Predictions driven by continuous 7-D psychometrics & gradient-boosted discrete choice ranking.</p>
+    </div>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

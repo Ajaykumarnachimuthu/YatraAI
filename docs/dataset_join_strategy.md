@@ -1,10 +1,10 @@
-# YĀTRĀ AI — Dataset Relationship & Join Strategy (Phase 2)
+# YATRA AI — Dataset Relationship & Join Strategy (Phase 2)
 
 ## Architectural Principle: Grounded, Legitimate Linkages
 
 In multi-modal journey orchestration, combining heterogeneous datasets is necessary to construct journey graphs and predict transit risks. However, **forcing invalid joins** (such as joining disparate modalities by arbitrary timestamps or assuming non-existent direct relationships) introduces severe data corruption and invalid ML targets.
 
-This document formalizes the **Entity-Relationship Architecture** of Project YĀTRĀ AI, proving which datasets can legitimately be linked, the exact keys used, empirical key match statistics, and explicitly proscribed join anti-patterns.
+This document formalizes the **Entity-Relationship Architecture** of Project YATRA AI, proving which datasets can legitimately be linked, the exact keys used, empirical key match statistics, and explicitly proscribed join anti-patterns.
 
 ---
 

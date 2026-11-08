@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Synthetic Data & Behavioral Simulation Validation Suite
+YATRA AI — Synthetic Data & Behavioral Simulation Validation Suite
 Authoritative validation module executing:
 1. Structural integrity and referential constraints
 2. Statistical Beta distribution concordance (7-D Travel DNA)
@@ -371,7 +371,7 @@ def generate_validation_plots(df_travellers, df_choices, output_dirs=None):
 if __name__ == "__main__":
     import yaml
     print("=" * 80)
-    print("YĀTRĀ AI — SYNTHETIC DATA & BEHAVIORAL SIMULATION VALIDATION SUITE")
+    print("YATRA AI — SYNTHETIC DATA & BEHAVIORAL SIMULATION VALIDATION SUITE")
     print("Executing Read-Only Validation on Frozen Datasets (Zero Regeneration)")
     print("=" * 80)
 

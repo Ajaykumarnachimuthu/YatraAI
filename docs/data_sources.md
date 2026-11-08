@@ -1,6 +1,6 @@
-# YĀTRĀ AI — Data Sources Catalog & Registry (Phase 1)
+# YATRA AI — Data Sources Catalog & Registry (Phase 1)
 
-This document provides a comprehensive, verified technical registry of all real, public, and open government datasets evaluated and collected during **Phase 1** of Project **YĀTRĀ AI**.
+This document provides a comprehensive, verified technical registry of all real, public, and open government datasets evaluated and collected during **Phase 1** of Project **YATRA AI**.
 
 All raw files are permanently preserved in their original format under `data/raw/` with cryptographic SHA-256 checksums. External schemas and adapters are maintained under `data/external/`.
 
@@ -29,8 +29,8 @@ All raw files are permanently preserved in their original format under `data/raw
 * **Data Format**: JSON (Clean array of objects)
 * **Date / Time Coverage**: Static baseline snapshot (aligned with current network topology)
 * **Geographic Coverage**: Pan-India (All 28 States and 8 Union Territories)
-* **Potential Yātrā Use**:
-  * Forms the geospatial coordinate backbone of Yātrā's routing graph.
+* **Potential Yatra Use**:
+  * Forms the geospatial coordinate backbone of Yatra's routing graph.
   * Serves as station lookup master for distance calculation, geographic nearest-neighbor search, and multimodal transfer hub identification.
 * **Data Quality Concerns**:
   * Minor spelling variations in colonial vs. re-named stations (e.g., VT vs. CSMT, Madras vs. Chennai Central).
@@ -70,8 +70,8 @@ All raw files are permanently preserved in their original format under `data/raw
 * **Data Format**: JSON (Structured nested document collection)
 * **Date / Time Coverage**: Static operational timetable
 * **Geographic Coverage**: National Indian Railways passenger network
-* **Potential Yātrā Use**:
-  * Essential core for Yātrā's intercity path-finding engine and timetable graph (Dijkstra / CSA / RAPTOR algorithms).
+* **Potential Yatra Use**:
+  * Essential core for Yatra's intercity path-finding engine and timetable graph (Dijkstra / CSA / RAPTOR algorithms).
   * Enables intermodal train-to-flight and train-to-bus transfer discovery.
 * **Data Quality Concerns**: Special holiday express trains and temporary train cancellations not reflected dynamically in static JSON.
 * **Limitations**: Does not contain live GPS coordinates or dynamic seat availability (reserved for Phase 3/4 live API integration).
@@ -103,8 +103,8 @@ All raw files are permanently preserved in their original format under `data/raw
 * **Data Format**: CSV (42 individual train route files indexed by train number)
 * **Date / Time Coverage**: March 2023 to March 2024 (12 continuous months of historical train performance)
 * **Geographic Coverage**: High-density trunk corridors connecting Northeast India (Guwahati) to National Capital Region (New Delhi), Western Hub (Mumbai), Southern Hub (Chennai), and Eastern Hub (Kolkata).
-* **Potential Yātrā Use**:
-  * Directly trains Yātrā's **Reliability & Delay Prediction ML Engine**.
+* **Potential Yatra Use**:
+  * Directly trains Yatra's **Reliability & Delay Prediction ML Engine**.
   * Enables probability-weighted journey planning (recommending robust transfer buffers rather than unrealistically tight connections).
 * **Data Quality Concerns**: Focused on long-distance express corridors; feeder branch lines require statistical imputation.
 * **Limitations**: Sampled over 42 high-impact train services rather than the entire national catalog.
@@ -139,7 +139,7 @@ All raw files are permanently preserved in their original format under `data/raw
 * **Data Format**: CSV (Clean, tabular, zero null values)
 * **Date / Time Coverage**: 50 consecutive booking days covering domestic flights
 * **Geographic Coverage**: India's top 6 metropolitan hubs (Delhi, Mumbai, Bangalore, Kolkata, Hyderabad, Chennai)
-* **Potential Yātrā Use**:
+* **Potential Yatra Use**:
   * Core multi-modal comparative engine: evaluates **Time vs. Cost vs. Carbon** trade-offs between High-Speed Rail (Vande Bharat / Rajdhani) and Domestic Aviation.
   * Powers dynamic flight fare forecasting and advance booking recommendations.
 * **Data Quality Concerns**: Does not cover Tier-2/Tier-3 regional airports (e.g., Patna, Indore, Coimbatore).
@@ -168,9 +168,9 @@ All raw files are permanently preserved in their original format under `data/raw
 * **Data Format**: CSV (Clean tabular records)
 * **Date / Time Coverage**: 1901 to 2015 (115-year long-term baseline)
 * **Geographic Coverage**: Entire Indian territory across 36 IMD subdivisions (from Jammu & Kashmir to Andaman & Nicobar)
-* **Potential Yātrā Use**:
+* **Potential Yatra Use**:
   * **Environmental Risk Conditioning**: Generates regional monsoon intensity and extreme weather disruption indices for transit route planning.
-  * Allows Yātrā to dynamically penalize vulnerable rail and road corridors (e.g., Konkan Railway landslides, Assam flood zones) during high-monsoon months (JJAS).
+  * Allows Yatra to dynamically penalize vulnerable rail and road corridors (e.g., Konkan Railway landslides, Assam flood zones) during high-monsoon months (JJAS).
 * **Data Quality Concerns**: 26 missing values across 115 years in `ANNUAL` column (easily handled with subdivisional median imputation).
 * **Limitations**: Subdivisional monthly aggregation rather than daily station-level readings.
 * **Classification**: **KEEP**

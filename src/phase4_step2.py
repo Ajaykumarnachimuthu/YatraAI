@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Phase 4 ML Experimentation
+YATRA AI — Phase 4 ML Experimentation
 Step 2: Targeted Improvement + Decision-Threshold Optimization Runner
 
 Orchestration runner executing:

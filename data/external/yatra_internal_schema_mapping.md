@@ -1,22 +1,22 @@
-# YĀTRĀ AI — Internal Unified Data Schema Mapping (Phase 1)
+# YATRA AI — Internal Unified Data Schema Mapping (Phase 1)
 
 ## Architectural Principle: Provider Agnosticism & Decoupled Ingestion
 
-To ensure long-term architectural stability, **no downstream machine learning model, optimization algorithm, or orchestration service in Yātrā AI shall interact directly with provider-specific schemas** (such as raw Kaggle columns, GitHub repository-specific names, or third-party scraper exports).
+To ensure long-term architectural stability, **no downstream machine learning model, optimization algorithm, or orchestration service in Yatra AI shall interact directly with provider-specific schemas** (such as raw Kaggle columns, GitHub repository-specific names, or third-party scraper exports).
 
-Instead, Yātrā AI adopts an **Adapter & Canonical Schema** pattern:
+Instead, Yatra AI adopts an **Adapter & Canonical Schema** pattern:
 1. **Raw Tier (`data/raw/`)**: Unaltered original files preserved exactly as collected.
-2. **Standardization Tier (`data/processed/`)**: Schema normalization pipelines translate external data into unified Yātrā canonical entity schemas.
-3. **Serving/Feature Tier (`src/`)**: Routing algorithms, feature extractors, and ML estimators operate exclusively on Yātrā canonical data types.
+2. **Standardization Tier (`data/processed/`)**: Schema normalization pipelines translate external data into unified Yatra canonical entity schemas.
+3. **Serving/Feature Tier (`src/`)**: Routing algorithms, feature extractors, and ML estimators operate exclusively on Yatra canonical data types.
 4. **Future Pluggability**: Government open data feeds (OGD data.gov.in) and real-time APIs (NTES, DGCA, Open-Meteo, TomTom/Google Maps API) can seamlessly replace or augment static datasets without modifying downstream application logic.
 
 ---
 
-## Canonical Yātrā Entities & Field Mappings
+## Canonical Yatra Entities & Field Mappings
 
 ### 1. `TransitStationNode` (Geographic & Station Network Topology)
 
-| Canonical Yātrā Field | Type | Description | Mapped From `stations.json` | Future Government / Real-Time API |
+| Canonical Yatra Field | Type | Description | Mapped From `stations.json` | Future Government / Real-Time API |
 | :--- | :--- | :--- | :--- | :--- |
 | `station_id` | `str` (Primary Key) | Standard station code | `code` (`"NDLS"`) | IRCTC/CRIS Station Code |
 | `station_name` | `str` | Normalized station name | `name` (`"New Delhi"`) | Official Railway Gazette Name |
@@ -30,7 +30,7 @@ Instead, Yātrā AI adopts an **Adapter & Canonical Schema** pattern:
 
 ### 2. `TransitScheduleSegment` (Multi-Stop Intercity Rail Timetable)
 
-| Canonical Yātrā Field | Type | Description | Mapped From `trains.json` | Future Government / Real-Time API |
+| Canonical Yatra Field | Type | Description | Mapped From `trains.json` | Future Government / Real-Time API |
 | :--- | :--- | :--- | :--- | :--- |
 | `service_id` | `str` | Identifier of train service | `trainNumber` (`"12951"`) | NTES Train Number |
 | `service_name` | `str` | Name of the train | `trainName` (`"MUMBAI RAJDHANI"`) | CRIS Train Name |
@@ -50,7 +50,7 @@ Instead, Yātrā AI adopts an **Adapter & Canonical Schema** pattern:
 
 ### 3. `TransitReliabilityProfile` (Empirical Delays & On-Time Performance)
 
-| Canonical Yātrā Field | Type | Description | Mapped From `train_routes/*.csv` | Future Government / Real-Time API |
+| Canonical Yatra Field | Type | Description | Mapped From `train_routes/*.csv` | Future Government / Real-Time API |
 | :--- | :--- | :--- | :--- | :--- |
 | `service_id` | `str` | Train identification number | Filename `<Train_Number>.csv` | NTES Historical Delay Log |
 | `station_id` | `str` | Station code at delay checkpoint | `Station` (`"GHY"`) | NTES Tracking Station |
@@ -64,7 +64,7 @@ Instead, Yātrā AI adopts an **Adapter & Canonical Schema** pattern:
 
 ### 4. `MultiModalFlightOffer` (Intercity Air Travel Segment)
 
-| Canonical Yātrā Field | Type | Description | Mapped From `Clean_flight_data_Vivek.csv` | Future Government / Commercial API |
+| Canonical Yatra Field | Type | Description | Mapped From `Clean_flight_data_Vivek.csv` | Future Government / Commercial API |
 | :--- | :--- | :--- | :--- | :--- |
 | `carrier_name` | `str` | Operating airline name | `airline` (`"Indigo"`, `"Vistara"`) | DGCA / Amadeus / Skyscanner |
 | `flight_number` | `str` | Flight route code | `flight` (`"6E-5001"`) | Live Flight Tracking (FlightRadar/Cirium) |
@@ -82,7 +82,7 @@ Instead, Yātrā AI adopts an **Adapter & Canonical Schema** pattern:
 
 ### 5. `EnvironmentalClimateRisk` (Subdivisional Meteorological Context)
 
-| Canonical Yātrā Field | Type | Description | Mapped From `rainfall_india_1901-2015.csv` | Future Government / Open API |
+| Canonical Yatra Field | Type | Description | Mapped From `rainfall_india_1901-2015.csv` | Future Government / Open API |
 | :--- | :--- | :--- | :--- | :--- |
 | `subdivision_region` | `str` | Meteorological zone name | `SUBDIVISION` | IMD Region Boundary / GeoJSON |
 | `historical_year` | `int` | Observation calendar year | `YEAR` (1901–2015) | IMD Annual Climatology Archive |

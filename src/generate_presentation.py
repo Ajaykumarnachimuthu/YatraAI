@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Final Presentation Generator
+YATRA AI — Final Presentation Generator
 Generates reports/final/Yatra_AI_Final_Presentation.pptx
 12-slide comprehensive, fully-formatted professional presentation with embedded figures and speaker notes.
 """
@@ -28,7 +28,7 @@ COLOR_TEAL = RGBColor(13, 148, 136)     # #0D9488
 COLOR_CARD_BG = RGBColor(241, 245, 249) # #F1F5F9
 COLOR_CARD_BORDER = RGBColor(203, 213, 225)
 
-def add_header(slide, title_text, category_text="YĀTRĀ AI — ACADEMIC RESEARCH TRACK"):
+def add_header(slide, title_text, category_text="YATRA AI — ACADEMIC RESEARCH TRACK"):
     """Adds consistent academic header to slides."""
     # Category badge
     cat_box = slide.shapes.add_textbox(Inches(0.8), Inches(0.4), Inches(11.5), Inches(0.3))
@@ -108,7 +108,7 @@ def build_presentation():
     tf1.word_wrap = True
     
     p1 = tf1.paragraphs[0]
-    p1.text = "YĀTRĀ AI (यात्रा AI)"
+    p1.text = "YATRA AI (यात्रा AI)"
     p1.font.size = Pt(40)
     p1.font.bold = True
     p1.font.color.rgb = COLOR_WHITE
@@ -150,7 +150,7 @@ def build_presentation():
     stats_p2.font.color.rgb = COLOR_WHITE
     
     set_speaker_notes(slide1, 
-        "Welcome committee members. Today I am presenting Yātrā AI, an intelligent multi-modal travel recommendation "
+        "Welcome committee members. Today I am presenting Yatra AI, an intelligent multi-modal travel recommendation "
         "framework specifically engineered for the Indian transit ecosystem. This project addresses the lack of personalized "
         "multi-modal trip planning in India by coupling grounded public transport infrastructure with an axiomatic Multinomial "
         "Logit discrete choice simulation across 5,000 travellers and 138,603 candidate alternatives."
@@ -239,15 +239,15 @@ def build_presentation():
     set_speaker_notes(slide2,
         "Here we articulate the core real-world motivation. India has immense transit supply, but consumers face a high cognitive "
         "burden. A 1,740 km trip between Delhi and Bengaluru presents wildly divergent options: a 3-hour flight for 5,500 rupees "
-        "versus a 32-hour train for 850 rupees. Existing travel websites treat all users identically. Yātrā AI is built to "
+        "versus a 32-hour train for 850 rupees. Existing travel websites treat all users identically. Yatra AI is built to "
         "automate multi-attribute trade-offs tailored to each traveller's latent preferences."
     )
 
     # =========================================================================
-    # SLIDE 3: YĀTRĀ AI SOLUTION & SYSTEM ARCHITECTURE
+    # SLIDE 3: YATRA AI SOLUTION & SYSTEM ARCHITECTURE
     # =========================================================================
     slide3 = prs.slides.add_slide(blank_layout)
-    add_header(slide3, "The Yātrā AI Solution & Architectural Concept")
+    add_header(slide3, "The Yatra AI Solution & Architectural Concept")
     
     col_w = Inches(3.6)
     gap = Inches(0.4)
@@ -302,7 +302,7 @@ def build_presentation():
     p.font.color.rgb = COLOR_DARK_SLATE
 
     set_speaker_notes(slide3,
-        "Yātrā AI operates in three interconnected tiers: first, a multimodal knowledge graph that bridges rail and flight "
+        "Yatra AI operates in three interconnected tiers: first, a multimodal knowledge graph that bridges rail and flight "
         "schedules into unified metro corridors; second, a 7-dimensional continuous psychometric vector called Travel DNA "
         "that models user sensitivity; and third, a machine learning recommendation filter that scores candidates and surfaces "
         "the best itineraries."
@@ -696,7 +696,7 @@ def build_presentation():
     p.font.size = Pt(14)
     p.font.color.rgb = COLOR_GOLD
     p_desc = tf_sum.add_paragraph()
-    p_desc.text = "Yātrā AI successfully proved the feasibility of recovering multi-attribute traveller discrete choice preferences across Indian multi-modal transit networks using grounded public data and calibrated simulation."
+    p_desc.text = "Yatra AI successfully proved the feasibility of recovering multi-attribute traveller discrete choice preferences across Indian multi-modal transit networks using grounded public data and calibrated simulation."
     p_desc.font.size = Pt(12)
     p_desc.font.color.rgb = COLOR_WHITE
     
@@ -732,7 +732,7 @@ def build_presentation():
     p_desc.font.color.rgb = RGBColor(203, 213, 225)
 
     set_speaker_notes(slide12,
-        "In conclusion, Yātrā AI establishes a principled, reproducible benchmark for multi-modal travel recommendation in India. "
+        "In conclusion, Yatra AI establishes a principled, reproducible benchmark for multi-modal travel recommendation in India. "
         "We demonstrated that relative candidate scoring and continuous Travel DNA combined with gradient boosting provide the "
         "strongest architecture for discrete choice recovery. Thank you, and I now welcome your questions."
     )

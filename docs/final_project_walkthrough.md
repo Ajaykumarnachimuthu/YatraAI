@@ -1,7 +1,7 @@
-# YĀTRĀ AI: Complete Project Lifecycle Walkthrough & Technical Audit
+# YATRA AI: Complete Project Lifecycle Walkthrough & Technical Audit
 ## Multi-Modal Intelligent Travel Recommendation System for India
 
-**Lead System**: Yātrā AI (यात्रा AI)  
+**Lead System**: Yatra AI (यात्रा AI)  
 **Status**: COMPLETE, FROZEN & REPRODUCIBLE (Seed: 42)  
 **Academic Phase**: Phase 1 through Phase 5 Comprehensive Walkthrough  
 **Date**: September 2026  
@@ -10,11 +10,11 @@
 
 ## 1. Project Lifecycle Overview
 
-The Yātrā AI research initiative was executed across five sequential, rigorous engineering and machine learning phases:
+The Yatra AI research initiative was executed across five sequential, rigorous engineering and machine learning phases:
 
 ```
 +-----------------------------------------------------------------------------+
-|                           YĀTRĀ AI 5-PHASE LIFECYCLE                        |
+|                           YATRA AI 5-PHASE LIFECYCLE                        |
 +-----------------------------------------------------------------------------+
 | PHASE 1: Real-World Public Data Sourcing & Inventory                        |
 |   * Sourced 8,400+ railway stations & 11,100+ train schedules (JSON)        |
@@ -118,4 +118,4 @@ The Yātrā AI research initiative was executed across five sequential, rigorous
 - [x] **Scientific Boundaries Respected**: Target `chosen` explicitly documented as synthetic simulation ground truth; no claims of real-world booking conversions.
 - [x] **Reproducibility Guarantee**: Complete pipeline executable via Seed 42.
 
-**Project Status: Phase 5 Complete. Yātrā AI Machine Learning Research Track Frozen & Finalized.**
+**Project Status: Phase 5 Complete. Yatra AI Machine Learning Research Track Frozen & Finalized.**

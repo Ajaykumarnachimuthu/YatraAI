@@ -1,4 +1,4 @@
-# YĀTRĀ AI — Phase 2 Requirement Specification & Prompt Archive
+# YATRA AI — Phase 2 Requirement Specification & Prompt Archive
 
 ## 1. Phase Objective
 Perform comprehensive diagnostic profiling, data cleaning, coordinate anomaly handling, geographic validation, and schema harmonization on the acquired raw datasets. Create a high-performance, provider-independent canonical data layer (`data/processed/`), define legitimate entity join strategies without artificial linkages, and rigorously evaluate candidate machine learning problem formulations.

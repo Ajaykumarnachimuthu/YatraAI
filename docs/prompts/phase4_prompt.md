@@ -1,7 +1,7 @@
-# YĀTRĀ AI — Phase 4 Requirement Specification & Prompt Archive
+# YATRA AI — Phase 4 Requirement Specification & Prompt Archive
 
 ## 1. Phase Objective
-Design, train, evaluate, and optimize supervised machine learning models to solve Yātrā AI's itinerary choice prediction problem. Formulate binary classification predicting whether a candidate alternative is selected by a traveller (`chosen` $\in \{0, 1\}$). Enforce strict group-level traveller splitting to prevent identity leakage, compare linear and non-linear model families across Core and Extended feature sets, conduct rigorous evaluation under severe class imbalance, optimize decision thresholds for operational utility, and package the champion model.
+Design, train, evaluate, and optimize supervised machine learning models to solve Yatra AI's itinerary choice prediction problem. Formulate binary classification predicting whether a candidate alternative is selected by a traveller (`chosen` $\in \{0, 1\}$). Enforce strict group-level traveller splitting to prevent identity leakage, compare linear and non-linear model families across Core and Extended feature sets, conduct rigorous evaluation under severe class imbalance, optimize decision thresholds for operational utility, and package the champion model.
 
 ---
 

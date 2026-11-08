@@ -1,6 +1,6 @@
-# YĀTRĀ AI — Comprehensive Data Dictionary (Phase 2 Canonical Schemas)
+# YATRA AI — Comprehensive Data Dictionary (Phase 2 Canonical Schemas)
 
-This document establishes the provider-independent canonical data dictionary for Project **YĀTRĀ AI**. All processed entities reside in `data/processed/` in dual formats (`.parquet` for high-efficiency ML pipelines and `.csv` for transparent auditing).
+This document establishes the provider-independent canonical data dictionary for Project **YATRA AI**. All processed entities reside in `data/processed/` in dual formats (`.parquet` for high-efficiency ML pipelines and `.csv` for transparent auditing).
 
 ---
 
@@ -10,7 +10,7 @@ This document establishes the provider-independent canonical data dictionary for
 * **Record Count**: 8,990 rows (8,697 with valid GPS coordinates in India; 293 test/dummy records identified and flagged)
 * **Primary Key**: `station_code`
 
-| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yātrā AI Usage |
+| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yatra AI Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `station_code` | `string` | Unique IRCTC/CRIS station code | Raw `code` | 2–7 uppercase alphabetic/alphanumeric chars (e.g., `NDLS`, `HWH`) | Stripped whitespace, converted to uppercase | Primary identifier for network graph nodes |
 | `station_name` | `string` | Official name of railway station | Raw `name` | Text string (e.g., `New Delhi`, `Howrah Jn`) | Stripped trailing spaces and punctuation | Display name, reverse lookup, user UI search |
@@ -31,7 +31,7 @@ This document establishes the provider-independent canonical data dictionary for
 * **Record Count**: 5,208 train services
 * **Primary Key**: `train_number`
 
-| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yātrā AI Usage |
+| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yatra AI Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `train_number` | `string` | Unique 5-digit train number | Raw `trainNumber` | 5 numeric digits (e.g., `12951`, `02501`) | Zero-padded to 5 digits | Primary key for rail transit services |
 | `train_name` | `string` | Commercial train branding | Raw `trainName` | Text string (e.g., `MUMBAI TEJAS RAJDHANI`) | Stripped whitespace | User presentation, service classification |
@@ -50,7 +50,7 @@ This document establishes the provider-independent canonical data dictionary for
 * **Record Count**: 416,637 scheduled halt records
 * **Composite Key**: `(train_number, sequence)`
 
-| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yātrā AI Usage |
+| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yatra AI Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `train_number` | `string` | Service identifier | Raw `trainNumber` | 5 digits | Zero-padded string | Foreign key referencing `canonical_train_services` |
 | `sequence` | `int64` | Stop ordinal along the route | Raw `sequence` | 1 to 175 | 1-based sequential integer | Ordering key for Connection Scan / RAPTOR algorithms |
@@ -75,7 +75,7 @@ This document establishes the provider-independent canonical data dictionary for
 * **Record Count**: 1,479 station halt delay observations across 42 trains
 * **Composite Key**: `(train_number, station_code_raw)`
 
-| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yātrā AI Usage |
+| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yatra AI Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `train_number` | `string` | Train service identifier | CSV Filename | 5 digits (e.g., `20503`, `12423`) | Extracted and zero-padded | Link to train schedule service |
 | `station_code_raw` | `string` | Station code as logged in NTES | Raw `Station` | Uppercase station code | Stripped whitespace | Raw checkpoint record |
@@ -101,7 +101,7 @@ This document establishes the provider-independent canonical data dictionary for
 * **Record Count**: 300,259 rows (2 exact duplicates dropped from original 300,261)
 * **Primary Key**: Synthetic composite or row index
 
-| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yātrā AI Usage |
+| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yatra AI Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `airline` | `string` | Operating commercial airline | Raw `airline` | `Vistara`, `Air India`, `Indigo`, `GO FIRST`, `AirAsia`, `SpiceJet`, `StarAir`, `Trujet` | Preserved clean text | Carrier filtering, brand preference matching |
 | `flight_number` | `string` | Airline flight identifier | Raw `flight` | Text code (e.g., `SG-8709`, `UK-995`) | Standardized string | Leg identifier in flight offers |
@@ -126,7 +126,7 @@ This document establishes the provider-independent canonical data dictionary for
 * **Record Count**: 4,116 rows (36 subdivisions across 115 years)
 * **Composite Key**: `(subdivision, year)`
 
-| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yātrā AI Usage |
+| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yatra AI Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `subdivision` | `string` | IMD meteorological subdivision name | Raw `SUBDIVISION` | 36 distinct subdivision names | Standardized text | Geographic join key to station states |
 | `year` | `int64` | Calendar year of record | Raw `YEAR` | 1901 to 2015 | Preserved integer | Longitudinal climate baseline analysis |
@@ -146,7 +146,7 @@ This document establishes the provider-independent canonical data dictionary for
 * **Record Count**: 30 major intercity corridor pairs
 * **Primary Key**: `corridor`
 
-| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yātrā AI Usage |
+| Field Name | Type | Meaning | Source | Range / Allowed Values | Transformation Applied | Yatra AI Usage |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `corridor` | `string` | Directed metro city pair | Derived | 30 pairs (e.g., `Delhi-Mumbai`, `Chennai-Kolkata`) | Standardized string | Multi-modal choice set index |
 | `origin_city` | `string` | Departure metropolitan city | Derived | 6 metro cities | Standardized text | Geographic origin |

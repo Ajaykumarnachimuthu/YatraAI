@@ -1,10 +1,10 @@
-# YĀTRĀ AI: A Personalized Multi-Modal Travel Recommendation Platform for India
+# YATRA AI: A Personalized Multi-Modal Travel Recommendation Platform for India
 ## Final Comprehensive Research & Engineering Monograph — Phases 1 through 5
 
 ---
 
 ### Project Metadata
-* **Application Title**: YĀTRĀ AI (यात्रा AI) — Intelligent Multi-Modal Transit Orchestration & Recommendation
+* **Application Title**: YATRA AI (यात्रा AI) — Intelligent Multi-Modal Transit Orchestration & Recommendation
 * **Research Track**: Advanced Agentic Machine Learning & Discrete Choice Analysis
 * **Status**: Complete, Verified, Bitwise Reproducible (Deterministic Seed: `42`)
 * **Authoritative Implementation**: `src/` (Single Source of Truth, Zero Duplicate Scaffolds)
@@ -18,7 +18,7 @@
 
 Planning long-distance, inter-city journeys across India is characterized by severe operational fragmentation. Travellers must manually navigate disparate systems across Indian Railways (governed centrally by CRIS/IRCTC) and private domestic commercial aviation (distributed across independent carriers and OTAs). Existing search engines merely rank travel itineraries by simplistic one-dimensional metrics (such as nominal ticket price or scheduled departure time), ignoring multi-attribute trade-offs between door-to-door transit duration, historical delay variance, cabin comfort amenities, interchange penalties, and carbon emissions.
 
-Addressing the complete absence of open-access passenger booking clickstreams due to privacy mandates, **Project Yātrā AI** establishes a rigorous, scientifically grounded **Hybrid Architecture**:
+Addressing the complete absence of open-access passenger booking clickstreams due to privacy mandates, **Project Yatra AI** establishes a rigorous, scientifically grounded **Hybrid Architecture**:
 1. **Supply-Side Grounding**: Grounded in authentic open public datasets spanning 8,990 railway stations, 5,208 train services with 416,637 timetable halts, 300,259 domestic flight itineraries across India's top 6 metro hubs, 1,479 express train delay records, and 115 continuous years of IMD monsoon precipitation.
 2. **Demand-Side Simulation**: Grounded in microeconomic discrete choice theory, simulating demand across 5,000 synthetic travellers, 40,000 search sessions, and 138,603 itinerary alternatives using an authoritative **7-dimensional continuous Travel DNA** formulation, McFadden's Random Utility Maximization (RUM), and the Multinomial Logit (MNL) probability specification.
 3. **Supervised Choice Recovery**: Training supervised machine learning estimators on pre-choice candidate scores and psychometric preferences using a group-level 70/15/15 traveller split to eliminate data leakage.
@@ -243,6 +243,6 @@ In accordance with academic research standards:
 
 ## 12. Final Conclusion
 
-Project Yātrā AI successfully establishes an authoritative, reproducible, and mathematically rigorous machine learning platform for multi-modal travel recommendation in India. By bridging the real-world physical supply network with an axiomatic 7-D continuous behavioural simulation tier, Yātrā AI proves that gradient boosting decision trees combined with post-hoc probability threshold optimization ($\tau^* = 0.30$) recover passenger travel preferences with high sensitivity (62.65% Recall) and robust ranking power (0.6976 ROC-AUC).
+Project Yatra AI successfully establishes an authoritative, reproducible, and mathematically rigorous machine learning platform for multi-modal travel recommendation in India. By bridging the real-world physical supply network with an axiomatic 7-D continuous behavioural simulation tier, Yatra AI proves that gradient boosting decision trees combined with post-hoc probability threshold optimization ($\tau^* = 0.30$) recover passenger travel preferences with high sensitivity (62.65% Recall) and robust ranking power (0.6976 ROC-AUC).
 
 * **Final Project Status**: **COMPLETE, VERIFIED, VIVA-READY & FULLY APPROVED**

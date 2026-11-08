@@ -1,4 +1,4 @@
-# YĀTRĀ AI — Phase 5 Requirement Specification & Prompt Archive
+# YATRA AI — Phase 5 Requirement Specification & Prompt Archive
 
 ## 1. Phase Objective
 Consolidate the multi-modal transportation data foundation, behavioural simulation engine, and optimized machine learning choice model into an integrated, reproducible, publication-ready travel intelligence system. Document end-to-end system architecture, verify offline reproducibility, validate the standalone inference pipeline, evaluate scientific limitations and operational boundaries, generate an executive slide presentation, and prepare a comprehensive defense package for viva examination.

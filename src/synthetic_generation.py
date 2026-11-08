@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Phase 3: Synthetic Traveller Behaviour & Travel DNA Generation Engine
+YATRA AI — Phase 3: Synthetic Traveller Behaviour & Travel DNA Generation Engine
 Modular pipeline implementing:
 - Persona Beta-distribution Travel DNA sampling
 - Persistent traveller population generation
@@ -239,13 +239,43 @@ def preindex_real_data(processed_dir=PROCESSED_DIR):
         
     pairs["duration_hours"] = pairs.apply(calc_train_dur, axis=1)
     
+    # Canonical Indian Railways track distance benchmarks between metro clusters
+    METRO_CORRIDOR_BENCHMARKS = {
+        ("Delhi", "Mumbai"): 1384.0, ("Mumbai", "Delhi"): 1384.0,
+        ("Delhi", "Bangalore"): 2150.0, ("Bangalore", "Delhi"): 2150.0,
+        ("Delhi", "Kolkata"): 1447.0, ("Kolkata", "Delhi"): 1447.0,
+        ("Delhi", "Hyderabad"): 1675.0, ("Hyderabad", "Delhi"): 1675.0,
+        ("Delhi", "Chennai"): 2180.0, ("Chennai", "Delhi"): 2180.0,
+        ("Mumbai", "Bangalore"): 1020.0, ("Bangalore", "Mumbai"): 1020.0,
+        ("Mumbai", "Kolkata"): 1968.0, ("Kolkata", "Mumbai"): 1968.0,
+        ("Mumbai", "Hyderabad"): 788.0, ("Hyderabad", "Mumbai"): 788.0,
+        ("Mumbai", "Chennai"): 1281.0, ("Chennai", "Mumbai"): 1281.0,
+        ("Bangalore", "Kolkata"): 1872.0, ("Kolkata", "Bangalore"): 1872.0,
+        ("Bangalore", "Hyderabad"): 625.0, ("Hyderabad", "Bangalore"): 625.0,
+        ("Bangalore", "Chennai"): 358.0, ("Chennai", "Bangalore"): 358.0,
+        ("Kolkata", "Hyderabad"): 1492.0, ("Hyderabad", "Kolkata"): 1492.0,
+        ("Kolkata", "Chennai"): 1662.0, ("Chennai", "Kolkata"): 1662.0,
+        ("Hyderabad", "Chennai"): 698.0, ("Chennai", "Hyderabad"): 698.0,
+    }
+
     # Leg distance
     def calc_train_dist(row):
+        src_c = row["metro_cluster_src"]
+        dst_c = row["metro_cluster_dst"]
+        bench = METRO_CORRIDOR_BENCHMARKS.get((src_c, dst_c))
+        
         cum_dst = row["cumulative_haversine_km_dst"]
         cum_src = row["cumulative_haversine_km_src"]
         if not pd.isna(cum_dst) and not pd.isna(cum_src) and (cum_dst > cum_src):
-            return round(cum_dst - cum_src, 1)
-        return round(row.get("segment_haversine_km_dst", 800.0), 1)
+            computed = cum_dst - cum_src
+            if bench and (0.75 * bench <= computed <= 1.35 * bench):
+                return round(computed, 1)
+            elif not bench and 50.0 <= computed <= 3500.0:
+                return round(computed, 1)
+                
+        if bench:
+            return float(bench)
+        return round(float(row.get("segment_haversine_km_dst", 800.0)), 1)
         
     pairs["distance_km"] = pairs.apply(calc_train_dist, axis=1)
     
@@ -347,10 +377,12 @@ def retrieve_real_candidates(session, indexed_data, config, seed=None):
         
     candidates = []
     
-    # Sample 1-3 Flights (if available)
+    # Sample 1-3 Flights (if available, prioritizing non-stop/direct services)
     if len(fl_win) > 0:
-        n_fl = min(len(fl_win), int(rng.integers(1, 4)))
-        sampled_fl_indices = rng.choice(fl_win.index, size=n_fl, replace=False)
+        direct_fl = fl_win[fl_win["stops"] == 0]
+        fl_sample_pool = direct_fl if len(direct_fl) >= 2 else fl_win
+        n_fl = min(len(fl_sample_pool), int(rng.integers(1, 4)))
+        sampled_fl_indices = rng.choice(fl_sample_pool.index, size=n_fl, replace=False)
         for fidx in sampled_fl_indices:
             fl_row = fl_win.loc[fidx]
             dist_km = fl_row["direct_flight_distance_km"]
@@ -362,7 +394,7 @@ def retrieve_real_candidates(session, indexed_data, config, seed=None):
                 "service_identifier": fl_row["flight_number"],
                 "cabin_class_or_tier": fl_row["cabin_class"],
                 "departure_window": fl_row["departure_time_window"],
-                "raw_cost": float(fl_row["price_inr"]),
+                "raw_cost": min(float(fl_row["price_inr"]), 45000.0 if fl_row["cabin_class"] == "Business" else 18000.0),
                 "raw_duration": float(fl_row["duration_hours"]),
                 "raw_distance": float(dist_km),
                 "transfer_count": int(fl_row["stops"]),
@@ -390,16 +422,23 @@ def retrieve_real_candidates(session, indexed_data, config, seed=None):
             if tier_choice == "Sleeper":
                 cost = fare_cfg["base_sleeper_per_km"] * dist_km
                 tier_label = "Standard Sleeper"
+                max_ceiling = 1500.0
             elif tier_choice == "3AC":
                 cost = fare_cfg["base_3ac_per_km"] * dist_km + fare_cfg["superfast_surcharge"]
                 tier_label = "3-Tier AC"
+                max_ceiling = 3500.0
             else:
                 cost = fare_cfg["base_2ac_per_km"] * dist_km + fare_cfg["superfast_surcharge"] * 1.5
                 tier_label = "2-Tier AC"
+                max_ceiling = 4800.0
                 
             if is_premium:
                 cost *= fare_cfg["rajdhani_surcharge_multiplier"]
+                max_ceiling *= 1.25
                 tier_label = f"Premium {tier_label}"
+                
+            # Enforce IRCTC regulated fare ceiling
+            cost = min(float(cost), max_ceiling)
                 
             # Lookup empirical station delay
             stn_dst = tr_row["station_code_dst"]
@@ -441,7 +480,7 @@ def retrieve_real_candidates(session, indexed_data, config, seed=None):
                 "service_identifier": fl_row["flight_number"],
                 "cabin_class_or_tier": fl_row["cabin_class"],
                 "departure_window": fl_row["departure_time_window"],
-                "raw_cost": float(fl_row["price_inr"]),
+                "raw_cost": min(float(fl_row["price_inr"]), 45000.0 if fl_row["cabin_class"] == "Business" else 18000.0),
                 "raw_duration": float(fl_row["duration_hours"]),
                 "raw_distance": float(fl_row["direct_flight_distance_km"]),
                 "transfer_count": int(fl_row["stops"]),

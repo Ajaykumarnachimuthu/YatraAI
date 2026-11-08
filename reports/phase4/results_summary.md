@@ -1,6 +1,6 @@
 # Phase 4 Step 1: Baseline Experiment Results & Theoretical Synthesis
 
-**Project**: YĀTRĀ AI  
+**Project**: YATRA AI  
 **Phase**: 4 — Machine Learning Experimentation  
 **Step**: 1 — Lock Task + Build Leakage-Safe Baseline  
 **Date**: September 2026  
@@ -170,7 +170,7 @@ Applying the frozen selected thresholds once to the unseen test partition (20,72
 ### 4.4 Final Model Selection & Operational Champion
 - **Best Baseline Model**: **Gradient Boosting Core (`GB_core`)** (Test ROC-AUC = 0.6976, Test F1 = 0.3366 at default $\tau = 0.50$).
 - **Best Threshold-Adjusted Model**: **Gradient Boosting Extended (`GB_exte`)** on validation criterion ($\text{Val F1} = 0.5291$ at $\tau = 0.30$).
-- **Final Recommended Model for Yātrā AI**: **`Gradient Boosting Core (GB_core)` at $\mathbf{\tau^* = 0.30}$**.
+- **Final Recommended Model for Yatra AI**: **`Gradient Boosting Core (GB_core)` at $\mathbf{\tau^* = 0.30}$**.
   - *Rationale*: Achieves superior generalization on test data ($\text{Test F1} = 0.5116$ vs. $0.5105$), identical ROC-AUC ($0.6976$), lower model complexity (28 vs 29 features), and omits redundant discrete persona classification in favor of direct continuous Travel DNA sliders.
 
 ### 4.5 Confusion Matrix Shift (Champion Model: `GB_core`)
@@ -188,7 +188,7 @@ Applying the frozen selected thresholds once to the unseen test partition (20,72
 
 ## 5. Business Interpretation & Methodological Boundaries
 
-1. **Yātrā AI Business Translation**:
+1. **Yatra AI Business Translation**:
    The classification probability estimates whether an itinerary alternative aligns with a traveller's latent multidimensional utility. Lowering the decision threshold from 0.50 to 0.30 reflects the asymmetric economics of travel search engines: showing an extra plausible option (FP) is harmless, while omitting the traveller's preferred journey (FN) causes immediate site abandonment.
 2. **Structural Limitation (Choice Sets vs. Independent Classification)**:
    The binary classifier scores each alternative independently. However, the true data-generating process is a closed-set Multinomial Logit choice where exactly one alternative is selected from 2–5 candidates. Binary classification does not enforce this sum-to-one constraint. Future work should implement **Session-Aware Learning-to-Rank (LightGBM Ranker / LambdaMART)**.

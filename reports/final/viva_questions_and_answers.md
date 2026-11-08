@@ -1,7 +1,7 @@
-# YĀTRĀ AI: Academic Viva Voce Defense Guide
+# YATRA AI: Academic Viva Voce Defense Guide
 ## Comprehensive Questions, Theoretical Justifications & Empirical Answers
 
-**Project**: YĀTRĀ AI (यात्रा AI)  
+**Project**: YATRA AI (यात्रा AI)  
 **Academic Phase**: Phase 5 — Defense & Final Submission Package  
 **Purpose**: Preparation for Oral Defense, Viva Voce Examination & Technical Scrutiny  
 
@@ -130,7 +130,7 @@ In discrete choice behavior, a consumer's selection depends on **relative attrac
 
 ### Q18: How would this prototype transition into a production recommendation system?
 **Answer**:  
-In production, Yātrā AI would evolve through three architectural upgrades:
+In production, Yatra AI would evolve through three architectural upgrades:
 1. **Session-Aware Learning-to-Rank (LTR)**: Replace pointwise binary classification with LightGBM Ranker / LambdaMART optimizing listwise NDCG@1 conditioned on `session_id`.
 2. **Live GDS / IRCTC API Ingestion**: Replace static schedule tables with live airline GDS and IRCTC dynamic pricing and waitlist confirmation probability feeds.
 3. **Online Preference Learning**: Update individual Travel DNA sliders dynamically via contextual multi-armed bandits (LinUCB) based on user clicks and booking completions.
@@ -143,6 +143,6 @@ Tabular discrete choice data with clear structured relationships is well-known i
 
 ---
 
-### Q20: How does this machine learning work directly support the Yātrā AI product vision?
+### Q20: How does this machine learning work directly support the Yatra AI product vision?
 **Answer**:  
-Yātrā AI's core value proposition is **multi-modal travel personalization**. Standard travel search engines overwhelm users with dozens of unranked flight and train options. Our trained champion model acts as the intelligent **Personalization Filter**: by ingesting a user's Travel DNA preference sliders and scoring candidate multi-modal itineraries generated across Indian transit networks, it accurately identifies the top journeys matching the traveller's unique trade-off profile (cost vs. speed vs. comfort vs. carbon) and surfaces them in a curated, high-relevance "Recommended For You" journey showcase.
+Yatra AI's core value proposition is **multi-modal travel personalization**. Standard travel search engines overwhelm users with dozens of unranked flight and train options. Our trained champion model acts as the intelligent **Personalization Filter**: by ingesting a user's Travel DNA preference sliders and scoring candidate multi-modal itineraries generated across Indian transit networks, it accurately identifies the top journeys matching the traveller's unique trade-off profile (cost vs. speed vs. comfort vs. carbon) and surfaces them in a curated, high-relevance "Recommended For You" journey showcase.

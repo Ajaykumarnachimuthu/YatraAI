@@ -1,13 +1,13 @@
-# YĀTRĀ AI — Dataset Acquisition & Engineering Methodology
+# YATRA AI — Dataset Acquisition & Engineering Methodology
 
 ## 1. Principles of Data Strategy
 
-Project Yātrā AI employs a **Hybrid Real-Data Strategy** for India:
+Project Yatra AI employs a **Hybrid Real-Data Strategy** for India:
 1. **Real/Public Data Primacy**: Real-world transit topology, timetables, delays, and fares form the non-negotiable core.
 2. **Official Government Alignment**: Open Government Data (OGD data.gov.in, IMD, Ministry of Railways) is prioritized as the ground truth.
 3. **Reproducible Provenance**: Every dataset must have verifiable origin, explicit licensing (e.g. MIT, GODL, CC0), and cryptographic SHA-256 validation.
 4. **Non-Destructive Ingestion**: Downloaded files must remain completely untouched in `data/raw/`. No in-place editing or ad-hoc transformations are permitted on raw assets.
-5. **Decoupled Architecture**: Raw provider structures are translated into canonical Yātrā schemas (`TransitStationNode`, `TransitScheduleSegment`, etc.) via adapters in `src/`, preventing vendor lock-in.
+5. **Decoupled Architecture**: Raw provider structures are translated into canonical Yatra schemas (`TransitStationNode`, `TransitScheduleSegment`, etc.) via adapters in `src/`, preventing vendor lock-in.
 6. **Synthetic Data Boundaries**: Synthetic data is strictly restricted to traveller preference simulations where privacy constraints preclude real user profiling. No synthetic operational data (stations, tracks, timetables) is permitted.
 
 ---

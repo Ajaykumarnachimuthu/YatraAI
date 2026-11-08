@@ -1,4 +1,4 @@
-# YĀTRĀ AI — Phase 2 Evidence & Re-Evaluation Report
+# YATRA AI — Phase 2 Evidence & Re-Evaluation Report
 **Diagnostic Auditing, Anomaly Mitigation, Canonical Layer Normalization & ML Problem Formulation**
 
 ---
@@ -67,7 +67,7 @@ The verified implementation for data cleaning, coordinate validation, and canoni
 
 The data cleaning pipeline generated 7 canonical tables persisted in dual formats (`.parquet` and `.csv`):
 
-| Canonical Table | Records | Columns | Format | Size | Primary Key | Yātrā AI Subsystem |
+| Canonical Table | Records | Columns | Format | Size | Primary Key | Yatra AI Subsystem |
 |---|:---:|:---:|:---:|:---:|:---:|---|
 | **`canonical_stations`** | 8,990 | 10 | Parquet + CSV | 392.6 KB | `station_code` | Graph Topology Nodes |
 | **`canonical_train_services`** | 5,208 | 8 | Parquet + CSV | 137.0 KB | `train_number` | Service Master & Days |
@@ -135,7 +135,7 @@ canonical_corridor_multimodal,30,15,Parquet + CSV,11.9,(origin_city, dest_city)
   - `Train Delays`: 6 legacy station code aliases reconciled.
 * **OBSERVATION**: The cleaning transformations resolve critical domain-specific defects (zero-distance fields, legacy station renamings, dummy GPS coordinates) while strictly maintaining record counts where appropriate.
 * **INTERPRETATION**: Raw public transit tables cannot be ingested directly into machine learning pipelines without domain-specific normalization. The transformations convert raw text and JSON into mathematically sound feature graphs.
-* **YĀTRĀ AI RELEVANCE**: Powers the core graph-routing engine. Without Haversine hop distances, transit edges lack length; without alias resolution, delays cannot link to timetables.
+* **YATRA AI RELEVANCE**: Powers the core graph-routing engine. Without Haversine hop distances, transit edges lack length; without alias resolution, delays cannot link to timetables.
 * **VALIDATION BOUNDARY**: Validates physical and structural cleaning. Does not assess traveller choice behaviour, which is addressed in Phase 3.
 
 ---
@@ -150,7 +150,7 @@ canonical_corridor_multimodal,30,15,Parquet + CSV,11.9,(origin_city, dest_city)
   - Explicit primary keys defined for every table (`station_code`, `train_number`, `flight_itinerary_id`, composite route and delay keys).
 * **OBSERVATION**: The canonical data tier is structured with clean relational integrity, unambiguous primary keys, and high columnar compression.
 * **INTERPRETATION**: Establishing primary keys and standardized column names ensures provider independence, preventing schema breakage if external data sources update their naming conventions.
-* **YĀTRĀ AI RELEVANCE**: Acts as the immutable database backend for Yātrā AI's offline recommendation pipelines and live candidate retrieval modules.
+* **YATRA AI RELEVANCE**: Acts as the immutable database backend for Yatra AI's offline recommendation pipelines and live candidate retrieval modules.
 * **VALIDATION BOUNDARY**: Confirms table schemas and entity relationships. Does not introduce synthetic data or model features.
 
 ---
@@ -179,7 +179,7 @@ In [`docs/ml_problem_definition.md`](file:///c:/Users/N.AJAYKUMAR/MACHINE%20LEAR
 | **2. Multiclass Delay Risk** | $y \in \{\text{On-Time}, \text{Slight}, \text{Severe}, \text{Cancel}\}$ | Feasible (1,479 rows) | Severe skew (`SEVERE` = 72.75%, `ON-TIME` = 3.79%); poor multiclass separability. |
 | **3. Continuous Delay Regression** | $y = \log(1 + \text{delay\_mins})$ | Feasible (1,479 rows) | Strong statistical validity (skewness normalized from 1.28 to 0.14); excellent for edge weighting. |
 | **4. Probabilistic Delay Risk** | $P(\text{Delay} > t)$ | Feasible (Empirical distributions) | Highly defensible for Connection Guardian transfer guarantees. |
-| **5. Multimodal Itinerary Recommendation** | $y \in \{0, 1\}$ (Itinerary Chosen) | **Unsupported by real public data alone** | **Core Yātrā AI Product Mission**. Requires Phase 3 behavioural simulation to provide ground-truth passenger preferences. |
+| **5. Multimodal Itinerary Recommendation** | $y \in \{0, 1\}$ (Itinerary Chosen) | **Unsupported by real public data alone** | **Core Yatra AI Product Mission**. Requires Phase 3 behavioural simulation to provide ground-truth passenger preferences. |
 
 ---
 

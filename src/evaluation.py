@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Model Evaluation & Decision-Threshold Optimization Suite
+YATRA AI — Model Evaluation & Decision-Threshold Optimization Suite
 Authoritative module for:
 - Computing classification metrics: Accuracy, Precision, Recall, F1, ROC-AUC
 - Constructing detailed confusion matrices across data partitions

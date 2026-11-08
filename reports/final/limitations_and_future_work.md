@@ -1,6 +1,6 @@
-# YĀTRĀ AI: Methodological Limitations & Future Research Directions
+# YATRA AI: Methodological Limitations & Future Research Directions
 
-**Project**: YĀTRĀ AI  
+**Project**: YATRA AI  
 **Academic Phase**: Phase 5 — Final Results & Submission Package  
 **Date**: September 2026  
 **Document**: Methodological Limitations & Future Roadmap  
@@ -9,7 +9,7 @@
 
 ## 1. Academic & Methodological Boundaries
 
-Transparent disclosure of research boundaries is essential for scientific integrity. The findings, performance metrics, and conclusions of Yātrā AI are subject to specific structural, computational, and empirical constraints:
+Transparent disclosure of research boundaries is essential for scientific integrity. The findings, performance metrics, and conclusions of Yatra AI are subject to specific structural, computational, and empirical constraints:
 
 ### 1.1 Synthetic Behavioural Ground Truth
 All target choice labels (`chosen`) are generated through synthetic simulation using a Random Utility Maximization (RUM) framework based on the Multinomial Logit (MNL) formulation:
@@ -43,7 +43,7 @@ A primary algorithmic constraint of the Phase 4 formulation is the **pointwise i
 
 ## 2. Future Engineering & Research Roadmap
 
-The foundational work completed across Phases 1 through 5 provides a robust architectural baseline. The following staged extensions represent the natural production and academic evolution of Yātrā AI:
+The foundational work completed across Phases 1 through 5 provides a robust architectural baseline. The following staged extensions represent the natural production and academic evolution of Yatra AI:
 
 ### Stage 1: Transition to Session-Aware Learning-to-Rank (LTR)
 To eliminate the independent Bernoulli limitation, the next modeling evolution will implement **Listwise and Pairwise Learning-to-Rank**:

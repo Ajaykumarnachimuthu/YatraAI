@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Core Travel Intelligence & Personalization Engine
+YATRA AI — Core Travel Intelligence & Personalization Engine
 Package providing multimodal transport processing, continuous Travel DNA simulation,
 feature engineering, choice prediction modeling, and journey optimization.
 """

@@ -1,8 +1,8 @@
-# YĀTRĀ AI — Phase 1 Research & Data Collection Report
+# YATRA AI — Phase 1 Research & Data Collection Report
 
 ## Executive Summary
 
-Phase 1 of **Project Yātrā AI** established the real, public, and open government data foundation for our machine-learning-driven multi-modal travel recommendation and journey orchestration application for India.
+Phase 1 of **Project Yatra AI** established the real, public, and open government data foundation for our machine-learning-driven multi-modal travel recommendation and journey orchestration application for India.
 
 In strict adherence to the project guidelines:
 1. **Zero synthetic records** were generated.
@@ -55,13 +55,13 @@ Four high-value foundational datasets (spanning 5 discrete raw files/collections
 
 ---
 
-## 4. Mapping Datasets to Future YĀTRĀ AI Components
+## 4. Mapping Datasets to Future YATRA AI Components
 
-Each selected dataset maps directly to a core architectural component of the Yātrā AI application:
+Each selected dataset maps directly to a core architectural component of the Yatra AI application:
 
 ```
 +-------------------------------------------------------------------------+
-|                              YĀTRĀ AI                                   |
+|                              YATRA AI                                   |
 |               Multi-Modal Recommendation & Orchestration               |
 +-------------------------------------------------------------------------+
        |                         |                       |
@@ -74,34 +74,34 @@ Each selected dataset maps directly to a core architectural component of the Yā
                                  |
                                  v
                +-----------------------------------+
-               | Unified Canonical Yātrā Schemas   |
+               | Unified Canonical Yatra Schemas   |
                | (Provider-Agnostic Adapter Tier)  |
                +-----------------------------------+
 ```
 
 ### Component A: Transit Graph Topology & Path-Finding Router
 * **Input Data**: `data/raw/railways/stations.json` (8,990 nodes) + `data/raw/railways/trains.json` (416,637 directed edges).
-* **Future Yātrā Role**: Constructs the national multi-modal spatial graph. Nodes represent physical stations with WGS84 GPS coordinates; edges represent scheduled train hops with departure/arrival constraints and cumulative track distances.
+* **Future Yatra Role**: Constructs the national multi-modal spatial graph. Nodes represent physical stations with WGS84 GPS coordinates; edges represent scheduled train hops with departure/arrival constraints and cumulative track distances.
 * **Algorithms**: Timetable-constrained Dijkstra, Connection Scan Algorithm (CSA), and RAPTOR.
 
 ### Component B: Journey Reliability & Delay Prediction ML Engine
 * **Input Data**: `data/raw/delays/Train_List.csv` + `data/raw/delays/train_routes/*.csv` (1,479 station halt records with empirical delay distributions).
-* **Future Yātrā Role**: Provides ground-truth historical distributions (`Average_Delay`, `Right Time`, `Slight Delay`, `Significant Delay`, `Cancelled/Unknown`). Trains ML estimators (e.g., LightGBM / XGBoost) to compute dynamic risk scores for transfers and recommend safe buffer windows between legs.
+* **Future Yatra Role**: Provides ground-truth historical distributions (`Average_Delay`, `Right Time`, `Slight Delay`, `Significant Delay`, `Cancelled/Unknown`). Trains ML estimators (e.g., LightGBM / XGBoost) to compute dynamic risk scores for transfers and recommend safe buffer windows between legs.
 
 ### Component C: Multi-Modal Air vs. Rail Trade-off Engine
 * **Input Data**: `data/raw/flights/Clean_flight_data_Vivek.csv` (300,261 itineraries).
-* **Future Yātrā Role**: Powers Pareto-optimal trade-off analysis between High-Speed / Express Rail (Vande Bharat, Rajdhani, Tejas) and Domestic Flights on major corridors (Delhi–Mumbai, Bangalore–Delhi, Chennai–Kolkata, etc.), balancing **Travel Duration**, **Monetary Fare**, **Carbon Footprint**, and **Reliability**.
+* **Future Yatra Role**: Powers Pareto-optimal trade-off analysis between High-Speed / Express Rail (Vande Bharat, Rajdhani, Tejas) and Domestic Flights on major corridors (Delhi–Mumbai, Bangalore–Delhi, Chennai–Kolkata, etc.), balancing **Travel Duration**, **Monetary Fare**, **Carbon Footprint**, and **Reliability**.
 
 ### Component D: Environmental & Seasonal Disruption Contextualizer
 * **Input Data**: `data/raw/environmental/rainfall_india_1901-2015.csv` (115 years of meteorological subdivision data).
-* **Future Yātrā Role**: Informs seasonal vulnerability models. During high-risk monsoon periods (June–September), routing weights adjust to favor climate-resilient transport corridors and proactively warn travelers of flood/landslide-prone transit corridors.
+* **Future Yatra Role**: Informs seasonal vulnerability models. During high-risk monsoon periods (June–September), routing weights adjust to favor climate-resilient transport corridors and proactively warn travelers of flood/landslide-prone transit corridors.
 
 ---
 
 ## 5. Architectural Safeguard: Provider-Agnostic Schema Strategy
 
-In accordance with Yātrā's strict architectural requirement, the system is decoupled from any third-party source:
+In accordance with Yatra's strict architectural requirement, the system is decoupled from any third-party source:
 * All raw datasets remain in untouched original format under `data/raw/`.
 * A formal mapping specification has been created in `data/external/yatra_internal_schema_mapping.md`.
-* In Phase 2 (Data Cleaning & Preprocessing), translation adapters will transform raw records into canonical Yātrā entities (`TransitStationNode`, `TransitScheduleSegment`, `TransitReliabilityProfile`, `MultiModalFlightOffer`, `EnvironmentalClimateRisk`).
+* In Phase 2 (Data Cleaning & Preprocessing), translation adapters will transform raw records into canonical Yatra entities (`TransitStationNode`, `TransitScheduleSegment`, `TransitReliabilityProfile`, `MultiModalFlightOffer`, `EnvironmentalClimateRisk`).
 * Downstream ML models and routing algorithms will interface exclusively with these canonical types, allowing seamless swapping with official government feeds (OGD Platform India) or live APIs (NTES, DGCA, Open-Meteo) without altering core application code.

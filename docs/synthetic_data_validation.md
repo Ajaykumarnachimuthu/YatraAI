@@ -1,6 +1,6 @@
-# Yātrā AI — Synthetic Traveller Data Validation Report
+# Yatra AI — Synthetic Traveller Data Validation Report
 **Phase 3 Automated Quality, Grounding & Behavioral Audit**  
-*Document Version: 2.0.0 (Final-Scale) | Generation Date: 2026-09-11 | Project: Yātrā AI*
+*Document Version: 2.0.0 (Final-Scale) | Generation Date: 2026-09-11 | Project: Yatra AI*
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## 1. Audit Scope & Verification Summary
 
-This document presents the complete validation audit of the Phase 3 final-scale dataset generated for Yātrā AI under random seed `42`.
+This document presents the complete validation audit of the Phase 3 final-scale dataset generated for Yatra AI under random seed `42`.
 
 ### Final-Scale Configuration & Output Metrics:
 - **Unique Travellers**: Exactly **5,000** distinct individuals across 6 approved persona archetypes:

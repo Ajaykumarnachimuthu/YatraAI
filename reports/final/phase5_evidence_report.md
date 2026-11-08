@@ -1,4 +1,4 @@
-# YĀTRĀ AI — Phase 5 Evidence & Re-Evaluation Report
+# YATRA AI — Phase 5 Evidence & Re-Evaluation Report
 **End-to-End System Integration, Offline Reproducibility, Model Inference & Viva Defense Package**
 
 ---
@@ -17,11 +17,11 @@
 
 ## 2. End-to-End System Architecture & Data-to-ML Lineage
 
-Project Yātrā AI operates as a unified three-tier intelligence platform:
+Project Yatra AI operates as a unified three-tier intelligence platform:
 
 ```
 +---------------------------------------------------------------------------------------+
-|                                    YĀTRĀ AI SYSTEM                                    |
+|                                    YATRA AI SYSTEM                                    |
 |             Multi-Modal Transit Recommendation & Journey Orchestration Engine         |
 +---------------------------------------------------------------------------------------+
                                            |
@@ -123,7 +123,7 @@ HistGradientBoosting (Champion),Core (28 features),0.30,0.6537,0.4323,0.6265,0.5
   - Distinct separation of responsibilities: `src.data_collection` (sourcing), `src.data_cleaning` (normalization), `src.synthetic_generation` (simulation), `src.train_models` / `src.evaluation` (ML), `src.generate_presentation` (reporting).
 * **OBSERVATION**: Every phase requirement is implemented in an authoritative, non-redundant module in `src/`.
 * **INTERPRETATION**: Confirms complete repository cohesion and zero orphaned or unverified scaffolds.
-* **YĀTRĀ AI RELEVANCE**: Establishes software engineering maturity and full traceability from raw data to client presentation.
+* **YATRA AI RELEVANCE**: Establishes software engineering maturity and full traceability from raw data to client presentation.
 * **VALIDATION BOUNDARY**: Validates functional module existence and successful invocation.
 
 ---
@@ -139,7 +139,7 @@ HistGradientBoosting (Champion),Core (28 features),0.30,0.6537,0.4323,0.6265,0.5
   - Column 5 confirms `Bitwise Verified` across all algorithmic outputs.
 * **OBSERVATION**: The entire machine learning and data pipeline can be executed end-to-end from clean terminal commands without manual GUI clicks or notebook cell ordering dependencies.
 * **INTERPRETATION**: Satisfies the highest standard of scientific reproducibility. Any evaluator on any operating system will reproduce identical numbers.
-* **YĀTRĀ AI RELEVANCE**: Crucial for continuous integration (CI/CD) and automated model retraining in production environments.
+* **YATRA AI RELEVANCE**: Crucial for continuous integration (CI/CD) and automated model retraining in production environments.
 * **VALIDATION BOUNDARY**: Verified on Windows with Python 3.11, Scikit-Learn 1.3.2, and Pandas 2.1.3.
 
 ---
@@ -159,7 +159,7 @@ HistGradientBoosting (Champion),Core (28 features),0.30,0.6537,0.4323,0.6265,0.5
     * **ROC-AUC**: **$0.6976$**
 * **OBSERVATION**: Clear empirical justification for selecting HistGradientBoosting Core at $\tau^* = 0.30$.
 * **INTERPRETATION**: The champion model achieves the optimal Pareto balance between capturing positive traveller choices and suppressing false positive recommendations.
-* **YĀTRĀ AI RELEVANCE**: Forms the final authoritative performance benchmark presented to academic examiners and industry stakeholders.
+* **YATRA AI RELEVANCE**: Forms the final authoritative performance benchmark presented to academic examiners and industry stakeholders.
 * **VALIDATION BOUNDARY**: Evaluated on the frozen test partition (20,839 rows, 6,014 positive targets).
 
 ---
@@ -171,7 +171,7 @@ HistGradientBoosting (Champion),Core (28 features),0.30,0.6537,0.4323,0.6265,0.5
 * **Structure (12 Widescreen Slides)**:
   1. Title & Research Track: Multi-Modal Recommendation Engine for Indian Transport Networks.
   2. Problem Statement: Fragmentation, cold-start challenge, and transfer risks across India.
-  3. Yātrā AI Solution & Travel DNA: Authoritative 7-D continuous psychometrics and Connection Guardian.
+  3. Yatra AI Solution & Travel DNA: Authoritative 7-D continuous psychometrics and Connection Guardian.
   4. Real Data Architecture: Sourcing CRIS, NTES, EaseMyTrip, and IMD into canonical layers.
   5. Synthetic Traveller & MNL Simulation: McFadden's RUM framework and 5-tier validation.
   6. Exploratory Data Analysis: Modal choice shares, psychometric boxplots, and correlation heatmaps.
@@ -200,7 +200,7 @@ Synthesized from [`reports/final/viva_questions_and_answers.md`](file:///c:/User
 ---
 
 ## 10. Phase 5 Sign-Off & Conclusion
-Phase 5 has successfully integrated the complete Yātrā AI platform. All modules are traceable, offline reproducibility is verified bitwise, the production inference pipeline is packaged and tested, and the comprehensive viva defense package and presentation deck are fully finalized.
+Phase 5 has successfully integrated the complete Yatra AI platform. All modules are traceable, offline reproducibility is verified bitwise, the production inference pipeline is packaged and tested, and the comprehensive viva defense package and presentation deck are fully finalized.
 
 * **Implementation Coverage**: **100% VERIFIED**
 * **Offline Reproducibility**: **BITWISE REPRODUCIBLE (SEED = 42)**

@@ -1,12 +1,12 @@
-# Yātrā AI — Phase 4 Step 1: Pre-Training Dataset & Leakage Audit Report
+# Yatra AI — Phase 4 Step 1: Pre-Training Dataset & Leakage Audit Report
 **Supervised Machine Learning Data Foundation Audit**  
-*Document Version: 1.0.0 | Date: 2026-09-11 | Project: Yātrā AI*
+*Document Version: 1.0.0 | Date: 2026-09-11 | Project: Yatra AI*
 
 ---
 
 > [!IMPORTANT]
 > **SIMULATION TARGET DISCLAIMER**  
-> The target variable `chosen` is **synthetic behavioural ground truth** generated under explicitly documented random utility (MNL) simulation assumptions. It is used as a controlled benchmark to validate that Yātrā AI recommendation models can recover traveler preference-to-itinerary choice mappings. It must NOT be described as observed real-world booking transactions.
+> The target variable `chosen` is **synthetic behavioural ground truth** generated under explicitly documented random utility (MNL) simulation assumptions. It is used as a controlled benchmark to validate that Yatra AI recommendation models can recover traveler preference-to-itinerary choice mappings. It must NOT be described as observed real-world booking transactions.
 
 ---
 

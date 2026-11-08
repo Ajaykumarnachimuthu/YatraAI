@@ -1,6 +1,6 @@
-# Yātrā AI — Corrective Provenance, Consistency & Grounding Audit
+# Yatra AI — Corrective Provenance, Consistency & Grounding Audit
 **Phase 3 Quality & Integrity Assurance Audit**  
-*Document Version: 1.0.0 | Date: 2026-09-11 | Project: Yātrā AI*
+*Document Version: 1.0.0 | Date: 2026-09-11 | Project: Yatra AI*
 
 ---
 

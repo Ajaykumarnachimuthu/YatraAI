@@ -1,6 +1,6 @@
 # Phase 4 Step 1: Preprocessing Pipeline & Feature Transformation Specification
 
-**Project**: YĀTRĀ AI  
+**Project**: YATRA AI  
 **Phase**: 4 — Machine Learning Experimentation  
 **Step**: 1 — Lock Task + Build Leakage-Safe Baseline  
 **Date**: September 2026  

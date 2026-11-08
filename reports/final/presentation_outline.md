@@ -1,4 +1,4 @@
-# YĀTRĀ AI: Academic Presentation Slide Outline
+# YATRA AI: Academic Presentation Slide Outline
 ## Multi-Modal Intelligent Travel Recommendation System for India
 
 **Total Slides**: 12  
@@ -8,7 +8,7 @@
 ---
 
 ### Slide 1: Title & Project Identification
-- **Title**: YĀTRĀ AI (यात्रा AI)
+- **Title**: YATRA AI (यात्रा AI)
 - **Subtitle**: A Personalized Multi-Modal Travel Itinerary Recommendation Engine for India Using Hybrid Grounded Data
 - **Key Concepts**: Hybrid Data Strategy, Travel DNA Psychometrics, Multinomial Logit Simulation, Machine Learning Classification, Decision-Threshold Optimization
 - **Reproducibility**: Python 3.11, scikit-learn, Deterministic Seed 42, Zero Post-Choice Data Leakage
@@ -22,7 +22,7 @@
 
 ---
 
-### Slide 3: The Yātrā AI Solution
+### Slide 3: The Yatra AI Solution
 - **Multi-Modal Candidate Engine**: Evaluates flight, express rail, premium rail, and multi-segment itineraries across high-density Indian intercity corridors.
 - **Travel DNA Personalization**: Models individual preferences across 8 continuous dimensions: cost, time, reliability, comfort, transfer tolerance, departure flexibility, sustainability, and loyalty.
 - **Normalized Candidate Scoring**: Scores each itinerary alternative relative to the specific search session's choice set bounds.

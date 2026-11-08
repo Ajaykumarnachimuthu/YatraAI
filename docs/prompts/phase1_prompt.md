@@ -1,7 +1,7 @@
-# YĀTRĀ AI — Phase 1 Requirement Specification & Prompt Archive
+# YATRA AI — Phase 1 Requirement Specification & Prompt Archive
 
 ## 1. Phase Objective
-Establish the real, public, and open government data foundation for Yātrā AI—an AI-driven multimodal travel recommendation and journey orchestration engine for India. Formulate the transportation domain context, discover candidate datasets across open repositories, evaluate data provenance and licensing, and store unadulterated raw assets in the repository.
+Establish the real, public, and open government data foundation for Yatra AI—an AI-driven multimodal travel recommendation and journey orchestration engine for India. Formulate the transportation domain context, discover candidate datasets across open repositories, evaluate data provenance and licensing, and store unadulterated raw assets in the repository.
 
 ---
 
@@ -26,7 +26,7 @@ Investigate official Indian transit, aviation, geographic, and climatological da
 1. **Candidate Datasets Evaluated**: Document all investigated candidates, distinguishing between selected (KEEP), deferred, and rejected sources with clear technical rationale.
 2. **Source Registry & Metadata**: Maintain `data/external/sources_metadata.json` capturing title, publisher, license, access URL, date accessed, file format, and byte size.
 3. **Cryptographic Integrity Baseline**: Compute and record baseline SHA-256 hashes for all acquired raw files.
-4. **Schema & Architectural Mapping**: Map raw datasets to planned Yātrā AI functional components (Topology Graph, Delay Predictor, Cross-Modal Comparator).
+4. **Schema & Architectural Mapping**: Map raw datasets to planned Yatra AI functional components (Topology Graph, Delay Predictor, Cross-Modal Comparator).
 5. **Phase 1 Technical Report**: Deliver a comprehensive markdown report summarizing source selection, provenance, and data limitations.
 
 ---

@@ -1,11 +1,11 @@
-# YĀTRĀ AI — Phase 1 Evidence & Re-Evaluation Report
+# YATRA AI — Phase 1 Evidence & Re-Evaluation Report
 **Real Public Data Foundation, Provenance Architecture & Cryptographic Sourcing Integrity**
 
 ---
 
 ## 1. Phase Requirement Specification & Verification Scope
 * **Authentic Requirement Reference**: Archived in [`docs/prompts/phase1_prompt.md`](file:///c:/Users/N.AJAYKUMAR/MACHINE%20LEARNING%20PROJECT/YatraAI/docs/prompts/phase1_prompt.md).
-* **Core Objective**: Establish the real, open, and public data foundation for Yātrā AI—an AI-powered multimodal travel recommendation and journey orchestration engine for the Indian subcontinent. Acquire authentic transport timetables, station coordinates, flight pricing corpora, delay distributions, and environmental rainfall time-series without generating synthetic user data or training premature machine learning models.
+* **Core Objective**: Establish the real, open, and public data foundation for Yatra AI—an AI-powered multimodal travel recommendation and journey orchestration engine for the Indian subcontinent. Acquire authentic transport timetables, station coordinates, flight pricing corpora, delay distributions, and environmental rainfall time-series without generating synthetic user data or training premature machine learning models.
 * **Non-Negotiable Constraints**:
   - **Zero Synthetic Data**: Absolutely no synthetic traveller profiles, sessions, or choices created.
   - **Zero ML Models**: Predictive modeling deferred until foundational canonicalization is complete.
@@ -147,8 +147,8 @@ IMD Subdivisional Monsoon,data/raw/environmental/rainfall_india_1901-2015.csv,41
   - Disparate open licenses (MIT, CC0, Open Academic, and Sovereign GODL-India) confirming open academic research eligibility.
   - File sizes spanning from 1.82 KB (delay manifest) to 92.19 MB (railway network timetable JSON).
 * **OBSERVATION**: All five external data streams exist on disk, match their expected byte allocations, and satisfy cryptographic hash verification against sovereign baselines.
-* **INTERPRETATION**: Establishes that Yātrā AI is built upon genuinely acquired, provable empirical datasets rather than mocked placeholder stubs or fabricated feeds.
-* **YĀTRĀ AI RELEVANCE**: Guarantees the legal, architectural, and operational stability of the multi-modal routing engine. Sourcing rail, air, and environmental data independently ensures high resilience against vendor lock-in.
+* **INTERPRETATION**: Establishes that Yatra AI is built upon genuinely acquired, provable empirical datasets rather than mocked placeholder stubs or fabricated feeds.
+* **YATRA AI RELEVANCE**: Guarantees the legal, architectural, and operational stability of the multi-modal routing engine. Sourcing rail, air, and environmental data independently ensures high resilience against vendor lock-in.
 * **VALIDATION BOUNDARY**: Validates file presence, byte size, and bitwise SHA-256 integrity. Does not evaluate internal record anomalies or geographic coordinate errors (which are audited in Phase 2).
 
 ---
@@ -165,7 +165,7 @@ IMD Subdivisional Monsoon,data/raw/environmental/rainfall_india_1901-2015.csv,41
   - `rainfall_india_1901-2015.csv`: 4,116 monthly subdivisions covering 115 continuous meteorological years.
 * **OBSERVATION**: The acquired raw data foundation spans 121.2 MB across 5 complementary transport and environmental domains.
 * **INTERPRETATION**: The data foundation provides full spatial coverage across India's rail network, deep market depth across domestic metro aviation routes, and extensive climatological baselines.
-* **YĀTRĀ AI RELEVANCE**: Provides the raw material needed to construct Yātrā AI's Transit Topology Graph, Cross-Modal Pricing Comparator, and Weather-Aware Trip Reliability Engine.
+* **YATRA AI RELEVANCE**: Provides the raw material needed to construct Yatra AI's Transit Topology Graph, Cross-Modal Pricing Comparator, and Weather-Aware Trip Reliability Engine.
 * **VALIDATION BOUNDARY**: Confirms raw scale and structural dimensions. Highlights that raw flight records contain duplicates and raw stations contain dummy coordinates that must be addressed during Phase 2 canonicalization.
 
 ---

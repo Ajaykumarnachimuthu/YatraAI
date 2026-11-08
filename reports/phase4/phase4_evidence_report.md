@@ -1,11 +1,11 @@
-# YĀTRĀ AI — Phase 4 Evidence & Re-Evaluation Report
+# YATRA AI — Phase 4 Evidence & Re-Evaluation Report
 **Supervised Multimodal Choice Modeling, Leakage-Free Evaluation & Constrained Threshold Optimization**
 
 ---
 
 ## 1. Phase Requirement Specification & Verification Scope
 * **Authentic Requirement Reference**: Archived in [`docs/prompts/phase4_prompt.md`](file:///c:/Users/N.AJAYKUMAR/MACHINE%20LEARNING%20PROJECT/YatraAI/docs/prompts/phase4_prompt.md).
-* **Core Objective**: Formulate, train, evaluate, and optimize supervised machine learning models to solve Yātrā AI's itinerary recommendation problem. Frame binary choice classification predicting whether a candidate alternative is selected by a traveller (`chosen` $\in \{0, 1\}$). Enforce strict group-level traveller partitioning to prevent identity leakage, benchmark linear vs. non-linear algorithms across Core and Extended feature spaces, evaluate performance under 71.14% negative class skew, optimize decision thresholds for operational capture, and serialize the champion inference pipeline.
+* **Core Objective**: Formulate, train, evaluate, and optimize supervised machine learning models to solve Yatra AI's itinerary recommendation problem. Frame binary choice classification predicting whether a candidate alternative is selected by a traveller (`chosen` $\in \{0, 1\}$). Enforce strict group-level traveller partitioning to prevent identity leakage, benchmark linear vs. non-linear algorithms across Core and Extended feature spaces, evaluate performance under 71.14% negative class skew, optimize decision thresholds for operational capture, and serialize the champion inference pipeline.
 * **Non-Negotiable Constraints**:
   - **Supervised Target**: Binary indicator `chosen` (1 = chosen alternative, 0 = not chosen).
   - **Group-Level Partitioning**: 70% Train (3,500 travellers), 15% Validation (750 travellers), 15% Test (750 travellers) split strictly by `traveller_id` under fixed seed $42$.
@@ -68,7 +68,7 @@ python -m src.phase4_step2
 * **Verified Terminal Output**:
   ```
   ================================================================================
-  YĀTRĀ AI — PHASE 4 STEP 2: TARGETED IMPROVEMENT & MODEL SELECTION
+  YATRA AI — PHASE 4 STEP 2: TARGETED IMPROVEMENT & MODEL SELECTION
   ================================================================================
   [+] Optimal Threshold: 0.30 | Validation F1: 0.5098 | Validation Recall: 61.97%
   [+] Evaluated Frozen Test Partition at tau* = 0.30:
@@ -155,7 +155,7 @@ The leakage audit executed in `src.feature_engineering.perform_leakage_audit()` 
   - `HistGradientBoosting (Core)`: Top baseline performer with ROC-AUC = 0.6976 and Accuracy = 72.59%.
 * **OBSERVATION**: At the default classification threshold of 0.50, all models suffer from severe recall collapse due to the 71.14% negative class dominance.
 * **INTERPRETATION**: Demonstrates why default probability thresholds fail on imbalanced choice datasets. Models predict the majority negative class to minimize log-loss, missing 85–99% of chosen itineraries.
-* **YĀTRĀ AI RELEVANCE**: Highlights the urgent architectural necessity of post-hoc decision threshold optimization.
+* **YATRA AI RELEVANCE**: Highlights the urgent architectural necessity of post-hoc decision threshold optimization.
 * **VALIDATION BOUNDARY**: Validates uncalibrated baseline performance under $\tau=0.50$.
 
 ---
@@ -171,7 +171,7 @@ The leakage audit executed in `src.feature_engineering.perform_leakage_audit()` 
   - At $\tau = 0.20$: Recall reaches 83.18%, but Precision degrades to 34.02% (violating the $\ge 0.35$ constraint).
 * **OBSERVATION**: $\tau^* = 0.30$ represents the mathematical global maximum of $F_1$ while satisfying both operational constraints ($\text{Recall} \ge 0.50$, $\text{Precision} \ge 0.35$).
 * **INTERPRETATION**: Calibrating the decision threshold to 0.30 perfectly aligns the model with the underlying prior positive class probability ($28.86\% \approx 0.30$).
-* **YĀTRĀ AI RELEVANCE**: Forms the operational core of the recommendation engine. Surfacing 62% of preferred journeys with 43% precision provides a high-utility user experience without cognitive overload.
+* **YATRA AI RELEVANCE**: Forms the operational core of the recommendation engine. Surfacing 62% of preferred journeys with 43% precision provides a high-utility user experience without cognitive overload.
 * **VALIDATION BOUNDARY**: Threshold tuned strictly on validation data. Final generalization confirmed on the test partition in `tbl_p4_final_model_comparison.png`.
 
 ---
@@ -187,7 +187,7 @@ The leakage audit executed in `src.feature_engineering.perform_leakage_audit()` 
   - **ROC-AUC**: Preserved identically at **$0.6976$** (threshold-independent ranking capability).
 * **OBSERVATION**: Threshold calibration dramatically improves positive class recovery while maintaining an acceptable false alarm rate.
 * **INTERPRETATION**: Confirms that the hyperparameter structure of HistGradientBoosting learned strong underlying ranking representations (ROC-AUC 0.6976), which was masked by the inappropriate default 0.50 cut-off.
-* **YĀTRĀ AI RELEVANCE**: Delivers the production-ready decision rule deployed in `champion_gb_core.joblib`.
+* **YATRA AI RELEVANCE**: Delivers the production-ready decision rule deployed in `champion_gb_core.joblib`.
 * **VALIDATION BOUNDARY**: Evaluated on 20,839 unseen test rows (6,014 chosen targets).
 
 ---
@@ -202,7 +202,7 @@ The leakage audit executed in `src.feature_engineering.perform_leakage_audit()` 
   - Green bars (F1-Score at $\tau=0.50$): Depressed across all models due to uncalibrated thresholds.
 * **OBSERVATION**: Ensemble gradient boosting distinctly outperforms linear models and single trees on discriminatory ranking power (ROC-AUC).
 * **INTERPRETATION**: The choice utility function exhibits non-linear interactions (e.g. cross-effects between price, duration, and Travel DNA) that linear models cannot capture without manual polynomial expansions.
-* **YĀTRĀ AI RELEVANCE**: Confirms Gradient Boosting as the definitive champion architecture for itinerary recommendation.
+* **YATRA AI RELEVANCE**: Confirms Gradient Boosting as the definitive champion architecture for itinerary recommendation.
 * **VALIDATION BOUNDARY**: Reflects test set evaluation under default hyperparameters.
 
 ---
@@ -218,7 +218,7 @@ The leakage audit executed in `src.feature_engineering.perform_leakage_audit()` 
   - F1 curve peaks sharply at $\tau = 0.30$ before declining.
 * **OBSERVATION**: Visual inspection confirms that $\tau^* = 0.30$ is an unambiguous, smooth global maximum, not an unstable numeric spike.
 * **INTERPRETATION**: The stability of the peak across neighboring thresholds ($\tau \in [0.28, 0.32]$) proves that the operating point will generalize well to production traffic without brittle sensitivity.
-* **YĀTRĀ AI RELEVANCE**: Provides transparent mathematical justification for presentation and viva defense.
+* **YATRA AI RELEVANCE**: Provides transparent mathematical justification for presentation and viva defense.
 * **VALIDATION BOUNDARY**: Validation partition evaluation across 41 points.
 
 ---
@@ -235,7 +235,7 @@ The leakage audit executed in `src.feature_engineering.perform_leakage_audit()` 
   - **False Negatives (FN)**: 2,246 (missed choices).
 * **OBSERVATION**: The classifier captures the majority of positive choices (3,768 vs 2,246) while correctly rejecting nearly 10,000 unchosen itineraries.
 * **INTERPRETATION**: Confirms balanced operational performance under severe class imbalance.
-* **YĀTRĀ AI RELEVANCE**: Proves that the recommendation engine actively filters out two-thirds of irrelevant travel options while successfully highlighting the preferred journey in over 6 out of 10 searches.
+* **YATRA AI RELEVANCE**: Proves that the recommendation engine actively filters out two-thirds of irrelevant travel options while successfully highlighting the preferred journey in over 6 out of 10 searches.
 * **VALIDATION BOUNDARY**: Test set ground-truth evaluation across 20,839 rows.
 
 ---
@@ -268,7 +268,7 @@ The champion pipeline is saved and verified at:
 ---
 
 ## 10. Phase 4 Sign-Off & Conclusion
-Phase 4 has established an end-to-end, leakage-free supervised machine learning framework for Yātrā AI. HistGradientBoosting Core was proven superior to linear models and decision trees on ranking power (ROC-AUC = 0.6976). Constrained threshold optimization ($\tau^* = 0.30$) successfully overcame severe class imbalance, elevating test recall from 13.57% to 62.65% and F1 from 0.2223 to 0.5116 with zero numerical drift.
+Phase 4 has established an end-to-end, leakage-free supervised machine learning framework for Yatra AI. HistGradientBoosting Core was proven superior to linear models and decision trees on ranking power (ROC-AUC = 0.6976). Constrained threshold optimization ($\tau^* = 0.30$) successfully overcame severe class imbalance, elevating test recall from 13.57% to 62.65% and F1 from 0.2223 to 0.5116 with zero numerical drift.
 
 * **Champion Estimator**: **HistGradientBoostingClassifier (Core 28 Features)**
 * **Optimal Operating Point**: **$\tau^* = 0.30$ (Recall = 62.65%, Precision = 43.23%, F1 = 0.5116)**

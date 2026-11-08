@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Supervised Model Training & Serialization Engine
+YATRA AI — Supervised Model Training & Serialization Engine
 Authoritative module for:
 - Standardized model instantiation across 4 families:
   1. Regularized Logistic Regression (L2, C=1.0)

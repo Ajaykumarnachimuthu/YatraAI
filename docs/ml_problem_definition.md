@@ -1,8 +1,8 @@
-# YĀTRĀ AI — Machine Learning Problem Definition & Formulation Analysis (Phase 2)
+# YATRA AI — Machine Learning Problem Definition & Formulation Analysis (Phase 2)
 
 ## Executive Summary
 
-The central goal of **Project Yātrā AI** is to build a machine-learning-driven multi-modal travel recommendation and journey orchestration platform for India. 
+The central goal of **Project Yatra AI** is to build a machine-learning-driven multi-modal travel recommendation and journey orchestration platform for India. 
 
 In Phase 2, we conducted a rigorous diagnostic evaluation of candidate ML formulations against our verified canonical datasets (`canonical_stations`, `canonical_train_routes`, `canonical_train_delays`, `canonical_flights`, `canonical_subdivision_rainfall`, `canonical_corridor_multimodal`).
 
@@ -104,7 +104,7 @@ We evaluated five distinct ML problem formulations against the inspected dataset
   * For every station halt in our delay records, we have the exact discrete probability mass vector:
     $$\mathbf{p} = [p_{\le 15\text{m}}, p_{15\text{--}60\text{m}}, p_{> 60\text{m}}, p_{\text{cancel}}]$$
 * **Empirical Assessment**:
-  * *Strengths*: Mathematically rigorous and directly aligned with Yātrā's core value proposition ("journey orchestration"). Protects travelers from booking "ghost connections" that look good on paper but fail in reality.
+  * *Strengths*: Mathematically rigorous and directly aligned with Yatra's core value proposition ("journey orchestration"). Protects travelers from booking "ghost connections" that look good on paper but fail in reality.
   * *Feasibility*: 100% computable from real operational data.
 
 ---
@@ -119,7 +119,7 @@ We evaluated five distinct ML problem formulations against the inspected dataset
   * **0 records (COMPLETELY ABSENT)**.
   * Comprehensive audit of raw and processed datasets confirmed: **zero user IDs, zero click logs, zero booking transactions, and zero customer ratings exist in real public transit datasets**.
 * **Empirical Assessment**:
-  * *Strengths*: Represents the ultimate consumer-facing product vision of Yātrā AI.
+  * *Strengths*: Represents the ultimate consumer-facing product vision of Yatra AI.
   * *Fatal Limitation for Real Data Alone*: **Cannot be trained solely on current real datasets without generating synthetic traveler behavior**. If attempted in Phase 2, ground-truth choice labels would have to be fabricated, violating project principles.
 
 ---
@@ -130,7 +130,7 @@ To preserve scientific rigor, ensure complete grounding in real data, and avoid 
 
 ```
 +=============================================================================+
-|                      YĀTRĀ AI TWO-TIER ML ARCHITECTURE                      |
+|                      YATRA AI TWO-TIER ML ARCHITECTURE                      |
 +=============================================================================+
 
   [TIER 1: REAL-DATA GROUNDED OPERATIONAL ENGINE]  <--- PHASE 2 & 4 (Real Data)
@@ -164,7 +164,7 @@ To preserve scientific rigor, ensure complete grounding in real data, and avoid 
 1. **Zero Fake Operational Data**: Tier 1 is trained 100% on real government and public records (NTES, CRIS timetables, IMD rainfall normals).
 2. **Explicit Separation of Concerns**: Isolates the *physics of transit delays* (objective reality) from *traveler subjective preferences* (where synthetic generation is legitimate).
 3. **No Invalid Joins**: Does not force spurious row-level joins between flight bookings and train running status.
-4. **Direct Applicability to Yātrā's Core Value**: Solves the real traveler problem in India: *"Will I make my connection, and is the flight worth 3x the train fare given expected delays?"*
+4. **Direct Applicability to Yatra's Core Value**: Solves the real traveler problem in India: *"Will I make my connection, and is the flight worth 3x the train fare given expected delays?"*
 
 ---
 

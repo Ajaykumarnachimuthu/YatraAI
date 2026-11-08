@@ -1,8 +1,8 @@
-# YĀTRĀ AI — Phase 2 Diagnostic, Normalization & ML Problem Definition Report
+# YATRA AI — Phase 2 Diagnostic, Normalization & ML Problem Definition Report
 
 ## Executive Summary
 
-Phase 2 of **Project Yātrā AI** successfully transitioned our raw public transit, geographic, and climatological datasets into a provider-independent canonical data tier (`data/processed/`). We performed exhaustive diagnostic auditing, verified legitimate relational linkages without artificial joins, established a comprehensive data dictionary, evaluated 5 candidate machine learning formulations, and formulated a defensible multi-tier ML architecture.
+Phase 2 of **Project Yatra AI** successfully transitioned our raw public transit, geographic, and climatological datasets into a provider-independent canonical data tier (`data/processed/`). We performed exhaustive diagnostic auditing, verified legitimate relational linkages without artificial joins, established a comprehensive data dictionary, evaluated 5 candidate machine learning formulations, and formulated a defensible multi-tier ML architecture.
 
 In strict accordance with project constraints:
 * **Zero synthetic data** was generated.

@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Phase 4 ML Experimentation
+YATRA AI — Phase 4 ML Experimentation
 Step 1: Lock Task + Build Leakage-Safe Baseline Runner
 
 Orchestration runner executing:
@@ -50,7 +50,7 @@ SEED = 42
 
 def run_baseline_pipeline():
     print("=" * 80)
-    print("YĀTRĀ AI — PHASE 4 STEP 1: BASELINE MODEL ORCHESTRATION")
+    print("YATRA AI — PHASE 4 STEP 1: BASELINE MODEL ORCHESTRATION")
     print("=" * 80)
 
     # 1. Load Choice Dataset

@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Multimodal Transit Data Source Registry & Provenance Auditor
+YATRA AI — Multimodal Transit Data Source Registry & Provenance Auditor
 Authoritative module for tracking public transit data origins, license attribution,
 file integrity checksums, and schema registrations.
 """

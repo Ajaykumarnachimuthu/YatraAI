@@ -1,4 +1,4 @@
-# YĀTRĀ AI — FINAL QUALITY CONTROL & PROJECT FREEZE REPORT
+# YATRA AI — FINAL QUALITY CONTROL & PROJECT FREEZE REPORT
 
 **Execution Timestamp:** 2026-09-11T12:27:00+05:30  
 **Repository Working Directory:** `c:\Users\N.AJAYKUMAR\MACHINE LEARNING PROJECT\YatraAI`  
@@ -202,7 +202,7 @@ Five sample candidate rows from the frozen test partition were passed to `engine
 
 The PowerPoint file [`reports/final/Yatra_AI_Final_Presentation.pptx`](file:///c:/Users/N.AJAYKUMAR/MACHINE%20LEARNING%20PROJECT/YatraAI/reports/final/Yatra_AI_Final_Presentation.pptx) (and its verified sibling `Yatra_AI_Final_Presentation_Updated.pptx`) was inspected across all 12 slides:
 
-1. **Slide 1 — Title:** YĀTRĀ AI: Personalized Multimodal Travel Intelligence Engine
+1. **Slide 1 — Title:** YATRA AI: Personalized Multimodal Travel Intelligence Engine
 2. **Slide 2 — Problem Statement:** Fragmented Indian transit networks and multimodal booking friction
 3. **Slide 3 — System Architecture:** End-to-end data pipeline from raw transit feeds to personalized ranking
 4. **Slide 4 — Data Architecture & Provenance:** 5 authentic raw datasets (CRIS, NTES, EaseMyTrip, IMD)

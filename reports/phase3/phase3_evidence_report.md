@@ -1,11 +1,11 @@
-# YĀTRĀ AI — Phase 3 Evidence & Re-Evaluation Report
+# YATRA AI — Phase 3 Evidence & Re-Evaluation Report
 **7-D Travel DNA Psychometrics, Random Utility Discrete Choice Simulation & 5-Tier Scientific Validation**
 
 ---
 
 ## 1. Phase Requirement Specification & Verification Scope
 * **Authentic Requirement Reference**: Archived in [`docs/prompts/phase3_prompt.md`](file:///c:/Users/N.AJAYKUMAR/MACHINE%20LEARNING%20PROJECT/YatraAI/docs/prompts/phase3_prompt.md).
-* **Core Objective**: Construct the behavioural simulation foundation for Yātrā AI to overcome the absence of public multimodal passenger booking clickstreams. Formulate the authoritative 7-D continuous Travel DNA representation, define 6 distinct traveller persona archetypes, retrieve authentic candidate itineraries from the canonical transportation network, engineer pre-choice candidate quality scores, simulate discrete travel choices using Random Utility Maximization (RUM) and the Multinomial Logit (MNL) model, and execute an exhaustive 5-tier scientific validation suite.
+* **Core Objective**: Construct the behavioural simulation foundation for Yatra AI to overcome the absence of public multimodal passenger booking clickstreams. Formulate the authoritative 7-D continuous Travel DNA representation, define 6 distinct traveller persona archetypes, retrieve authentic candidate itineraries from the canonical transportation network, engineer pre-choice candidate quality scores, simulate discrete travel choices using Random Utility Maximization (RUM) and the Multinomial Logit (MNL) model, and execute an exhaustive 5-tier scientific validation suite.
 * **Non-Negotiable Constraints**:
   - **Authoritative 7-D Travel DNA**: Strictly 7 continuous psychometric dimensions. Stale 8-D concepts (`loyalty_bias`, `convenience_sensitivity`) are strictly excluded.
   - **Grounding in Real Transport Networks**: All candidate itineraries stem from canonical flights and rail timetables in `data/processed/`.
@@ -61,7 +61,7 @@ $$\text{Score}_{njk} = 1.0 - \frac{x_{njk} - \min_{l} x_{nlk}}{\max_{l} x_{nlk} 
 
 ## 4. Authoritative 7-D Travel DNA Specification
 
-Yātrā AI models traveller psychographics along exactly 7 continuous, bounded dimensions $\text{DNA}_{nk} \in (0, 1)$:
+Yatra AI models traveller psychographics along exactly 7 continuous, bounded dimensions $\text{DNA}_{nk} \in (0, 1)$:
 
 | Dimension Symbol | Dimension Name | Psychological Interpretation | Candidate Score Counterpart | Global Weight ($\beta_k$) |
 |---|---|---|---|:---:|
@@ -130,7 +130,7 @@ Mobility-Constrained Traveler,500,500,10.0%,10.00%,0,EXACT MATCH (0.0% Error)
   - Rightmost column confirms `EXACT MATCH (0.0% Error)` across all 6 archetypes.
 * **OBSERVATION**: The empirical persona distribution converges perfectly to the theoretical target mix without integer sampling rounding skew.
 * **INTERPRETATION**: Demonstrates that the population generation engine strictly adheres to demographic quotas, ensuring fair representation of budget, corporate, family, and eco-oriented travellers.
-* **YĀTRĀ AI RELEVANCE**: Guarantees that recommendation models trained on this population are not biased towards a single traveller segment.
+* **YATRA AI RELEVANCE**: Guarantees that recommendation models trained on this population are not biased towards a single traveller segment.
 * **VALIDATION BOUNDARY**: Validates categorical demographic shares. Individual psychometric variation within each persona is validated in `tbl_p3_travel_dna_moments.png`.
 
 ---
@@ -146,7 +146,7 @@ Mobility-Constrained Traveler,500,500,10.0%,10.00%,0,EXACT MATCH (0.0% Error)
   - Standard deviations range between $0.16 - 0.21$, confirming substantial intra-population heterogeneity.
 * **OBSERVATION**: Empirical moments converge cleanly to the theoretical mixture distribution, and no boundary violations ($z \le 0$ or $z \ge 1$) occur.
 * **INTERPRETATION**: The continuous Beta distribution formulation produces realistic, smooth preference curves rather than unrealistic binary flags or artificial discrete buckets.
-* **YĀTRĀ AI RELEVANCE**: Enables fine-grained personalization. An individual traveller's preference is continuous, allowing Yātrā AI to distinguish subtle differences in trade-offs.
+* **YATRA AI RELEVANCE**: Enables fine-grained personalization. An individual traveller's preference is continuous, allowing Yatra AI to distinguish subtle differences in trade-offs.
 * **VALIDATION BOUNDARY**: Confirms statistical moment convergence across the 5,000 traveller cohort.
 
 ---
@@ -163,7 +163,7 @@ Mobility-Constrained Traveler,500,500,10.0%,10.00%,0,EXACT MATCH (0.0% Error)
   - Time Valuation: Professionals choose air in $76.8\%$ of journeys.
 * **OBSERVATION**: Discrete choice probabilities shift monotonically and directionally in strict alignment with microeconomic utility theory.
 * **INTERPRETATION**: Proves that the simulation engine is not generating random choices; travellers behave as rational, utility-maximizing economic agents.
-* **YĀTRĀ AI RELEVANCE**: Crucial for training supervised recommendation algorithms. A model trained on this ground truth learns authentic causal relationships between price/duration and traveller adoption.
+* **YATRA AI RELEVANCE**: Crucial for training supervised recommendation algorithms. A model trained on this ground truth learns authentic causal relationships between price/duration and traveller adoption.
 * **VALIDATION BOUNDARY**: Validates controlled directional shocks. Does not claim observed real-world calibration.
 
 ---
@@ -180,7 +180,7 @@ Mobility-Constrained Traveler,500,500,10.0%,10.00%,0,EXACT MATCH (0.0% Error)
   - `Occasional Leisure`: Exhibits balanced modal split (~52% Rail, ~48% Air) depending on corridor length.
 * **OBSERVATION**: Personas exhibit stark, defensible divergence in modal choice shares that mirror real-world transportation behavior.
 * **INTERPRETATION**: The bi-linear systematic utility function successfully translates psychographic sensitivities into realistic modal demand.
-* **YĀTRĀ AI RELEVANCE**: Demonstrates why a single static recommendation ranking fails. Different travellers presented with the exact same multimodal consideration set will select fundamentally different modes.
+* **YATRA AI RELEVANCE**: Demonstrates why a single static recommendation ranking fails. Different travellers presented with the exact same multimodal consideration set will select fundamentally different modes.
 * **VALIDATION BOUNDARY**: Reflects simulated discrete choices across India's top 6 metro corridors.
 
 ---
@@ -196,7 +196,7 @@ Mobility-Constrained Traveler,500,500,10.0%,10.00%,0,EXACT MATCH (0.0% Error)
   - Sustainability panel: `Eco-Conscious Urbanite` shows pronounced positive skew ($>0.75$).
 * **OBSERVATION**: Each persona displays sharp separation on its defining psychometric dimensions while preserving natural variance (spread within boxes).
 * **INTERPRETATION**: Confirms that persona generation is not deterministic or degenerate; travellers within the same archetype still possess individual nuances.
-* **YĀTRĀ AI RELEVANCE**: Validates the feature distribution that feeds into Phase 4 machine learning models. High feature separation provides clear decision boundaries for tree-based estimators.
+* **YATRA AI RELEVANCE**: Validates the feature distribution that feeds into Phase 4 machine learning models. High feature separation provides clear decision boundaries for tree-based estimators.
 * **VALIDATION BOUNDARY**: Evaluates the 5,000 synthetic travellers generated under Phase 3.
 
 ---
@@ -212,7 +212,7 @@ Mobility-Constrained Traveler,500,500,10.0%,10.00%,0,EXACT MATCH (0.0% Error)
   - Off-diagonal values remain strictly bounded between $-0.45$ and $+0.35$, confirming absence of multicollinearity ($|r| < 0.70$).
 * **OBSERVATION**: The 7 dimensions capture distinct, non-redundant behavioural axes.
 * **INTERPRETATION**: Validates that all 7 dimensions contribute unique explanatory variance, confirming that none of the 7 dimensions are redundant.
-* **YĀTRĀ AI RELEVANCE**: Prevents severe multicollinearity in linear models (Logistic Regression) and allows gradient boosting trees to split on independent preference axes.
+* **YATRA AI RELEVANCE**: Prevents severe multicollinearity in linear models (Logistic Regression) and allows gradient boosting trees to split on independent preference axes.
 * **VALIDATION BOUNDARY**: Evaluated across the 5,000 synthetic traveller population.
 
 ---

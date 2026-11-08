@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Evidence Asset Generator
+YATRA AI — Evidence Asset Generator
 Authoritative module for generating publication-grade, high-resolution (300 DPI) visual assets:
 1. Formula Panels (F01 to F10) in results/figures/formulas/
 2. Rendered Table Cards in results/figures/tables/ generated directly from machine-readable CSVs
@@ -99,7 +99,7 @@ def render_formula_panel(
     ax.add_patch(header)
 
     # Header Badges and Text
-    ax.text(0.04, 0.935, f"YĀTRĀ AI MATHEMATICAL SPECIFICATION — {panel_id.upper()}",
+    ax.text(0.04, 0.935, f"YATRA AI MATHEMATICAL SPECIFICATION — {panel_id.upper()}",
             fontsize=10, fontweight="bold", color=GOLD, va="center", zorder=3)
     ax.text(0.04, 0.895, title,
             fontsize=16, fontweight="bold", color=WHITE, va="center", zorder=3)
@@ -145,7 +145,7 @@ def render_formula_panel(
     ax.text(0.57, 0.53, "Economic / ML Meaning:", fontsize=8.5, fontweight="bold", color=ACCENT_TEAL, va="top", zorder=3)
     ax.text(0.57, 0.49, meaning_wrapped, fontsize=8, color=SLATE, va="top", zorder=3)
 
-    ax.text(0.57, 0.33, "Role in Yātrā AI Architecture:", fontsize=8.5, fontweight="bold", color=ACCENT_TEAL, va="top", zorder=3)
+    ax.text(0.57, 0.33, "Role in Yatra AI Architecture:", fontsize=8.5, fontweight="bold", color=ACCENT_TEAL, va="top", zorder=3)
     ax.text(0.57, 0.29, operational_wrapped, fontsize=8, color=SLATE, va="top", zorder=3)
 
     # Constraints Box (Bottom Left)
@@ -263,7 +263,7 @@ def generate_all_formula_panels():
         meaning_text="Overall proportion of correct predictions across both classes. Represents general classifier correctness across the full binary decision space.",
         operational_text="Serves as a baseline sanity metric. Under a 71.14% negative class skew, a trivial majority classifier achieves 71.14% accuracy while providing zero recommendation value.",
         where_used_text="src/evaluation.py :: evaluate_partition()",
-        constraints_text="Must never be used as the sole decision criterion for model selection in Yātrā AI due to susceptibility to majority class collapse.",
+        constraints_text="Must never be used as the sole decision criterion for model selection in Yatra AI due to susceptibility to majority class collapse.",
         filename="f05_classification_accuracy.png"
     )
 
@@ -315,7 +315,7 @@ def generate_all_formula_panels():
             (r"$\mathrm{TP}, \mathrm{FP}, \mathrm{FN}$", "Contingency matrix cell counts")
         ],
         meaning_text="Harmonic mean of precision and recall. Penalizes extreme imbalances, penalizing both aggressive over-predicting (high recall, near-zero precision) and conservative under-predicting.",
-        operational_text="Primary optimization target for Yātrā AI choice modeling. Maximizing F1 guarantees a balanced recommendation policy under imbalanced choice sets.",
+        operational_text="Primary optimization target for Yatra AI choice modeling. Maximizing F1 guarantees a balanced recommendation policy under imbalanced choice sets.",
         where_used_text="src/evaluation.py :: evaluate_partition() & src/phase4_step2.py",
         constraints_text="Non-linear combination. Reaches 1.0 only with perfect classification (zero FP and zero FN). Evaluated across validation threshold sweep.",
         filename="f08_classification_f1_score.png"
@@ -352,7 +352,7 @@ def generate_all_formula_panels():
             (r"$\mathrm{ROC-AUC} \in [0.5, 1.0]$", "Threshold-independent pairwise ranking concordance probability")
         ],
         meaning_text="Pairwise ranking concordance. Measures the probability that the classifier ranks a randomly chosen positive alternative higher than a randomly chosen negative alternative.",
-        operational_text="Core measure of itinerary ranking quality. Directly indicates whether Yātrā AI orders the best journey ahead of sub-optimal alternatives across diverse corridors.",
+        operational_text="Core measure of itinerary ranking quality. Directly indicates whether Yatra AI orders the best journey ahead of sub-optimal alternatives across diverse corridors.",
         where_used_text="src/evaluation.py :: evaluate_partition()",
         constraints_text="Invariant to decision threshold tau and class skew. Baseline champion achieved ROC-AUC = 0.6976 on unseen test data (substantially exceeding 0.50 random guess).",
         filename="f10_roc_auc_integral.png"
@@ -579,7 +579,7 @@ def render_table_card(
 
     # Footer
     footer_y = curr_y - gap_table_footer
-    ax.text(m_left, footer_y, f"Source: {source_text} | Yātrā AI Production Engine | Ground Truth Verified",
+    ax.text(m_left, footer_y, f"Source: {source_text} | Yatra AI Production Engine | Ground Truth Verified",
             fontsize=8.0, color=MUTED, va="top", zorder=3)
 
     plt.savefig(out_path, dpi=300, facecolor=WHITE, edgecolor="none", bbox_inches="tight")
@@ -653,7 +653,7 @@ def generate_all_tables_and_cards():
     render_table_card(
         df_raw_inv,
         title="Phase 1 — Raw Dataset Inventory & Technical Characteristics",
-        subtitle="Raw Public Data Foundation Acquired for Yātrā AI Transport Graph",
+        subtitle="Raw Public Data Foundation Acquired for Yatra AI Transport Graph",
         source_text="data/raw/**/*",
         out_path=os.path.join(TABLE_IMGS_DIR, "tbl_p1_raw_dataset_inventory.png"),
         custom_col_labels=["Dataset Name", "Relative File Path", "Raw Records", "Columns", "Disk Size", "Format", "Source Authority"],
@@ -1101,7 +1101,7 @@ def generate_all_tables_and_cards():
 
 if __name__ == "__main__":
     print("=" * 80)
-    print("YĀTRĀ AI EVIDENCE ASSET GENERATOR")
+    print("YATRA AI EVIDENCE ASSET GENERATOR")
     print("Generating high-resolution (300 DPI) formula cards and table images...")
     print("=" * 80)
     generate_all_formula_panels()

@@ -1,6 +1,6 @@
-# Yātrā AI — Synthetic Traveller Behaviour & Travel DNA Methodology
+# Yatra AI — Synthetic Traveller Behaviour & Travel DNA Methodology
 **Phase 3 Technical Documentation & Final-Scale Specification**  
-*Document Version: 2.0.0 (Final-Scale) | Generation Date: 2026-09-11 | Project: Yātrā AI*
+*Document Version: 2.0.0 (Final-Scale) | Generation Date: 2026-09-11 | Project: Yatra AI*
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## 1. Executive Summary & Core Principle
 
-Yātrā AI employs a strict **Hybrid Data Strategy** for multi-modal travel recommendation and journey orchestration across the Indian subcontinent:
+Yatra AI employs a strict **Hybrid Data Strategy** for multi-modal travel recommendation and journey orchestration across the Indian subcontinent:
 
 1. **Real / Public Foundation (Phase 1 & 2)**:
    - Railway stations, official codes, coordinates, zones: **100% Real** (8,990 Indian railway stations from `data/processed/canonical_stations.parquet`; 8,697 with verified coordinates).
@@ -155,7 +155,7 @@ Each of the 5,000 travellers participates in **8 independent search occasions**,
 
 ## 5. Candidate Itinerary Retrieval & Real Grounding
 
-For each search session, Yātrā AI retrieves 2 to 5 genuine transportation alternatives directly from pre-indexed canonical datasets:
+For each search session, Yatra AI retrieves 2 to 5 genuine transportation alternatives directly from pre-indexed canonical datasets:
 1. **Flights (`canonical_flights.parquet`)**:
    - Filtered by genuine origin and destination metro city.
    - **Observed Attributes**: Real airline carrier, flight number, duration, cabin class (Economy vs Business), number of stops, and real observed market ticket price in INR.

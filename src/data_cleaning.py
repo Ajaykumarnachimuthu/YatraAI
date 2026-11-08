@@ -1,6 +1,7 @@
 import os
 import json
 import math
+import re
 import pandas as pd
 import numpy as np
 
@@ -20,6 +21,8 @@ os.makedirs(PROCESSED_DIR, exist_ok=True)
 def haversine(lat1, lon1, lat2, lon2):
     """Calculate the great circle distance between two points in km."""
     if any(pd.isna([lat1, lon1, lat2, lon2])):
+        return 0.0
+    if (lat1 == 0.0 and lon1 == 0.0) or (lat2 == 0.0 and lon2 == 0.0):
         return 0.0
     R = 6371.0 # Earth radius in km
     dlat = math.radians(lat2 - lat1)
@@ -89,22 +92,66 @@ def process_stations():
     # Deduplicate on station_code if any
     df = df.drop_duplicates(subset=["station_code"]).reset_index(drop=True)
     
-    # Identify Metro Hub association
-    metro_keywords = {
-        "Delhi": ["DELHI", "NDLS", "ANVT", "DLI", "NZM", "SARAI ROHILLA"],
-        "Mumbai": ["MUMBAI", "CSTM", "BCT", "BDTS", "LTT", "DADAR", "KURLA", "BORIVALI"],
-        "Bangalore": ["BANGALORE", "BENGALURU", "SBC", "YPR", "SMVB", "YESVANTPUR"],
-        "Kolkata": ["KOLKATA", "CALCUTTA", "HWH", "HOWRAH", "SDAH", "SEALDAH", "KOAA", "SHM"],
-        "Hyderabad": ["HYDERABAD", "SECUNDERABAD", "SC", "HYB", "KACHEGUDA", "KCG"],
-        "Chennai": ["CHENNAI", "MADRAS", "MAS", "MS", "TBM", "PERAMBUR"]
+    # Identify Metro Hub association with exact codes, word-boundary patterns, and distance limits
+    metro_centers = {
+        "Delhi": (28.6139, 77.2090),
+        "Mumbai": (18.9696, 72.8193),
+        "Bangalore": (12.9716, 77.5946),
+        "Kolkata": (22.5726, 88.3639),
+        "Hyderabad": (17.3850, 78.4867),
+        "Chennai": (13.0827, 80.2707)
+    }
+
+    metro_exact_codes = {
+        "Delhi": {"NDLS", "DLI", "ANVT", "NZM", "DEE", "DSJ", "DEC", "SSB", "TKD", "ANDI", "HNZM"},
+        "Mumbai": {"CSMT", "CSTM", "BCT", "MMCT", "BDTS", "LTT", "DR", "DDR", "TNA", "KYN", "BVI", "PNVL"},
+        "Bangalore": {"SBC", "YPR", "SMVB", "BNC", "BNCE", "KJM", "BYPL", "WFD", "BAND"},
+        "Kolkata": {"HWH", "SDAH", "KOAA", "SHM", "SRC", "CP"},
+        "Hyderabad": {"SC", "HYB", "KCG", "LPI", "BMT", "CHZ", "FM"},
+        "Chennai": {"MAS", "MS", "TBM", "PER", "MSB", "MBM", "AVD"}
+    }
+
+    metro_name_patterns = {
+        "Delhi": r"\b(DELHI|NEW DELHI|ANAND VIHAR|NIZAMUDDIN|SARAI ROHILLA)\b",
+        "Mumbai": r"\b(MUMBAI|BOMBAY|BANDRA|LOKMANYA TILAK|BORIVALI|CHHATRAPATI SHIVAJI|DADAR|KALYAN|THANE|PANVEL)\b",
+        "Bangalore": r"\b(BANGALORE|BENGALURU|YESVANTPUR|YESHWANTHPUR|WHITEFIELD|KRISHNARAJAPURAM)\b",
+        "Kolkata": r"\b(KOLKATA|CALCUTTA|HOWRAH|SEALDAH|SHALIMAR|SANTRAGACHI)\b",
+        "Hyderabad": r"\b(HYDERABAD|SECUNDERABAD|KACHEGUDA|LINGAMPALLI|NAMPALLY)\b",
+        "Chennai": r"\b(CHENNAI|MADRAS|TAMBARAM|PERAMBUR|EGMORE)\b"
     }
     
     def assign_metro_cluster(row):
-        txt = f"{row['station_code']} {row['station_name']} {row['address']}".upper()
-        for city, kw_list in metro_keywords.items():
-            for kw in kw_list:
-                if kw in txt:
+        code = str(row["station_code"]).strip().upper()
+        name = str(row["station_name"]).strip().upper()
+        addr = str(row["address"]).strip().upper()
+        full_txt = f"{name} {addr}"
+        
+        lat = row["latitude"]
+        lon = row["longitude"]
+        has_valid_coords = (
+            lat is not None and lon is not None and 
+            not pd.isna(lat) and not pd.isna(lon) and 
+            (lat != 0.0 or lon != 0.0) and
+            (6.0 <= lat <= 38.0 and 68.0 <= lon <= 98.0)
+        )
+        
+        for city, codes in metro_exact_codes.items():
+            if code in codes:
+                if has_valid_coords:
+                    c_lat, c_lon = metro_centers[city]
+                    if haversine(c_lat, c_lon, lat, lon) > 120.0:
+                        continue
+                return city
+                
+        for city, pattern in metro_name_patterns.items():
+            if re.search(pattern, full_txt):
+                if has_valid_coords:
+                    c_lat, c_lon = metro_centers[city]
+                    if haversine(c_lat, c_lon, lat, lon) <= 75.0:
+                        return city
+                elif code in metro_exact_codes[city]:
                     return city
+                    
         return "OTHER"
         
     df["metro_cluster"] = df.apply(assign_metro_cluster, axis=1)
@@ -180,14 +227,25 @@ def process_train_routes(df_stations):
                     # crossing midnight
                     halt_duration = (dep_min + 1440) - arr_min
             
-            # step distance
-            if prev_lat is not None and not pd.isna(lat) and not pd.isna(lon):
-                step_dist = haversine(prev_lat, prev_lon, lat, lon)
+            # step distance with coordinate validation
+            is_valid_point = (
+                lat is not None and lon is not None and
+                not pd.isna(lat) and not pd.isna(lon) and
+                (lat != 0.0 or lon != 0.0) and
+                (6.0 <= lat <= 38.0 and 68.0 <= lon <= 98.0)
+            )
+            
+            if is_valid_point:
+                if prev_lat is not None:
+                    step_dist = haversine(prev_lat, prev_lon, lat, lon)
+                    if step_dist > 350.0:
+                        step_dist = min(step_dist, 350.0)
+                else:
+                    step_dist = 0.0
+                cum_dist += step_dist
+                prev_lat, prev_lon = lat, lon
             else:
                 step_dist = 0.0
-                
-            cum_dist += step_dist
-            prev_lat, prev_lon = lat, lon
             
             route_rows.append({
                 "train_number": tnum,

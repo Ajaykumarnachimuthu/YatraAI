@@ -1,7 +1,7 @@
-# YĀTRĀ AI — Phase 3 Requirement Specification & Prompt Archive
+# YATRA AI — Phase 3 Requirement Specification & Prompt Archive
 
 ## 1. Phase Objective
-Construct the behavioral simulation foundation for Yātrā AI to bridge the cold-start gap in public multimodal travel datasets. Formulate an authoritative 7-D continuous Travel DNA representation, define 6 distinct traveller persona archetypes, retrieve real candidate itineraries from canonical transport networks, engineer pre-choice candidate quality scores, simulate realistic discrete itinerary choices under Random Utility Maximization (RUM) and the Multinomial Logit (MNL) model, and execute a rigorous 5-tier validation suite.
+Construct the behavioral simulation foundation for Yatra AI to bridge the cold-start gap in public multimodal travel datasets. Formulate an authoritative 7-D continuous Travel DNA representation, define 6 distinct traveller persona archetypes, retrieve real candidate itineraries from canonical transport networks, engineer pre-choice candidate quality scores, simulate realistic discrete itinerary choices under Random Utility Maximization (RUM) and the Multinomial Logit (MNL) model, and execute a rigorous 5-tier validation suite.
 
 ---
 

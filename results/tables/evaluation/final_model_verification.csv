@@ -8,4 +8,4 @@ Test Recall,Recall,0.6265,0.6265,PASSED
 Test F1-Score,F1-Score,0.5116,0.5116,PASSED
 Test ROC-AUC,ROC-AUC,0.6976,0.6976,PASSED
 Champion Inference Engine,predict() & predict_proba(),End-to-end binary predictions with calibrated threshold,"Inference verified: Preds=[1, 0, 1, 0, 0], Probs=[0.4837, 0.1825, 0.6271, 0.0752, 0.1024]",PASSED
-Final PowerPoint Presentation,Slide Count & Topics,10-12 formatted slides covering complete project scope,12 slides verified: Slide 1: YĀTRĀ AI (यात्रा AI); Slide 2: YĀTRĀ AI — ACADEMIC RESEARCH TRACK; Slide 3: YĀTRĀ AI — ACADEMIC RESEARCH TRACK; Slide 4: YĀTRĀ AI — ACADEMIC RESEARCH TRACK ...,PASSED
+Final PowerPoint Presentation,Slide Count & Topics,10-12 formatted slides covering complete project scope,12 slides verified: Slide 1: YATRA AI (यात्रा AI); Slide 2: YATRA AI — ACADEMIC RESEARCH TRACK; Slide 3: YATRA AI — ACADEMIC RESEARCH TRACK; Slide 4: YATRA AI — ACADEMIC RESEARCH TRACK ...,PASSED

@@ -1,5 +1,5 @@
 """
-YĀTRĀ AI — Feature Engineering & Preprocessing Engine
+YATRA AI — Feature Engineering & Preprocessing Engine
 Authoritative module for:
 - Pre-choice candidate itinerary multi-attribute quality scoring
 - Continuous Travel DNA (7-D) and session context feature definitions
@@ -111,12 +111,12 @@ def compute_candidate_scores(candidates, session, traveller, config):
     comfort_cfg = config["itinerary_attributes"]["comfort_proxy_mapping"]
     risk_weights = config["itinerary_attributes"]["delay_risk_weights"]
 
-    # 1. Carbon estimation
+    # 1. Carbon estimation with realistic domestic emission ceilings
     for c in candidates:
         if c["mode"] == "Flight":
-            c["carbon_estimate"] = round(c["raw_distance"] * flight_factor, 2)
+            c["carbon_estimate"] = min(round(c["raw_distance"] * flight_factor, 2), 300.0)
         else:
-            c["carbon_estimate"] = round(c["raw_distance"] * rail_factor, 2)
+            c["carbon_estimate"] = min(round(c["raw_distance"] * rail_factor, 2), 120.0)
 
     # 2. Choice-set min and max bounds for relative normalization
     costs = [c["raw_cost"] for c in candidates]
